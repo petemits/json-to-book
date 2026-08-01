@@ -1,0 +1,198 @@
+{
+  "title": "Combine Titles with Table",
+  "create_time": 1739924190.967477,
+  "update_time": 1739924194.042366,
+  "mapping": {
+    "bbb23682-2633-4788-8383-4c20a2d86891": {
+      "id": "bbb23682-2633-4788-8383-4c20a2d86891",
+      "message": null,
+      "parent": null,
+      "children": [
+        "0611e61a-953a-436d-a6ec-385cc359f4b1"
+      ]
+    },
+    "0611e61a-953a-436d-a6ec-385cc359f4b1": {
+      "id": "0611e61a-953a-436d-a6ec-385cc359f4b1",
+      "message": {
+        "id": "0611e61a-953a-436d-a6ec-385cc359f4b1",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23682-2633-4788-8383-4c20a2d86891",
+      "children": [
+        "bbb21741-1ff6-433b-9edd-e7f5cba4a106"
+      ]
+    },
+    "bbb21741-1ff6-433b-9edd-e7f5cba4a106": {
+      "id": "bbb21741-1ff6-433b-9edd-e7f5cba4a106",
+      "message": {
+        "id": "bbb21741-1ff6-433b-9edd-e7f5cba4a106",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739924190.970789,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you combine some of my titles of chat search and put in one file. make sure everything with table of context and process as described by you in chat"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "9142118deec5ab08-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0611e61a-953a-436d-a6ec-385cc359f4b1",
+      "children": [
+        "67a2b61e-b12a-4383-bd55-17f958bc4d82"
+      ]
+    },
+    "67a2b61e-b12a-4383-bd55-17f958bc4d82": {
+      "id": "67a2b61e-b12a-4383-bd55-17f958bc4d82",
+      "message": {
+        "id": "67a2b61e-b12a-4383-bd55-17f958bc4d82",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739924193.021737,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21741-1ff6-433b-9edd-e7f5cba4a106",
+          "request_id": "9142118deec5ab08-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21741-1ff6-433b-9edd-e7f5cba4a106",
+      "children": [
+        "eb696e98-0d12-4e05-b8de-99efc3dca1a7"
+      ]
+    },
+    "eb696e98-0d12-4e05-b8de-99efc3dca1a7": {
+      "id": "eb696e98-0d12-4e05-b8de-99efc3dca1a7",
+      "message": {
+        "id": "eb696e98-0d12-4e05-b8de-99efc3dca1a7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1739924193.021925,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure! Please upload the files or provide the titles of the chat searches you want me to combine. I'll format everything neatly with a table of contents and structure it according to our discussions."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "67a2b61e-b12a-4383-bd55-17f958bc4d82",
+          "request_id": "9142118deec5ab08-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "67a2b61e-b12a-4383-bd55-17f958bc4d82",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "eb696e98-0d12-4e05-b8de-99efc3dca1a7",
+  "conversation_id": "67b522de-78ec-8011-a98b-726bbb545ee0",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

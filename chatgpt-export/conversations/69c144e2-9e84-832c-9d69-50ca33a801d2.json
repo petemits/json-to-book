@@ -1,0 +1,274 @@
+{
+  "title": "$220 using 50 and 20",
+  "create_time": 1774273764.576161,
+  "update_time": 1774273773.632072,
+  "mapping": {
+    "45a81e05-8727-4ee9-ac5d-3b413a8805b1": {
+      "id": "45a81e05-8727-4ee9-ac5d-3b413a8805b1",
+      "message": null,
+      "parent": null,
+      "children": [
+        "bae40294-91f8-4c10-aaf5-9652b02199fe"
+      ]
+    },
+    "bae40294-91f8-4c10-aaf5-9652b02199fe": {
+      "id": "bae40294-91f8-4c10-aaf5-9652b02199fe",
+      "message": {
+        "id": "bae40294-91f8-4c10-aaf5-9652b02199fe",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "45a81e05-8727-4ee9-ac5d-3b413a8805b1",
+      "children": [
+        "a9d4c3a8-50da-48ed-913b-76e2a3fe86f0"
+      ]
+    },
+    "a9d4c3a8-50da-48ed-913b-76e2a3fe86f0": {
+      "id": "a9d4c3a8-50da-48ed-913b-76e2a3fe86f0",
+      "message": {
+        "id": "a9d4c3a8-50da-48ed-913b-76e2a3fe86f0",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bae40294-91f8-4c10-aaf5-9652b02199fe",
+      "children": [
+        "45a6b428-33a1-47be-9090-ef66105c68ee"
+      ]
+    },
+    "45a6b428-33a1-47be-9090-ef66105c68ee": {
+      "id": "45a6b428-33a1-47be-9090-ef66105c68ee",
+      "message": {
+        "id": "45a6b428-33a1-47be-9090-ef66105c68ee",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774273763.352689,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "request_id": "7e8969b3-0525-404c-99a2-67a9d6aee5d0",
+          "message_source": null,
+          "turn_exchange_id": "cbab3b47-0ce5-4b00-bcd3-6798bd873a2b",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a9d4c3a8-50da-48ed-913b-76e2a3fe86f0",
+      "children": [
+        "bbb21ce1-83b4-45cc-a8a3-e4703b2e266f"
+      ]
+    },
+    "bbb21ce1-83b4-45cc-a8a3-e4703b2e266f": {
+      "id": "bbb21ce1-83b4-45cc-a8a3-e4703b2e266f",
+      "message": {
+        "id": "bbb21ce1-83b4-45cc-a8a3-e4703b2e266f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774273763.353016,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How wpu;d 220 what kind of denomination of 50 and only 20"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "7e8969b3-0525-404c-99a2-67a9d6aee5d0",
+          "message_source": null,
+          "turn_exchange_id": "cbab3b47-0ce5-4b00-bcd3-6798bd873a2b",
+          "resolved_model_slug": "gpt-5-3",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "45a6b428-33a1-47be-9090-ef66105c68ee",
+      "children": [
+        "3a6ec7f0-41c7-4491-9e34-2f017a5078d2"
+      ]
+    },
+    "3a6ec7f0-41c7-4491-9e34-2f017a5078d2": {
+      "id": "3a6ec7f0-41c7-4491-9e34-2f017a5078d2",
+      "message": {
+        "id": "3a6ec7f0-41c7-4491-9e34-2f017a5078d2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774273764.4436903,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "7e8969b3-0525-404c-99a2-67a9d6aee5d0",
+          "message_type": "next",
+          "turn_exchange_id": "cbab3b47-0ce5-4b00-bcd3-6798bd873a2b",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": false,
+          "parent_id": "bbb21ce1-83b4-45cc-a8a3-e4703b2e266f",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21ce1-83b4-45cc-a8a3-e4703b2e266f",
+      "children": [
+        "a5d3f43c-b1d9-41f5-bd33-b4a68c3d5460"
+      ]
+    },
+    "a5d3f43c-b1d9-41f5-bd33-b4a68c3d5460": {
+      "id": "a5d3f43c-b1d9-41f5-bd33-b4a68c3d5460",
+      "message": {
+        "id": "a5d3f43c-b1d9-41f5-bd33-b4a68c3d5460",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774273764.443273,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It sounds like you’re asking how to make **$220 using only $50 and $20 bills**.\n\nLet’s break it down:\n\nLet:\n- \\( x \\) = number of $50 bills  \n- \\( y \\) = number of $20 bills  \n\nEquation:\n\\[\n50x + 20y = 220\n\\]\n\nDivide everything by 10:\n\\[\n5x + 2y = 22\n\\]\n\nNow find whole-number solutions:\n\nTry \\( x = 2 \\):\n\\[\n5(2) = 10 \\Rightarrow 22 - 10 = 12 \\Rightarrow y = 6\n\\]\n\n✅ Solution:\n- **2 × $50 = $100**\n- **6 × $20 = $120**\n\nTotal:\n\\[\n100 + 120 = 220\n\\]\n\n### Final Answer:\n👉 **2 fifty-dollar bills and 6 twenty-dollar bills**\n\nIf you want, I can show *all possible combinations* too 👍"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-3",
+          "search_result_groups": [],
+          "request_id": "7e8969b3-0525-404c-99a2-67a9d6aee5d0",
+          "message_type": "next",
+          "turn_exchange_id": "cbab3b47-0ce5-4b00-bcd3-6798bd873a2b",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "01063bb0-a46f-4166-8196-0de38349652a",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "3a6ec7f0-41c7-4491-9e34-2f017a5078d2",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a5d3f43c-b1d9-41f5-bd33-b4a68c3d5460",
+  "conversation_id": "69c144e2-9e84-832c-9d69-50ca33a801d2",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

@@ -1,0 +1,423 @@
+{
+  "title": "Bed Bug Treatment Update",
+  "create_time": 1770755763.926138,
+  "update_time": 1770759820.742896,
+  "mapping": {
+    "e926fa5c-7ff8-40a2-9020-2dc172c4a0ec": {
+      "id": "e926fa5c-7ff8-40a2-9020-2dc172c4a0ec",
+      "message": null,
+      "parent": null,
+      "children": [
+        "799adebd-8bc9-41dc-a441-bb4c49a5e6d8"
+      ]
+    },
+    "799adebd-8bc9-41dc-a441-bb4c49a5e6d8": {
+      "id": "799adebd-8bc9-41dc-a441-bb4c49a5e6d8",
+      "message": {
+        "id": "799adebd-8bc9-41dc-a441-bb4c49a5e6d8",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e926fa5c-7ff8-40a2-9020-2dc172c4a0ec",
+      "children": [
+        "b2989d7f-8800-46e7-af93-9612ad060744"
+      ]
+    },
+    "b2989d7f-8800-46e7-af93-9612ad060744": {
+      "id": "b2989d7f-8800-46e7-af93-9612ad060744",
+      "message": {
+        "id": "b2989d7f-8800-46e7-af93-9612ad060744",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "799adebd-8bc9-41dc-a441-bb4c49a5e6d8",
+      "children": [
+        "bbb219b8-82a9-4deb-bd53-1865c2838cf3"
+      ]
+    },
+    "bbb219b8-82a9-4deb-bd53-1865c2838cf3": {
+      "id": "bbb219b8-82a9-4deb-bd53-1865c2838cf3",
+      "message": {
+        "id": "bbb219b8-82a9-4deb-bd53-1865c2838cf3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770755763.739359,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Create a small draft to the property manager of the current situation of the since yesterday when I went down to the management to key the elevator to throw the the my house belongingd for the un natured bed bug inspection.i have added the current photos to make sure the treatment could conducted tomorrow as forced by the management"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "19fcd9dc-ec7a-4fea-82b9-49dc90a8a6cf",
+          "message_source": null,
+          "turn_exchange_id": "ef489bda-cc36-4400-a20d-d156033d16a7",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b2989d7f-8800-46e7-af93-9612ad060744",
+      "children": [
+        "4cba5af6-24d1-48ae-9175-925d8b9d85cc"
+      ]
+    },
+    "4cba5af6-24d1-48ae-9175-925d8b9d85cc": {
+      "id": "4cba5af6-24d1-48ae-9175-925d8b9d85cc",
+      "message": {
+        "id": "4cba5af6-24d1-48ae-9175-925d8b9d85cc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770755763.8274138,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "19fcd9dc-ec7a-4fea-82b9-49dc90a8a6cf",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "bbb219b8-82a9-4deb-bd53-1865c2838cf3",
+          "turn_exchange_id": "ef489bda-cc36-4400-a20d-d156033d16a7",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb219b8-82a9-4deb-bd53-1865c2838cf3",
+      "children": [
+        "9860297d-6047-455b-b20e-140443874440"
+      ]
+    },
+    "9860297d-6047-455b-b20e-140443874440": {
+      "id": "9860297d-6047-455b-b20e-140443874440",
+      "message": {
+        "id": "9860297d-6047-455b-b20e-140443874440",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770755763.84444,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a **clear, calm, and professional draft** you can send. I’ve kept it factual and non-confrontational while documenting what happened and why you shared the photos.\n\n:::writing{id=\"84217\" variant=\"email\" subject=\"Update on Elevator Access, Furniture Removal, and Bed Bug Treatment\"}\nDear [Property Manager’s Name],\n\nI am writing to document the current situation since yesterday.\n\nYesterday, I went down to the management office to request elevator key access so I could remove and dispose of my household belongings following the bed bug inspection. This was done in response to the inspection findings and the direction provided by management, despite the inspection being limited in nature.\n\nAs instructed, I have begun removing items from my unit in preparation for the treatment scheduled for tomorrow. I have also attached the current photos to ensure there is clarity regarding the condition of the unit and to confirm that treatment can proceed as required by management.\n\nPlease note that these steps were taken under direction and time pressure, and I am making every effort to comply fully so there are no delays with tomorrow’s treatment.\n\nKindly confirm that the treatment will proceed as scheduled and advise if any further actions are required from my side.\n\nThank you for your attention to this matter.\n\nSincerely,  \nAmit Puri\n:::\n\nIf you want, I can:\n- Make it **more firm/legal**\n- Add **cost concerns or out-of-pocket language**\n- Reframe it to **protect you in case of future disputes**\n\nJust tell me the tone you want 👍"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "19fcd9dc-ec7a-4fea-82b9-49dc90a8a6cf",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "4cba5af6-24d1-48ae-9175-925d8b9d85cc",
+          "turn_exchange_id": "ef489bda-cc36-4400-a20d-d156033d16a7",
+          "writing_blocks": {
+            "84217": {
+              "variant": "email",
+              "content": "Dear Ms. Adams,\n\nI am writing to document the current situation since yesterday.\n\nYesterday, I went down to the management office to request elevator key access so I could remove and dispose of my household belongings following the bed bug inspection. This was done in response to the inspection findings and the direction provided by management, despite the inspection being limited in nature.\n\nAs speculated, I have also attached the current photos to ensure there is clarity regarding the condition of the unit and to confirm that treatment can proceed as required by management.\n\nPlease note that these steps were taken under direction and time pressure, and I am making every effort to comply fully so there are no delays with tomorrow’s treatment.\n\nKindly confirm that the treatment will proceed as scheduled and advise if any further actions are required from my side.\n\nThank you for your attention to this matter.\n\nSincerely,\\\nAmit Puri\n",
+              "index": "0",
+              "title": null,
+              "id": "84217",
+              "metadata": {
+                "subject": "Update on Elevator Access, Furniture Removal, and Bed Bug Treatment"
+              }
+            }
+          },
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "4cba5af6-24d1-48ae-9175-925d8b9d85cc",
+      "children": [
+        "bbb21d1e-2e47-4907-8dbc-b7221e5d740a"
+      ]
+    },
+    "bbb21d1e-2e47-4907-8dbc-b7221e5d740a": {
+      "id": "bbb21d1e-2e47-4907-8dbc-b7221e5d740a",
+      "message": {
+        "id": "bbb21d1e-2e47-4907-8dbc-b7221e5d740a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770759808.070204,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Add need to know the of associated service."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "754e9d0f-040f-4e5b-a0d0-b190fb801ba2",
+          "message_source": null,
+          "turn_exchange_id": "7a4cbfae-06ca-40c3-984c-5e313873918a",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9860297d-6047-455b-b20e-140443874440",
+      "children": [
+        "04c971a0-3c55-40ee-8503-da75e3fd57ca"
+      ]
+    },
+    "04c971a0-3c55-40ee-8503-da75e3fd57ca": {
+      "id": "04c971a0-3c55-40ee-8503-da75e3fd57ca",
+      "message": {
+        "id": "04c971a0-3c55-40ee-8503-da75e3fd57ca",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770759808.1579092,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_system_message": true,
+          "request_id": "754e9d0f-040f-4e5b-a0d0-b190fb801ba2",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21d1e-2e47-4907-8dbc-b7221e5d740a",
+          "turn_exchange_id": "7a4cbfae-06ca-40c3-984c-5e313873918a",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21d1e-2e47-4907-8dbc-b7221e5d740a",
+      "children": [
+        "c96ed380-f1da-477a-8552-93fcd2213509"
+      ]
+    },
+    "c96ed380-f1da-477a-8552-93fcd2213509": {
+      "id": "c96ed380-f1da-477a-8552-93fcd2213509",
+      "message": {
+        "id": "c96ed380-f1da-477a-8552-93fcd2213509",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770759808.2215414,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "754e9d0f-040f-4e5b-a0d0-b190fb801ba2",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "04c971a0-3c55-40ee-8503-da75e3fd57ca",
+          "turn_exchange_id": "7a4cbfae-06ca-40c3-984c-5e313873918a",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "04c971a0-3c55-40ee-8503-da75e3fd57ca",
+      "children": [
+        "f48dce46-0a5b-434e-b057-d29b8a8156db"
+      ]
+    },
+    "f48dce46-0a5b-434e-b057-d29b8a8156db": {
+      "id": "f48dce46-0a5b-434e-b057-d29b8a8156db",
+      "message": {
+        "id": "f48dce46-0a5b-434e-b057-d29b8a8156db",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770759808.19233,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it — we’ll **add a clear request for the associated services and costs**, without escalating the tone.\n\nHere’s the **revised version**, with that point folded in cleanly and professionally:\n\n:::writing{id=\"84218\" variant=\"email\" subject=\"Update on Elevator Access, Furniture Removal, Bed Bug Treatment, and Associated Services\"}\nDear Ms. Adams,\n\nI am writing to document the current situation since yesterday.\n\nYesterday, I went down to the management office to request elevator key access so I could remove and dispose of my household belongings following the bed bug inspection. This was done in response to the inspection findings and the direction provided by management, despite the inspection being limited in nature.\n\nAs noted, I have attached the current photos to ensure there is clarity regarding the condition of the unit and to confirm that treatment can proceed as required by management.\n\nPlease note that these steps were taken under direction and time pressure, and I am making every effort to comply fully so there are no delays with tomorrow’s treatment.\n\nAdditionally, I need to be informed of all **associated services** related to this process, including but not limited to pest control treatment, inspection scope, preparation requirements, furniture removal or disposal, and any other related services. Please provide a clear breakdown of these services and advise which costs, if any, are expected to be my responsibility.\n\nKindly confirm that the treatment will proceed as scheduled and advise if any further actions are required from my side.\n\nThank you for your attention to this matter.\n\nSincerely,  \nAmit Puri\n:::\n\nIf you want, I can:\n- Make the **cost request more explicit (exact dollar amounts)**\n- Add **“out-of-pocket expense” language**\n- Reframe this to **protect you legally** if charges appear later\n\nJust say the word."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "754e9d0f-040f-4e5b-a0d0-b190fb801ba2",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "c96ed380-f1da-477a-8552-93fcd2213509",
+          "turn_exchange_id": "7a4cbfae-06ca-40c3-984c-5e313873918a",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "c96ed380-f1da-477a-8552-93fcd2213509",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f48dce46-0a5b-434e-b057-d29b8a8156db",
+  "conversation_id": "698b95fc-1100-832c-934c-be5d4d693270",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.openai.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

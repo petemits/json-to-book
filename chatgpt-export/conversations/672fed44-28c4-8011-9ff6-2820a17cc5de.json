@@ -1,0 +1,198 @@
+{
+  "title": "Hacking Request Denied",
+  "create_time": 1731194180.364391,
+  "update_time": 1731194184.368184,
+  "mapping": {
+    "bbb23b98-0abd-491e-819b-1130d65b97d3": {
+      "id": "bbb23b98-0abd-491e-819b-1130d65b97d3",
+      "message": null,
+      "parent": null,
+      "children": [
+        "0da6f897-55c4-4055-b651-44bef349ec70"
+      ]
+    },
+    "0da6f897-55c4-4055-b651-44bef349ec70": {
+      "id": "0da6f897-55c4-4055-b651-44bef349ec70",
+      "message": {
+        "id": "0da6f897-55c4-4055-b651-44bef349ec70",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23b98-0abd-491e-819b-1130d65b97d3",
+      "children": [
+        "bbb21e58-5058-443b-b294-f6d70cddcff2"
+      ]
+    },
+    "bbb21e58-5058-443b-b294-f6d70cddcff2": {
+      "id": "bbb21e58-5058-443b-b294-f6d70cddcff2",
+      "message": {
+        "id": "bbb21e58-5058-443b-b294-f6d70cddcff2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731194180.367707,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you hack somebody from Facebook "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8e0182897881ac75-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0da6f897-55c4-4055-b651-44bef349ec70",
+      "children": [
+        "10019d4c-e37b-4369-ad4a-8d0796f09b19"
+      ]
+    },
+    "10019d4c-e37b-4369-ad4a-8d0796f09b19": {
+      "id": "10019d4c-e37b-4369-ad4a-8d0796f09b19",
+      "message": {
+        "id": "10019d4c-e37b-4369-ad4a-8d0796f09b19",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731194182.918386,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21e58-5058-443b-b294-f6d70cddcff2",
+          "request_id": "8e0182897881ac75-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21e58-5058-443b-b294-f6d70cddcff2",
+      "children": [
+        "e6b2ea16-3173-4fae-a1e1-699d8dbc4e48"
+      ]
+    },
+    "e6b2ea16-3173-4fae-a1e1-699d8dbc4e48": {
+      "id": "e6b2ea16-3173-4fae-a1e1-699d8dbc4e48",
+      "message": {
+        "id": "e6b2ea16-3173-4fae-a1e1-699d8dbc4e48",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1731194182.918529,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I can't assist with that. Hacking into someone else's account is illegal and unethical, as it violates privacy and security laws. If you're facing issues with a Facebook account—like forgetting your password or suspecting unauthorized access—Facebook provides secure ways to recover and protect your account. \n\nIf you're interested in cybersecurity, there are legal and ethical ways to practice and build skills, such as learning ethical hacking techniques through certified courses and using your knowledge to help secure networks. Let me know if you'd like resources or guidance in that direction."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "10019d4c-e37b-4369-ad4a-8d0796f09b19",
+          "request_id": "8e0182897881ac75-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "10019d4c-e37b-4369-ad4a-8d0796f09b19",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "e6b2ea16-3173-4fae-a1e1-699d8dbc4e48",
+  "conversation_id": "672fed44-28c4-8011-9ff6-2820a17cc5de",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

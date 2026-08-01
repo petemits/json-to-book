@@ -1,0 +1,1845 @@
+{
+  "title": "New Year Party Venues",
+  "create_time": 1735185026.99682,
+  "update_time": 1735185060.989531,
+  "mapping": {
+    "bbb236d4-1a13-4812-81f0-0891bc90dbda": {
+      "id": "bbb236d4-1a13-4812-81f0-0891bc90dbda",
+      "message": null,
+      "parent": null,
+      "children": [
+        "579f76a9-6c11-4ec3-a89f-b8d0a137d632"
+      ]
+    },
+    "579f76a9-6c11-4ec3-a89f-b8d0a137d632": {
+      "id": "579f76a9-6c11-4ec3-a89f-b8d0a137d632",
+      "message": {
+        "id": "579f76a9-6c11-4ec3-a89f-b8d0a137d632",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb236d4-1a13-4812-81f0-0891bc90dbda",
+      "children": [
+        "bbb21ae8-f531-4fcc-9e83-69663e362a28"
+      ]
+    },
+    "bbb21ae8-f531-4fcc-9e83-69663e362a28": {
+      "id": "bbb21ae8-f531-4fcc-9e83-69663e362a28",
+      "message": {
+        "id": "bbb21ae8-f531-4fcc-9e83-69663e362a28",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735185026.999119,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "New year party in Mississauga venue"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "8f7e1b5169d5ac1e-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "579f76a9-6c11-4ec3-a89f-b8d0a137d632",
+      "children": [
+        "eb621187-da55-4016-bc24-a4709beb17b6"
+      ]
+    },
+    "eb621187-da55-4016-bc24-a4709beb17b6": {
+      "id": "eb621187-da55-4016-bc24-a4709beb17b6",
+      "message": {
+        "id": "eb621187-da55-4016-bc24-a4709beb17b6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735185033.851826,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21ae8-f531-4fcc-9e83-69663e362a28",
+          "request_id": "8f7e1b5169d5ac1e-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21ae8-f531-4fcc-9e83-69663e362a28",
+      "children": [
+        "e223a02b-6d15-4518-8d5c-e8ada65bed33"
+      ]
+    },
+    "e223a02b-6d15-4518-8d5c-e8ada65bed33": {
+      "id": "e223a02b-6d15-4518-8d5c-e8ada65bed33",
+      "message": {
+        "id": "e223a02b-6d15-4518-8d5c-e8ada65bed33",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735185033.85191,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"New year party in Mississauga venue\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_complete": true,
+          "finish_details": {
+            "type": "stop"
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "eb621187-da55-4016-bc24-a4709beb17b6",
+          "request_id": "8f7e1b5169d5ac1e-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "eb621187-da55-4016-bc24-a4709beb17b6",
+      "children": [
+        "ac9065f8-1cff-43cf-bffb-6ce727616ff8"
+      ]
+    },
+    "ac9065f8-1cff-43cf-bffb-6ce727616ff8": {
+      "id": "ac9065f8-1cff-43cf-bffb-6ce727616ff8",
+      "message": {
+        "id": "ac9065f8-1cff-43cf-bffb-6ce727616ff8",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1735185033.851967,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "e223a02b-6d15-4518-8d5c-e8ada65bed33",
+          "request_id": "8f7e1b5169d5ac1e-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "e223a02b-6d15-4518-8d5c-e8ada65bed33",
+      "children": [
+        "7c87aef3-5709-4cc4-a5dc-7d8f452e6c76"
+      ]
+    },
+    "7c87aef3-5709-4cc4-a5dc-7d8f452e6c76": {
+      "id": "7c87aef3-5709-4cc4-a5dc-7d8f452e6c76",
+      "message": {
+        "id": "7c87aef3-5709-4cc4-a5dc-7d8f452e6c76",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1735185033.852022,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Mississauga offers a variety of venues for hosting New Year's Eve parties, catering to different preferences and group sizes. Here are some options to consider:\n\nbusinesses_map{\"name\":\"Mississauga Celebration Square\",\"location\":\"Mississauga, ON\",\"description\":\"An outdoor venue that hosts large-scale public events, including New Year's Eve celebrations with live performances and fireworks.\",\"cite\":\"turn0search4\"}{\"name\":\"Le Tréport Wedding & Convention Centre\",\"location\":\"Mississauga, ON\",\"description\":\"A banquet hall known for its New Year's Eve Gala, offering an elegant setting for celebrations.\",\"cite\":\"turn0search5\"}{\"name\":\"Oasis Convention Centre\",\"location\":\"Mississauga, ON\",\"description\":\"A versatile venue that hosts New Year's Eve Galas, providing a spacious environment for large gatherings.\",\"cite\":\"turn0search8\"}{\"name\":\"Julius Event Centre\",\"location\":\"Mississauga, ON\",\"description\":\"An event space that organizes New Year's Eve parties featuring sit-down dinners and entertainment.\",\"cite\":\"turn0search6\"}{\"name\":\"Rama Gaming House\",\"location\":\"Mississauga, ON\",\"description\":\"Offers a New Year's Eve Bash with live music, games, and a specially curated dinner.\",\"cite\":\"turn0search3\"}\n\nFor a more personalized event, platforms like Peerspace provide a selection of unique venues in Mississauga suitable for New Year's Eve parties. These spaces range from intimate lounges to larger halls, allowing you to choose a setting that fits your event's theme and size. citeturn0search1\n\nWhen selecting a venue, consider factors such as capacity, location, amenities, and the type of atmosphere you wish to create for your guests. It's advisable to contact the venues directly to inquire about availability, pricing, and any specific requirements you might have. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "eventbrite.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.eventbrite.com/d/canada--mississauga/new-year%27s-eve/",
+                  "title": "New year's eve events in Mississauga, Canada - Eventbrite",
+                  "snippet": "The Port House New Years Eve Party - Mississauga ... The Port House is your go to location for some of the best parties! 47 followers.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.eventbrite.com/b/canada--mississauga/holiday/new-years-eve/",
+                  "title": "Holiday: New Year's Eve Events & Tickets in Mississauga | Eventbrite",
+                  "snippet": "Most popular events ; 2025 Toronto New Year's Eve Party | Gatsby's House NYE. Tue, Dec 31 • 9:00 PM. Hotel X Toronto. From $218.30 ; NEW YEARS EVE 2025 @ The ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "peerspace.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.peerspace.com/ca/venues/ca/mississauga--on/new-years-eve-party-venue",
+                  "title": "Rent a New Year's Eve party venue in Mississauga, ON - Peerspace",
+                  "snippet": "Easily rent a New Year's Eve party or celebration venues in Mississauga, ON. Access a collection of unique, undiscovered locations and make your event a ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "todocanada.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.todocanada.ca/new-years-eve-parties-brampton-mississauga/",
+                  "title": "Peel Region 2025 New Year's Eve – Brampton, and Mississauga",
+                  "snippet": "Celebrate 2025 at Rama Gaming Mississauga with live music, thrilling games, and exciting prizes. Enjoy a specially curated NYE dinner and toast ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "mississauga.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.mississauga.ca/events-and-attractions/events-calendar/nye-2025/?eventdate=2024-12-31T20%3A00%3A00&schedule=16887",
+                  "title": "NYE 2025 – City of Mississauga",
+                  "snippet": "Hip-hop legends ring in 2025 at Celebration Square with the biggest NYE block party in town. Fireworks presented by Tim Hortons.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.mississauga.ca/events-and-attractions/events-calendar/new-years-eve-2024/",
+                  "title": "New Year's Eve 2024 – City of Mississauga",
+                  "snippet": "With BIG performers on the stage, BIG stunts, and a BIG fireworks show, Celebration Square is the place to ring in 2024 with 30,000 of your closest friends. NYE ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "letreport.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://letreport.com/new-years-party-2024/",
+                  "title": "New Years Eve Party | Mississauga | Le Treport",
+                  "snippet": "The upcoming New Year's Eve Gala at Le Treport in Mississauga promises to be an exquisite event, eagerly anticipated by those seeking a truly grand celebration.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "instagram.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.instagram.com/juliuseventcentre/reel/DCNT9pAhwtB/",
+                  "title": "NEW YEAR PARTY AT JULIUS Come join us for a sit down dinner ...",
+                  "snippet": "Join us for an unforgettable NYE celebration featuring champagne, dazzling lights & epic vibes",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "oasisconvention.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://oasisconvention.com/upcoming-events/",
+                  "title": "Upcoming Events - Oasis Convention Centre",
+                  "snippet": "NEW YEAR'S EVE GALA 2025. Chirstmas Party at Oasis Convention Centre. December ... MISSISSAUGA, ON L5E 1E4 CALL US: (905) 891-7777 support ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "facebook.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.facebook.com/OasisCC.onLakeshore/",
+                  "title": "Oasis Convention Centre | Mississauga ON - Facebook",
+                  "snippet": "✨ Ring in 2025 at the Craziest Party of the Year! ✨ Join us at Oasis Convention Centre on December 31st for an unforgettable New Year's Eve celebration!",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "http://www.oasisconvention.com",
+            "https://foursquare.com/v/4b930a26f964a520bb3034e3",
+            "https://fastly.4sqi.net/img/general/original/130248495_iGNRWxQMlVoN8nbZPfo_jHvn4YRRHCFizQ94h7Q0ljE.jpg",
+            "https://foursquare.com/v/4bb94287b35776b0c7cec901",
+            "http://www.mississauga.ca/portal/celebrationsquare",
+            "https://fastly.4sqi.net/img/general/original/2307_l8XsaC4s74FdZtVkxcwWxZYsnB7oHNTBiEo-wlrTMoA.jpg",
+            "https://foursquare.com/v/4dca80e63151039761128244",
+            "https://fastly.4sqi.net/img/general/original/15846619_4ZjsHlkQqJii9hXEJ-qWbVaVdzIFqdnJ0kO1IJzPZCc.jpg",
+            "https://www.peerspace.com/ca/venues/ca/mississauga--on/new-years-eve-party-venue?utm_source=chatgpt.com"
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "ac9065f8-1cff-43cf-bffb-6ce727616ff8",
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "",
+              "start_idx": 0,
+              "end_idx": 1,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 126,
+              "end_idx": 127,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 162,
+              "end_idx": 163,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "businesses_map{\"name\":\"Mississauga Celebration Square\",\"location\":\"Mississauga, ON\",\"description\":\"An outdoor venue that hosts large-scale public events, including New Year's Eve celebrations with live performances and fireworks.\",\"cite\":\"turn0search4\"}{\"name\":\"Le Tréport Wedding & Convention Centre\",\"location\":\"Mississauga, ON\",\"description\":\"A banquet hall known for its New Year's Eve Gala, offering an elegant setting for celebrations.\",\"cite\":\"turn0search5\"}{\"name\":\"Oasis Convention Centre\",\"location\":\"Mississauga, ON\",\"description\":\"A versatile venue that hosts New Year's Eve Galas, providing a spacious environment for large gatherings.\",\"cite\":\"turn0search8\"}{\"name\":\"Julius Event Centre\",\"location\":\"Mississauga, ON\",\"description\":\"An event space that organizes New Year's Eve parties featuring sit-down dinners and entertainment.\",\"cite\":\"turn0search6\"}{\"name\":\"Rama Gaming House\",\"location\":\"Mississauga, ON\",\"description\":\"Offers a New Year's Eve Bash with live music, games, and a specially curated dinner.\",\"cite\":\"turn0search3\"}",
+              "start_idx": 165,
+              "end_idx": 1220,
+              "alt": "**[Mississauga Celebration Square](http://www.mississauga.ca/portal/celebrationsquare)**  \n**Closed · Plaza · 4.3 (129 reviews)**  \n_300 City Centre Dr. (at Mississauga City Hall), Mississauga ON L5B 3C1_  \nAn outdoor venue that hosts large-scale public events, including New Year's Eve celebrations with live performances and fireworks.\n\n**Le Tréport Wedding & Convention Centre**  \n**Closed · Event Space**  \n_1075 Queensway E, Mississauga ON L4Y 4C1_  \nA banquet hall known for its New Year's Eve Gala, offering an elegant setting for celebrations.\n\n**[Oasis Convention Centre](http://www.oasisconvention.com)**  \n**Closed · Event Space**  \n_1036 Lakeshore Rd. E, Mississauga ON L5E 1E4_  \nA versatile venue that hosts New Year's Eve Galas, providing a spacious environment for large gatherings.",
+              "prompt_text": "**[Mississauga Celebration Square](http://www.mississauga.ca/portal/celebrationsquare)**  \n**Closed · Plaza · 4.3 (129 reviews)**  \n_300 City Centre Dr. (at Mississauga City Hall), Mississauga ON L5B 3C1_  \nAn outdoor venue that hosts large-scale public events, including New Year's Eve celebrations with live performances and fireworks.\n\n**Le Tréport Wedding & Convention Centre**  \n**Closed · Event Space**  \n_1075 Queensway E, Mississauga ON L4Y 4C1_  \nA banquet hall known for its New Year's Eve Gala, offering an elegant setting for celebrations.\n\n**[Oasis Convention Centre](http://www.oasisconvention.com)**  \n**Closed · Event Space**  \n_1036 Lakeshore Rd. E, Mississauga ON L5E 1E4_  \nA versatile venue that hosts New Year's Eve Galas, providing a spacious environment for large gatherings.",
+              "type": "businesses_map",
+              "businesses": [
+                {
+                  "id": "4dca80e63151039761128244",
+                  "provider": "foursquare",
+                  "provider_url": "https://foursquare.com/v/4dca80e63151039761128244",
+                  "latitude": 43.58826934590071,
+                  "longitude": -79.64301473543023,
+                  "name": "Mississauga Celebration Square",
+                  "rating_scale": 5,
+                  "address": "300 City Centre Dr. (at Mississauga City Hall), Mississauga ON L5B 3C1",
+                  "description": "An outdoor venue that hosts large-scale public events, including New Year's Eve celebrations with live performances and fireworks.",
+                  "description_cite": "turn0search4",
+                  "image_url": "https://fastly.4sqi.net/img/general/original/15846619_4ZjsHlkQqJii9hXEJ-qWbVaVdzIFqdnJ0kO1IJzPZCc.jpg",
+                  "image_urls": [
+                    "https://fastly.4sqi.net/img/general/original/15846619_4ZjsHlkQqJii9hXEJ-qWbVaVdzIFqdnJ0kO1IJzPZCc.jpg",
+                    "https://fastly.4sqi.net/img/general/original/15846619_0CvCAjKb3-SZdjKyE_pEzn008pe6JrHk6NeZayNsuQM.jpg",
+                    "https://fastly.4sqi.net/img/general/original/15846619_IvBbqxSC1MAjVvP9bvfvIjFO32YcPUhv8QGXPFNQaN4.jpg",
+                    "https://fastly.4sqi.net/img/general/original/58267232_PxVEW3He3s-Og4TEA86rEjxafd2_p_8-LYlxPcCI0zo.jpg",
+                    "https://fastly.4sqi.net/img/general/original/58267232_oPcOnv44PBjc8nRoQ-qFOLSAxe7MKA3Dt6JtndYPRB4.jpg"
+                  ],
+                  "rating": 4.3,
+                  "review_count": 129,
+                  "price": null,
+                  "categories": [
+                    "Plaza",
+                    "Event Space"
+                  ],
+                  "website_url": "http://www.mississauga.ca/portal/celebrationsquare",
+                  "hours": [
+                    {
+                      "day": 1,
+                      "start": "1000",
+                      "end": "2230"
+                    },
+                    {
+                      "day": 2,
+                      "start": "1000",
+                      "end": "2230"
+                    },
+                    {
+                      "day": 3,
+                      "start": "1000",
+                      "end": "2230"
+                    },
+                    {
+                      "day": 4,
+                      "start": "1000",
+                      "end": "2230"
+                    },
+                    {
+                      "day": 5,
+                      "start": "1000",
+                      "end": "2230"
+                    },
+                    {
+                      "day": 6,
+                      "start": "1000",
+                      "end": "2230"
+                    },
+                    {
+                      "day": 0,
+                      "start": "1000",
+                      "end": "2230"
+                    }
+                  ],
+                  "is_open": false,
+                  "next_open_hour": {
+                    "day": 4,
+                    "start": "1000",
+                    "end": "2230"
+                  },
+                  "phone": "+19056153200",
+                  "is_closed_permanently": false
+                },
+                {
+                  "id": "4b930a26f964a520bb3034e3",
+                  "provider": "foursquare",
+                  "provider_url": "https://foursquare.com/v/4b930a26f964a520bb3034e3",
+                  "latitude": 43.59702392670799,
+                  "longitude": -79.58322234908402,
+                  "name": "Le Tréport Wedding & Convention Centre",
+                  "rating_scale": 5,
+                  "address": "1075 Queensway E, Mississauga ON L4Y 4C1",
+                  "description": "A banquet hall known for its New Year's Eve Gala, offering an elegant setting for celebrations.",
+                  "description_cite": "turn0search5",
+                  "image_url": "https://fastly.4sqi.net/img/general/original/130248495_iGNRWxQMlVoN8nbZPfo_jHvn4YRRHCFizQ94h7Q0ljE.jpg",
+                  "image_urls": [
+                    "https://fastly.4sqi.net/img/general/original/130248495_iGNRWxQMlVoN8nbZPfo_jHvn4YRRHCFizQ94h7Q0ljE.jpg",
+                    "https://fastly.4sqi.net/img/general/original/150715268_gPTjBwqwFbloO4YYs9cqCnagwbbjbzS7G_yRs346yD4.jpg",
+                    "https://fastly.4sqi.net/img/general/original/150715268_KKkOGbOmPfeWIPdBWiB-AiD-CSAWVoxzSwbXnHBjov8.jpg",
+                    "https://fastly.4sqi.net/img/general/original/mkBm-AnANJRofyTEH7Ts15lTyLRrWKFLpCdNduNwTi4.jpg"
+                  ],
+                  "rating": null,
+                  "review_count": null,
+                  "price": null,
+                  "categories": [
+                    "Event Space"
+                  ],
+                  "website_url": null,
+                  "hours": [
+                    {
+                      "day": 1,
+                      "start": "0900",
+                      "end": "1900"
+                    },
+                    {
+                      "day": 2,
+                      "start": "0900",
+                      "end": "1900"
+                    },
+                    {
+                      "day": 3,
+                      "start": "0900",
+                      "end": "1900"
+                    },
+                    {
+                      "day": 4,
+                      "start": "0900",
+                      "end": "1900"
+                    },
+                    {
+                      "day": 5,
+                      "start": "0900",
+                      "end": "1900"
+                    },
+                    {
+                      "day": 6,
+                      "start": "1000",
+                      "end": "1700"
+                    }
+                  ],
+                  "is_open": false,
+                  "next_open_hour": {
+                    "day": 4,
+                    "start": "0900",
+                    "end": "1900"
+                  },
+                  "phone": "+19052767729",
+                  "is_closed_permanently": false
+                },
+                {
+                  "id": "4bb94287b35776b0c7cec901",
+                  "provider": "foursquare",
+                  "provider_url": "https://foursquare.com/v/4bb94287b35776b0c7cec901",
+                  "latitude": 43.57651066075225,
+                  "longitude": -79.55797685251852,
+                  "name": "Oasis Convention Centre",
+                  "rating_scale": 5,
+                  "address": "1036 Lakeshore Rd. E, Mississauga ON L5E 1E4",
+                  "description": "A versatile venue that hosts New Year's Eve Galas, providing a spacious environment for large gatherings.",
+                  "description_cite": "turn0search8",
+                  "image_url": "https://fastly.4sqi.net/img/general/original/2307_l8XsaC4s74FdZtVkxcwWxZYsnB7oHNTBiEo-wlrTMoA.jpg",
+                  "image_urls": [
+                    "https://fastly.4sqi.net/img/general/original/2307_l8XsaC4s74FdZtVkxcwWxZYsnB7oHNTBiEo-wlrTMoA.jpg",
+                    "https://fastly.4sqi.net/img/general/original/8819852_P0iERHMs6ygXluu2_wSx09ditO21DZtXfYos-RoRZ9M.jpg",
+                    "https://fastly.4sqi.net/img/general/original/9324481_4mgqWljSWONuVwdgReNCl7uNG98hohx-s4HLAJJzOeg.jpg",
+                    "https://fastly.4sqi.net/img/general/original/50703752_krZO3i8dbUGca6L-pICKYf23UxHdMNysf9Ba53VbyG0.jpg"
+                  ],
+                  "rating": null,
+                  "review_count": null,
+                  "price": null,
+                  "categories": [
+                    "Event Space",
+                    "Arts & Entertainment"
+                  ],
+                  "website_url": "http://www.oasisconvention.com",
+                  "hours": [
+                    {
+                      "day": 1,
+                      "start": "1000",
+                      "end": "1900"
+                    },
+                    {
+                      "day": 2,
+                      "start": "1000",
+                      "end": "1930"
+                    },
+                    {
+                      "day": 3,
+                      "start": "1000",
+                      "end": "1930"
+                    },
+                    {
+                      "day": 4,
+                      "start": "1000",
+                      "end": "1930"
+                    },
+                    {
+                      "day": 5,
+                      "start": "1000",
+                      "end": "1930"
+                    },
+                    {
+                      "day": 6,
+                      "start": "1100",
+                      "end": "1800"
+                    }
+                  ],
+                  "is_open": false,
+                  "next_open_hour": {
+                    "day": 4,
+                    "start": "1000",
+                    "end": "1930"
+                  },
+                  "phone": "+19058917777",
+                  "is_closed_permanently": false
+                }
+              ],
+              "business_fallbacks": [
+                {
+                  "name": "Mississauga Celebration Square",
+                  "location": "Mississauga, ON",
+                  "description": "An outdoor venue that hosts large-scale public events, including New Year's Eve celebrations with live performances and fireworks.",
+                  "cite": "turn0search4",
+                  "url": "https://www.google.com/maps/search/Mississauga+Celebration+Square%2C+Mississauga%2C+ON"
+                },
+                {
+                  "name": "Le Tréport Wedding & Convention Centre",
+                  "location": "Mississauga, ON",
+                  "description": "A banquet hall known for its New Year's Eve Gala, offering an elegant setting for celebrations.",
+                  "cite": "turn0search5",
+                  "url": "https://www.google.com/maps/search/Le+Tr%C3%A9port+Wedding+%26+Convention+Centre%2C+Mississauga%2C+ON"
+                },
+                {
+                  "name": "Oasis Convention Centre",
+                  "location": "Mississauga, ON",
+                  "description": "A versatile venue that hosts New Year's Eve Galas, providing a spacious environment for large gatherings.",
+                  "cite": "turn0search8",
+                  "url": "https://www.google.com/maps/search/Oasis+Convention+Centre%2C+Mississauga%2C+ON"
+                },
+                {
+                  "name": "Julius Event Centre",
+                  "location": "Mississauga, ON",
+                  "description": "An event space that organizes New Year's Eve parties featuring sit-down dinners and entertainment.",
+                  "cite": "turn0search6",
+                  "url": "https://www.google.com/maps/search/Julius+Event+Centre%2C+Mississauga%2C+ON"
+                },
+                {
+                  "name": "Rama Gaming House",
+                  "location": "Mississauga, ON",
+                  "description": "Offers a New Year's Eve Bash with live music, games, and a specially curated dinner.",
+                  "cite": "turn0search3",
+                  "url": "https://www.google.com/maps/search/Rama+Gaming+House%2C+Mississauga%2C+ON"
+                }
+              ],
+              "render_fallbacks": false,
+              "cite_map": {
+                "turn0search4": {
+                  "cite": "turn0search4",
+                  "title": "NYE 2025 – City of Mississauga",
+                  "url": "https://www.mississauga.ca/events-and-attractions/events-calendar/nye-2025/?eventdate=2024-12-31T20%3A00%3A00&schedule=16887",
+                  "pub_date": null,
+                  "snippet": "Hip-hop legends ring in 2025 at Celebration Square with the biggest NYE block party in town. Fireworks presented by Tim Hortons.",
+                  "attribution": "Mississauga"
+                },
+                "turn0search5": {
+                  "cite": "turn0search5",
+                  "title": "New Years Eve Party | Mississauga | Le Treport",
+                  "url": "https://letreport.com/new-years-party-2024/",
+                  "pub_date": null,
+                  "snippet": "The upcoming New Year's Eve Gala at Le Treport in Mississauga promises to be an exquisite event, eagerly anticipated by those seeking a truly grand celebration.",
+                  "attribution": "LetReport"
+                },
+                "turn0search8": {
+                  "cite": "turn0search8",
+                  "title": "Upcoming Events - Oasis Convention Centre",
+                  "url": "https://oasisconvention.com/upcoming-events/",
+                  "pub_date": null,
+                  "snippet": "NEW YEAR'S EVE GALA 2025. Chirstmas Party at Oasis Convention Centre. December ... MISSISSAUGA, ON L5E 1E4 CALL US: (905) 891-7777 support ...",
+                  "attribution": "Oasis Convention"
+                },
+                "turn0search6": {
+                  "cite": "turn0search6",
+                  "title": "NEW YEAR PARTY AT JULIUS Come join us for a sit down dinner ...",
+                  "url": "https://www.instagram.com/juliuseventcentre/reel/DCNT9pAhwtB/",
+                  "pub_date": null,
+                  "snippet": "Join us for an unforgettable NYE celebration featuring champagne, dazzling lights & epic vibes",
+                  "attribution": "Instagram"
+                },
+                "turn0search3": {
+                  "cite": "turn0search3",
+                  "title": "Peel Region 2025 New Year's Eve – Brampton, and Mississauga",
+                  "url": "https://www.todocanada.ca/new-years-eve-parties-brampton-mississauga/",
+                  "pub_date": 1734467667,
+                  "snippet": "Celebrate 2025 at Rama Gaming Mississauga with live music, thrilling games, and exciting prizes. Enjoy a specially curated NYE dinner and toast ...",
+                  "attribution": "Todo Canada"
+                }
+              },
+              "status": "done"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1222,
+              "end_idx": 1223,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1367,
+              "end_idx": 1368,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1369,
+              "end_idx": 1370,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1499,
+              "end_idx": 1500,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 1501,
+              "end_idx": 1520,
+              "alt": "([Peerspace](https://www.peerspace.com/ca/venues/ca/mississauga--on/new-years-eve-party-venue?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "Rent a New Year's Eve party venue in Mississauga, ON - Peerspace",
+              "url": "https://www.peerspace.com/ca/venues/ca/mississauga--on/new-years-eve-party-venue?utm_source=chatgpt.com",
+              "pub_date": null,
+              "snippet": "Easily rent a New Year's Eve party or celebration venues in Mississauga, ON. Access a collection of unique, undiscovered locations and make your event a ...",
+              "attributions": null,
+              "attribution": "Peerspace"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1520,
+              "end_idx": 1521,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 1797,
+              "end_idx": 1797,
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "NYE 2025 – City of Mississauga",
+                  "url": "https://www.mississauga.ca/events-and-attractions/events-calendar/nye-2025/?eventdate=2024-12-31T20%3A00%3A00&schedule=16887",
+                  "attribution": "Mississauga"
+                },
+                {
+                  "title": "New Years Eve Party | Mississauga | Le Treport",
+                  "url": "https://letreport.com/new-years-party-2024/",
+                  "attribution": "LetReport"
+                },
+                {
+                  "title": "Upcoming Events - Oasis Convention Centre",
+                  "url": "https://oasisconvention.com/upcoming-events/",
+                  "attribution": "Oasis Convention"
+                },
+                {
+                  "title": "NEW YEAR PARTY AT JULIUS Come join us for a sit down dinner ...",
+                  "url": "https://www.instagram.com/juliuseventcentre/reel/DCNT9pAhwtB/",
+                  "attribution": "Instagram"
+                },
+                {
+                  "title": "Peel Region 2025 New Year's Eve – Brampton, and Mississauga",
+                  "url": "https://www.todocanada.ca/new-years-eve-parties-brampton-mississauga/",
+                  "attribution": "Todo Canada"
+                },
+                {
+                  "title": "Rent a New Year's Eve party venue in Mississauga, ON - Peerspace",
+                  "url": "https://www.peerspace.com/ca/venues/ca/mississauga--on/new-years-eve-party-venue?utm_source=chatgpt.com",
+                  "attribution": "Peerspace"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 0,
+              "end_ix": 1,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 126,
+              "end_ix": 127,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 162,
+              "end_ix": 163,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 165,
+              "end_ix": 1220,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1222,
+              "end_ix": 1223,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1367,
+              "end_ix": 1368,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1369,
+              "end_ix": 1370,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1499,
+              "end_ix": 1500,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1501,
+              "end_ix": 1520,
+              "metadata": {
+                "type": "webpage",
+                "title": "Rent a New Year's Eve party venue in Mississauga, ON - Peerspace",
+                "url": "https://www.peerspace.com/ca/venues/ca/mississauga--on/new-years-eve-party-venue?utm_source=chatgpt.com",
+                "text": "Easily rent a New Year's Eve party or celebration venues in Mississauga, ON. Access a collection of unique, undiscovered locations and make your event a ...",
+                "pub_date": null,
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 1520,
+              "end_ix": 1521,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1797,
+              "end_ix": 1797,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "8f7e1b5169d5ac1e-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ac9065f8-1cff-43cf-bffb-6ce727616ff8",
+      "children": [
+        "bbb21ed4-bdf5-4578-959f-1402f92b5fc5"
+      ]
+    },
+    "bbb21ed4-bdf5-4578-959f-1402f92b5fc5": {
+      "id": "bbb21ed4-bdf5-4578-959f-1402f92b5fc5",
+      "message": {
+        "id": "bbb21ed4-bdf5-4578-959f-1402f92b5fc5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735185054.500156,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Name some lounges"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "8f7e1bfd198eac1e-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7c87aef3-5709-4cc4-a5dc-7d8f452e6c76",
+      "children": [
+        "0199d938-df4b-464b-aa51-08b8fcd7b73b"
+      ]
+    },
+    "0199d938-df4b-464b-aa51-08b8fcd7b73b": {
+      "id": "0199d938-df4b-464b-aa51-08b8fcd7b73b",
+      "message": {
+        "id": "0199d938-df4b-464b-aa51-08b8fcd7b73b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1735185060.77378,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"Name some lounges\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_complete": true,
+          "finish_details": {
+            "type": "stop"
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21ed4-bdf5-4578-959f-1402f92b5fc5",
+          "request_id": "8f7e1bfd198eac1e-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "bbb21ed4-bdf5-4578-959f-1402f92b5fc5",
+      "children": [
+        "5c5e3ee9-7e88-4e95-a61a-e6683ae9fa23"
+      ]
+    },
+    "5c5e3ee9-7e88-4e95-a61a-e6683ae9fa23": {
+      "id": "5c5e3ee9-7e88-4e95-a61a-e6683ae9fa23",
+      "message": {
+        "id": "5c5e3ee9-7e88-4e95-a61a-e6683ae9fa23",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1735185060.773914,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "0199d938-df4b-464b-aa51-08b8fcd7b73b",
+          "request_id": "8f7e1bfd198eac1e-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "0199d938-df4b-464b-aa51-08b8fcd7b73b",
+      "children": [
+        "f5568c11-2200-42c9-ad18-a45edf5c11ca"
+      ]
+    },
+    "f5568c11-2200-42c9-ad18-a45edf5c11ca": {
+      "id": "f5568c11-2200-42c9-ad18-a45edf5c11ca",
+      "message": {
+        "id": "f5568c11-2200-42c9-ad18-a45edf5c11ca",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1735185060.773985,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Mississauga boasts a vibrant nightlife with a variety of lounges catering to diverse preferences. Here are some notable establishments you might consider:\n\nbusinesses_map{\"name\":\"Fume Bar & Lounge\",\"location\":\"Mississauga, Canada\",\"description\":\"Offers a blend of delicious food, signature cocktails, and shisha in a contemporary setting.\",\"cite\":\"turn0search5\"}{\"name\":\"Sapphire Lounge\",\"location\":\"Mississauga, Canada\",\"description\":\"Known for flavorful shishas, belly dancing, and late-night celebrations.\",\"cite\":\"turn0search8\"}{\"name\":\"The Wave Bar and Lounge\",\"location\":\"Mississauga, Canada\",\"description\":\"A social sports bar and lounge offering a variety of local drafts, wines, and whiskeys.\",\"cite\":\"turn0search7\"}{\"name\":\"Mosaic Kitchen Bar & Lounge\",\"location\":\"Mississauga, Canada\",\"description\":\"Features an open kitchen with rustic, comforting dishes and a diverse cocktail menu.\",\"cite\":\"turn0search2\"}{\"name\":\"Bar 6ix Restaurant + Grill\",\"location\":\"Mississauga, Canada\",\"description\":\"A true sports bar offering casual dining in an upscale atmosphere with top-notch food and drinks.\",\"cite\":\"turn0search2\"}{\"name\":\"MISHREE Cocktails & Cuisine\",\"location\":\"Mississauga, Canada\",\"description\":\"Provides an unparalleled bar and lounge experience, combining mixology with vibrant Indian flavors.\",\"cite\":\"turn0search2\"}{\"name\":\"Canvas Art Bar\",\"location\":\"Mississauga, Canada\",\"description\":\"Combines exquisite tapas with innovative cocktails in a vibrant setting.\",\"cite\":\"turn0search2\"}{\"name\":\"&More by Sheraton Gateway\",\"location\":\"Mississauga, Canada\",\"description\":\"Unites flavors reflecting Toronto's diversity, highlighting locally sourced ingredients.\",\"cite\":\"turn0search2\"}\n\nThese venues offer a range of atmospheres and specialties, from live entertainment to diverse culinary options. It's advisable to contact them directly or visit their websites for the latest information on hours, events, and reservations. "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "yelp.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.yelp.com/search?cflt=lounges&find_loc=Mississauga%2C+ON",
+                  "title": "THE BEST 10 Lounges in MISSISSAUGA, ON - Yelp",
+                  "snippet": "Top 10 Best Lounges Near Mississauga, Ontario - With Real Reviews · 1. Dirty Martini · 2. Bovine Sex Club · 3. Spice Lounge & Tapas · 4. Bellagio Lounge & Bar.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "clubcrawlers.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.clubcrawlers.com/toronto/nightclubs/mississauga",
+                  "title": "Nightclubs and Lounges in Mississauga - Club Crawlers",
+                  "snippet": "Sugar Daddy's Nightclub has been Mississauga's hot spot for great drinks, music, and atmosphere. We also have the city's best patio.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "opentable.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.opentable.ca/cuisine/best-bar-and-lounge-restaurants-mississauga-ontario",
+                  "title": "6 Best Bars And Lounges In Mississauga | OpenTable",
+                  "snippet": "6 restaurants available nearby · 1. Mosaic Kitchen Bar & Lounge · 2. Bar 6ix Restaurant + Grill · 3. MISHREE Cocktails & Cuisine · 4. Canvas Art Bar · 5. &More ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "instagram.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.instagram.com/sapphireloungeca/?hl=en",
+                  "title": "Sapphire Lounge Mississauga (@sapphireloungeca) - Instagram",
+                  "snippet": "Experience the ultimate trifecta: flavourful shishas, belly dancing, and late-night celebrations. Book your table ⬇️ 168 Queen St S, Mississauga, Ontario L5M 1 ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/18s0hqo/clubs_bars_etc_in_mississauga_for_people_in_their/",
+                  "title": "Clubs, bars etc in Mississauga for people in their early 20's? - Reddit",
+                  "snippet": "Rogue, Sugar Daddy, Next Stop Club, The Port House, unleashJungle are dance nightclubs you can party until 2am in the morning.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "fumebarlounge.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://fumebarlounge.ca/",
+                  "title": "Fume Bar & Lounge: Best Bar and Lounge in Mississauga, Ontario",
+                  "snippet": "Experience the delicious food, signature cocktails, and shisha at Best Bar and Lounge in Mississauga-Fume Bar and Lounge.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "tripadvisor.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.tripadvisor.com/Attractions-g154996-Activities-c20-t99-Mississauga_Ontario.html",
+                  "title": "THE 10 BEST Mississauga Clubs & Bars (2024) - Tripadvisor",
+                  "snippet": "Clubs & Bars in Mississauga · 15. Mazaj Lounge · 14. Fusion Lounge · 13. Yorkshire Arms British Pub · 12. Ireland Supporters Club of Mississauga · 11. Landed Tap ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "thewavebarandlounge.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.thewavebarandlounge.com/",
+                  "title": "Restaurant | The Wave Bar and Lounge | Ontario",
+                  "snippet": "Mississauga's newest Social Sports Bar & Lounge offering a variety of local draft on tap, and a various selection of Wine's and Whiskeys.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "sapphire-lounge.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://sapphire-lounge.ca/",
+                  "title": "Sapphire Lounge",
+                  "snippet": "#107 - 168 Queen Street South Mississauga. M:info@sapphire-lounge.ca. T::+1 (905) 500-5392. Opening hours: Sunday - 5:00 pm to 2:00 am. Monday - 5:00 pm to 2:00 ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://fastly.4sqi.net/img/general/original/8725233_Fp9md-dlMd6zxnzKDFzKwfNrLIUqQQdJZC3ZJ8320t8.jpg",
+            "https://foursquare.com/v/4bd33504caff95218248d4f0",
+            "https://foursquare.com/v/6545989834d5dd6393874ec6",
+            "https://fastly.4sqi.net/img/general/original/19293104_cp9PAOZpjySkdRluLGKxz8FaraaSjCRLZxE1IwdZiuM.jpg",
+            "https://foursquare.com/v/5573ab72498eb08a17735f2e",
+            "https://foursquare.com/v/656543357160ef44c304d5eb",
+            "https://fastly.4sqi.net/img/general/original/47391514_FesYTZytL5w7k1DT6pnIfJ0n1UPJJQXoPU3IDwg0fgM.jpg",
+            "https://www.thewavebarandlounge.com",
+            "http://www.fumebarlounge.ca",
+            "https://foursquare.com/v/5c7354bb35f983002c0a8186"
+          ],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "5c5e3ee9-7e88-4e95-a61a-e6683ae9fa23",
+          "message_locale": "en-US",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "",
+              "start_idx": 0,
+              "end_idx": 1,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 98,
+              "end_idx": 99,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 156,
+              "end_idx": 157,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "businesses_map{\"name\":\"Fume Bar & Lounge\",\"location\":\"Mississauga, Canada\",\"description\":\"Offers a blend of delicious food, signature cocktails, and shisha in a contemporary setting.\",\"cite\":\"turn0search5\"}{\"name\":\"Sapphire Lounge\",\"location\":\"Mississauga, Canada\",\"description\":\"Known for flavorful shishas, belly dancing, and late-night celebrations.\",\"cite\":\"turn0search8\"}{\"name\":\"The Wave Bar and Lounge\",\"location\":\"Mississauga, Canada\",\"description\":\"A social sports bar and lounge offering a variety of local drafts, wines, and whiskeys.\",\"cite\":\"turn0search7\"}{\"name\":\"Mosaic Kitchen Bar & Lounge\",\"location\":\"Mississauga, Canada\",\"description\":\"Features an open kitchen with rustic, comforting dishes and a diverse cocktail menu.\",\"cite\":\"turn0search2\"}{\"name\":\"Bar 6ix Restaurant + Grill\",\"location\":\"Mississauga, Canada\",\"description\":\"A true sports bar offering casual dining in an upscale atmosphere with top-notch food and drinks.\",\"cite\":\"turn0search2\"}{\"name\":\"MISHREE Cocktails & Cuisine\",\"location\":\"Mississauga, Canada\",\"description\":\"Provides an unparalleled bar and lounge experience, combining mixology with vibrant Indian flavors.\",\"cite\":\"turn0search2\"}{\"name\":\"Canvas Art Bar\",\"location\":\"Mississauga, Canada\",\"description\":\"Combines exquisite tapas with innovative cocktails in a vibrant setting.\",\"cite\":\"turn0search2\"}{\"name\":\"&More by Sheraton Gateway\",\"location\":\"Mississauga, Canada\",\"description\":\"Unites flavors reflecting Toronto's diversity, highlighting locally sourced ingredients.\",\"cite\":\"turn0search2\"}",
+              "start_idx": 159,
+              "end_idx": 1712,
+              "alt": "**[Fume Bar & Lounge](http://www.fumebarlounge.ca)**  \n**Open now · Hookah Bar · $**  \n_7195 Torbram Rd, Mississauga ON L4T 4G3_  \nOffers a blend of delicious food, signature cocktails, and shisha in a contemporary setting.\n\n**Sapphire Lounge**  \n**Closed · Lounge · $$$**  \n_Mississauga ON L5M 1K8_  \nKnown for flavorful shishas, belly dancing, and late-night celebrations.\n\n**[The Wave](https://www.thewavebarandlounge.com)**  \n**Closed · Restaurant**  \n_285 Enfield Pl, Mississauga ON L5B 3Y6_  \nA social sports bar and lounge offering a variety of local drafts, wines, and whiskeys.\n\n**Mosaic Kitchen Bar And Lounge**  \n**Closed · Restaurant**  \n_Mississauga ON L4V 1C8_  \nFeatures an open kitchen with rustic, comforting dishes and a diverse cocktail menu.\n\n**Gateway**  \n**Closed · Conference Room**  \n_3450 Wolfedale Road, Mississauga ON L5C 2V6_  \nUnites flavors reflecting Toronto's diversity, highlighting locally sourced ingredients.",
+              "prompt_text": "**[Fume Bar & Lounge](http://www.fumebarlounge.ca)**  \n**Open now · Hookah Bar · $**  \n_7195 Torbram Rd, Mississauga ON L4T 4G3_  \nOffers a blend of delicious food, signature cocktails, and shisha in a contemporary setting.\n\n**Sapphire Lounge**  \n**Closed · Lounge · $$$**  \n_Mississauga ON L5M 1K8_  \nKnown for flavorful shishas, belly dancing, and late-night celebrations.\n\n**[The Wave](https://www.thewavebarandlounge.com)**  \n**Closed · Restaurant**  \n_285 Enfield Pl, Mississauga ON L5B 3Y6_  \nA social sports bar and lounge offering a variety of local drafts, wines, and whiskeys.\n\n**Mosaic Kitchen Bar And Lounge**  \n**Closed · Restaurant**  \n_Mississauga ON L4V 1C8_  \nFeatures an open kitchen with rustic, comforting dishes and a diverse cocktail menu.\n\n**Gateway**  \n**Closed · Conference Room**  \n_3450 Wolfedale Road, Mississauga ON L5C 2V6_  \nUnites flavors reflecting Toronto's diversity, highlighting locally sourced ingredients.",
+              "type": "businesses_map",
+              "businesses": [
+                {
+                  "id": "5573ab72498eb08a17735f2e",
+                  "provider": "foursquare",
+                  "provider_url": "https://foursquare.com/v/5573ab72498eb08a17735f2e",
+                  "latitude": 43.698497870257384,
+                  "longitude": -79.65750772781635,
+                  "name": "Fume Bar & Lounge",
+                  "rating_scale": 5,
+                  "address": "7195 Torbram Rd, Mississauga ON L4T 4G3",
+                  "description": "Offers a blend of delicious food, signature cocktails, and shisha in a contemporary setting.",
+                  "description_cite": "turn0search5",
+                  "image_url": "https://fastly.4sqi.net/img/general/original/19293104_cp9PAOZpjySkdRluLGKxz8FaraaSjCRLZxE1IwdZiuM.jpg",
+                  "image_urls": [
+                    "https://fastly.4sqi.net/img/general/original/19293104_cp9PAOZpjySkdRluLGKxz8FaraaSjCRLZxE1IwdZiuM.jpg",
+                    "https://fastly.4sqi.net/img/general/original/3398258_V4bFC4E-IjO2xUJGkwEUXNKc_qhOggoGHZNQoJh8Ths.jpg"
+                  ],
+                  "rating": null,
+                  "review_count": null,
+                  "price": 1,
+                  "categories": [
+                    "Hookah Bar"
+                  ],
+                  "website_url": "http://www.fumebarlounge.ca",
+                  "hours": [
+                    {
+                      "day": 1,
+                      "start": "0000",
+                      "end": "0200"
+                    },
+                    {
+                      "day": 1,
+                      "start": "1500",
+                      "end": "2400"
+                    },
+                    {
+                      "day": 2,
+                      "start": "0000",
+                      "end": "0200"
+                    },
+                    {
+                      "day": 2,
+                      "start": "1500",
+                      "end": "2400"
+                    },
+                    {
+                      "day": 3,
+                      "start": "0000",
+                      "end": "0200"
+                    },
+                    {
+                      "day": 3,
+                      "start": "1500",
+                      "end": "2400"
+                    },
+                    {
+                      "day": 4,
+                      "start": "0000",
+                      "end": "0200"
+                    },
+                    {
+                      "day": 4,
+                      "start": "1500",
+                      "end": "2400"
+                    },
+                    {
+                      "day": 5,
+                      "start": "0000",
+                      "end": "0200"
+                    },
+                    {
+                      "day": 5,
+                      "start": "1500",
+                      "end": "2400"
+                    },
+                    {
+                      "day": 6,
+                      "start": "0000",
+                      "end": "0200"
+                    },
+                    {
+                      "day": 6,
+                      "start": "1500",
+                      "end": "2400"
+                    },
+                    {
+                      "day": 0,
+                      "start": "0000",
+                      "end": "0200"
+                    },
+                    {
+                      "day": 0,
+                      "start": "1500",
+                      "end": "2400"
+                    }
+                  ],
+                  "is_open": true,
+                  "next_open_hour": {
+                    "day": 3,
+                    "start": "1500",
+                    "end": "2400"
+                  },
+                  "phone": "+19056733863",
+                  "is_closed_permanently": false
+                },
+                {
+                  "id": "6545989834d5dd6393874ec6",
+                  "provider": "foursquare",
+                  "provider_url": "https://foursquare.com/v/6545989834d5dd6393874ec6",
+                  "latitude": 43.582247,
+                  "longitude": -79.714826,
+                  "name": "Sapphire Lounge",
+                  "rating_scale": 5,
+                  "address": "Mississauga ON L5M 1K8",
+                  "description": "Known for flavorful shishas, belly dancing, and late-night celebrations.",
+                  "description_cite": "turn0search8",
+                  "image_url": null,
+                  "image_urls": null,
+                  "rating": null,
+                  "review_count": null,
+                  "price": 3,
+                  "categories": [
+                    "Lounge"
+                  ],
+                  "website_url": null,
+                  "hours": [],
+                  "is_open": null,
+                  "next_open_hour": null,
+                  "phone": null,
+                  "is_closed_permanently": false
+                },
+                {
+                  "id": "5c7354bb35f983002c0a8186",
+                  "provider": "foursquare",
+                  "provider_url": "https://foursquare.com/v/5c7354bb35f983002c0a8186",
+                  "latitude": 43.590472822147184,
+                  "longitude": -79.63571167543226,
+                  "name": "The Wave",
+                  "rating_scale": 5,
+                  "address": "285 Enfield Pl, Mississauga ON L5B 3Y6",
+                  "description": "A social sports bar and lounge offering a variety of local drafts, wines, and whiskeys.",
+                  "description_cite": "turn0search7",
+                  "image_url": "https://fastly.4sqi.net/img/general/original/8725233_Fp9md-dlMd6zxnzKDFzKwfNrLIUqQQdJZC3ZJ8320t8.jpg",
+                  "image_urls": [
+                    "https://fastly.4sqi.net/img/general/original/8725233_Fp9md-dlMd6zxnzKDFzKwfNrLIUqQQdJZC3ZJ8320t8.jpg",
+                    "https://fastly.4sqi.net/img/general/original/133120157_YZ5aMSe0eh8jMJazhX4dktr81s_UMKA1-f7yxQgIgNc.jpg",
+                    "https://fastly.4sqi.net/img/general/original/398869057_c5OQXV_uRCM9oynigLqhg147cLMKFGeQf9Q8WKOIQrw.jpg"
+                  ],
+                  "rating": null,
+                  "review_count": null,
+                  "price": null,
+                  "categories": [
+                    "Restaurant"
+                  ],
+                  "website_url": "https://www.thewavebarandlounge.com",
+                  "hours": [
+                    {
+                      "day": 1,
+                      "start": "1100",
+                      "end": "+0100"
+                    },
+                    {
+                      "day": 2,
+                      "start": "1100",
+                      "end": "+0200"
+                    },
+                    {
+                      "day": 3,
+                      "start": "1100",
+                      "end": "+0200"
+                    },
+                    {
+                      "day": 4,
+                      "start": "1100",
+                      "end": "+0200"
+                    },
+                    {
+                      "day": 5,
+                      "start": "1100",
+                      "end": "+0200"
+                    },
+                    {
+                      "day": 6,
+                      "start": "1100",
+                      "end": "+0200"
+                    },
+                    {
+                      "day": 0,
+                      "start": "1100",
+                      "end": "+0100"
+                    }
+                  ],
+                  "is_open": false,
+                  "next_open_hour": {
+                    "day": 4,
+                    "start": "1100",
+                    "end": "+0200"
+                  },
+                  "phone": "+19052322121",
+                  "is_closed_permanently": false
+                },
+                {
+                  "id": "656543357160ef44c304d5eb",
+                  "provider": "foursquare",
+                  "provider_url": "https://foursquare.com/v/656543357160ef44c304d5eb",
+                  "latitude": 43.686775,
+                  "longitude": -79.603745,
+                  "name": "Mosaic Kitchen Bar And Lounge",
+                  "rating_scale": 5,
+                  "address": "Mississauga ON L4V 1C8",
+                  "description": "Features an open kitchen with rustic, comforting dishes and a diverse cocktail menu.",
+                  "description_cite": "turn0search2",
+                  "image_url": null,
+                  "image_urls": null,
+                  "rating": null,
+                  "review_count": null,
+                  "price": null,
+                  "categories": [
+                    "Restaurant"
+                  ],
+                  "website_url": null,
+                  "hours": [],
+                  "is_open": null,
+                  "next_open_hour": null,
+                  "phone": null,
+                  "is_closed_permanently": false
+                },
+                {
+                  "id": "4bd33504caff95218248d4f0",
+                  "provider": "foursquare",
+                  "provider_url": "https://foursquare.com/v/4bd33504caff95218248d4f0",
+                  "latitude": 43.57218288819461,
+                  "longitude": -79.64992575241916,
+                  "name": "Gateway",
+                  "rating_scale": 5,
+                  "address": "3450 Wolfedale Road, Mississauga ON L5C 2V6",
+                  "description": "Unites flavors reflecting Toronto's diversity, highlighting locally sourced ingredients.",
+                  "description_cite": "turn0search2",
+                  "image_url": "https://fastly.4sqi.net/img/general/original/47391514_FesYTZytL5w7k1DT6pnIfJ0n1UPJJQXoPU3IDwg0fgM.jpg",
+                  "image_urls": [
+                    "https://fastly.4sqi.net/img/general/original/47391514_FesYTZytL5w7k1DT6pnIfJ0n1UPJJQXoPU3IDwg0fgM.jpg"
+                  ],
+                  "rating": null,
+                  "review_count": null,
+                  "price": null,
+                  "categories": [
+                    "Conference Room"
+                  ],
+                  "website_url": null,
+                  "hours": [],
+                  "is_open": null,
+                  "next_open_hour": null,
+                  "phone": null,
+                  "is_closed_permanently": false
+                }
+              ],
+              "business_fallbacks": [
+                {
+                  "name": "Fume Bar & Lounge",
+                  "location": "Mississauga, Canada",
+                  "description": "Offers a blend of delicious food, signature cocktails, and shisha in a contemporary setting.",
+                  "cite": "turn0search5",
+                  "url": "https://www.google.com/maps/search/Fume+Bar+%26+Lounge%2C+Mississauga%2C+Canada"
+                },
+                {
+                  "name": "Sapphire Lounge",
+                  "location": "Mississauga, Canada",
+                  "description": "Known for flavorful shishas, belly dancing, and late-night celebrations.",
+                  "cite": "turn0search8",
+                  "url": "https://www.google.com/maps/search/Sapphire+Lounge%2C+Mississauga%2C+Canada"
+                },
+                {
+                  "name": "The Wave Bar and Lounge",
+                  "location": "Mississauga, Canada",
+                  "description": "A social sports bar and lounge offering a variety of local drafts, wines, and whiskeys.",
+                  "cite": "turn0search7",
+                  "url": "https://www.google.com/maps/search/The+Wave+Bar+and+Lounge%2C+Mississauga%2C+Canada"
+                },
+                {
+                  "name": "Mosaic Kitchen Bar & Lounge",
+                  "location": "Mississauga, Canada",
+                  "description": "Features an open kitchen with rustic, comforting dishes and a diverse cocktail menu.",
+                  "cite": "turn0search2",
+                  "url": "https://www.google.com/maps/search/Mosaic+Kitchen+Bar+%26+Lounge%2C+Mississauga%2C+Canada"
+                },
+                {
+                  "name": "Bar 6ix Restaurant + Grill",
+                  "location": "Mississauga, Canada",
+                  "description": "A true sports bar offering casual dining in an upscale atmosphere with top-notch food and drinks.",
+                  "cite": "turn0search2",
+                  "url": "https://www.google.com/maps/search/Bar+6ix+Restaurant+%2B+Grill%2C+Mississauga%2C+Canada"
+                },
+                {
+                  "name": "MISHREE Cocktails & Cuisine",
+                  "location": "Mississauga, Canada",
+                  "description": "Provides an unparalleled bar and lounge experience, combining mixology with vibrant Indian flavors.",
+                  "cite": "turn0search2",
+                  "url": "https://www.google.com/maps/search/MISHREE+Cocktails+%26+Cuisine%2C+Mississauga%2C+Canada"
+                },
+                {
+                  "name": "Canvas Art Bar",
+                  "location": "Mississauga, Canada",
+                  "description": "Combines exquisite tapas with innovative cocktails in a vibrant setting.",
+                  "cite": "turn0search2",
+                  "url": "https://www.google.com/maps/search/Canvas+Art+Bar%2C+Mississauga%2C+Canada"
+                },
+                {
+                  "name": "&More by Sheraton Gateway",
+                  "location": "Mississauga, Canada",
+                  "description": "Unites flavors reflecting Toronto's diversity, highlighting locally sourced ingredients.",
+                  "cite": "turn0search2",
+                  "url": "https://www.google.com/maps/search/%26More+by+Sheraton+Gateway%2C+Mississauga%2C+Canada"
+                }
+              ],
+              "render_fallbacks": false,
+              "cite_map": {
+                "turn0search5": {
+                  "cite": "turn0search5",
+                  "title": "Fume Bar & Lounge: Best Bar and Lounge in Mississauga, Ontario",
+                  "url": "https://fumebarlounge.ca/",
+                  "pub_date": null,
+                  "snippet": "Experience the delicious food, signature cocktails, and shisha at Best Bar and Lounge in Mississauga-Fume Bar and Lounge.",
+                  "attribution": "Fume Bar Lounge"
+                },
+                "turn0search8": {
+                  "cite": "turn0search8",
+                  "title": "Sapphire Lounge",
+                  "url": "https://sapphire-lounge.ca/",
+                  "pub_date": null,
+                  "snippet": "#107 - 168 Queen Street South Mississauga. M:info@sapphire-lounge.ca. T::+1 (905) 500-5392. Opening hours: Sunday - 5:00 pm to 2:00 am. Monday - 5:00 pm to 2:00 ...",
+                  "attribution": "Sapphire Lounge"
+                },
+                "turn0search7": {
+                  "cite": "turn0search7",
+                  "title": "Restaurant | The Wave Bar and Lounge | Ontario",
+                  "url": "https://www.thewavebarandlounge.com/",
+                  "pub_date": null,
+                  "snippet": "Mississauga's newest Social Sports Bar & Lounge offering a variety of local draft on tap, and a various selection of Wine's and Whiskeys.",
+                  "attribution": "The Wave Bar and Lounge"
+                },
+                "turn0search2": {
+                  "cite": "turn0search2",
+                  "title": "6 Best Bars And Lounges In Mississauga | OpenTable",
+                  "url": "https://www.opentable.ca/cuisine/best-bar-and-lounge-restaurants-mississauga-ontario",
+                  "pub_date": null,
+                  "snippet": "6 restaurants available nearby · 1. Mosaic Kitchen Bar & Lounge · 2. Bar 6ix Restaurant + Grill · 3. MISHREE Cocktails & Cuisine · 4. Canvas Art Bar · 5. &More ...",
+                  "attribution": "OpenTable"
+                }
+              },
+              "status": "done"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1714,
+              "end_idx": 1715,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1826,
+              "end_idx": 1827,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1954,
+              "end_idx": 1955,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 1955,
+              "end_idx": 1955,
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Fume Bar & Lounge: Best Bar and Lounge in Mississauga, Ontario",
+                  "url": "https://fumebarlounge.ca/",
+                  "attribution": "Fume Bar Lounge"
+                },
+                {
+                  "title": "Sapphire Lounge",
+                  "url": "https://sapphire-lounge.ca/",
+                  "attribution": "Sapphire Lounge"
+                },
+                {
+                  "title": "Restaurant | The Wave Bar and Lounge | Ontario",
+                  "url": "https://www.thewavebarandlounge.com/",
+                  "attribution": "The Wave Bar and Lounge"
+                },
+                {
+                  "title": "6 Best Bars And Lounges In Mississauga | OpenTable",
+                  "url": "https://www.opentable.ca/cuisine/best-bar-and-lounge-restaurants-mississauga-ontario",
+                  "attribution": "OpenTable"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 0,
+              "end_ix": 1,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 98,
+              "end_ix": 99,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 156,
+              "end_ix": 157,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 159,
+              "end_ix": 1712,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1714,
+              "end_ix": 1715,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1826,
+              "end_ix": 1827,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1954,
+              "end_ix": 1955,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1955,
+              "end_ix": 1955,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "8f7e1bfd198eac1e-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5c5e3ee9-7e88-4e95-a61a-e6683ae9fa23",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f5568c11-2200-42c9-ad18-a45edf5c11ca",
+  "conversation_id": "676cd282-d2e8-8011-bfcb-b478b0667a07",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://fastly.4sqi.net/img/general/original/47391514_FesYTZytL5w7k1DT6pnIfJ0n1UPJJQXoPU3IDwg0fgM.jpg",
+    "https://foursquare.com/v/4bb94287b35776b0c7cec901",
+    "https://fastly.4sqi.net/img/general/original/2307_l8XsaC4s74FdZtVkxcwWxZYsnB7oHNTBiEo-wlrTMoA.jpg",
+    "https://foursquare.com/v/6545989834d5dd6393874ec6",
+    "https://fastly.4sqi.net/img/general/original/19293104_cp9PAOZpjySkdRluLGKxz8FaraaSjCRLZxE1IwdZiuM.jpg",
+    "https://fastly.4sqi.net/img/general/original/15846619_4ZjsHlkQqJii9hXEJ-qWbVaVdzIFqdnJ0kO1IJzPZCc.jpg",
+    "http://www.fumebarlounge.ca",
+    "https://www.peerspace.com/ca/venues/ca/mississauga--on/new-years-eve-party-venue",
+    "https://foursquare.com/v/5573ab72498eb08a17735f2e",
+    "https://www.peerspace.com/ca/venues/ca/mississauga--on/new-years-eve-party-venue?utm_source=chatgpt.com",
+    "https://foursquare.com/v/656543357160ef44c304d5eb",
+    "http://www.mississauga.ca/portal/celebrationsquare",
+    "https://foursquare.com/v/4bd33504caff95218248d4f0",
+    "https://fastly.4sqi.net/img/general/original/130248495_iGNRWxQMlVoN8nbZPfo_jHvn4YRRHCFizQ94h7Q0ljE.jpg",
+    "https://foursquare.com/v/4dca80e63151039761128244",
+    "https://foursquare.com/v/4b930a26f964a520bb3034e3",
+    "http://www.oasisconvention.com",
+    "https://foursquare.com/v/5c7354bb35f983002c0a8186",
+    "https://www.thewavebarandlounge.com",
+    "https://fastly.4sqi.net/img/general/original/8725233_Fp9md-dlMd6zxnzKDFzKwfNrLIUqQQdJZC3ZJ8320t8.jpg"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

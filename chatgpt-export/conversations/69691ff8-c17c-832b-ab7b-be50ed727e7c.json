@@ -1,0 +1,204 @@
+{
+  "title": "Powdered Juice Recipe",
+  "create_time": 1768497166.267083,
+  "update_time": 1768497188.003628,
+  "mapping": {
+    "4020634a-fdd1-45b7-9229-b990dd819d70": {
+      "id": "4020634a-fdd1-45b7-9229-b990dd819d70",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3613b05e-0c46-4adf-b835-32e8423654ee"
+      ]
+    },
+    "3613b05e-0c46-4adf-b835-32e8423654ee": {
+      "id": "3613b05e-0c46-4adf-b835-32e8423654ee",
+      "message": {
+        "id": "3613b05e-0c46-4adf-b835-32e8423654ee",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4020634a-fdd1-45b7-9229-b990dd819d70",
+      "children": [
+        "bbb21c38-8238-4931-95d9-7af096147cf1"
+      ]
+    },
+    "bbb21c38-8238-4931-95d9-7af096147cf1": {
+      "id": "bbb21c38-8238-4931-95d9-7af096147cf1",
+      "message": {
+        "id": "bbb21c38-8238-4931-95d9-7af096147cf1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1768497166.003013,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hey how do you make a powered juice"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "151c38f7-0c00-4e27-b3a7-8a7bba292cfd",
+          "message_source": null,
+          "turn_exchange_id": "e074b69b-1013-4a1e-86bb-ec2fee5e9ded",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3613b05e-0c46-4adf-b835-32e8423654ee",
+      "children": [
+        "ccdce01c-5ace-40c3-a34a-22d9286a61cb"
+      ]
+    },
+    "ccdce01c-5ace-40c3-a34a-22d9286a61cb": {
+      "id": "ccdce01c-5ace-40c3-a34a-22d9286a61cb",
+      "message": {
+        "id": "ccdce01c-5ace-40c3-a34a-22d9286a61cb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1768497166.1048381,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "151c38f7-0c00-4e27-b3a7-8a7bba292cfd",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21c38-8238-4931-95d9-7af096147cf1",
+          "turn_exchange_id": "e074b69b-1013-4a1e-86bb-ec2fee5e9ded",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21c38-8238-4931-95d9-7af096147cf1",
+      "children": [
+        "443fc140-43b9-4029-a998-02cb98df3300"
+      ]
+    },
+    "443fc140-43b9-4029-a998-02cb98df3300": {
+      "id": "443fc140-43b9-4029-a998-02cb98df3300",
+      "message": {
+        "id": "443fc140-43b9-4029-a998-02cb98df3300",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1768497166.13468,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Do you mean **powdered juice** (juice in dry powder form that you mix with water)? Here are a few easy ways—**homemade and safe**.\n\n---\n\n## Method 1: Simple Homemade Fruit Juice Powder (Best & Natural)\n\n### You’ll need\n- Fresh fruit (orange, mango, strawberry, apple, etc.)\n- Blender\n- Oven **or** food dehydrator\n- Grinder / blender\n- Fine sieve\n- Airtight container\n\n### Steps\n1. **Wash & cut fruit**  \n   Remove seeds and peels if needed.\n\n2. **Blend into juice or puree**  \n   Add a little water only if required.\n\n3. **Strain (optional)**  \n   For clearer juice powder, strain out pulp.\n\n4. **Dry the juice**\n   - **Oven method:**  \n     - Line a tray with parchment paper  \n     - Spread juice thinly  \n     - Dry at **60–70°C (140–160°F)** for several hours  \n   - **Dehydrator:**  \n     - Dry until completely brittle\n\n5. **Grind into powder**  \n   Break dried sheets and grind finely.\n\n6. **Sieve & store**  \n   Store in an airtight jar away from moisture.\n\n7. **Use**  \n   Mix **1–2 tsp powder + water** 🍹\n\n---\n\n## Method 2: Quick Powder Using Juice + Carrier (Easier)\n\nThis prevents clumping.\n\n### Extra ingredient\n- **Maltodextrin OR cornstarch (very small amount)**\n\n### Steps\n1. Mix **fresh juice + 1–2 tsp maltodextrin**\n2. Dry as above\n3. Grind → free-flowing powder\n\n---\n\n## Method 3: Instant Flavor Powder (Not Natural Juice)\n\n- Sugar\n- Citric acid\n- Fruit flavor powder\n- Food coloring (optional)\n\n👉 This is how **store-bought powdered juice** is made, but it’s not real juice.\n\n---\n\n## Tips\n- Must be **completely dry** or it will spoil\n- Add **vitamin C powder** for longer shelf life\n- Keep away from humidity\n\nIf you want, tell me:\n- 🍊 Which fruit?\n- 🏠 Home or small business?\n- 💪 Health-focused or taste-focused?\n\nI’ll tailor it exactly for you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "151c38f7-0c00-4e27-b3a7-8a7bba292cfd",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "ccdce01c-5ace-40c3-a34a-22d9286a61cb",
+          "turn_exchange_id": "e074b69b-1013-4a1e-86bb-ec2fee5e9ded",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "ccdce01c-5ace-40c3-a34a-22d9286a61cb",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "443fc140-43b9-4029-a998-02cb98df3300",
+  "conversation_id": "69691ff8-c17c-832b-ab7b-be50ed727e7c",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.openai.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

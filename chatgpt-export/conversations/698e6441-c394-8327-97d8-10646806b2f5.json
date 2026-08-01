@@ -1,0 +1,299 @@
+{
+  "title": "Mini WiFi Camera Setup",
+  "create_time": 1770939515.53521,
+  "update_time": 1770939525.631729,
+  "mapping": {
+    "d276f338-571f-4251-b331-be13e08dba1a": {
+      "id": "d276f338-571f-4251-b331-be13e08dba1a",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3d1ecf9e-d1ef-4237-a866-4adbebcf6796"
+      ]
+    },
+    "3d1ecf9e-d1ef-4237-a866-4adbebcf6796": {
+      "id": "3d1ecf9e-d1ef-4237-a866-4adbebcf6796",
+      "message": {
+        "id": "3d1ecf9e-d1ef-4237-a866-4adbebcf6796",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d276f338-571f-4251-b331-be13e08dba1a",
+      "children": [
+        "9a41a11c-02aa-483e-90ad-90934ef7a431"
+      ]
+    },
+    "9a41a11c-02aa-483e-90ad-90934ef7a431": {
+      "id": "9a41a11c-02aa-483e-90ad-90934ef7a431",
+      "message": {
+        "id": "9a41a11c-02aa-483e-90ad-90934ef7a431",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3d1ecf9e-d1ef-4237-a866-4adbebcf6796",
+      "children": [
+        "bbb21ebd-69a2-4f10-9be1-4a927f5e6f50"
+      ]
+    },
+    "bbb21ebd-69a2-4f10-9be1-4a927f5e6f50": {
+      "id": "bbb21ebd-69a2-4f10-9be1-4a927f5e6f50",
+      "message": {
+        "id": "bbb21ebd-69a2-4f10-9be1-4a927f5e6f50",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770939515.321755,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Do the mini wifi camera has to connected to the same network or as long as you both of have internet access you will stream live video"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "5670cd7a-3b6c-4630-a607-867b91b58afe",
+          "message_source": null,
+          "turn_exchange_id": "6db8b2b0-e0f0-49df-ae22-ca4ef2d548b9",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9a41a11c-02aa-483e-90ad-90934ef7a431",
+      "children": [
+        "2299d413-20d2-4fa7-8d69-1e50b8527374"
+      ]
+    },
+    "2299d413-20d2-4fa7-8d69-1e50b8527374": {
+      "id": "2299d413-20d2-4fa7-8d69-1e50b8527374",
+      "message": {
+        "id": "2299d413-20d2-4fa7-8d69-1e50b8527374",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770939515.4098158,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "5670cd7a-3b6c-4630-a607-867b91b58afe",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21ebd-69a2-4f10-9be1-4a927f5e6f50",
+          "turn_exchange_id": "6db8b2b0-e0f0-49df-ae22-ca4ef2d548b9",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21ebd-69a2-4f10-9be1-4a927f5e6f50",
+      "children": [
+        "377f5fde-6fe5-4af1-8009-262d7c5dcf45"
+      ]
+    },
+    "377f5fde-6fe5-4af1-8009-262d7c5dcf45": {
+      "id": "377f5fde-6fe5-4af1-8009-262d7c5dcf45",
+      "message": {
+        "id": "377f5fde-6fe5-4af1-8009-262d7c5dcf45",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770939515.450939,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "A mini WiFi camera **does NOT always need to be on the same network** — it depends on how you're trying to use it.\n\nHere are the two main situations:\n\n---\n\n### ✅ 1. Viewing Through the Manufacturer’s App (Cloud-Based Cameras)\nMost modern mini WiFi cameras (like ones from brands such as entity[\"company\",\"TP-Link\",\"networking company\"], entity[\"company\",\"EZVIZ\",\"smart camera brand\"], or entity[\"company\",\"Wyze\",\"smart home company\"]) work like this:\n\n- The camera connects to your home WiFi.\n- The camera streams video to the company’s cloud server.\n- You log into the app from anywhere.\n- As long as **both the camera and your phone have internet access**, you can view live video.\n\n👉 In this case, you do **NOT** need to be on the same WiFi network.\n\n---\n\n### ⚙️ 2. Direct / Local Network Cameras (No Cloud)\nSome cheaper mini WiFi cameras or IP cameras:\n\n- Only work on the same local WiFi network.\n- Do not support remote viewing unless you set up port forwarding or a VPN.\n- May require technical setup.\n\n👉 In this case, you **must be on the same network** unless you configure remote access manually.\n\n---\n\n### 🔎 Quick Rule\n- If the camera uses a mobile app with login → works anywhere with internet.\n- If it only shows up via IP address (like 192.168.x.x) → same network only.\n\n---\n\nIf you tell me the brand or model, I can explain exactly how that one works."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"company\",\"TP-Link\",\"networking company\"]",
+              "start_idx": 287,
+              "end_idx": 338,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "TP-Link",
+              "prompt_text": "TP-Link",
+              "type": "entity",
+              "name": "TP-Link",
+              "category": "company",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "networking company"
+              },
+              "status": "done"
+            },
+            {
+              "matched_text": "entity[\"company\",\"EZVIZ\",\"smart camera brand\"]",
+              "start_idx": 340,
+              "end_idx": 389,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "EZVIZ",
+              "prompt_text": "EZVIZ",
+              "type": "entity",
+              "name": "EZVIZ",
+              "category": "company",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "smart camera brand"
+              },
+              "status": "done"
+            },
+            {
+              "matched_text": "entity[\"company\",\"Wyze\",\"smart home company\"]",
+              "start_idx": 394,
+              "end_idx": 442,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Wyze",
+              "prompt_text": "Wyze",
+              "type": "entity",
+              "name": "Wyze",
+              "category": "company",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "smart home company"
+              },
+              "status": "done"
+            }
+          ],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "5670cd7a-3b6c-4630-a607-867b91b58afe",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "2299d413-20d2-4fa7-8d69-1e50b8527374",
+          "turn_exchange_id": "6db8b2b0-e0f0-49df-ae22-ca4ef2d548b9",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "2299d413-20d2-4fa7-8d69-1e50b8527374",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "377f5fde-6fe5-4af1-8009-262d7c5dcf45",
+  "conversation_id": "698e6441-c394-8327-97d8-10646806b2f5",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.openai.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

@@ -1,0 +1,285 @@
+{
+  "title": "Sales Experience Email Pitch",
+  "create_time": 1733334538.390764,
+  "update_time": 1733334562.940699,
+  "mapping": {
+    "bbb2311a-4f50-4249-a605-a6652078e537": {
+      "id": "bbb2311a-4f50-4249-a605-a6652078e537",
+      "message": null,
+      "parent": null,
+      "children": [
+        "ac7afc7f-78a9-4633-8a15-8cbe5c9363bf"
+      ]
+    },
+    "ac7afc7f-78a9-4633-8a15-8cbe5c9363bf": {
+      "id": "ac7afc7f-78a9-4633-8a15-8cbe5c9363bf",
+      "message": {
+        "id": "ac7afc7f-78a9-4633-8a15-8cbe5c9363bf",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2311a-4f50-4249-a605-a6652078e537",
+      "children": [
+        "bbb21b25-dfb5-464a-a666-66db97def9eb"
+      ]
+    },
+    "bbb21b25-dfb5-464a-a666-66db97def9eb": {
+      "id": "bbb21b25-dfb5-464a-a666-66db97def9eb",
+      "message": {
+        "id": "bbb21b25-dfb5-464a-a666-66db97def9eb",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733334538.394064,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Email punch line to get an interview address 7 years of sales & customer service experince"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8ecda15e3ec4a1d8-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ac7afc7f-78a9-4633-8a15-8cbe5c9363bf",
+      "children": [
+        "02b85817-bfdb-4745-9828-da9ed56a13ac"
+      ]
+    },
+    "02b85817-bfdb-4745-9828-da9ed56a13ac": {
+      "id": "02b85817-bfdb-4745-9828-da9ed56a13ac",
+      "message": {
+        "id": "02b85817-bfdb-4745-9828-da9ed56a13ac",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733334541.464643,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21b25-dfb5-464a-a666-66db97def9eb",
+          "request_id": "8ecda15e3ec4a1d8-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21b25-dfb5-464a-a666-66db97def9eb",
+      "children": [
+        "2143a58d-12b6-4efe-a3f7-61c3bf153075"
+      ]
+    },
+    "2143a58d-12b6-4efe-a3f7-61c3bf153075": {
+      "id": "2143a58d-12b6-4efe-a3f7-61c3bf153075",
+      "message": {
+        "id": "2143a58d-12b6-4efe-a3f7-61c3bf153075",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733334541.4649,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\"Leveraging 7+ years of sales and customer service expertise to drive results—let's connect to discuss how I can bring value to your team!\""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "02b85817-bfdb-4745-9828-da9ed56a13ac",
+          "request_id": "8ecda15e3ec4a1d8-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "02b85817-bfdb-4745-9828-da9ed56a13ac",
+      "children": [
+        "bbb2102c-0130-425d-96c3-45f4997a2294"
+      ]
+    },
+    "bbb2102c-0130-425d-96c3-45f4997a2294": {
+      "id": "bbb2102c-0130-425d-96c3-45f4997a2294",
+      "message": {
+        "id": "bbb2102c-0130-425d-96c3-45f4997a2294",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733334554.937929,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Elaborate"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8ecda1c59c34a1d8-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2143a58d-12b6-4efe-a3f7-61c3bf153075",
+      "children": [
+        "7f4d43c2-6257-494a-8817-dcde952f2276"
+      ]
+    },
+    "7f4d43c2-6257-494a-8817-dcde952f2276": {
+      "id": "7f4d43c2-6257-494a-8817-dcde952f2276",
+      "message": {
+        "id": "7f4d43c2-6257-494a-8817-dcde952f2276",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733334562.437132,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Subject: Experienced Sales & Customer Service Professional Ready to Add Value  \n\nDear [Recipient's Name],  \n\nI bring over 7 years of proven experience in sales and customer service, excelling in building strong client relationships, driving revenue growth, and ensuring customer satisfaction. My ability to understand customer needs, craft tailored solutions, and exceed targets has consistently contributed to business success.  \n\nI would love the opportunity to bring my expertise to your team and discuss how my skills align with your organization's goals. Could we schedule an interview to explore how I can add value and contribute to your continued success?  \n\nLooking forward to your response.  \n\nBest regards,  \n[Your Name]"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2102c-0130-425d-96c3-45f4997a2294",
+          "request_id": "8ecda1c59c34a1d8-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2102c-0130-425d-96c3-45f4997a2294",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "7f4d43c2-6257-494a-8817-dcde952f2276",
+  "conversation_id": "6750960a-0518-8011-ac4b-acc61c015c41",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

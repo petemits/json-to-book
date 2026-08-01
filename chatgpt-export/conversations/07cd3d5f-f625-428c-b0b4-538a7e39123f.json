@@ -1,0 +1,300 @@
+{
+  "title": "Truck Loan Service Excellence",
+  "create_time": 1704214606.929079,
+  "update_time": 1704217556.395727,
+  "mapping": {
+    "aaa18702-3995-45c9-8d64-420a3fba2eab": {
+      "id": "aaa18702-3995-45c9-8d64-420a3fba2eab",
+      "message": null,
+      "parent": null,
+      "children": [
+        "14dfd139-f791-4a4f-91a6-c4fb40cb2911"
+      ]
+    },
+    "14dfd139-f791-4a4f-91a6-c4fb40cb2911": {
+      "id": "14dfd139-f791-4a4f-91a6-c4fb40cb2911",
+      "message": {
+        "id": "14dfd139-f791-4a4f-91a6-c4fb40cb2911",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa18702-3995-45c9-8d64-420a3fba2eab",
+      "children": [
+        "aaa209b9-ee14-4186-a654-e63c83f5e913"
+      ]
+    },
+    "aaa209b9-ee14-4186-a654-e63c83f5e913": {
+      "id": "aaa209b9-ee14-4186-a654-e63c83f5e913",
+      "message": {
+        "id": "aaa209b9-ee14-4186-a654-e63c83f5e913",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704214606.929767,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "crate a video script for trucking loan business. add customer service level. add testimonials of satisfied customers. add: superior personal touch "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "14dfd139-f791-4a4f-91a6-c4fb40cb2911",
+      "children": [
+        "6b1031d1-064b-470b-a050-9f21f448538e"
+      ]
+    },
+    "6b1031d1-064b-470b-a050-9f21f448538e": {
+      "id": "6b1031d1-064b-470b-a050-9f21f448538e",
+      "message": {
+        "id": "6b1031d1-064b-470b-a050-9f21f448538e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704214615.875877,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "[Opening shot of a bustling highway, trucks cruising by against a picturesque sunset]\n\nVoiceover: \"In the world of trucking, every journey begins with a powerful engine and a reliable partner.\"\n\n[Transition to an office setting, a team of professionals discussing and analyzing data]\n\nVoiceover: \"Welcome to [Business Name], where your trucking dreams meet financial reality.\"\n\n[Cut to a diverse team of professionals in a meeting room, brainstorming strategies]\n\nVoiceover: \"Our commitment goes beyond just offering loans. We believe in providing a superior personal touch to every client.\"\n\n[Scene showing a representative engaging warmly with a trucking entrepreneur, discussing financial options]\n\nRepresentative: \"At [Business Name], we're not just about loans; we're about relationships. Understanding your goals helps us tailor the best financial solution for your business.\"\n\n[Cut to a montage of satisfied customers standing beside their trucks, smiling]\n\nCustomer 1: \"Thanks to [Business Name], I expanded my fleet without any hassle. Their customer service is unmatched.\"\n\nCustomer 2: \"The personal attention I received made me feel like more than just a client; they treated me like family.\"\n\n[Back to the office setting, employees working diligently]\n\nVoiceover: \"Our team's dedication to our clients goes beyond the numbers. We're here to support your growth every step of the way.\"\n\n[Close-up shots of testimonials on a webpage, showcasing positive feedback]\n\nVoiceover: \"The success stories of our satisfied customers speak volumes about our commitment to excellence.\"\n\n[Final scene: A handshake between a client and a representative, symbolizing trust and partnership]\n\nVoiceover: \"Join the family at [Business Name], where your trucking aspirations are our priority. Let's drive your success together.\"\n\n[Closing shot with the company logo and contact information displayed]\n\nVoiceover: \"[Business Name] - Empowering Your Trucking Business.\"\n\n[Fade out with uplifting music playing in the background]"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa209b9-ee14-4186-a654-e63c83f5e913",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa209b9-ee14-4186-a654-e63c83f5e913",
+      "children": [
+        "aaa2ca34-513c-4ce2-85c0-074ccc7aae69"
+      ]
+    },
+    "aaa2ca34-513c-4ce2-85c0-074ccc7aae69": {
+      "id": "aaa2ca34-513c-4ce2-85c0-074ccc7aae69",
+      "message": {
+        "id": "aaa2ca34-513c-4ce2-85c0-074ccc7aae69",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704214645.726339,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "business name gta truck loans"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6b1031d1-064b-470b-a050-9f21f448538e",
+      "children": [
+        "5fcb9f1e-d662-4f64-8e3f-65405c86a0e1"
+      ]
+    },
+    "5fcb9f1e-d662-4f64-8e3f-65405c86a0e1": {
+      "id": "5fcb9f1e-d662-4f64-8e3f-65405c86a0e1",
+      "message": {
+        "id": "5fcb9f1e-d662-4f64-8e3f-65405c86a0e1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704214654.63313,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Absolutely! Here's a revised script with the business name \"GTA Truck Loans\" integrated:\n\n---\n\n[Opening shot of a bustling highway, trucks cruising by against a picturesque sunset]\n\nVoiceover: \"In the world of trucking, every journey begins with a powerful engine and a reliable partner.\"\n\n[Transition to an office setting, a team of professionals discussing and analyzing data]\n\nVoiceover: \"Welcome to GTA Truck Loans, where your trucking dreams meet financial reality.\"\n\n[Cut to a diverse team of professionals in a meeting room, brainstorming strategies]\n\nVoiceover: \"Our commitment goes beyond just offering loans. We believe in providing a superior personal touch to every client.\"\n\n[Scene showing a representative engaging warmly with a trucking entrepreneur, discussing financial options]\n\nRepresentative: \"At GTA Truck Loans, we're not just about loans; we're about relationships. Understanding your goals helps us tailor the best financial solution for your business.\"\n\n[Cut to a montage of satisfied customers standing beside their trucks, smiling]\n\nCustomer 1: \"Thanks to GTA Truck Loans, I expanded my fleet without any hassle. Their customer service is unmatched.\"\n\nCustomer 2: \"The personal attention I received made me feel like more than just a client; they treated me like family.\"\n\n[Back to the office setting, employees working diligently]\n\nVoiceover: \"Our team's dedication to our clients goes beyond the numbers. We're here to support your growth every step of the way.\"\n\n[Close-up shots of testimonials on a webpage, showcasing positive feedback]\n\nVoiceover: \"The success stories of our satisfied customers speak volumes about our commitment to excellence.\"\n\n[Final scene: A handshake between a client and a representative, symbolizing trust and partnership]\n\nVoiceover: \"Join the family at GTA Truck Loans, where your trucking aspirations are our priority. Let's drive your success together.\"\n\n[Closing shot with the GTA Truck Loans logo and contact information displayed]\n\nVoiceover: \"GTA Truck Loans - Empowering Your Trucking Business.\"\n\n[Fade out with uplifting music playing in the background]\n\n--- \n\nHow does this sound?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2ca34-513c-4ce2-85c0-074ccc7aae69",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2ca34-513c-4ce2-85c0-074ccc7aae69",
+      "children": [
+        "aaa2f4bf-9510-4005-a21b-905474faf1dc"
+      ]
+    },
+    "aaa2f4bf-9510-4005-a21b-905474faf1dc": {
+      "id": "aaa2f4bf-9510-4005-a21b-905474faf1dc",
+      "message": {
+        "id": "aaa2f4bf-9510-4005-a21b-905474faf1dc",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704217547.403591,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "add: no watermarks videos"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5fcb9f1e-d662-4f64-8e3f-65405c86a0e1",
+      "children": [
+        "10dfc58c-846c-4052-bdab-efe89440c037"
+      ]
+    },
+    "10dfc58c-846c-4052-bdab-efe89440c037": {
+      "id": "10dfc58c-846c-4052-bdab-efe89440c037",
+      "message": {
+        "id": "10dfc58c-846c-4052-bdab-efe89440c037",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704217556.39253,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Absolutely, here's a revised version of the script that emphasizes the absence of watermarks in the videos:\n\n---\n\n[Opening shot of a bustling highway, trucks cruising by against a picturesque sunset]\n\nVoiceover: \"In the world of trucking, every journey begins with a powerful engine and a reliable partner.\"\n\n[Transition to an office setting, a team of professionals discussing and analyzing data]\n\nVoiceover: \"Welcome to GTA Truck Loans, where your trucking dreams meet financial reality.\"\n\n[Cut to a diverse team of professionals in a meeting room, brainstorming strategies]\n\nVoiceover: \"Our commitment goes beyond just offering loans. We believe in providing a superior personal touch to every client.\"\n\n[Scene showing a representative engaging warmly with a trucking entrepreneur, discussing financial options]\n\nRepresentative: \"At GTA Truck Loans, we're not just about loans; we're about relationships. Understanding your goals helps us tailor the best financial solution for your business.\"\n\n[Cut to a montage of satisfied customers standing beside their trucks, smiling]\n\nCustomer 1: \"Thanks to GTA Truck Loans, I expanded my fleet without any hassle. Their customer service is unmatched.\"\n\nCustomer 2: \"The personal attention I received made me feel like more than just a client; they treated me like family.\"\n\n[Back to the office setting, employees working diligently]\n\nVoiceover: \"Our team's dedication to our clients goes beyond the numbers. We're here to support your growth every step of the way.\"\n\n[Close-up shots of testimonials on a webpage, showcasing positive feedback]\n\nVoiceover: \"The success stories of our satisfied customers speak volumes about our commitment to excellence.\"\n\n[Final scene: A handshake between a client and a representative, symbolizing trust and partnership]\n\nVoiceover: \"Join the family at GTA Truck Loans, where your trucking aspirations are our priority. Let's drive your success together.\"\n\n[Closing shot with the GTA Truck Loans logo and contact information displayed]\n\nVoiceover: \"GTA Truck Loans - Empowering Your Trucking Business. No watermarks in our videos, just pure commitment to your success.\"\n\n[Fade out with uplifting music playing in the background]\n\n--- \n\nHow does this version work for you?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2f4bf-9510-4005-a21b-905474faf1dc",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2f4bf-9510-4005-a21b-905474faf1dc",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "10dfc58c-846c-4052-bdab-efe89440c037",
+  "conversation_id": "07cd3d5f-f625-428c-b0b4-538a7e39123f",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": null,
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

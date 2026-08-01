@@ -1,0 +1,3439 @@
+{
+  "title": "Payment dispute resolution",
+  "create_time": 1761131219.753792,
+  "update_time": 1761132882.883791,
+  "mapping": {
+    "283adef8-c566-4025-9ac2-65fe83285099": {
+      "id": "283adef8-c566-4025-9ac2-65fe83285099",
+      "message": null,
+      "parent": null,
+      "children": [
+        "92c529d8-2aff-4f66-97c1-e0fb1ce9cc67"
+      ]
+    },
+    "92c529d8-2aff-4f66-97c1-e0fb1ce9cc67": {
+      "id": "92c529d8-2aff-4f66-97c1-e0fb1ce9cc67",
+      "message": {
+        "id": "92c529d8-2aff-4f66-97c1-e0fb1ce9cc67",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "283adef8-c566-4025-9ac2-65fe83285099",
+      "children": [
+        "bbb2188a-b3a2-47e2-aec5-2d97cc525268"
+      ]
+    },
+    "bbb2188a-b3a2-47e2-aec5-2d97cc525268": {
+      "id": "bbb2188a-b3a2-47e2-aec5-2d97cc525268",
+      "message": {
+        "id": "bbb2188a-b3a2-47e2-aec5-2d97cc525268",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131219.408896,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The legal service provider of my condo corporation has given a T14 form that I tend to pay. But they keep adding on it. I want to make payment but it keeps increasing what do I do"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "b0ac096c-30a4-4af6-802e-315fafbe002e",
+          "message_source": null,
+          "turn_exchange_id": "b6059f7a-f499-4806-8cde-55c8ee9541eb",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "92c529d8-2aff-4f66-97c1-e0fb1ce9cc67",
+      "children": [
+        "f621c77c-dc91-44f9-b225-24b9a491dabb"
+      ]
+    },
+    "f621c77c-dc91-44f9-b225-24b9a491dabb": {
+      "id": "f621c77c-dc91-44f9-b225-24b9a491dabb",
+      "message": {
+        "id": "f621c77c-dc91-44f9-b225-24b9a491dabb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131219.5772486,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "b0ac096c-30a4-4af6-802e-315fafbe002e",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2188a-b3a2-47e2-aec5-2d97cc525268",
+          "turn_exchange_id": "b6059f7a-f499-4806-8cde-55c8ee9541eb",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2188a-b3a2-47e2-aec5-2d97cc525268",
+      "children": [
+        "6332a02b-8099-421f-9df2-ae140db85e82"
+      ]
+    },
+    "6332a02b-8099-421f-9df2-ae140db85e82": {
+      "id": "6332a02b-8099-421f-9df2-ae140db85e82",
+      "message": {
+        "id": "6332a02b-8099-421f-9df2-ae140db85e82",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131219.593067,
+        "update_time": 1761131233.949834,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That’s a frustrating situation, and it’s good that you’re trying to resolve it properly. Here’s how you can handle it step by step:  \n\n---\n\n### **1. Ask for a full, itemized statement**\nWrite (or email) the **legal service provider and the condo corporation** asking for:\n- A **breakdown of all charges** added to the account, including dates, reasons, and who authorized them.  \n- **Confirmation of the current balance** as of a specific date (e.g., *“Please confirm the final amount due as of October 22, 2025, so I can make payment immediately.”*).  \n- A **copy of any invoices** that justify the additional fees.\n\nIf they are acting for your condo corporation, they must provide transparent billing under the **Ontario Condominium Act**, which requires clarity in charges to owners.\n\n---\n\n### **2. Mention your intent to pay**\nYou should clearly state that you’re not refusing to pay — you just want **clarity before payment**. For example:\n\n> “I have received Form T14 and am willing to make payment, but the amount keeps changing without proper explanation. Please confirm the accurate, final amount due and provide an itemized breakdown so that I can pay promptly.”\n\nThis helps protect you if the matter ever goes to the Condominium Authority Tribunal or court — it shows good faith.\n\n---\n\n### **3. Contact the Condo Management Office**\nIf the legal firm isn’t transparent, copy your **property manager** or **condo board** on your email. State that you are trying to make payment but the legal provider is **adding unexplained charges**, and ask for their **intervention or clarification**.\n\n---\n\n### **4. Check whether they’re allowed to add ongoing legal fees**\nIn many cases, **additional legal fees** can only be added if:\n- You were notified of them in advance, **and**\n- They are **reasonable and necessary** to recover the debt.\n\nIf you believe they’re overcharging, you can dispute the charges through:\n- The **Condominium Authority Tribunal (CAT)** (for chargeback disputes),\n- Or the **Law Society of Ontario** (if you believe the lawyer is acting improperly or unethically).\n\n---\n\n### **5. Consider paying the uncontested portion**\nIf you’re ready to pay, you could pay the **amount you originally agreed to (the T14 balance)** and include a written note or email saying:\n\n> “This payment is made under protest for the confirmed amount in Form T14. Any additional charges added after this date are disputed until clarified.”\n\nThat way, you’ve shown willingness to pay while protecting your right to dispute unfair additions.\n\n---\n\nWould you like me to **draft a professional email** you can send to the legal provider and condo management stating your position and request for clarification?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "b0ac096c-30a4-4af6-802e-315fafbe002e",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "f621c77c-dc91-44f9-b225-24b9a491dabb",
+          "turn_exchange_id": "b6059f7a-f499-4806-8cde-55c8ee9541eb",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f621c77c-dc91-44f9-b225-24b9a491dabb",
+      "children": [
+        "bbb21e72-a2ca-4208-b37f-5674952a9f5c"
+      ]
+    },
+    "bbb21e72-a2ca-4208-b37f-5674952a9f5c": {
+      "id": "bbb21e72-a2ca-4208-b37f-5674952a9f5c",
+      "message": {
+        "id": "bbb21e72-a2ca-4208-b37f-5674952a9f5c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131269.528749,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Now they are me that if I talk to I have pay even it's just about the payment I want to make"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "1f39efa4-3816-46d5-87e2-610993233e18",
+          "message_source": null,
+          "turn_exchange_id": "21f15134-d72f-4a06-a657-da5554100a07",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6332a02b-8099-421f-9df2-ae140db85e82",
+      "children": [
+        "e453b976-ef25-47f2-b24d-f7288ffc9ad2"
+      ]
+    },
+    "e453b976-ef25-47f2-b24d-f7288ffc9ad2": {
+      "id": "e453b976-ef25-47f2-b24d-f7288ffc9ad2",
+      "message": {
+        "id": "e453b976-ef25-47f2-b24d-f7288ffc9ad2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131269.771361,
+        "update_time": 1761131283.27982,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "That’s not right — and you’re correct to be concerned.  \n\nIf the **condo’s legal service provider** is telling you that you must **pay just to talk about payment**, that’s **unreasonable** and possibly **unethical** under the **Law Society of Ontario’s Rules of Conduct**. Lawyers can charge for substantive legal work, but **they cannot block you from resolving a payment or force you to pay to clarify your own account**.  \n\nHere’s what you should do next — calmly and in writing:  \n\n---\n\n### 🧾 **1. Put everything in writing**\nDo **not** call them anymore — reply **by email** (so there’s a record).  \nYou can say something like this:\n\n---\n\n**Subject:** Request for Clarification and Final Balance for Payment  \n\nDear [Lawyer’s Name or Legal Firm],  \n\nI have been trying to make payment on the amount stated in Form T14. However, the balance keeps increasing, and I am now being told that I must pay even to discuss the payment itself.  \n\nI wish to make full payment and resolve this matter. Please confirm the **final total amount owing as of [today’s date]**, with a **complete itemized breakdown** of all charges added, including dates and reasons.  \n\nI am not refusing payment — I simply want to ensure I pay the correct and final amount. I would also appreciate written confirmation that communication about payment clarification will not incur additional legal fees.  \n\nThank you,  \n**Amit Puri**  \n[Your Condo Unit Number]  \n\n---\n\n### ⚖️ **2. Copy the Property Manager and Condo Board**\nSend the same email to your **condo manager** and **board of directors**.  \nThis ensures the condo corporation knows the lawyer’s conduct and can’t later claim you were uncooperative.\n\n---\n\n### 🏢 **3. If they still refuse to clarify**\nIf they continue adding charges or threaten you for asking questions:\n- File a **complaint with the Law Society of Ontario** (you can do this online).  \n- You can also contact the **Condominium Authority of Ontario (CAO)** to ask about filing with the **Condominium Authority Tribunal (CAT)** for unfair legal charge disputes.\n\nBoth agencies can review whether the lawyer and management are acting properly.\n\n---\n\n### 💡 **Tip: Protect yourself**\nKeep **all emails and letters**. Do **not pay anything extra** that you haven’t agreed to or received clear justification for.\n\n---\n\nWould you like me to help you draft a **formal version** of that email with your condo corporation’s and lawyer’s names filled in — something you can send directly to them today?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "1f39efa4-3816-46d5-87e2-610993233e18",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21e72-a2ca-4208-b37f-5674952a9f5c",
+          "turn_exchange_id": "21f15134-d72f-4a06-a657-da5554100a07",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21e72-a2ca-4208-b37f-5674952a9f5c",
+      "children": [
+        "bbb21dbf-df8d-40aa-900a-339523f45486"
+      ]
+    },
+    "bbb21dbf-df8d-40aa-900a-339523f45486": {
+      "id": "bbb21dbf-df8d-40aa-900a-339523f45486",
+      "message": {
+        "id": "bbb21dbf-df8d-40aa-900a-339523f45486",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131383.649289,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In ontario"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "41e2f0d9-cf4f-4a57-badf-1fd3c1d6029d",
+          "message_source": null,
+          "turn_exchange_id": "74c3246d-4eb7-4312-9f9d-d983add8a6ba",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e453b976-ef25-47f2-b24d-f7288ffc9ad2",
+      "children": [
+        "2e72d4b0-43aa-4e18-99f1-61793290a294"
+      ]
+    },
+    "2e72d4b0-43aa-4e18-99f1-61793290a294": {
+      "id": "2e72d4b0-43aa-4e18-99f1-61793290a294",
+      "message": {
+        "id": "2e72d4b0-43aa-4e18-99f1-61793290a294",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131383.79524,
+        "update_time": 1761131401.018869,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes — everything I mentioned **applies specifically to Ontario** under Ontario condominium law and the Law Society of Ontario’s professional rules. Here’s a clear breakdown tailored for **Ontario**:  \n\n---\n\n## 🇨🇦 Your Rights and Next Steps in Ontario\n\n### **1. You have the right to clear information before paying**\nUnder the **Ontario Condominium Act, 1998**, and the **Condominium Management Services Act**, your condo corporation (and its legal representatives) must provide **a clear explanation of charges** made to an owner’s account — especially if they are legal fees or enforcement costs.\n\nYou cannot be forced to pay additional or unexplained charges **without a full, itemized statement**.\n\n---\n\n### **2. Lawyers cannot charge you just to ask about payment**\nThe **Law Society of Ontario (LSO)** regulates lawyers and paralegals.  \nIt’s **improper and unethical** for a lawyer to say you must pay just to talk about payment or to clarify your own invoice.\n\nThey can charge for substantive legal work (like drafting letters or attending court), but **not for your attempt to understand or pay an existing balance**.\n\nIf they are threatening or refusing to clarify unless you pay, you can:\n- File a complaint with the **Law Society of Ontario’s Complaints Department**:  \n  🔗 [https://lso.ca/protecting-the-public/complaints](https://lso.ca/protecting-the-public/complaints)\n\n---\n\n### **3. Keep communication in writing**\nDo **not call them** anymore — only email or write letters so you have a record.\n\nHere’s a version of the email you can safely send:\n\n---\n\n**Subject:** Request for Clarification and Final Balance – Form T14  \n\nDear [Lawyer’s Name],  \n\nI am writing regarding the T14 form issued by your office. I have been attempting to make payment on this amount; however, I noticed that the balance continues to increase.  \n\nI have also been informed that I would be charged even for communications about the payment itself. I find this concerning, as I am simply trying to confirm and pay the correct amount.  \n\nPlease provide:  \n1. A **final itemized statement** showing the total balance due as of today’s date.  \n2. A **clear explanation** of any new or additional fees added since the T14 was issued.  \n\nI am willing to make payment promptly once I receive written confirmation of the accurate and final amount owing.  \n\nThank you for your attention to this matter.  \n\nSincerely,  \n**Amit Puri**  \n[Your Condo Unit Number]  \n[Your Address]  \n[Your Email and Phone Number]\n\n---\n\n### **4. CC your Property Manager and Condo Board**\nSend the same email to your **condo management office** and **board of directors**.  \nThis keeps them accountable and shows you are acting in good faith.\n\n---\n\n### **5. If the issue continues**\nIf they keep adding charges or refuse to explain:\n- You can file a **complaint** with:\n  - The **Law Society of Ontario** (for lawyer conduct)\n  - The **Condominium Authority Tribunal (CAT)** (for unfair condo charge disputes)  \n    🔗 [https://www.condoauthorityontario.ca/tribunal/](https://www.condoauthorityontario.ca/tribunal/)\n\n---\n\nWould you like me to help you **draft this email in a polished legal tone** (as if coming from you directly), ready to send to the lawyer and condo management?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "41e2f0d9-cf4f-4a57-badf-1fd3c1d6029d",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21dbf-df8d-40aa-900a-339523f45486",
+          "turn_exchange_id": "74c3246d-4eb7-4312-9f9d-d983add8a6ba",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21dbf-df8d-40aa-900a-339523f45486",
+      "children": [
+        "bbb2189b-de77-482a-9908-8023022576e8"
+      ]
+    },
+    "bbb2189b-de77-482a-9908-8023022576e8": {
+      "id": "bbb2189b-de77-482a-9908-8023022576e8",
+      "message": {
+        "id": "bbb2189b-de77-482a-9908-8023022576e8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131667.241682,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What do I do to make complaint"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "f54d386b-b7ca-4e4f-8172-f95581fb8751",
+          "message_source": null,
+          "turn_exchange_id": "d6cb51bd-c2ab-414f-bb62-c86a1b028321",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2e72d4b0-43aa-4e18-99f1-61793290a294",
+      "children": [
+        "69b22bfc-c8ba-4708-93b5-bb74d2a6ad92"
+      ]
+    },
+    "69b22bfc-c8ba-4708-93b5-bb74d2a6ad92": {
+      "id": "69b22bfc-c8ba-4708-93b5-bb74d2a6ad92",
+      "message": {
+        "id": "69b22bfc-c8ba-4708-93b5-bb74d2a6ad92",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131667.688606,
+        "update_time": 1761131682.090799,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good question — here’s exactly **how to file a complaint in Ontario**, depending on what part of your situation you want to challenge.  \n\n---\n\n## 🧾 If you’re complaining about the **lawyer or legal service provider**\n\nThe **Law Society of Ontario (LSO)** handles complaints about lawyers or paralegals in Ontario.\n\n### 🔹 Step-by-step to file an LSO complaint:\n1. **Go to:** [https://lso.ca/protecting-the-public/complaints](https://lso.ca/protecting-the-public/complaints)\n\n2. Scroll down and click **“File a Complaint”**.  \n   You can submit it **online** or **print and mail** a form.\n\n3. You’ll need to include:\n   - The **lawyer’s name** or **law firm name**\n   - A short explanation of your complaint (e.g., *“I was told I must pay to discuss my payment and charges keep increasing without explanation.”*)\n   - Any **emails, letters, or invoices** that show what happened.\n\n4. The LSO will contact you by email or phone to confirm your complaint.  \n   They can **investigate misconduct** or unethical billing practices.\n\n---\n\n## 🏢 If your complaint is about the **condo corporation or management**\n\nThen you go through the **Condominium Authority of Ontario (CAO)** or its **Tribunal (CAT)**.\n\n### 🔹 Step-by-step to file a condo complaint:\n1. Go to: [https://www.condoauthorityontario.ca/tribunal/](https://www.condoauthorityontario.ca/tribunal/)  \n2. Click **“Start a Case”**.\n3. You’ll be guided through the process online.  \n   You’ll need:\n   - Your condo name and unit number  \n   - Copies of **emails, letters, invoices, and Form T14**  \n   - A short explanation, e.g.:  \n     > “The condo’s legal service provider keeps adding unexplained charges to my account and refuses to discuss payment unless I pay additional fees.”  \n\n4. The CAO/CAT process starts with **negotiation**, then **formal review** if it’s not resolved.\n\n---\n\n## ⚖️ You can also do both\nIf the **lawyer’s conduct** is the problem → **Law Society of Ontario**  \nIf the **condo or management company** is allowing or causing it → **CAO Tribunal**\n\nYou can file both complaints — they look at different aspects.\n\n---\n\nWould you like me to **help you write your complaint text** (what to say on the form for the LSO or CAT)?  \nI can make it short, clear, and professional so you can copy-paste it directly into the online complaint form."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "f54d386b-b7ca-4e4f-8172-f95581fb8751",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2189b-de77-482a-9908-8023022576e8",
+          "turn_exchange_id": "d6cb51bd-c2ab-414f-bb62-c86a1b028321",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2189b-de77-482a-9908-8023022576e8",
+      "children": [
+        "bbb218f0-ca08-4419-b090-6608fde91f56"
+      ]
+    },
+    "bbb218f0-ca08-4419-b090-6608fde91f56": {
+      "id": "bbb218f0-ca08-4419-b090-6608fde91f56",
+      "message": {
+        "id": "bbb218f0-ca08-4419-b090-6608fde91f56",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131783.934053,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is cao tribunal"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "2f91a3f3-32dc-4ff7-bd6c-2fbf7e69b4fd",
+          "message_source": null,
+          "turn_exchange_id": "684df5cf-6709-407a-9e68-fc4fde1f3515",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "69b22bfc-c8ba-4708-93b5-bb74d2a6ad92",
+      "children": [
+        "676df820-f179-469b-9f7f-a99937b37d19"
+      ]
+    },
+    "676df820-f179-469b-9f7f-a99937b37d19": {
+      "id": "676df820-f179-469b-9f7f-a99937b37d19",
+      "message": {
+        "id": "676df820-f179-469b-9f7f-a99937b37d19",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131784.042652,
+        "update_time": 1761131799.965975,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Excellent question — here’s a clear explanation of what the **CAO Tribunal** is and how it helps you in your situation in **Ontario** 👇  \n\n---\n\n## 🏛️ What Is the CAO Tribunal (CAT)?\nThe **Condominium Authority Tribunal (CAT)** is part of the **Condominium Authority of Ontario (CAO)** — a government-established body that helps **condo owners, boards, and managers resolve disputes** **without going to court**.\n\nIt’s like a small online court specifically for **condo-related issues**.\n\n---\n\n## ⚖️ What the CAT Does\nThe **CAT** handles disputes between:\n- **Condo owners** (like you)  \n- **Condo corporations** (your building’s board or management)  \n\nIt provides a **step-by-step online process** to solve problems such as:\n- Incorrect or **unreasonable charges** added to your condo account  \n- **Unexplained legal fees** or administrative fees  \n- **Access to condo records or financial statements**  \n- **Unfair actions by the condo board or manager**\n\n---\n\n## 💻 How It Works\nEverything is done **online** — you don’t need a lawyer.\n\n### The 3 Stages:\n1. **Negotiation** – You and the condo try to settle the issue informally using the CAT’s secure online platform.  \n2. **Mediation** – If negotiation fails, a CAT mediator helps both sides reach an agreement.  \n3. **Tribunal Decision** – If no agreement, a CAT **Member (like a judge)** reviews the evidence and makes a **binding legal decision**.  \n\nThe process is **much cheaper and faster** than court — most fees are under **$50–$200 total**.\n\n---\n\n## 📌 Why You Might Use It\nIn your case, the CAT can help if:\n- The condo’s **lawyer or management** keeps **adding charges** unfairly.  \n- You’re being **charged without explanation**.  \n- You’re being **harassed or threatened** over payments you’re trying to make.  \n\n---\n\n## 🧾 How to Start a Case\n1. Go to: [https://www.condoauthorityontario.ca/tribunal/](https://www.condoauthorityontario.ca/tribunal/)  \n2. Click **“Start a Case”**.  \n3. You’ll create an account and fill in:\n   - Your name and condo unit number  \n   - The condo corporation’s name  \n   - A short summary (I can help you write this)  \n   - Attach **emails, letters, invoices**, and **Form T14**  \n\nThen you’ll be guided step by step.\n\n---\n\nWould you like me to write a **ready-to-submit summary** you can paste into the CAT complaint form describing your issue (about the T14, increasing balance, and refusal to talk unless you pay)?  \nIt’ll sound professional and clear."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "2f91a3f3-32dc-4ff7-bd6c-2fbf7e69b4fd",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb218f0-ca08-4419-b090-6608fde91f56",
+          "turn_exchange_id": "684df5cf-6709-407a-9e68-fc4fde1f3515",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb218f0-ca08-4419-b090-6608fde91f56",
+      "children": [
+        "bbb21638-dad6-4c7e-bbe1-6494cc31f957"
+      ]
+    },
+    "bbb21638-dad6-4c7e-bbe1-6494cc31f957": {
+      "id": "bbb21638-dad6-4c7e-bbe1-6494cc31f957",
+      "message": {
+        "id": "bbb21638-dad6-4c7e-bbe1-6494cc31f957",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131873.931892,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Is there not free service that I use to conplaint"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "bc25b031-111f-4260-aebc-a84955e0ccbc",
+          "message_source": null,
+          "turn_exchange_id": "b863ac3e-0555-473e-aa8a-50e64dd1c0c6",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "676df820-f179-469b-9f7f-a99937b37d19",
+      "children": [
+        "e4cc856e-f76e-4b1f-80ea-fa81c2495ab3"
+      ]
+    },
+    "e4cc856e-f76e-4b1f-80ea-fa81c2495ab3": {
+      "id": "e4cc856e-f76e-4b1f-80ea-fa81c2495ab3",
+      "message": {
+        "id": "e4cc856e-f76e-4b1f-80ea-fa81c2495ab3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761131874.0819464,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"Is there not free service that I use to conplaint\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "bc25b031-111f-4260-aebc-a84955e0ccbc",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21638-dad6-4c7e-bbe1-6494cc31f957",
+          "turn_exchange_id": "b863ac3e-0555-473e-aa8a-50e64dd1c0c6",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "bbb21638-dad6-4c7e-bbe1-6494cc31f957",
+      "children": [
+        "2f83e6f9-89b4-4f09-b520-bbe4faf94ce4"
+      ]
+    },
+    "2f83e6f9-89b4-4f09-b520-bbe4faf94ce4": {
+      "id": "2f83e6f9-89b4-4f09-b520-bbe4faf94ce4",
+      "message": {
+        "id": "2f83e6f9-89b4-4f09-b520-bbe4faf94ce4",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1761131874.9706743,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "Condominium Authority Tribunal fees Ontario cost"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "bc25b031-111f-4260-aebc-a84955e0ccbc",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "e4cc856e-f76e-4b1f-80ea-fa81c2495ab3",
+          "turn_exchange_id": "b863ac3e-0555-473e-aa8a-50e64dd1c0c6",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4cc856e-f76e-4b1f-80ea-fa81c2495ab3",
+      "children": [
+        "60b75e1f-fd79-4b27-9d4b-e25ce7b11f54"
+      ]
+    },
+    "60b75e1f-fd79-4b27-9d4b-e25ce7b11f54": {
+      "id": "60b75e1f-fd79-4b27-9d4b-e25ce7b11f54",
+      "message": {
+        "id": "60b75e1f-fd79-4b27-9d4b-e25ce7b11f54",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1761131874.969258,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "www.condoauthorityontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/",
+                  "title": "About the Tribunal - Condominium Authority of Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "www.condoauthorityontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/",
+                  "title": "CAO Funding & Fees - Condominium Authority of Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "www.condoauthorityontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf",
+                  "title": "",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "www.condoauthorityontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/09/IPAC-Backgrounder.pdf",
+                  "title": "Condominium Authority of Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "www.condoauthorityontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/Annual-Report-2019-20.pdf",
+                  "title": "www.condoauthorityontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "www.condoauthorityontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/CAO-Annual-Report-2017-2018-3.pdf",
+                  "title": "Condominium Authority of Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "www.condoauthorityontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/05/2023-24-CAO-SBPlan_EN_FINAL_interactive.pdf",
+                  "title": "Strategic &",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "www.condoauthorityontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.rcllp.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.rcllp.ca/post/ontcondolaw/the-condo-authority-of-ontario",
+                  "title": "The Condo Authority of Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "www.rcllp.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ycc84.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ycc84.ca/ontario-condo-office-1",
+                  "title": "Ontario - Condo Office",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "ycc84.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.legalline.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalline.ca/legal-answers/filing-a-complaint/",
+                  "title": "Filing a case with the tribunal - FREE Legal Information | Legal Line",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "www.legalline.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "genedco.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://genedco.ca/wp-content/uploads/2021/04/Condominium-Buyers-Guide.pdf",
+                  "title": "",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "genedco.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/condominium-law-changes",
+                  "title": "Condominium law changes | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.lawtimesnews.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.lawtimesnews.com/news/features/condo-tribunal-wont-award-costs-to-winning-litigants/262882",
+                  "title": "Condo tribunal won’t award costs to winning litigants | Law Times",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "www.lawtimesnews.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "olt.gov.on.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://olt.gov.on.ca/fee-chart/",
+                  "title": "Fee Chart | Ontario Land Tribunal",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "olt.gov.on.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "condoadviser.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://condoadviser.ca/2017/07/how-much-will-the-condo-authority-cost-condo-owners/condo-law-blog-Ontario",
+                  "title": "How Much will the Condo Authority Cost Condo Owners? - Condo Adviser",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "condoadviser.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "devrylaw.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://devrylaw.ca/condominium-disputes/",
+                  "title": "Condominium Disputes | Devry Smith Frank LLP",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "devrylaw.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.larlyn.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/",
+                  "title": "What Fees Does the Condominium Authority of Ontario Charge? | Larlyn Property Management",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "www.larlyn.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "dhacondolaw.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://dhacondolaw.ca/condo-law-news/cao-and-cat-proposed-fees/",
+                  "title": "CAO and CAT Proposed Fees - Davidson Houle Allen",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "dhacondolaw.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/TorontoRealEstate/comments/1dg7sov",
+                  "title": "Is this even legal? Condo corp charging more than the $100 max for status certificate",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 18
+                  },
+                  "pub_date": 1718418596.885,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/1eq421m",
+                  "title": "Is it typical for lawyers not to charge way beyond what was quoted?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 19
+                  },
+                  "pub_date": 1723434899.13,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/legaladvicecanada/comments/1o9i94s",
+                  "title": "Condo management charged us for an extra parking spot months after we asked for it to stop",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 20
+                  },
+                  "pub_date": 1760748643.701,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/RealEstateCanada/comments/1eq4hap",
+                  "title": "Am I right to feel nickel and dime by my lawyer? did you have similar disbursements when you bought your property: Total $4023.66 for a townhouse",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 21
+                  },
+                  "pub_date": 1723436302.062,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ontario/comments/13py7ih",
+                  "title": "Condo charging fee to booking use of elevator, but refusing to issue receipt for fees paid.",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 22
+                  },
+                  "pub_date": 1684870273.927,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/Winnipeg/comments/16svlzk",
+                  "title": "Condo documents price gouging",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 23
+                  },
+                  "pub_date": 1695752494.23,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/RealEstateCanada/comments/1ihzx6e",
+                  "title": "What are expected closing costs in Ontario?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1738723315.375,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/OakvilleON/comments/1clb0j2",
+                  "title": "Does anyone know where you can complain about condo management services ?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1714971745.385,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/PersonalFinanceCanada/comments/1anu4td",
+                  "title": "Over 10% Condo Maintenance Fee Hike - Yours as well?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 26
+                  },
+                  "pub_date": 1707609263.552,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/canadahousing/comments/1169kku",
+                  "title": "Tribunal finds tenant, condo owner jointly responsible for tenant's disruptive behaviour. 26k cost award",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 27
+                  },
+                  "pub_date": 1676811125.727,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/OntarioLandlord/comments/1bd0fxu",
+                  "title": "Is a \"move-in charge\" or \"move-in fee\" legal in Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 28
+                  },
+                  "pub_date": 1710258418.736,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ontario/comments/116dg49",
+                  "title": "Tribunal finds tenant, condo owner jointly responsible for tenant's disruptive behaviour",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 29
+                  },
+                  "pub_date": 1676818985.433,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_68f8bd63015083279ba72b7fdae6c167",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "bc25b031-111f-4260-aebc-a84955e0ccbc",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "2f83e6f9-89b4-4f09-b520-bbe4faf94ce4",
+          "turn_exchange_id": "b863ac3e-0555-473e-aa8a-50e64dd1c0c6",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2f83e6f9-89b4-4f09-b520-bbe4faf94ce4",
+      "children": [
+        "78421313-ec8f-4762-9327-a011fffffe56"
+      ]
+    },
+    "78421313-ec8f-4762-9327-a011fffffe56": {
+      "id": "78421313-ec8f-4762-9327-a011fffffe56",
+      "message": {
+        "id": "78421313-ec8f-4762-9327-a011fffffe56",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1761131875.841822,
+        "update_time": 1761131883.177957,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes — there *is* a relatively low-cost route via the entity[\"organization\", \"Condominium Authority of Ontario\", 0] (“CAO”) and its entity[\"organization\", \"Condominium Authority Tribunal\", 0] (“CAT”) — but it is **not entirely free**. Here are the details and some alternatives:\n\n---\n\n### ✅ What the CAT offers  \n- You can file a dispute online with CAT, without going to traditional court. citeturn0search0turn0search1turn0search12  \n- The process is staged:  \n  - **Stage 1 – Negotiation** (applicant pays) citeturn0search10turn0search12  \n  - **Stage 2 – Mediation** (if needed) citeturn0search1turn0search0  \n  - **Stage 3 – Adjudication** (a binding decision) citeturn0search10turn0search12  \n- Fees are modest compared to other legal processes. For example: Stage 1 fee is $25; Stage 2 is $50; Stage 3 is $125. Total if you go through all stages: ~$200. citeturn0search12turn0search1  \n- If you succeed, you *may* be reimbursed for your CAT-fees by the losing party. citeturn0search12turn0search1  \n- You don’t *have* to go all the way — if your matter resolves early in negotiation, it costs less. citeturn0search14  \n\n---\n\n### ⚠️ What it doesn’t offer (i.e., not *free free*)  \n- You still **must pay** the filing fee (minimum $25) at the start. citeturn0search4  \n- It’s not free in the sense of “no cost whatsoever.”  \n- Legal representation (lawyers) may still be needed in some complicated cases, which adds cost. Although CAT is designed for self-representation. citeturn0search0  \n- Some disputes *may not* fall within CAT’s jurisdiction. You’ll need to check if your specific dispute qualifies. citeturn0search2turn0search0  \n\n---\n\n### 🛠 Alternatives / Additional options  \n- You can **complain to the entity[\"organization\", \"Law Society of Ontario\", 0] (LSO)** about the lawyer’s conduct (if you believe they’re acting unethically). That complaint process may not cost filing fees (depending on the nature of the complaint).  \n- Use the CAO’s **self-help resources** (guides, templates, info) free of cost — they provide tools without filing a dispute. citeturn0search10  \n- Before escalating to CAT or LSO, you might send a **strong written request** to the condo corporation + lawyer demanding clarification of charges (which costs you nothing but time) — you’ve been doing this.\n\n---\n\n### 🔍 My recommendation for your case  \nSince you’re dealing with unexplained (and increasing) charges and difficulty getting clarification:  \n- Use the self-help tools from CAO first — free.  \n- If the condo lawyer refuses clarification and you believe the charges are unfair: consider filing in CAT for your dispute over those charges. Be aware you’ll need to pay the small fee (starting $25) unless you’re reimbursed later.  \n- Simultaneously you might **file a complaint** with LSO about the lawyer being unwilling to clarify unless you pay — that may not cost you the CAT-fee.\n\n---\n\nIf you like, I can **check whether your specific type of dispute** (legal charges by condo lawyer, increasing T14 balance) is *within CAT’s jurisdiction* (i.e., whether it qualifies for them to hear it). Would that be helpful?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "entity[\"organization\", \"Condominium Authority of Ontario\", 0]",
+              "start_idx": 53,
+              "end_idx": 117,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Condominium Authority of Ontario",
+              "prompt_text": null,
+              "type": "alt_text"
+            },
+            {
+              "matched_text": "entity[\"organization\", \"Condominium Authority Tribunal\", 0]",
+              "start_idx": 134,
+              "end_idx": 196,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Condominium Authority Tribunal",
+              "prompt_text": null,
+              "type": "alt_text"
+            },
+            {
+              "matched_text": "citeturn0search0turn0search1turn0search12",
+              "start_idx": 396,
+              "end_idx": 442,
+              "safe_urls": [
+                "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+                "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+                "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Condominium Authority of Ontario](https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "About the Tribunal - Condominium Authority of Ontario",
+                  "url": "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "CAO Funding & Fees - Condominium Authority of Ontario",
+                      "url": "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Condominium Authority of Ontario"
+                    },
+                    {
+                      "title": "",
+                      "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Condominium Authority of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Condominium Authority of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search10turn0search12",
+              "start_idx": 519,
+              "end_idx": 553,
+              "safe_urls": [
+                "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+                "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([larlyn.com](https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "What Fees Does the Condominium Authority of Ontario Charge? | Larlyn Property Management",
+                  "url": "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "",
+                      "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Condominium Authority of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "larlyn.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1turn0search0",
+              "start_idx": 596,
+              "end_idx": 628,
+              "safe_urls": [
+                "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+                "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Condominium Authority of Ontario](https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "CAO Funding & Fees - Condominium Authority of Ontario",
+                  "url": "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "About the Tribunal - Condominium Authority of Ontario",
+                      "url": "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Condominium Authority of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Condominium Authority of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search10turn0search12",
+              "start_idx": 683,
+              "end_idx": 717,
+              "safe_urls": [
+                "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+                "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([larlyn.com](https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "What Fees Does the Condominium Authority of Ontario Charge? | Larlyn Property Management",
+                  "url": "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "",
+                      "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Condominium Authority of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "larlyn.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search12turn0search1",
+              "start_idx": 882,
+              "end_idx": 915,
+              "safe_urls": [
+                "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+                "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Condominium Authority of Ontario](https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "",
+                  "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "CAO Funding & Fees - Condominium Authority of Ontario",
+                      "url": "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Condominium Authority of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Condominium Authority of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search12turn0search1",
+              "start_idx": 999,
+              "end_idx": 1032,
+              "safe_urls": [
+                "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+                "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Condominium Authority of Ontario](https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "",
+                  "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "CAO Funding & Fees - Condominium Authority of Ontario",
+                      "url": "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Condominium Authority of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Condominium Authority of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search14",
+              "start_idx": 1135,
+              "end_idx": 1155,
+              "safe_urls": [
+                "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/Annual-Report-2019-20.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Condominium Authority of Ontario](https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/Annual-Report-2019-20.pdf?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "www.condoauthorityontario.ca",
+                  "url": "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/Annual-Report-2019-20.pdf?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 14
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Condominium Authority of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search4",
+              "start_idx": 1287,
+              "end_idx": 1306,
+              "safe_urls": [
+                "https://www.legalline.ca/legal-answers/filing-a-complaint/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([FREE Legal Information | Legal Line](https://www.legalline.ca/legal-answers/filing-a-complaint/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Filing a case with the tribunal - FREE Legal Information | Legal Line",
+                  "url": "https://www.legalline.ca/legal-answers/filing-a-complaint/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "FREE Legal Information | Legal Line"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 1512,
+              "end_idx": 1531,
+              "safe_urls": [
+                "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Condominium Authority of Ontario](https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "About the Tribunal - Condominium Authority of Ontario",
+                  "url": "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Condominium Authority of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search2turn0search0",
+              "start_idx": 1649,
+              "end_idx": 1681,
+              "safe_urls": [
+                "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+                "https://www.rcllp.ca/post/ontcondolaw/the-condo-authority-of-ontario?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Robson Carpenter LLP](https://www.rcllp.ca/post/ontcondolaw/the-condo-authority-of-ontario?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "The Condo Authority of Ontario",
+                  "url": "https://www.rcllp.ca/post/ontcondolaw/the-condo-authority-of-ontario?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "About the Tribunal - Condominium Authority of Ontario",
+                      "url": "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Condominium Authority of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Robson Carpenter LLP"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "entity[\"organization\", \"Law Society of Ontario\", 0]",
+              "start_idx": 1760,
+              "end_idx": 1814,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Law Society of Ontario",
+              "prompt_text": null,
+              "type": "alt_text"
+            },
+            {
+              "matched_text": "citeturn0search10",
+              "start_idx": 2115,
+              "end_idx": 2135,
+              "safe_urls": [
+                "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([larlyn.com](https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "What Fees Does the Condominium Authority of Ontario Charge? | Larlyn Property Management",
+                  "url": "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "larlyn.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 3167,
+              "end_idx": 3167,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "About the Tribunal - Condominium Authority of Ontario",
+                  "url": "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+                  "attribution": "Condominium Authority of Ontario"
+                },
+                {
+                  "title": "What Fees Does the Condominium Authority of Ontario Charge? | Larlyn Property Management",
+                  "url": "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com",
+                  "attribution": "larlyn.com"
+                },
+                {
+                  "title": "Filing a case with the tribunal - FREE Legal Information | Legal Line",
+                  "url": "https://www.legalline.ca/legal-answers/filing-a-complaint/?utm_source=chatgpt.com",
+                  "attribution": "FREE Legal Information | Legal Line"
+                },
+                {
+                  "title": "The Condo Authority of Ontario",
+                  "url": "https://www.rcllp.ca/post/ontcondolaw/the-condo-authority-of-ontario?utm_source=chatgpt.com",
+                  "attribution": "Robson Carpenter LLP"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+            "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+            "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/Annual-Report-2019-20.pdf?utm_source=chatgpt.com",
+            "https://www.legalline.ca/legal-answers/filing-a-complaint/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+            "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+            "https://www.rcllp.ca/post/ontcondolaw/the-condo-authority-of-ontario?utm_source=chatgpt.com",
+            "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "ycc84.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ycc84.ca/ontario-condo-office-1?utm_source=chatgpt.com",
+                  "title": "Ontario - Condo Office",
+                  "snippet": "331 Military Trail, Scarborough, Ontario M1E 4E3, Canada  ycc84@ycc84.ca  YORK CONDO CORP. NO. 84 CHESHIRE PLACE  ONTARIO - CONDO OFFICE  Click on the file name to download the fiel. Open the file.  8...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "ycc84.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/condominium-law-changes?utm_source=chatgpt.com",
+                  "title": "Condominium law changes | ontario.ca",
+                  "snippet": "STREAMLINE DISPUTE RESOLUTION  The review of the Condominium Act revealed a frequent power imbalance during disputes between condo boards and owners.  The basic tools for resolving disputes under the...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "lawtimesnews.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.lawtimesnews.com/news/features/condo-tribunal-wont-award-costs-to-winning-litigants/262882?utm_source=chatgpt.com",
+                  "title": "Condo tribunal won’t award costs to winning litigants | Law Times",
+                  "snippet": "CONDO TRIBUNAL WON’T AWARD COSTS TO WINNING LITIGANTS  The new Condominium Authority Tribunal — the province’s first of its kind launched last November — is designed to quickly resolve condominium dis...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "lawtimesnews.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "gov.on.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://olt.gov.on.ca/fee-chart/?utm_source=chatgpt.com",
+                  "title": "Fee Chart | Ontario Land Tribunal",
+                  "snippet": "Fees are payable by certified cheque, money order, or credit card, and must be in Canadian funds. Certified cheques and money orders should be made payable to the “Minister of Finance.”  If you are su...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "gov.on.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "condoadviser.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://condoadviser.ca/2017/07/how-much-will-the-condo-authority-cost-condo-owners/condo-law-blog-Ontario?utm_source=chatgpt.com",
+                  "title": "How Much will the Condo Authority Cost Condo Owners? - Condo Adviser",
+                  "snippet": "Reliable and timely advice for all of your condominium legal needs in Ontario.  SUBSCRIBE  SEARCH BY TOPIC  Select a Topic Access to unit Accommodation AGM Agreements Alterations Amendments to the Con...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "condoadviser.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "devrylaw.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://devrylaw.ca/condominium-disputes/?utm_source=chatgpt.com",
+                  "title": "Condominium Disputes | Devry Smith Frank LLP",
+                  "snippet": "DSF Announcements Make A Payment Careers Testimonials Blogs  Locations  info@devrylaw.ca 416-449-1400  LAWYER SEARCH  Condominium Law Reforms  The tools for resolving disputes under the Condominium Ac...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "devrylaw.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "dhacondolaw.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://dhacondolaw.ca/condo-law-news/cao-and-cat-proposed-fees/?utm_source=chatgpt.com",
+                  "title": "CAO and CAT Proposed Fees - Davidson Houle Allen",
+                  "snippet": "Article  CAO AND CAT PROPOSED FEES  July 5, 2017 | James Davidson,  Categories  CAO, CAT, Condominium  We now have the proposed fee (payable by all Ontario condominium owners) for the new Condominium...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "dhacondolaw.ca"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "bc25b031-111f-4260-aebc-a84955e0ccbc",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "60b75e1f-fd79-4b27-9d4b-e25ce7b11f54",
+          "turn_exchange_id": "b863ac3e-0555-473e-aa8a-50e64dd1c0c6",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "60b75e1f-fd79-4b27-9d4b-e25ce7b11f54",
+      "children": [
+        "bbb212d7-5bf4-4f83-b5da-b50336ce6448"
+      ]
+    },
+    "bbb212d7-5bf4-4f83-b5da-b50336ce6448": {
+      "id": "bbb212d7-5bf4-4f83-b5da-b50336ce6448",
+      "message": {
+        "id": "bbb212d7-5bf4-4f83-b5da-b50336ce6448",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761132012.348118,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Is complaint with lao is free of charge"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "48866456-2e30-4c5c-880b-8352d13f7b8e",
+          "message_source": null,
+          "turn_exchange_id": "f28b1915-3892-45b8-b60a-64a219f9598c",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "78421313-ec8f-4762-9327-a011fffffe56",
+      "children": [
+        "ead05224-7846-4570-948c-13e816f816de"
+      ]
+    },
+    "ead05224-7846-4570-948c-13e816f816de": {
+      "id": "ead05224-7846-4570-948c-13e816f816de",
+      "message": {
+        "id": "ead05224-7846-4570-948c-13e816f816de",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761132012.475267,
+        "update_time": 1761132026.201106,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes ✅ — a **complaint with the Law Society of Ontario (LSO)** (not “LAO,” which is Legal Aid Ontario — different organization) is **completely free of charge**.  \n\nHere’s the clear breakdown 👇  \n\n---\n\n## ⚖️ **Law Society of Ontario (LSO) – Complaints**\nThe **LSO** regulates **lawyers and paralegals** in Ontario.  \nThey handle complaints about:\n- Overcharging or unfair billing  \n- Dishonest or unethical conduct  \n- Harassment, threats, or refusal to communicate properly  \n- Failing to explain your account clearly  \n\n---\n\n### 💰 **Cost**\n**There is no fee** to make a complaint.  \nIt’s **100% free** — you can submit it **online**, by **email**, or **by mail**.\n\n---\n\n### 🧾 **What you’ll need**\nWhen filing, you should include:\n1. The **lawyer’s name** or **law firm**  \n2. A short summary of what happened  \n3. Copies of **emails, letters, or invoices** showing the problem (for example, that they keep adding charges or refuse to talk unless you pay)  \n\n---\n\n### 🌐 **How to file**\nYou can file directly here:  \n👉 [**https://lso.ca/protecting-the-public/complaints**](https://lso.ca/protecting-the-public/complaints)\n\nClick **“File a Complaint”**, and you’ll see three options:\n- **Online form** (fastest)  \n- **Printable form (PDF)**  \n- **Email submission** (you can attach your documents)\n\n---\n\n### 🕓 **After you file**\n- You’ll get confirmation within a few days.  \n- An **intake officer** may contact you to get more details.  \n- The LSO can open an **investigation** and, if necessary, take **disciplinary action** against the lawyer.\n\n---\n\n### ⚠️ Important:\nDon’t confuse this with **Legal Aid Ontario (LAO)** — that service provides free or low-cost lawyers to people with low income.  \nThe **Law Society of Ontario (LSO)** is the **regulator** — they ensure lawyers follow ethical and professional rules.\n\n---\n\nWould you like me to help you **draft a short, clear complaint statement** you can copy-paste into the LSO’s online form? It’ll describe your situation (the T14 form, the added charges, and being told you must pay to talk) in professional wording."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "48866456-2e30-4c5c-880b-8352d13f7b8e",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb212d7-5bf4-4f83-b5da-b50336ce6448",
+          "turn_exchange_id": "f28b1915-3892-45b8-b60a-64a219f9598c",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb212d7-5bf4-4f83-b5da-b50336ce6448",
+      "children": [
+        "bbb210b9-be00-459d-b036-e71224e17ddf"
+      ]
+    },
+    "bbb210b9-be00-459d-b036-e71224e17ddf": {
+      "id": "bbb210b9-be00-459d-b036-e71224e17ddf",
+      "message": {
+        "id": "bbb210b9-be00-459d-b036-e71224e17ddf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761132875.129016,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I don't see a complaint form on lso"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "3f43405d-cca8-4495-ac57-738c678779f6",
+          "message_source": null,
+          "turn_exchange_id": "b2abe4aa-e0c2-4de1-9f40-7668c044279c",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ead05224-7846-4570-948c-13e816f816de",
+      "children": [
+        "9605ddeb-5205-4a38-865b-e899cc646724"
+      ]
+    },
+    "9605ddeb-5205-4a38-865b-e899cc646724": {
+      "id": "9605ddeb-5205-4a38-865b-e899cc646724",
+      "message": {
+        "id": "9605ddeb-5205-4a38-865b-e899cc646724",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761132875.6401436,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"I don't see a complaint form on lso\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "3f43405d-cca8-4495-ac57-738c678779f6",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb210b9-be00-459d-b036-e71224e17ddf",
+          "turn_exchange_id": "b2abe4aa-e0c2-4de1-9f40-7668c044279c",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "bbb210b9-be00-459d-b036-e71224e17ddf",
+      "children": [
+        "e5c42554-fc70-42af-8e47-35984cb0371f"
+      ]
+    },
+    "e5c42554-fc70-42af-8e47-35984cb0371f": {
+      "id": "e5c42554-fc70-42af-8e47-35984cb0371f",
+      "message": {
+        "id": "e5c42554-fc70-42af-8e47-35984cb0371f",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_default",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1761132876.339954,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "Law Society of Ontario file a complaint lawyer"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "3f43405d-cca8-4495-ac57-738c678779f6",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "9605ddeb-5205-4a38-865b-e899cc646724",
+          "turn_exchange_id": "b2abe4aa-e0c2-4de1-9f40-7668c044279c",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9605ddeb-5205-4a38-865b-e899cc646724",
+      "children": [
+        "40ea5bbb-8b2a-443b-a712-c96d27c6f42d"
+      ]
+    },
+    "40ea5bbb-8b2a-443b-a712-c96d27c6f42d": {
+      "id": "40ea5bbb-8b2a-443b-a712-c96d27c6f42d",
+      "message": {
+        "id": "40ea5bbb-8b2a-443b-a712-c96d27c6f42d",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_default",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1761132876.3374856,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "lso.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/protecting-the-public/complaints",
+                  "title": "Complaints | Law Society of Ontario",
+                  "snippet": "Before you make a complaint about a lawyer or paralegal to the Law Society: · 1. Try to resolve the problem first. · 2. If your complaint is not resolved after ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-process",
+                  "title": "The complaints process | Law Society of Ontario",
+                  "snippet": "If you wish to make a complaint, you must set up an LSO Connects Account where you will have access to our online complaint form. LSO Connects is the Law ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/lawyers/about-your-licence/manage-your-licence/if-you-are-the-subject-of-a-complaint",
+                  "title": "If you are the subject of a complaint - Lawyer | Law Society of Ontario",
+                  "snippet": "To arrange to speak with duty counsel, please email scheduling@lstribunal.ca or call 416-947-3908. Legal representation. You may retain a legal representative ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/paralegals/about-your-licence/manage-your-licence/if-you-are-the-subject-of-a-complaint",
+                  "title": "If you are the subject of a complaint - Paralegal",
+                  "snippet": "One of the Law Society's most important responsibilities is to respond to complaints about lawyers and paralegals. Our complaints process is principled and ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/dhc/services",
+                  "title": "Services | Law Society of Ontario",
+                  "snippet": "If you would like the conduct of a lawyer or a paralegal to be investigated, you should consider making a complaint. The DHC does not provide legal advice ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/lawyers/practice-supports-and-resources/practice-management-helpline",
+                  "title": "Practice Management Helpline - Lawyer - Law Society of Ontario",
+                  "snippet": "Please call 416-947-3315 or 1-800-668-7380 and dial extension 3315 for the Helpline. Because of the Helpline's call volume, it may be necessary for you to leave ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-resolution-commissioner",
+                  "title": "Office of the Complaints Resolution Commissioner",
+                  "snippet": "The Complaints Resolution Commissioner independently reviews disputed complaints made to the Law Society to make sure they were handled appropriately and ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-about-legal-fees",
+                  "title": "Complaints about legal fees | Law Society of Ontario",
+                  "snippet": "Submit a complaint in writing to the Law Society. Once you have received your bill, you have two options if you think your lawyer or paralegal has charged you ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/home",
+                  "title": "Law Society of Ontario",
+                  "snippet": "Before you make a complaint to the Law Society, you should try to resolve the problem first. Speak with your lawyer or paralegal about your concerns - most want ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/protecting-the-public/complaints/protocol-for-complaints-by-courts-and-tribunals",
+                  "title": "Protocol for complaints by courts and tribunals - Law Society of Ontario",
+                  "snippet": "The Law Society has protocols in place to effectively handle complaints from Ontario judges, justices of the peace and tribunal adjudicators about lawyers ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "settlement.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://settlement.org/ontario/legal-services/lawyers-and-other-legal-help/find-a-lawyer/how-do-i-complain-about-a-lawyer/",
+                  "title": "How do I complain about a lawyer? - Settlement.Org",
+                  "snippet": "You can make a complaint to the Law Society of Ontario (LSO). The LSO can investigate your complaint and, if necessary, discipline your lawyer or paralegal.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": 1707091200,
+                  "attribution": "settlement.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/afbya7/ontario_filing_a_complaint_against_lawyer/",
+                  "title": "[Ontario] Filing a complaint against lawyer : r/legaladvicecanada",
+                  "snippet": "Your first recourse should be to make a complaint to the Law Society of Ontario, you can find the complaints process and information in that ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": 1547251200,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "redbook.hpl.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://redbook.hpl.ca/node/24206",
+                  "title": "Law Society of Ontario Complaints | Red Book by HPL",
+                  "snippet": "Complete the online complaint form. An LSO Connects account is required. Classifications. Consumer Complaints · Lawyers · Paralegals/Legal Assistants.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "redbook.hpl.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "211ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/80207757/law-society-of-ontario-law-society-of-ontario/",
+                  "title": "Law Society of Ontario",
+                  "snippet": "Complaints ; 1-800-668-7380; Office ; 416-947-3300; TTY ; 416-644-4886; Web Site ; Visit Website; Email ; lawsociety@lso.ca; Mailing Address ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": 1745798400,
+                  "attribution": "211ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/68968434/law-society-of-ontario-complaints--compliance-toronto/",
+                  "title": "211 Law Society of Ontario - Complaints & Compliance, Toronto",
+                  "snippet": "Description: Accepts and investigates complaints about the conduct of Ontario lawyers and licensed paralegals; Eligibility: No restrictions ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": 1720483200,
+                  "attribution": "211ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "stepstojustice.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/",
+                  "title": "2. Make a complaint - Steps to Justice",
+                  "snippet": "You can get the form online or by mail by calling the calling the Complaints & Compliance Department at 1-800-668-7380. Include the following ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": 1539129600,
+                  "attribution": "stepstojustice.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.damienfrost.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.damienfrost.ca/law-society-complaints-professional-misconduct-lawyers/",
+                  "title": "Law Society of Ontario Complaints Lawyer | LSO Investigation",
+                  "snippet": "The Law Society of Ontario considers complaints against lawyers or paralegals from any member of the public. If you are the subject of a complaint to the Law ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "www.damienfrost.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "lawsocietytribunal.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://lawsocietytribunal.ca/law-society-complaints-process/",
+                  "title": "Complaints Process - Law Society Tribunal",
+                  "snippet": "Complaints must be made within 60 days after the end of the adjudication process to which the complaint relates. The complaint process is confidential. In the ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "lawsocietytribunal.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.slaw.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.slaw.ca/2024/01/22/what-do-i-do-when-i-receive-a-law-society-complaint/",
+                  "title": "What do I do when I receive a Law Society complaint? - Slaw.ca",
+                  "snippet": "Lawyers are usually given 30 days to respond to a complaint. In my experience, if you require more time—such as to retain counsel, get through a ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": 1705881600,
+                  "attribution": "www.slaw.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "freelawchat.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://freelawchat.com/legal-malpractice-law/1622846/lawyer-complaint-process-ontario.html",
+                  "title": "Lawyer Complaint Process Ontario - FreeLawChat.com",
+                  "snippet": "- Fill out a complaint form from the Law Society of Ontario. - Submit any evidence you have, including the papers mentioned by the officer. Do ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": 1744848000,
+                  "attribution": "freelawchat.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "en.wikipedia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Law_Society_of_Ontario_Archives",
+                  "title": "Law Society of Ontario Archives",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": 1743314330,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Law_Society_of_Ontario",
+                  "title": "Law Society of Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "pub_date": 1757195899,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Ontario_Bar_Association",
+                  "title": "Ontario Bar Association",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "pub_date": 1761077305,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Malcolm_M._Mercer",
+                  "title": "Malcolm M. Mercer",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 23
+                  },
+                  "pub_date": 1702518884,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Ontario_Ombudsman",
+                  "title": "Ontario Ombudsman",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1755582478,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Legal_Ombudsman",
+                  "title": "Legal Ombudsman",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1749828447,
+                  "attribution": "en.wikipedia.org"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_68f8c14c67f0832e97d71dd618ec9e6c",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "3f43405d-cca8-4495-ac57-738c678779f6",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "e5c42554-fc70-42af-8e47-35984cb0371f",
+          "turn_exchange_id": "b2abe4aa-e0c2-4de1-9f40-7668c044279c",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e5c42554-fc70-42af-8e47-35984cb0371f",
+      "children": [
+        "2648f9f2-6852-471b-b58f-0bbfbaede6d4"
+      ]
+    },
+    "2648f9f2-6852-471b-b58f-0bbfbaede6d4": {
+      "id": "2648f9f2-6852-471b-b58f-0bbfbaede6d4",
+      "message": {
+        "id": "2648f9f2-6852-471b-b58f-0bbfbaede6d4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_default",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1761132876.884301,
+        "update_time": 1761132881.947069,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Great — you’re in the right place. Yes — you **can** complain to the entity[\"organization\", \"Law Society of Ontario\", 0] (LSO). Here’s how to find and use their complaint form:\n\n---\n\n### ✅ How to access the complaint form  \n- The LSO’s website says you must **set up an “LSO Connects” account** to access the online complaint form. citeturn0search1turn0search0  \n- The page “Complaints” confirms that an online form is used, through LSO Connects. citeturn0search0turn0search1  \n- If you don’t have internet access or have accommodation needs, they will provide an alternate way. citeturn0search11\n\n---\n\n### 📝 What to do step-by-step  \n1. Go to the LSO’s “Complaints” page: [lso.ca/protecting-the-public/complaints](https://lso.ca/protecting-the-public/complaints) citeturn0search0  \n2. Create an LSO Connects account (you will need an email address). citeturn0search1  \n3. After logging in, complete the online complaint form. You can upload up to 15 supporting documents. citeturn0search1turn0search11  \n4. Provide the details of your complaint: the lawyer’s name, what happened (e.g., unexplained legal fees, refusing to talk without payment) and attach your records (emails, invoices, correspondence).  \n5. Submit and wait for an acknowledgment (LSO states you’ll generally get confirmation within ~48 hours). citeturn0search1  \n\n---\n\n### ⚠️ Extra tips  \n- Make sure your issue **falls within LSO’s scope**: e.g., misconduct or unethical behaviour by a lawyer or paralegal. citeturn0search3turn0search0  \n- If your issue is purely “I disagree with this legal fee amount” then note: the LSO doesn’t set fees or guarantee they reduce bills. They can review/bill conduct but **not always the fee amount itself**. citeturn0search14  \n- Keep all records (dates, amounts, what was said) to support your complaint.  \n- There is no fee to file this complaint.  \n\n---\n\nIf you like, I can **link you directly to the registration page for LSO Connects** or **give you a filled-in template** where you plug your details for the form. Would you like that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "entity[\"organization\", \"Law Society of Ontario\", 0]",
+              "start_idx": 69,
+              "end_idx": 123,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Law Society of Ontario",
+              "prompt_text": null,
+              "type": "alt_text"
+            },
+            {
+              "matched_text": "citeturn0search1turn0search0",
+              "start_idx": 335,
+              "end_idx": 367,
+              "safe_urls": [
+                "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+                "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Law Society of Ontario](https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "The complaints process | Law Society of Ontario",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "If you wish to make a complaint, you must set up an LSO Connects Account where you will have access to our online complaint form. LSO Connects is the Law ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Complaints | Law Society of Ontario",
+                      "url": "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Before you make a complaint about a lawyer or paralegal to the Law Society: · 1. Try to resolve the problem first. · 2. If your complaint is not resolved after ...",
+                      "attribution": "Law Society of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Law Society of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0turn0search1",
+              "start_idx": 454,
+              "end_idx": 486,
+              "safe_urls": [
+                "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+                "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Law Society of Ontario](https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Complaints | Law Society of Ontario",
+                  "url": "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Before you make a complaint about a lawyer or paralegal to the Law Society: · 1. Try to resolve the problem first. · 2. If your complaint is not resolved after ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "The complaints process | Law Society of Ontario",
+                      "url": "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "If you wish to make a complaint, you must set up an LSO Connects Account where you will have access to our online complaint form. LSO Connects is the Law ...",
+                      "attribution": "Law Society of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Law Society of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search11",
+              "start_idx": 590,
+              "end_idx": 610,
+              "safe_urls": [
+                "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Steps to Justice](https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "2. Make a complaint - Steps to Justice",
+                  "url": "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/?utm_source=chatgpt.com",
+                  "pub_date": 1539129600,
+                  "snippet": "You can get the form online or by mail by calling the calling the Complaints & Compliance Department at 1-800-668-7380. Include the following ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Steps to Justice"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 778,
+              "end_idx": 797,
+              "safe_urls": [
+                "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Law Society of Ontario](https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Complaints | Law Society of Ontario",
+                  "url": "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Before you make a complaint about a lawyer or paralegal to the Law Society: · 1. Try to resolve the problem first. · 2. If your complaint is not resolved after ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Law Society of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 868,
+              "end_idx": 887,
+              "safe_urls": [
+                "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Law Society of Ontario](https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "The complaints process | Law Society of Ontario",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "If you wish to make a complaint, you must set up an LSO Connects Account where you will have access to our online complaint form. LSO Connects is the Law ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Law Society of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1turn0search11",
+              "start_idx": 993,
+              "end_idx": 1026,
+              "safe_urls": [
+                "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+                "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Law Society of Ontario](https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "The complaints process | Law Society of Ontario",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "If you wish to make a complaint, you must set up an LSO Connects Account where you will have access to our online complaint form. LSO Connects is the Law ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "2. Make a complaint - Steps to Justice",
+                      "url": "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "You can get the form online or by mail by calling the calling the Complaints & Compliance Department at 1-800-668-7380. Include the following ...",
+                      "attribution": "Steps to Justice"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Law Society of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 1337,
+              "end_idx": 1356,
+              "safe_urls": [
+                "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Law Society of Ontario](https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "The complaints process | Law Society of Ontario",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "If you wish to make a complaint, you must set up an LSO Connects Account where you will have access to our online complaint form. LSO Connects is the Law ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Law Society of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search3turn0search0",
+              "start_idx": 1504,
+              "end_idx": 1536,
+              "safe_urls": [
+                "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+                "https://settlement.org/ontario/legal-services/lawyers-and-other-legal-help/find-a-lawyer/how-do-i-complain-about-a-lawyer/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Settlement.Org](https://settlement.org/ontario/legal-services/lawyers-and-other-legal-help/find-a-lawyer/how-do-i-complain-about-a-lawyer/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "How do I complain about a lawyer? - Settlement.Org",
+                  "url": "https://settlement.org/ontario/legal-services/lawyers-and-other-legal-help/find-a-lawyer/how-do-i-complain-about-a-lawyer/?utm_source=chatgpt.com",
+                  "pub_date": 1707091200,
+                  "snippet": "You can make a complaint to the Law Society of Ontario (LSO). The LSO can investigate your complaint and, if necessary, discipline your lawyer or paralegal.",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Complaints | Law Society of Ontario",
+                      "url": "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "Before you make a complaint about a lawyer or paralegal to the Law Society: · 1. Try to resolve the problem first. · 2. If your complaint is not resolved after ...",
+                      "attribution": "Law Society of Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Settlement.Org"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search14",
+              "start_idx": 1744,
+              "end_idx": 1764,
+              "safe_urls": [
+                "https://lso.ca/protecting-the-public/complaints/complaints-about-legal-fees?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Law Society of Ontario](https://lso.ca/protecting-the-public/complaints/complaints-about-legal-fees?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Complaints about legal fees | Law Society of Ontario",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-about-legal-fees?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "Submit a complaint in writing to the Law Society. Once you have received your bill, you have two options if you think your lawyer or paralegal has charged you ...",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 14
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Law Society of Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 2079,
+              "end_idx": 2079,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "The complaints process | Law Society of Ontario",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+                  "attribution": "Law Society of Ontario"
+                },
+                {
+                  "title": "2. Make a complaint - Steps to Justice",
+                  "url": "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/?utm_source=chatgpt.com",
+                  "attribution": "Steps to Justice"
+                },
+                {
+                  "title": "How do I complain about a lawyer? - Settlement.Org",
+                  "url": "https://settlement.org/ontario/legal-services/lawyers-and-other-legal-help/find-a-lawyer/how-do-i-complain-about-a-lawyer/?utm_source=chatgpt.com",
+                  "attribution": "Settlement.Org"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+            "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+            "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+            "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+            "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/?utm_source=chatgpt.com",
+            "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+            "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+            "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+            "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/?utm_source=chatgpt.com",
+            "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+            "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+            "https://settlement.org/ontario/legal-services/lawyers-and-other-legal-help/find-a-lawyer/how-do-i-complain-about-a-lawyer/?utm_source=chatgpt.com",
+            "https://lso.ca/protecting-the-public/complaints/complaints-about-legal-fees?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "lso.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/lawyers/about-your-licence/manage-your-licence/if-you-are-the-subject-of-a-complaint?utm_source=chatgpt.com",
+                  "title": "If you are the subject of a complaint - Lawyer | Law Society of Ontario",
+                  "snippet": "To arrange to speak with duty counsel, please email scheduling@lstribunal.ca or call 416-947-3908. Legal representation. You may retain a legal representative ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/paralegals/about-your-licence/manage-your-licence/if-you-are-the-subject-of-a-complaint?utm_source=chatgpt.com",
+                  "title": "If you are the subject of a complaint - Paralegal",
+                  "snippet": "One of the Law Society's most important responsibilities is to respond to complaints about lawyers and paralegals. Our complaints process is principled and ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/dhc/services?utm_source=chatgpt.com",
+                  "title": "Services | Law Society of Ontario",
+                  "snippet": "If you would like the conduct of a lawyer or a paralegal to be investigated, you should consider making a complaint. The DHC does not provide legal advice ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/lawyers/practice-supports-and-resources/practice-management-helpline?utm_source=chatgpt.com",
+                  "title": "Practice Management Helpline - Lawyer - Law Society of Ontario",
+                  "snippet": "Please call 416-947-3315 or 1-800-668-7380 and dial extension 3315 for the Helpline. Because of the Helpline's call volume, it may be necessary for you to leave ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/protecting-the-public/complaints/complaints-resolution-commissioner?utm_source=chatgpt.com",
+                  "title": "Office of the Complaints Resolution Commissioner",
+                  "snippet": "The Complaints Resolution Commissioner independently reviews disputed complaints made to the Law Society to make sure they were handled appropriately and ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/home?utm_source=chatgpt.com",
+                  "title": "Law Society of Ontario",
+                  "snippet": "Before you make a complaint to the Law Society, you should try to resolve the problem first. Speak with your lawyer or paralegal about your concerns - most want ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://lso.ca/protecting-the-public/complaints/protocol-for-complaints-by-courts-and-tribunals?utm_source=chatgpt.com",
+                  "title": "Protocol for complaints by courts and tribunals - Law Society of Ontario",
+                  "snippet": "The Law Society has protocols in place to effectively handle complaints from Ontario judges, justices of the peace and tribunal adjudicators about lawyers ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "lso.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/afbya7/ontario_filing_a_complaint_against_lawyer/?utm_source=chatgpt.com",
+                  "title": "[Ontario] Filing a complaint against lawyer : r/legaladvicecanada",
+                  "snippet": "Your first recourse should be to make a complaint to the Law Society of Ontario, you can find the complaints process and information in that ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": 1547251200,
+                  "attribution": "reddit.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "hpl.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://redbook.hpl.ca/node/24206?utm_source=chatgpt.com",
+                  "title": "Law Society of Ontario Complaints | Red Book by HPL",
+                  "snippet": "Complete the online complaint form. An LSO Connects account is required. Classifications. Consumer Complaints · Lawyers · Paralegals/Legal Assistants.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "hpl.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "211ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/80207757/law-society-of-ontario-law-society-of-ontario/?utm_source=chatgpt.com",
+                  "title": "Law Society of Ontario",
+                  "snippet": "Complaints ; 1-800-668-7380; Office ; 416-947-3300; TTY ; 416-644-4886; Web Site ; Visit Website; Email ; lawsociety@lso.ca; Mailing Address ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": 1745798400,
+                  "attribution": "211ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/68968434/law-society-of-ontario-complaints--compliance-toronto/?utm_source=chatgpt.com",
+                  "title": "211 Law Society of Ontario - Complaints & Compliance, Toronto",
+                  "snippet": "Description: Accepts and investigates complaints about the conduct of Ontario lawyers and licensed paralegals; Eligibility: No restrictions ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": 1720483200,
+                  "attribution": "211ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "damienfrost.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.damienfrost.ca/law-society-complaints-professional-misconduct-lawyers/?utm_source=chatgpt.com",
+                  "title": "Law Society of Ontario Complaints Lawyer | LSO Investigation",
+                  "snippet": "The Law Society of Ontario considers complaints against lawyers or paralegals from any member of the public. If you are the subject of a complaint to the Law ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "damienfrost.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "lawsocietytribunal.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://lawsocietytribunal.ca/law-society-complaints-process/?utm_source=chatgpt.com",
+                  "title": "Complaints Process - Law Society Tribunal",
+                  "snippet": "Complaints must be made within 60 days after the end of the adjudication process to which the complaint relates. The complaint process is confidential. In the ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "lawsocietytribunal.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "slaw.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.slaw.ca/2024/01/22/what-do-i-do-when-i-receive-a-law-society-complaint/?utm_source=chatgpt.com",
+                  "title": "What do I do when I receive a Law Society complaint? - Slaw.ca",
+                  "snippet": "Lawyers are usually given 30 days to respond to a complaint. In my experience, if you require more time—such as to retain counsel, get through a ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": 1705881600,
+                  "attribution": "slaw.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "freelawchat.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://freelawchat.com/legal-malpractice-law/1622846/lawyer-complaint-process-ontario.html?utm_source=chatgpt.com",
+                  "title": "Lawyer Complaint Process Ontario - FreeLawChat.com",
+                  "snippet": "- Fill out a complaint form from the Law Society of Ontario. - Submit any evidence you have, including the papers mentioned by the officer. Do ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": 1744848000,
+                  "attribution": "freelawchat.com"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "3f43405d-cca8-4495-ac57-738c678779f6",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "40ea5bbb-8b2a-443b-a712-c96d27c6f42d",
+          "turn_exchange_id": "b2abe4aa-e0c2-4de1-9f40-7668c044279c",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "40ea5bbb-8b2a-443b-a712-c96d27c6f42d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "2648f9f2-6852-471b-b58f-0bbfbaede6d4",
+  "conversation_id": "68f8ba7b-2968-8327-9f20-7185183b59cc",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf",
+    "https://lso.ca/protecting-the-public/complaints/complaints-process",
+    "https://www.rcllp.ca/post/ontcondolaw/the-condo-authority-of-ontario",
+    "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/2020-21-CAO-Annual-Report.pdf?utm_source=chatgpt.com",
+    "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/",
+    "https://lso.ca/protecting-the-public/complaints?utm_source=chatgpt.com",
+    "https://www.legalline.ca/legal-answers/filing-a-complaint/",
+    "https://lso.ca/protecting-the-public/complaints/complaints-process?utm_source=chatgpt.com",
+    "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/",
+    "https://www.larlyn.com/client-education/condominium-authority-ontario-fees/?utm_source=chatgpt.com",
+    "https://www.condoauthorityontario.ca/dispute-resolution/about-the-tribunal/?utm_source=chatgpt.com",
+    "https://www.legalline.ca/legal-answers/filing-a-complaint/?utm_source=chatgpt.com",
+    "https://settlement.org/ontario/legal-services/lawyers-and-other-legal-help/find-a-lawyer/how-do-i-complain-about-a-lawyer/",
+    "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/Annual-Report-2019-20.pdf?utm_source=chatgpt.com",
+    "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/",
+    "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/",
+    "https://lso.ca/protecting-the-public/complaints/complaints-about-legal-fees",
+    "https://www.condoauthorityontario.ca/what-we-do/funding-and-fees/?utm_source=chatgpt.com",
+    "https://stepstojustice.ca/steps/help-lawyers-and-paralegals/3-make-complaint/?utm_source=chatgpt.com",
+    "https://lso.ca/protecting-the-public/complaints/complaints-about-legal-fees?utm_source=chatgpt.com",
+    "https://www.condoauthorityontario.ca/wp-content/uploads/2023/07/Annual-Report-2019-20.pdf",
+    "https://lso.ca/protecting-the-public/complaints",
+    "https://www.rcllp.ca/post/ontcondolaw/the-condo-authority-of-ontario?utm_source=chatgpt.com",
+    "https://settlement.org/ontario/legal-services/lawyers-and-other-legal-help/find-a-lawyer/how-do-i-complain-about-a-lawyer/?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

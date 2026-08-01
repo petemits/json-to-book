@@ -1,0 +1,287 @@
+{
+  "title": "Termux Directory Locations",
+  "create_time": 1738533858.207482,
+  "update_time": 1738534482.776177,
+  "mapping": {
+    "bbb23317-2067-4bba-ae4c-e9fe534c073f": {
+      "id": "bbb23317-2067-4bba-ae4c-e9fe534c073f",
+      "message": null,
+      "parent": null,
+      "children": [
+        "8b0556f5-9b68-4aaa-ad2e-edebe7ac1de1"
+      ]
+    },
+    "8b0556f5-9b68-4aaa-ad2e-edebe7ac1de1": {
+      "id": "8b0556f5-9b68-4aaa-ad2e-edebe7ac1de1",
+      "message": {
+        "id": "8b0556f5-9b68-4aaa-ad2e-edebe7ac1de1",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23317-2067-4bba-ae4c-e9fe534c073f",
+      "children": [
+        "bbb21f4e-691f-4cab-b82d-d4f9d3d7ef00"
+      ]
+    },
+    "bbb21f4e-691f-4cab-b82d-d4f9d3d7ef00": {
+      "id": "bbb21f4e-691f-4cab-b82d-d4f9d3d7ef00",
+      "message": {
+        "id": "bbb21f4e-691f-4cab-b82d-d4f9d3d7ef00",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1738533858.211969,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Where does my directory store in termux"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "90bd79e19fc9ac69-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8b0556f5-9b68-4aaa-ad2e-edebe7ac1de1",
+      "children": [
+        "39b449a7-1afb-47c6-88b4-4029458f8715"
+      ]
+    },
+    "39b449a7-1afb-47c6-88b4-4029458f8715": {
+      "id": "39b449a7-1afb-47c6-88b4-4029458f8715",
+      "message": {
+        "id": "39b449a7-1afb-47c6-88b4-4029458f8715",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1738533867.608625,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21f4e-691f-4cab-b82d-d4f9d3d7ef00",
+          "request_id": "90bd79e19fc9ac69-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21f4e-691f-4cab-b82d-d4f9d3d7ef00",
+      "children": [
+        "443419ea-4d75-4180-9638-bdeed7a27038"
+      ]
+    },
+    "443419ea-4d75-4180-9638-bdeed7a27038": {
+      "id": "443419ea-4d75-4180-9638-bdeed7a27038",
+      "message": {
+        "id": "443419ea-4d75-4180-9638-bdeed7a27038",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1738533867.608782,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Termux, your home directory is stored at:  \n\n```\n/data/data/com.termux/files/home\n```\n\n### Common Termux Directories:\n- **Home Directory:** `/data/data/com.termux/files/home/`  \n  - This is your main working directory where you can store files, scripts, and projects.  \n- **Shared Storage (Internal Storage):** `/storage/emulated/0/`  \n  - You need to grant Termux access to shared storage using:  \n    ```sh\n    termux-setup-storage\n    ```\n    After granting permission, Termux creates a symlink at:\n    ```sh\n    ~/storage\n    ```\n    which includes:\n    - **~/storage/downloads** → `/storage/emulated/0/Download/`\n    - **~/storage/dcim** → `/storage/emulated/0/DCIM/`\n    - **~/storage/pictures** → `/storage/emulated/0/Pictures/`\n    - **~/storage/music** → `/storage/emulated/0/Music/`\n    - **~/storage/movies** → `/storage/emulated/0/Movies/`\n    - **~/storage/shared** → `/storage/emulated/0/`\n\nWould you like help with file management or setting up Termux for development?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "39b449a7-1afb-47c6-88b4-4029458f8715",
+          "request_id": "90bd79e19fc9ac69-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "39b449a7-1afb-47c6-88b4-4029458f8715",
+      "children": [
+        "bbb21bb5-7d97-45c6-bf1f-4db693b39756"
+      ]
+    },
+    "bbb21bb5-7d97-45c6-bf1f-4db693b39756": {
+      "id": "bbb21bb5-7d97-45c6-bf1f-4db693b39756",
+      "message": {
+        "id": "bbb21bb5-7d97-45c6-bf1f-4db693b39756",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1738534469.629287,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How do I access directories on my phone"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "90bd88ce2d4aa216-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "443419ea-4d75-4180-9638-bdeed7a27038",
+      "children": [
+        "250aa1c8-d532-44f4-84ec-9e6fe03a4130"
+      ]
+    },
+    "250aa1c8-d532-44f4-84ec-9e6fe03a4130": {
+      "id": "250aa1c8-d532-44f4-84ec-9e6fe03a4130",
+      "message": {
+        "id": "250aa1c8-d532-44f4-84ec-9e6fe03a4130",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1738534482.628057,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "You can access directories on your phone using Termux in the following ways:  \n\n### **1. Accessing Termux Home Directory**  \nYour default working directory in Termux is:  \n```sh\ncd ~\n```\nTo list files in your home directory:  \n```sh\nls\n```\n\n### **2. Accessing Internal Storage (Shared Storage)**\nTo access your phone's internal storage, you need to grant permission:  \n```sh\ntermux-setup-storage\n```\nThis creates a **~/storage/** folder with symlinks to common directories:  \n```sh\ncd ~/storage\nls\n```\nYou will see:  \n- **downloads** → `/storage/emulated/0/Download/`\n- **shared** → `/storage/emulated/0/`\n- **dcim, music, movies, pictures** → Corresponding media folders  \n\nTo enter the **Download** folder:  \n```sh\ncd ~/storage/downloads\nls\n```\n\n### **3. Accessing SD Card (If Available)**\nIf your phone has an SD card, it is usually mounted at:  \n```sh\ncd /storage/\nls\n```\nYou might see a folder like **`1234-5678/`** (varies by device).  \nTo access it:  \n```sh\ncd /storage/1234-5678/\nls\n```\n\n### **4. Using GUI File Manager**  \nIf you prefer a graphical way:  \n- Open your **File Manager** app  \n- Navigate to **Internal Storage** or **SD Card**  \n- Find **Android > data > com.termux > files > home** (this is Termux’s home directory)\n\nWould you like help with file transfer, storage management, or running scripts in these directories?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21bb5-7d97-45c6-bf1f-4db693b39756",
+          "request_id": "90bd88ce2d4aa216-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21bb5-7d97-45c6-bf1f-4db693b39756",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "250aa1c8-d532-44f4-84ec-9e6fe03a4130",
+  "conversation_id": "679febe1-a7c4-8011-81a4-a6c1ed08d9b8",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

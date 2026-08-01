@@ -1,0 +1,3538 @@
+{
+  "title": "Warrant for premises without suspect",
+  "create_time": 1764202627.478716,
+  "update_time": 1764236361.495734,
+  "mapping": {
+    "b38f5108-4207-4321-bf31-013f22f3d0e2": {
+      "id": "b38f5108-4207-4321-bf31-013f22f3d0e2",
+      "message": null,
+      "parent": null,
+      "children": [
+        "8db8063b-f133-4869-96e5-447a4ce453ab"
+      ]
+    },
+    "8db8063b-f133-4869-96e5-447a4ce453ab": {
+      "id": "8db8063b-f133-4869-96e5-447a4ce453ab",
+      "message": {
+        "id": "8db8063b-f133-4869-96e5-447a4ce453ab",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b38f5108-4207-4321-bf31-013f22f3d0e2",
+      "children": [
+        "bbb219bd-7380-4aa2-b1df-bf5442b7bb38"
+      ]
+    },
+    "bbb219bd-7380-4aa2-b1df-bf5442b7bb38": {
+      "id": "bbb219bd-7380-4aa2-b1df-bf5442b7bb38",
+      "message": {
+        "id": "bbb219bd-7380-4aa2-b1df-bf5442b7bb38",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764202627.302282,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can warrant be issued to premise without person being investigated"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "cb244a29-e2c2-4e2f-91ba-6789017fcf7a",
+          "message_source": null,
+          "turn_exchange_id": "970b071e-0f17-41a9-bafd-79db5646904e",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8db8063b-f133-4869-96e5-447a4ce453ab",
+      "children": [
+        "161c2938-b677-48a8-b3a5-1cf0f407eff2"
+      ]
+    },
+    "161c2938-b677-48a8-b3a5-1cf0f407eff2": {
+      "id": "161c2938-b677-48a8-b3a5-1cf0f407eff2",
+      "message": {
+        "id": "161c2938-b677-48a8-b3a5-1cf0f407eff2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764202627.3842998,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "cb244a29-e2c2-4e2f-91ba-6789017fcf7a",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb219bd-7380-4aa2-b1df-bf5442b7bb38",
+          "turn_exchange_id": "970b071e-0f17-41a9-bafd-79db5646904e",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb219bd-7380-4aa2-b1df-bf5442b7bb38",
+      "children": [
+        "cb57db93-d7e0-472d-a49b-0330cbd71cda"
+      ]
+    },
+    "cb57db93-d7e0-472d-a49b-0330cbd71cda": {
+      "id": "cb57db93-d7e0-472d-a49b-0330cbd71cda",
+      "message": {
+        "id": "cb57db93-d7e0-472d-a49b-0330cbd71cda",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764202627.40474,
+        "update_time": 1764202635.6446,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes — **a warrant *can* be issued for a premises even if the person being investigated does not live there or is not the subject of the warrant.**\n\nThis applies in **Canada**, including **Ontario**.\n\n### ✅ **How it works**\nPolice can request a **search warrant for a place** (home, car, business, storage unit, etc.) if they have:\n\n**1. Reasonable grounds to believe**  \nthat evidence of an offence **will be found at that location**, and\n\n**2. A judge or justice of the peace approves it.**\n\nThe warrant is for the **location**, not the person.\n\n### 📌 **Important details**\n- The **owner or occupant does NOT need to be the suspect.**  \n- The police must show a connection between the **premises and the alleged crime**.\n- Police **do not need permission** of the owner/occupant once they have the warrant.\n- The person living there will usually receive a **copy of the warrant and a list of items seized**.\n\n### 🏠 **Examples**\n- Police investigate someone for drug trafficking and suspect that they **store drugs at a friend's apartment** → warrant can be issued for that apartment.\n- Police believe evidence is located at a **business premises**, even if the suspect is elsewhere → warrant is allowed.\n\n### ❗If the warrant was improper\nA lawyer can challenge:\n- Lack of reasonable grounds  \n- Errors in the warrant  \n- If the warrant was too broad  \n- If police exceeded the warrant’s scope  \n\nSometimes improperly obtained evidence can be excluded under **s. 8 of the Charter (unreasonable search and seizure).**\n\n---\n\nIf you want, you can tell me:\n- What province you're in (likely Ontario)  \n- What happened  \n- Whether police came to your home or someone else's  \n\nI can explain whether it sounds lawful and what steps to take next."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "cb244a29-e2c2-4e2f-91ba-6789017fcf7a",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "161c2938-b677-48a8-b3a5-1cf0f407eff2",
+          "turn_exchange_id": "970b071e-0f17-41a9-bafd-79db5646904e",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "161c2938-b677-48a8-b3a5-1cf0f407eff2",
+      "children": [
+        "bbb21557-2d1f-461b-821b-463df5af7486"
+      ]
+    },
+    "bbb21557-2d1f-461b-821b-463df5af7486": {
+      "id": "bbb21557-2d1f-461b-821b-463df5af7486",
+      "message": {
+        "id": "bbb21557-2d1f-461b-821b-463df5af7486",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764202683.507382,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What are the to reasons "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "34b24658-1b46-4ecc-aba9-502f5484f80a",
+          "message_source": null,
+          "turn_exchange_id": "274d6d39-0ba4-49e0-ba2d-e3a1535ac309",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cb57db93-d7e0-472d-a49b-0330cbd71cda",
+      "children": [
+        "8561e8be-346f-48f0-b0e5-32ff6d32900f"
+      ]
+    },
+    "8561e8be-346f-48f0-b0e5-32ff6d32900f": {
+      "id": "8561e8be-346f-48f0-b0e5-32ff6d32900f",
+      "message": {
+        "id": "8561e8be-346f-48f0-b0e5-32ff6d32900f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764202684.625159,
+        "update_time": 1764202687.75268,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you mean **the two reasons a judge can issue a search warrant for a premises**, they are:\n\n### **1. Reasonable Grounds to Believe a Crime Was Committed**\nPolice must show they have solid, fact-based reasons (not just suspicion) that **an offence has happened or is happening**.\n\n### **2. Reasonable Grounds to Believe Evidence Is at that Location**\nPolice must show that **evidence related to the offence will likely be found at the specific premises**, even if the person living there is **not the suspect**.\n\nThose are the only two core legal requirements for a search warrant in Canada.\n\nIf you want, I can explain how police usually prove these grounds or what could make the warrant invalid."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "34b24658-1b46-4ecc-aba9-502f5484f80a",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21557-2d1f-461b-821b-463df5af7486",
+          "turn_exchange_id": "274d6d39-0ba4-49e0-ba2d-e3a1535ac309",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21557-2d1f-461b-821b-463df5af7486",
+      "children": [
+        "bbb2150a-0d07-4d05-8856-52c8c140c12a"
+      ]
+    },
+    "bbb2150a-0d07-4d05-8856-52c8c140c12a": {
+      "id": "bbb2150a-0d07-4d05-8856-52c8c140c12a",
+      "message": {
+        "id": "bbb2150a-0d07-4d05-8856-52c8c140c12a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764202862.043392,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Isn't police need to know if the owner of the premise isn't involved in any criminal activity"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "44e79741-bc72-4dc1-abcd-15633eac7b17",
+          "message_source": null,
+          "turn_exchange_id": "36fb6b18-3c76-4179-97b1-a258d21b22fe",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8561e8be-346f-48f0-b0e5-32ff6d32900f",
+      "children": [
+        "2fdbb104-be1b-4163-b3a6-0454cdc906f5"
+      ]
+    },
+    "2fdbb104-be1b-4163-b3a6-0454cdc906f5": {
+      "id": "2fdbb104-be1b-4163-b3a6-0454cdc906f5",
+      "message": {
+        "id": "2fdbb104-be1b-4163-b3a6-0454cdc906f5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764202862.512427,
+        "update_time": 1764202869.616396,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "**No — police do *not* need to prove that the owner of the premises is involved in any criminal activity.**\n\nIn Canada, a search warrant is focused on the **location**, not the person who owns or lives there.\n\n### ✅ **What police *do* need**\nPolice only need to show two things to a judge:\n\n1. **A crime has likely been committed**  \n2. **Evidence of that crime is likely inside that specific premises**\n\nThat’s it.\n\n### ❌ **What police *do NOT* need**\nPolice do NOT need to show that:\n\n- The **owner** of the property committed a crime  \n- The **occupant** is a suspect  \n- The property belongs to the person under investigation  \n\n### 📌 Why?\nBecause evidence of a crime can be stored anywhere:\n- A suspect might hide things at a friend’s home  \n- A suspect might use someone else’s garage or basement  \n- A relative’s house might contain evidence without them knowing  \n\n**So the law does NOT require police to prove the owner is guilty or even involved.**\n\n### 🛑 BUT: police must still show a **connection**  \nEven if the owner is innocent, police must show **reasonable grounds** that evidence related to the suspect **is at that location**.\n\nIf police cannot show that link → **warrant should not be granted**.\n\n### If you're worried about a real situation\nTell me:\n- Were police at your home?\n- Did they execute a search warrant?\n- Did they leave a copy of the warrant and list of seized items?\n\nI can tell you whether the search appears lawful and what your rights are."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "44e79741-bc72-4dc1-abcd-15633eac7b17",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2150a-0d07-4d05-8856-52c8c140c12a",
+          "turn_exchange_id": "36fb6b18-3c76-4179-97b1-a258d21b22fe",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb2150a-0d07-4d05-8856-52c8c140c12a",
+      "children": [
+        "bbb21cd6-ec7c-4eca-aed2-2189086c7184"
+      ]
+    },
+    "bbb21cd6-ec7c-4eca-aed2-2189086c7184": {
+      "id": "bbb21cd6-ec7c-4eca-aed2-2189086c7184",
+      "message": {
+        "id": "bbb21cd6-ec7c-4eca-aed2-2189086c7184",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764202942.65321,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So what the ground then activity is only done by a being"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "c91ce6e8-04aa-43b4-a244-d0e04aa5305d",
+          "message_source": null,
+          "turn_exchange_id": "3f0ec8fd-96b3-4d60-949b-51f0f683d541",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2fdbb104-be1b-4163-b3a6-0454cdc906f5",
+      "children": [
+        "bb562444-7ecd-43d1-9475-32e4b25a5050"
+      ]
+    },
+    "bb562444-7ecd-43d1-9475-32e4b25a5050": {
+      "id": "bb562444-7ecd-43d1-9475-32e4b25a5050",
+      "message": {
+        "id": "bb562444-7ecd-43d1-9475-32e4b25a5050",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764202943.359841,
+        "update_time": 1764202950.473929,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I understand what you’re asking:\n\n**“If activity is only done by a human being, how can police get grounds for a warrant on a premises if the *owner* is not involved?”**\n\nHere is the key point:\n\n### ✅ **Police do NOT need the owner to be the one doing the criminal activity.**  \nThey only need to show that **someone’s criminal activity is connected to the premises**.\n\n### 🔍 **The “grounds” are NOT about the owner or occupant.**  \nThe grounds needed for a warrant are:\n\n### **1. Grounds that a criminal offence was committed by *someone***  \n(Police don’t need to prove who yet.)\n\n### **2. Grounds that evidence of that offence is inside the premises**  \n(Regardless of who owns or uses the place.)\n\n### ❗Why the owner’s innocence does not matter\nBecause evidence can be placed on a property by:\n- A friend  \n- A visitor  \n- A family member  \n- Someone using the property without the owner's knowledge  \n- A suspect hiding evidence there  \n\nThe law focuses on **where the evidence is**, not **who the owner is**.\n\n### 🏠 Example  \nYou own a house.  \nYour cousin visits and stores illegal items in your garage without your knowledge.  \n\nPolice learn about it from surveillance or an informant.\n\nEven though **you** did nothing wrong, they can get a warrant **because the evidence is at your house**, not because you’re guilty.\n\n### ⚖️ Important  \nIf police cannot show a real link between:\n- the crime, and  \n- the premises  \n\nthen the warrant is invalid.\n\n---\n\nIf you want, tell me the situation or why you’re asking, and I can explain how it applies to your case."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "c91ce6e8-04aa-43b4-a244-d0e04aa5305d",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21cd6-ec7c-4eca-aed2-2189086c7184",
+          "turn_exchange_id": "3f0ec8fd-96b3-4d60-949b-51f0f683d541",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21cd6-ec7c-4eca-aed2-2189086c7184",
+      "children": [
+        "bbb21339-e242-4a1c-b03c-747da8df2478"
+      ]
+    },
+    "bbb21339-e242-4a1c-b03c-747da8df2478": {
+      "id": "bbb21339-e242-4a1c-b03c-747da8df2478",
+      "message": {
+        "id": "bbb21339-e242-4a1c-b03c-747da8df2478",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764203070.062183,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Should it be a solid first "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "8d5edb2b-daa5-4b9f-a7f6-49f9225db105",
+          "message_source": null,
+          "turn_exchange_id": "08d7a475-4164-49ca-b338-c13d2ec3801b",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bb562444-7ecd-43d1-9475-32e4b25a5050",
+      "children": [
+        "4b745506-e3ea-4ec5-bc64-9272f21c6116"
+      ]
+    },
+    "4b745506-e3ea-4ec5-bc64-9272f21c6116": {
+      "id": "4b745506-e3ea-4ec5-bc64-9272f21c6116",
+      "message": {
+        "id": "4b745506-e3ea-4ec5-bc64-9272f21c6116",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764203071.142644,
+        "update_time": 1764203077.876344,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you mean **“Should the grounds be solid first before a warrant is issued?”**  \n👉 **YES — they must be solid.**\n\nIn Canadian law, the judge will not issue a search warrant unless the police show:\n\n### ✅ **“Reasonable grounds to believe”**\nThis is **more than suspicion** and **less than proof**, but it must be:\n- **Clear**\n- **Reliable**\n- **Based on facts**, not guesses  \n- **Supported by evidence**, like surveillance, witness statements, admissions, photos, etc.\n\n### ❗It *cannot* be:\n- Rumours  \n- Hunches  \n- Vague suspicion  \n- “We think something might be there”\n\n### 🔍 So what does “solid” mean?\n**Solid = enough trustworthy information that a normal person would believe evidence is at that location.**\n\nExamples of solid grounds:\n- Police saw a suspect carry a bag into the home  \n- A reliable witness said evidence is stored there  \n- Surveillance shows illegal activity happening at the premises  \n- Phone records show the location is used in the crime  \n\nExamples of weak grounds (NOT allowed):\n- “Someone told us maybe it’s there”  \n- “We have a feeling the house is involved”  \n- “We don’t know where else to search, so we’ll try this house”  \n\n### 📌 Bottom line\nPolice must have **solid, factual grounds FIRST** before they can search a premises — even if the owner is not the suspect.\n\n---\n\nIf you want, tell me the situation you're dealing with and I can tell you whether the grounds sound strong or weak."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "8d5edb2b-daa5-4b9f-a7f6-49f9225db105",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21339-e242-4a1c-b03c-747da8df2478",
+          "turn_exchange_id": "08d7a475-4164-49ca-b338-c13d2ec3801b",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21339-e242-4a1c-b03c-747da8df2478",
+      "children": [
+        "bbb2149a-a6b5-4dcc-b2dd-c5a19f918d0a"
+      ]
+    },
+    "bbb2149a-a6b5-4dcc-b2dd-c5a19f918d0a": {
+      "id": "bbb2149a-a6b5-4dcc-b2dd-c5a19f918d0a",
+      "message": {
+        "id": "bbb2149a-a6b5-4dcc-b2dd-c5a19f918d0a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764203335.310716,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ok again the follow is to person that could such things where as he or she has be followed. Do you think it's infringement to citizen rights when you know he isn't dealing with anything and the pian guests were t being followed at all. How do you claim grounds "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "32b39ad8-7068-460d-be9e-40e078f41ab2",
+          "message_source": null,
+          "turn_exchange_id": "17bf0a01-e54c-4b55-8e6b-b48941c02af3",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4b745506-e3ea-4ec5-bc64-9272f21c6116",
+      "children": [
+        "79694d56-cbd1-45aa-a6ed-a138259ee710"
+      ]
+    },
+    "79694d56-cbd1-45aa-a6ed-a138259ee710": {
+      "id": "79694d56-cbd1-45aa-a6ed-a138259ee710",
+      "message": {
+        "id": "79694d56-cbd1-45aa-a6ed-a138259ee710",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764203336.494695,
+        "update_time": 1764203352.543263,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I hear what you’re saying:  \n**If the person *being followed* is not doing anything criminal, and the *guests* or *other people* who actually did the activity were never followed, then how can police claim “grounds” to search a premises? Isn’t that an infringement of rights?**\n\nLet me break this down very clearly.\n\n---\n\n# ✅ **1. Surveillance of an innocent person does NOT create grounds**\nIf police follow someone **who is not involved**, and see nothing illegal, that **cannot** be used as grounds for a warrant.\n\nFollowing the wrong person and finding nothing = **zero grounds**.\n\n---\n\n# ✅ **2. Grounds MUST be tied to actual evidence or facts**\nPolice *must* show real, factual information that connects the **crime** to the **location**.\n\nThey cannot simply:\n- Assume  \n- Guess  \n- Use the wrong person  \n- Mix up identities  \n- Rely on weak rumours  \n- Blame innocent guests or residents  \n\nIf the guests were never followed, and police cannot connect **any activity** to the premises → **there are no lawful grounds**.\n\n---\n\n# ✅ **3. Your rights *are infringed* if police claim grounds without proper evidence**\nUnder section 8 of the Canadian Charter of Rights and Freedoms:\n\n### **You have the right to be free from unreasonable search and seizure.**\n\nA search is **unreasonable** if:\n- Police target the wrong person\n- Police show no reasonable connection between the crime and the premises\n- Police fail to follow or investigate the *actual* people involved\n- Police rely on assumptions instead of facts\n\nIf police skip proper investigation and still get a warrant → that can be a **Charter violation**.\n\n---\n\n# ✅ **4. How do police *wrongly* claim grounds?**\nSometimes police make these mistakes:\n\n### ❌ “He lives near someone who does crime.”  \nNot enough.\n\n### ❌ “He knows people involved.”  \nNot enough.\n\n### ❌ “We thought he might be connected.”  \nNot enough.\n\n### ❌ “We followed the wrong person but we’ll still search his place.”  \nCompletely invalid.\n\nIf the person actually involved was **never followed**, and police have no evidence linking the premises → the warrant can be challenged and the evidence excluded.\n\n---\n\n# ✅ **5. To answer your question directly:**\n### **Yes — it *can* be an infringement of rights**  \nif police:\n- follow the wrong person  \n- ignore the real suspects  \n- and still claim the premises has evidence  \n\nPolice must have **solid**, **truth-based**, **fact-supported** grounds.  \nIf they don’t?  \nThe warrant is unlawful.\n\n---\n\n# If you want, tell me:\n- Did police search your place?\n- Who were they really following?\n- Did they leave a copy of the warrant?\n- What was their stated reason?\n\nI can tell you very clearly whether the warrant sounds legal or if it violates your Charter rights."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "32b39ad8-7068-460d-be9e-40e078f41ab2",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2149a-a6b5-4dcc-b2dd-c5a19f918d0a",
+          "turn_exchange_id": "17bf0a01-e54c-4b55-8e6b-b48941c02af3",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb2149a-a6b5-4dcc-b2dd-c5a19f918d0a",
+      "children": [
+        "bbb21a63-d3b3-43e3-aca6-c756544f27f1"
+      ]
+    },
+    "bbb21a63-d3b3-43e3-aca6-c756544f27f1": {
+      "id": "bbb21a63-d3b3-43e3-aca6-c756544f27f1",
+      "message": {
+        "id": "bbb21a63-d3b3-43e3-aca6-c756544f27f1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764203470.60644,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Is evidence written in the warrant "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "b926bdba-73c7-40f7-aade-50fa6874ccda",
+          "message_source": null,
+          "turn_exchange_id": "aae2df11-1dd5-4f43-9ef0-aa97a8819c51",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "79694d56-cbd1-45aa-a6ed-a138259ee710",
+      "children": [
+        "2b13accb-9250-4e8c-92c3-a52e6a95bd3a"
+      ]
+    },
+    "2b13accb-9250-4e8c-92c3-a52e6a95bd3a": {
+      "id": "2b13accb-9250-4e8c-92c3-a52e6a95bd3a",
+      "message": {
+        "id": "2b13accb-9250-4e8c-92c3-a52e6a95bd3a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764203471.518607,
+        "update_time": 1764203481.781576,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes — in **Canada**, the warrant **must include certain information**, but **it does NOT list all the evidence** police have.\n\nHere’s how it works:\n\n---\n\n# ✅ **What *must* be written in the search warrant**\nThe actual warrant (the paper police give you) must show:\n\n### **1. The address/premises being searched**  \n– Your home, unit number, garage, car, etc.\n\n### **2. The offence being investigated**  \n– Example: drug trafficking, fraud, assault, weapons, etc.\n\n### **3. The items they are allowed to search for**  \nThis can include:\n- Drugs  \n- Weapons  \n- Phones  \n- Computers  \n- Documents  \n- Cash  \n- Anything related to the offence  \n\nThis part is usually written as:  \n**“things which will afford evidence of the commission of the offence of…”**\n\n---\n\n# ❌ **What is NOT written in the warrant**\nThe detailed evidence police used to *get* the warrant does NOT appear on the copy they give you.  \nThat information is in a separate document called an:\n\n### **Information to Obtain (ITO)**  \nThis includes:\n- Surveillance details  \n- Witness statements  \n- Informant tips  \n- Undercover operations  \n- Police notes  \n- Any facts used to claim “reasonable grounds”\n\n**You do not get the ITO unless you or your lawyer request it from the court.**\n\nPolice do NOT have to show you the evidence they used to convince the judge.  \nThey only must give:\n- the warrant  \n- and a list of seized items\n\n---\n\n# 📌 **Why they don’t include evidence inside the warrant**\nBecause:\n- The investigation may be ongoing  \n- Informants must be protected  \n- Police don’t want suspects to know everything they know  \n- Some parts may be sealed by the court\n\n---\n\n# 🧾 **If you think the grounds were weak**\nYou (or a lawyer) can:\n\n### **Request the ITO from the courthouse**\nThen you can check:\n- Did police follow the wrong person?\n- Did they lie, exaggerate, or guess?\n- Did they skip following the real suspects?\n- Do the “grounds” make no sense?\n\nIf the ITO shows weak or false evidence, it can lead to a **Charter challenge**.\n\n---\n\n# If you want:\nTell me what was written under:\n- “Items to be searched for”\n- “Offence”\n- “Place to be searched”\n\nI can explain whether the warrant looks normal or if it seems questionable."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "b926bdba-73c7-40f7-aade-50fa6874ccda",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21a63-d3b3-43e3-aca6-c756544f27f1",
+          "turn_exchange_id": "aae2df11-1dd5-4f43-9ef0-aa97a8819c51",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21a63-d3b3-43e3-aca6-c756544f27f1",
+      "children": [
+        "bbb211ec-de0a-4b56-aee9-3c22c55aaa59"
+      ]
+    },
+    "bbb211ec-de0a-4b56-aee9-3c22c55aaa59": {
+      "id": "bbb211ec-de0a-4b56-aee9-3c22c55aaa59",
+      "message": {
+        "id": "bbb211ec-de0a-4b56-aee9-3c22c55aaa59",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764203841.655696,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How do you get ito if the the person feels he is harrassed with police if they have no evidence "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "4bd48a9b-4ab5-495d-b341-3c3812e75180",
+          "message_source": null,
+          "turn_exchange_id": "a5e8a52c-5d36-4005-b6b3-665080454898",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "2b13accb-9250-4e8c-92c3-a52e6a95bd3a",
+      "children": [
+        "4a0caa6b-ed25-4c99-af5b-47f7a7972c91"
+      ]
+    },
+    "4a0caa6b-ed25-4c99-af5b-47f7a7972c91": {
+      "id": "4a0caa6b-ed25-4c99-af5b-47f7a7972c91",
+      "message": {
+        "id": "4a0caa6b-ed25-4c99-af5b-47f7a7972c91",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764203842.29826,
+        "update_time": 1764203854.326384,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "You **can get the ITO even if you feel harassed**, and **you do NOT need police permission**.  \nYou get it **from the court**, not from the police.\n\nHere is how it works in Canada:\n\n---\n\n# ✅ **1. Go to the courthouse where the warrant was issued**\nThe ITO is filed at the **Ontario Court of Justice** (or Superior Court if it was a higher warrant).\n\nYou only need:\n- The **date** of the search  \n- Your **address** that was searched  \n- Your **name**  \n\nThe clerk will look up the file.\n\n---\n\n# ✅ **2. Ask the court clerk for: “The Information to Obtain (ITO) for the search warrant executed at my address.”**\nYou do **not** have to explain to police, and you do **not** have to talk to them at all.\n\nThe ITO belongs in the **court file**, not the police station.\n\n---\n\n# ❗ IMPORTANT:\nSometimes the ITO is **sealed** (closed) by the judge.\n\nIf it is sealed, you can still apply to have it **unsealed**.\n\n---\n\n# ✅ **3. If the ITO is sealed — you file a simple form to unseal it**\nYou or a lawyer can ask the court to unseal it.  \nReasons the court accepts:\n- You need to understand why police came  \n- You believe you are being harassed  \n- You believe police acted without proper grounds  \n\nYou do NOT need to prove anything at this stage.  \nYou only need to say you have interest because **your home was searched.**\n\nOnce it’s unsealed, you get:\n- The evidence police relied on  \n- The grounds they claimed  \n- The descriptions of surveillance  \n- Any informant information (names are hidden)\n\n---\n\n# ✅ **4. You do NOT need a lawyer**\nA lawyer helps, but the law allows you (the affected person) to request it **yourself**.\n\nIf you want, I can tell you exactly what sentence to say at the court counter.\n\n---\n\n# ❌ **Police cannot legally stop you from getting the ITO**\nBecause:\n- It is a **court document**\n- It is part of **your Charter right** to review the grounds\n- Police harassment or pressure does **not** affect your right to access it\n\n---\n\n# 🛡️ **5. If you feel harassed**\nYou can also:\n- File a complaint with the **Office of the Independent Police Review Director (OIPRD)**  \n- Request a lawyer through **Legal Aid Ontario** if low income  \n- Document dates, times, and behaviours  \n\nBut the FIRST step is knowing **what they claimed** in the ITO.\n\n---\n\n# 👉 If you want, tell me your city in Ontario  \nand I can tell you exactly **which courthouse** to go to and **what words to say to the clerk** so you get the ITO without trouble."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "4bd48a9b-4ab5-495d-b341-3c3812e75180",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb211ec-de0a-4b56-aee9-3c22c55aaa59",
+          "turn_exchange_id": "a5e8a52c-5d36-4005-b6b3-665080454898",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb211ec-de0a-4b56-aee9-3c22c55aaa59",
+      "children": [
+        "bbb21c09-8bc8-4bac-96be-7d1fed89fbaf"
+      ]
+    },
+    "bbb21c09-8bc8-4bac-96be-7d1fed89fbaf": {
+      "id": "bbb21c09-8bc8-4bac-96be-7d1fed89fbaf",
+      "message": {
+        "id": "bbb21c09-8bc8-4bac-96be-7d1fed89fbaf",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764236009.082879,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Please in Ontario Mississauga "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "8b4e9a44-1629-455f-9fdc-6c32083d45eb",
+          "message_source": null,
+          "turn_exchange_id": "75d002d2-ae78-4f8f-a2d1-a9a8e111da88",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4a0caa6b-ed25-4c99-af5b-47f7a7972c91",
+      "children": [
+        "1ce26d8a-d789-4287-b98a-e0ee0bdce6c4"
+      ]
+    },
+    "1ce26d8a-d789-4287-b98a-e0ee0bdce6c4": {
+      "id": "1ce26d8a-d789-4287-b98a-e0ee0bdce6c4",
+      "message": {
+        "id": "1ce26d8a-d789-4287-b98a-e0ee0bdce6c4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764236011.578427,
+        "update_time": 1764236011.787007,
+        "content": {
+          "content_type": "code",
+          "text": "{}",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_complete": true,
+          "finish_details": {
+            "type": "stop"
+          },
+          "citations": [],
+          "content_references": [],
+          "request_id": "8b4e9a44-1629-455f-9fdc-6c32083d45eb",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21c09-8bc8-4bac-96be-7d1fed89fbaf",
+          "turn_exchange_id": "75d002d2-ae78-4f8f-a2d1-a9a8e111da88",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": "commentary"
+      },
+      "parent": "bbb21c09-8bc8-4bac-96be-7d1fed89fbaf",
+      "children": [
+        "39eb019e-8fd7-440f-b48a-abd12233bbe9"
+      ]
+    },
+    "39eb019e-8fd7-440f-b48a-abd12233bbe9": {
+      "id": "39eb019e-8fd7-440f-b48a-abd12233bbe9",
+      "message": {
+        "id": "39eb019e-8fd7-440f-b48a-abd12233bbe9",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v71",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1764236012.7013617,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "how to get Information to Obtain (ITO) for a search warrant in Ontario court Mississauga where to get ITO Ontario Court of Justice Whitby or Peel Region courthouse address Mississauga how to request court documents search warrant ITO Ontario court clerk process",
+              "Ontario Mississauga courthouse address for obtaining court records search warrant ITO or how to request Information to Obtain from court records Peel region Ontario"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "8b4e9a44-1629-455f-9fdc-6c32083d45eb",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "1ce26d8a-d789-4287-b98a-e0ee0bdce6c4",
+          "turn_exchange_id": "75d002d2-ae78-4f8f-a2d1-a9a8e111da88",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1ce26d8a-d789-4287-b98a-e0ee0bdce6c4",
+      "children": [
+        "c7bb005d-df06-45df-8f86-a7e4fd82e416"
+      ]
+    },
+    "c7bb005d-df06-45df-8f86-a7e4fd82e416": {
+      "id": "c7bb005d-df06-45df-8f86-a7e4fd82e416",
+      "message": {
+        "id": "c7bb005d-df06-45df-8f86-a7e4fd82e416",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v71",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1764236012.6991463,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "peelregion.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://peelregion.ca/services/freedom-information-requests",
+                  "title": "Freedom of Information requests - peelregion.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "peelregion.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://peelregion.ca/about/privacy/access-information",
+                  "title": "Access to information - peelregion.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "peelregion.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://peelregion.ca/sites/default/files/2024-03/law-enforcement-form.pdf",
+                  "title": "Law Enforcement Request for",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 26
+                  },
+                  "pub_date": 1757309928,
+                  "attribution": "peelregion.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.ontariocourts.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/ocj/find-my-case/",
+                  "title": "Find My Case - Ontario Court of Justice",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontariocourts.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/scj/guides-and-service-resources/case-center/accessing-your-case/",
+                  "title": "Accessing Your Case – Ontario Superior Court of Justice",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontariocourts.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/ocj/criminal-court/",
+                  "title": "Criminal Court - Ontario Court of Justice",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontariocourts.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/ocj/faqs/",
+                  "title": "FAQs - Ontario Court of Justice",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontariocourts.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.tps.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.tps.ca/services/receiving-court-documents/",
+                  "title": "Get Your Court Documents- Toronto Police Service",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "www.tps.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/search-court-cases-online",
+                  "title": "Search for court cases online | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/courts-and-court-services",
+                  "title": "Courts and court services | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/ontario-courts-public-portal",
+                  "title": "Ontario Courts Public Portal | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-small-claims-court-documents-online",
+                  "title": "File small claims court documents online | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-enforcement-documents-online",
+                  "title": "File enforcement documents online | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-civil-or-divisional-court-documents-online",
+                  "title": "File civil or Divisional Court documents online | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents",
+                  "title": "Section 2: Public access to criminal court files and documents | Access court files, documents and exhibits | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.peelpolice.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/court-information.aspx",
+                  "title": "Court Information - Peel Regional Police",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "www.peelpolice.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/information-and-privacy-requests.aspx",
+                  "title": "Information and Privacy Requests - Peel Regional Police",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "www.peelpolice.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/faqs-online-record-checks.aspx",
+                  "title": "FAQs Online Record Checks - Peel Regional Police",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "www.peelpolice.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/record-checks-and-suspensions-pardons.aspx",
+                  "title": "Record Checks and Suspensions Pardons - Peel Regional Police",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "www.peelpolice.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.mississauga.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.mississauga.ca/file/COM/Direction_Sheet_Criminal_Record_Search.pdf",
+                  "title": "Direction Sheet for a",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1757195802,
+                  "attribution": "www.mississauga.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www7.mississauga.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www7.mississauga.ca/Documents/TW/businesslicensing/Direction_Sheet_Criminal_Record_Search.pdf",
+                  "title": "Direction Sheet for a",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1757463037,
+                  "attribution": "www7.mississauga.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/xrb5v0",
+                  "title": "Look up case information online?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 31
+                  },
+                  "pub_date": 1664466304.295,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/LawCanada/comments/18cwyt8",
+                  "title": "What's the best way to look at court proceedings in ontario besides caanli ?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 32
+                  },
+                  "pub_date": 1701959875.2,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ontario/comments/1bkwxe5",
+                  "title": "Contacting OCJ Courts",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 33
+                  },
+                  "pub_date": 1711106646.938,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/askTO/comments/serwta",
+                  "title": "Virtual court attendance in toronto?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 34
+                  },
+                  "pub_date": 1643379721.26,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/LawCanada/comments/1k5b01v",
+                  "title": "Is it possible to see if there is an ongoing case on someone in provincial courts?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 35
+                  },
+                  "pub_date": 1745340176.467,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/rkt3c0",
+                  "title": "Vulnerable Sector Check",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 36
+                  },
+                  "pub_date": 1640023108.02,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/CrimeInTheGta/comments/1m7ue30",
+                  "title": "Search Warrant Leads to Seizure of (Sean Reid) Firearm",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 37
+                  },
+                  "pub_date": 1753329759.552,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/LawCanada/comments/1ar850d",
+                  "title": "Are Ontario civil pleadings available online to view or download?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 38
+                  },
+                  "pub_date": 1707974846.565,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/izvrgp",
+                  "title": "How do I access the details of a using its case number?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 39
+                  },
+                  "pub_date": 1601080831.443,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/KingstonOntario/comments/1ode97y",
+                  "title": "Ontario’s Court System Fails to Protect Sensitive Information",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 40
+                  },
+                  "pub_date": 1761153106.122,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/ontario/comments/1ode7dq",
+                  "title": "Ontario’s Court System Fails to Protect Sensitive Information",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 41
+                  },
+                  "pub_date": 1761152992.571,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/1ik87c4",
+                  "title": "Trouble requesting a copy of a divorce certificate from 1998 in Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 42
+                  },
+                  "pub_date": 1738968777.308,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_69281aecb7c08329b4860f1e021983d0",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "8b4e9a44-1629-455f-9fdc-6c32083d45eb",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "39eb019e-8fd7-440f-b48a-abd12233bbe9",
+          "turn_exchange_id": "75d002d2-ae78-4f8f-a2d1-a9a8e111da88",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "39eb019e-8fd7-440f-b48a-abd12233bbe9",
+      "children": [
+        "cfa5b6df-ed98-486a-b892-c23fcfce5a38"
+      ]
+    },
+    "cfa5b6df-ed98-486a-b892-c23fcfce5a38": {
+      "id": "cfa5b6df-ed98-486a-b892-c23fcfce5a38",
+      "message": {
+        "id": "cfa5b6df-ed98-486a-b892-c23fcfce5a38",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v71",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1764236013.08922,
+        "update_time": 1764236018.26397,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you live in Mississauga and want to try to get the entity[\"legal_document\",\"Information to Obtain (ITO)\",0] for a search warrant used on your home, here’s how to do it — and which court to approach.  \n\n## ✅ Where to request the ITO in Mississauga (Peel Region)\n\n- The relevant court is a branch of entity[\"organization\",\"Ontario Court of Justice\",0] (OCJ), since criminal search warrants are filed in OCJ. citeturn0search15turn0search16turn0search17  \n- To access court documents from OCJ, including a search-warrant file, you must **go to the courthouse registry/records counter** where the warrant was issued. citeturn0search15turn0search17  \n\n## 📝 What information you should have ready — what to tell the clerk\n\nWhen you ask for the ITO, you should provide enough details so court staff can find the correct file. According to the official guidelines, these include: citeturn0search15\n\n- The **address** of the premises that was searched.  \n- The **date** the search warrant was executed — or as close as you know.  \n- Optionally (if known): the **name of the police agency** that executed the warrant, or the **name of the judicial officer** who approved it (if you know it).  \n\nIf you do that, the clerk can search by “warrant filed by location & date.” citeturn0search15  \n\n## 🔄 What to expect & potential complications\n\n- In many cases the documents are **accessible** to the public or to individuals directly affected (e.g. resident whose home was searched). citeturn0search15turn0search17  \n- Sometimes a warrant/ITO may have **public-access restrictions** (sealed or closed file). If sealed, you might need to apply to a judge to unseal (“request disclosure / unsealing”). The court clerk can tell you if the file is sealed. citeturn0search15turn0search16  \n- There may be a **fee** (per page or flat) to get copies of documents.  \n\n## 🎯 What to say when you go to the courthouse\n\nIf you go in person, you can say something like:\n\n> “Hello — I’m requesting access to the search warrant file and the Information to Obtain (ITO) for the warrant executed at [your address] on [date]. I believe it was served by [police agency — e.g. Peel Regional Police]. I want to review the ITO because I am the occupant / resident of that address.”\n\nIf the clerk asks why, you can say you are the resident and you want to understand the basis for the search.  \n\n---\n\nIf you like — I can **look up the exact address of the nearest OCJ courthouse** for Mississauga (or Peel Region) to you, so you don’t have to guess which one to go to.  \nDo you want me to fetch that for you now?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "entity[\"legal_document\",\"Information to Obtain (ITO)\",0]",
+              "start_idx": 54,
+              "end_idx": 113,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Information to Obtain (ITO)",
+              "prompt_text": "Information to Obtain (ITO)",
+              "type": "alt_text"
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Ontario Court of Justice\",0]",
+              "start_idx": 304,
+              "end_idx": 358,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Ontario Court of Justice",
+              "prompt_text": "Ontario Court of Justice",
+              "type": "alt_text"
+            },
+            {
+              "matched_text": "citeturn0search15turn0search16turn0search17",
+              "start_idx": 415,
+              "end_idx": 463,
+              "safe_urls": [
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents",
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                "https://www.ontariocourts.ca/ocj/criminal-court/",
+                "https://www.ontariocourts.ca/ocj/criminal-court/?utm_source=chatgpt.com",
+                "https://www.ontariocourts.ca/ocj/faqs/",
+                "https://www.ontariocourts.ca/ocj/faqs/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Ontario](https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Section 2: Public access to criminal court files and documents | Access court files, documents and exhibits | ontario.ca",
+                  "url": "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Criminal Court - Ontario Court of Justice",
+                      "url": "https://www.ontariocourts.ca/ocj/criminal-court/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Ontario Courts"
+                    },
+                    {
+                      "title": "FAQs - Ontario Court of Justice",
+                      "url": "https://www.ontariocourts.ca/ocj/faqs/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Ontario Courts"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 16
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 17
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search15turn0search17",
+              "start_idx": 626,
+              "end_idx": 660,
+              "safe_urls": [
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents",
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                "https://www.ontariocourts.ca/ocj/faqs/",
+                "https://www.ontariocourts.ca/ocj/faqs/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Ontario](https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Section 2: Public access to criminal court files and documents | Access court files, documents and exhibits | ontario.ca",
+                  "url": "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "FAQs - Ontario Court of Justice",
+                      "url": "https://www.ontariocourts.ca/ocj/faqs/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Ontario Courts"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 17
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search15",
+              "start_idx": 889,
+              "end_idx": 909,
+              "safe_urls": [
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents",
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Ontario](https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Section 2: Public access to criminal court files and documents | Access court files, documents and exhibits | ontario.ca",
+                  "url": "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search15",
+              "start_idx": 1281,
+              "end_idx": 1301,
+              "safe_urls": [
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents",
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Ontario](https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Section 2: Public access to criminal court files and documents | Access court files, documents and exhibits | ontario.ca",
+                  "url": "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search15turn0search17",
+              "start_idx": 1492,
+              "end_idx": 1526,
+              "safe_urls": [
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents",
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                "https://www.ontariocourts.ca/ocj/faqs/",
+                "https://www.ontariocourts.ca/ocj/faqs/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Ontario](https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Section 2: Public access to criminal court files and documents | Access court files, documents and exhibits | ontario.ca",
+                  "url": "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "FAQs - Ontario Court of Justice",
+                      "url": "https://www.ontariocourts.ca/ocj/faqs/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Ontario Courts"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 17
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search15turn0search16",
+              "start_idx": 1764,
+              "end_idx": 1798,
+              "safe_urls": [
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents",
+                "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                "https://www.ontariocourts.ca/ocj/criminal-court/",
+                "https://www.ontariocourts.ca/ocj/criminal-court/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Ontario](https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Section 2: Public access to criminal court files and documents | Access court files, documents and exhibits | ontario.ca",
+                  "url": "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Criminal Court - Ontario Court of Justice",
+                      "url": "https://www.ontariocourts.ca/ocj/criminal-court/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Ontario Courts"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 16
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 2605,
+              "end_idx": 2605,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Section 2: Public access to criminal court files and documents | Access court files, documents and exhibits | ontario.ca",
+                  "url": "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+                  "attribution": "Ontario"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents",
+            "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+            "https://www.ontariocourts.ca/ocj/criminal-court/",
+            "https://www.ontariocourts.ca/ocj/criminal-court/?utm_source=chatgpt.com",
+            "https://www.ontariocourts.ca/ocj/faqs/",
+            "https://www.ontariocourts.ca/ocj/faqs/?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "peelregion.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://peelregion.ca/services/freedom-information-requests?utm_source=chatgpt.com",
+                  "title": "Freedom of Information requests - peelregion.ca",
+                  "snippet": "FREEDOM OF INFORMATION REQUESTS  You have the right to request records from Peel Region.  For records that are not processed through routine disclosure, you can submit a Freedom of Information (FOI) r...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "peelregion.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://peelregion.ca/about/privacy/access-information?utm_source=chatgpt.com",
+                  "title": "Access to information - peelregion.ca",
+                  "snippet": "ACCESS TO INFORMATION  You have the right to request information from the Region of Peel.  Like all municipalities in Ontario, we collect and use to provide services to residents and businesses.  We f...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "peelregion.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ontariocourts.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/ocj/find-my-case/?utm_source=chatgpt.com",
+                  "title": "Find My Case - Ontario Court of Justice",
+                  "snippet": "FIND MY CASE  DAILY COURT LISTS  The Daily Court Lists online service provides information about upcoming criminal and family proceedings in the Ontario Court of Justice.  The daily court lists includ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "ontariocourts.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/scj/guides-and-service-resources/case-center/accessing-your-case/?utm_source=chatgpt.com",
+                  "title": "Accessing Your Case – Ontario Superior Court of Justice",
+                  "snippet": "Guides & Resources     Case Center     Accessing Your Case  ACCESSING YOUR CASE  The Ontario Courts’ instance of Case Center is available at https://ontariocourts.casecenter.thomsonreuters.com/. Save...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "ontariocourts.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/ocj/criminal-court/?utm_source=chatgpt.com",
+                  "title": "Criminal Court - Ontario Court of Justice",
+                  "snippet": "Some criminal cases are not included on the daily court lists. These include cases subject to public access restrictions, such as youth criminal cases. If you cannot find your case on the daily court...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "ontariocourts.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/ocj/faqs/?utm_source=chatgpt.com",
+                  "title": "FAQs - Ontario Court of Justice",
+                  "snippet": "FREQUENTLY ASKED QUESTIONS  Either browse the FAQs or enter a keyword or phrase.  GENERAL  HOW DO I FIND MY COURTHOUSE?  You can find the locations of all Ontario Court of Justice courthouses using th...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "ontariocourts.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "tps.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.tps.ca/services/receiving-court-documents/?utm_source=chatgpt.com",
+                  "title": "Get Your Court Documents- Toronto Police Service",
+                  "snippet": "* Skip to sitemap * Skip to main menu * Skip to content  The Document Service Section serves various types of court documents:  * Subpoenas, a document that compels a person to attend court proceeding...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "tps.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/search-court-cases-online?utm_source=chatgpt.com",
+                  "title": "Search for court cases online | ontario.ca",
+                  "snippet": "Ontario.ca needs JavaScript to function properly and provide you with a fast, stable experience.  To have a better experience, you need to:  * Go to your browser's settings * Enable JavaScript  * Bene...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/courts-and-court-services?utm_source=chatgpt.com",
+                  "title": "Courts and court services | ontario.ca",
+                  "snippet": "As a result, mail and parcel delivery have resumed, although customers may continue to experience delays in mail service.  Clients can contact the court office by email, attend in person, or file onli...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/ontario-courts-public-portal?utm_source=chatgpt.com",
+                  "title": "Ontario Courts Public Portal | ontario.ca",
+                  "snippet": "Ontario.ca needs JavaScript to function properly and provide you with a fast, stable experience.  To have a better experience, you need to:  * Go to your browser's settings * Enable JavaScript  * Bene...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-small-claims-court-documents-online?utm_source=chatgpt.com",
+                  "title": "File small claims court documents online | ontario.ca",
+                  "snippet": "DOCUMENTS YOU CAN FILE ONLINE (TORONTO REGION)  You can submit most Small Claims Court documents online.  Note: The Small Claims Court Submissions Online portal will no longer be available to file onl...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-enforcement-documents-online?utm_source=chatgpt.com",
+                  "title": "File enforcement documents online | ontario.ca",
+                  "snippet": "Ontario.ca needs JavaScript to function properly and provide you with a fast, stable experience.  To have a better experience, you need to:  * Go to your browser's settings * Enable JavaScript  * Bene...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-civil-or-divisional-court-documents-online?utm_source=chatgpt.com",
+                  "title": "File civil or Divisional Court documents online | ontario.ca",
+                  "snippet": "Ontario.ca needs JavaScript to function properly and provide you with a fast, stable experience.  To have a better experience, you need to:  * Go to your browser's settings * Enable JavaScript  * Bene...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "peelpolice.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/court-information.aspx?utm_source=chatgpt.com",
+                  "title": "Court Information - Peel Regional Police",
+                  "snippet": "POPULAR LINKS  Search  SEARCH  Search  COURT INFORMATION  People visit different courthouses for various reasons. Listed below are court locations and services.  COURT LOCATIONS  People go to court fo...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "peelpolice.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/information-and-privacy-requests.aspx?utm_source=chatgpt.com",
+                  "title": "Information and Privacy Requests - Peel Regional Police",
+                  "snippet": "POPULAR LINKS  Search  SEARCH  Search  INFORMATION AND PRIVACY REQUESTS  IMPORTANT NOTICE Commencing July 7, 2025, we will be closed for all in-person service at 7750 Hurontario Street, Brampton (Sir...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "peelpolice.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/faqs-online-record-checks.aspx?utm_source=chatgpt.com",
+                  "title": "FAQs Online Record Checks - Peel Regional Police",
+                  "snippet": "POPULAR LINKS  Search  SEARCH  Search  FAQS ONLINE RECORD CHECKS  FREQUENTLY ASKED QUESTIONS FOR ONLINE RECORD CHECKS  Can I submit my request online? You can request a record check from Peel Regional...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "peelpolice.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/record-checks-and-suspensions-pardons.aspx?utm_source=chatgpt.com",
+                  "title": "Record Checks and Suspensions Pardons - Peel Regional Police",
+                  "snippet": "POPULAR LINKS  Search  SEARCH  Search  RECORD CHECKS AND SUSPENSIONS (PARDONS)  IMPORTANT NOTICE Commencing July 7, 2025, we will be closed for all in-person service at 7750 Hurontario Street, Brampto...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "peelpolice.ca"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "8b4e9a44-1629-455f-9fdc-6c32083d45eb",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "c7bb005d-df06-45df-8f86-a7e4fd82e416",
+          "turn_exchange_id": "75d002d2-ae78-4f8f-a2d1-a9a8e111da88",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c7bb005d-df06-45df-8f86-a7e4fd82e416",
+      "children": [
+        "bbb211f4-6872-4a9c-9c6a-98713ac10f11"
+      ]
+    },
+    "bbb211f4-6872-4a9c-9c6a-98713ac10f11": {
+      "id": "bbb211f4-6872-4a9c-9c6a-98713ac10f11",
+      "message": {
+        "id": "bbb211f4-6872-4a9c-9c6a-98713ac10f11",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764236186.30051,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How about if you are low income you still need pay "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "07cf7141-50de-4657-9d0b-ff16d1d5cb53",
+          "message_source": null,
+          "turn_exchange_id": "4d0116f9-f900-4e7b-82b4-b6ae68552648",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cfa5b6df-ed98-486a-b892-c23fcfce5a38",
+      "children": [
+        "ad5693af-e63e-4825-bb88-f0dda06f9c43"
+      ]
+    },
+    "ad5693af-e63e-4825-bb88-f0dda06f9c43": {
+      "id": "ad5693af-e63e-4825-bb88-f0dda06f9c43",
+      "message": {
+        "id": "ad5693af-e63e-4825-bb88-f0dda06f9c43",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764236186.60399,
+        "update_time": 1764236199.930473,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Great question — and **good news**:\n\n# ✅ If you are low-income in Ontario, you can usually get the ITO **for free or at very low cost**.\n\nHere’s how it works:\n\n---\n\n# 💰 **1. There is no fee to *view* the ITO at the courthouse**\nAnyone — including low-income individuals — can **inspect** the ITO at the court without paying.\n\nYou only pay if you want:\n- **Photocopies**, or  \n- **Certified copies**\n\nBut **viewing** it in person = **free**.\n\n---\n\n# 💸 **2. If you need copies and you are low-income**\nYou can request a **fee waiver** for court documents.\n\nOntario courts allow fee waivers for people who cannot afford court fees due to low income.\n\nYou qualify for a fee waiver if:\n- You receive **OW (Ontario Works)**\n- You receive **ODSP**\n- You are unemployed OR low income\n- You support dependents and have financial hardship\n\nThe fee waiver form is **Form 2A – Fee Waiver Request Form**.\n\nOnce accepted:\n- You get copies for free  \n- You do NOT pay anything to obtain the ITO  \n\n---\n\n# 🏛️ **3. You do NOT need a lawyer to get a fee waiver**\nYou simply fill out a short form at the courthouse counter.  \nThe staff can help you.\n\n---\n\n# 🛡️ **4. Your right to the ITO does not depend on income**\nYour Charter rights do *not* change based on income.\n\nYou can still:\n- View the warrant file  \n- Request the ITO  \n- Apply to unseal it  \n- Challenge the warrant (if necessary)\n\nWhether you have money or not **does not matter**.\n\n---\n\n# 👉 If you want, I can tell you:\n- the exact courthouse address in Mississauga,  \n- what to say at the counter,  \n- and how to ask for a fee waiver.\n\nJust tell me **your nearest major intersection**, and I’ll direct you to the correct courthouse."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "07cf7141-50de-4657-9d0b-ff16d1d5cb53",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb211f4-6872-4a9c-9c6a-98713ac10f11",
+          "turn_exchange_id": "4d0116f9-f900-4e7b-82b4-b6ae68552648",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb211f4-6872-4a9c-9c6a-98713ac10f11",
+      "children": [
+        "bbb2108e-3659-4303-9992-f59b6656162e"
+      ]
+    },
+    "bbb2108e-3659-4303-9992-f59b6656162e": {
+      "id": "bbb2108e-3659-4303-9992-f59b6656162e",
+      "message": {
+        "id": "bbb2108e-3659-4303-9992-f59b6656162e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764236354.262691,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hwy 10 and burnjamthorpe"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "f6666a68-6d04-4e01-addc-48f3e6ee61fc",
+          "message_source": null,
+          "turn_exchange_id": "f5ce0ab7-b9e2-4b02-8b17-e07d64803f8a",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ad5693af-e63e-4825-bb88-f0dda06f9c43",
+      "children": [
+        "0789a803-9f5f-41ff-9902-b04848e9a690"
+      ]
+    },
+    "0789a803-9f5f-41ff-9902-b04848e9a690": {
+      "id": "0789a803-9f5f-41ff-9902-b04848e9a690",
+      "message": {
+        "id": "0789a803-9f5f-41ff-9902-b04848e9a690",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1764236355.445385,
+        "update_time": 1764236355.687693,
+        "content": {
+          "content_type": "code",
+          "text": "{}",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_complete": true,
+          "finish_details": {
+            "type": "stop"
+          },
+          "citations": [],
+          "content_references": [],
+          "request_id": "f6666a68-6d04-4e01-addc-48f3e6ee61fc",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2108e-3659-4303-9992-f59b6656162e",
+          "turn_exchange_id": "f5ce0ab7-b9e2-4b02-8b17-e07d64803f8a",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": "commentary"
+      },
+      "parent": "bbb2108e-3659-4303-9992-f59b6656162e",
+      "children": [
+        "b39bdb5f-08fa-4263-80c0-13cba2b6a204"
+      ]
+    },
+    "b39bdb5f-08fa-4263-80c0-13cba2b6a204": {
+      "id": "b39bdb5f-08fa-4263-80c0-13cba2b6a204",
+      "message": {
+        "id": "b39bdb5f-08fa-4263-80c0-13cba2b6a204",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v71",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1764236356.5761178,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "Mississauga Ontario court Ontario Court of Justice nearest courthouse to Hwy 10 and Burnhamthorpe address Mississauga courthouse address Peel Region Ontario Court of Justice Mississauga address",
+              "Ontario Court of Justice Peel Region courthouses Mississauga how to get ITO where to request court documents courthouse address Peel Ontario"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "f6666a68-6d04-4e01-addc-48f3e6ee61fc",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "0789a803-9f5f-41ff-9902-b04848e9a690",
+          "turn_exchange_id": "f5ce0ab7-b9e2-4b02-8b17-e07d64803f8a",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0789a803-9f5f-41ff-9902-b04848e9a690",
+      "children": [
+        "b0c0a69b-ec5c-4798-ad3d-193624f42b9b"
+      ]
+    },
+    "b0c0a69b-ec5c-4798-ad3d-193624f42b9b": {
+      "id": "b0c0a69b-ec5c-4798-ad3d-193624f42b9b",
+      "message": {
+        "id": "b0c0a69b-ec5c-4798-ad3d-193624f42b9b",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v71",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1764236356.5740569,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "www.peelpolice.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/court-information.aspx",
+                  "title": "Court Information - Peel Regional Police",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "www.peelpolice.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/courts-and-court-services",
+                  "title": "Courts and court services | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-small-claims-court-documents-online",
+                  "title": "File small claims court documents online | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-civil-or-divisional-court-documents-online",
+                  "title": "File civil or Divisional Court documents online | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/locations/courts",
+                  "title": "Ontario court locations, service hours and contacts | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/search-court-cases-online",
+                  "title": "Search for court cases online | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-family-court-documents-online",
+                  "title": "File family court documents online | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/ontario-courts-public-portal",
+                  "title": "Ontario Courts Public Portal | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-enforcement-documents-online",
+                  "title": "File enforcement documents online | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/provincial-offences-court-locations",
+                  "title": "Provincial Offences Court locations | ontario.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "canada247.info",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html",
+                  "title": "Ontario Court of Justice - 950 Burnhamthorpe Rd W, Mississauga, ON L5C 3B4, C - Hours, Directions, Reviews",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "canada247.info"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.tps.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.tps.ca/services/receiving-court-documents/",
+                  "title": "Get Your Court Documents- Toronto Police Service",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "www.tps.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.ontariocourts.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/ocj/notices/scheduling-of-family-matters/",
+                  "title": "Scheduling of Family Matters - Ontario Court of Justice",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontariocourts.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/scj/practice/practice-directions/central-west/cw-notice-profession-parties/",
+                  "title": "",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "www.ontariocourts.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/ocj/files/annualreport/ocj/2006-2007-EN.pdf",
+                  "title": "ONTARIO",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1757136094,
+                  "attribution": "www.ontariocourts.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "211ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/69806846/agency/mississauga-provincial-offences-court/",
+                  "title": "Mississauga. Provincial Offences Court - Agency Profile",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "211ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/69806849/mississauga-provincial-offences-court-mississauga-provincial-offences-court/",
+                  "title": "Mississauga. Provincial Offences Court - Mississauga. Provincial Offences Court",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "211ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/69796901/ontario-ministry-of-the-attorney-general-court-services-ontario-court-of-justice--superior-court-of-justice-peel-region/",
+                  "title": "Ontario. Ministry of the Attorney General, Court Services - Ontario Court of Justice / Superior Court of Justice, Peel Region",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "pub_date": null,
+                  "attribution": "211ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "canada.chamberofcommerce.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice",
+                  "title": "Ontario Court of Justice in Mississauga, ON L5C 3B4 - 905-615...",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "canada.chamberofcommerce.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.plalawyers.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.plalawyers.ca/Justice-services-online",
+                  "title": "Peel Law Association - Justice Services Online",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "www.plalawyers.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.mapquest.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.mapquest.com/ca/ontario/ontario-court-of-justice-456335921",
+                  "title": "Ontario Court of Justice, 950 Burnhamthorpe Rd W, Mississauga, ON L5C, CA - MapQuest",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "www.mapquest.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.waze.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.waze.com/live-map/directions/canada/ontario/mississauga/court-house?to=place.ChIJdRRX7DZBK4gRskCHplL8Vw8",
+                  "title": "Driving directions to Court House, 950 Burnhamthorpe Rd W, Mississauga - Waze",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "www.waze.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.waze.com/sv/live-map/directions/ontario-court-of-justice-burnhamthorpe-rd-w-950-mississauga?to=place.w.183697844.1837240581.374724",
+                  "title": "Driving directions to Ontario Court of Justice, Burnhamthorpe Rd W, 950, Mississauga - Waze",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "www.waze.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/xrb5v0",
+                  "title": "Look up case information online?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 35
+                  },
+                  "pub_date": 1664466304.295,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/izvrgp",
+                  "title": "How do I access the details of a using its case number?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 36
+                  },
+                  "pub_date": 1601080831.443,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/askTO/comments/serwta",
+                  "title": "Virtual court attendance in toronto?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 37
+                  },
+                  "pub_date": 1643379721.26,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/LawCanada/comments/1ar850d",
+                  "title": "Are Ontario civil pleadings available online to view or download?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 38
+                  },
+                  "pub_date": 1707974846.565,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/12hqyj7",
+                  "title": "How to find someone’s address to serve them with small claims court docs?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 39
+                  },
+                  "pub_date": 1681150328.894,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/vnxyhg",
+                  "title": "Sentencing decisions in the Ontario courts system made PUBLIC",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 40
+                  },
+                  "pub_date": 1656558441.385,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/LawCanada/comments/18cwyt8",
+                  "title": "What's the best way to look at court proceedings in ontario besides caanli ?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 41
+                  },
+                  "pub_date": 1701959875.2,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/1ik87c4",
+                  "title": "Trouble requesting a copy of a divorce certificate from 1998 in Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 42
+                  },
+                  "pub_date": 1738968777.308,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ontario/comments/1bkwxe5",
+                  "title": "Contacting OCJ Courts",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 43
+                  },
+                  "pub_date": 1711106646.938,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/Brampton/comments/f24gwq",
+                  "title": "Traffic Ticket Question",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 44
+                  },
+                  "pub_date": 1581402710.907,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/jo8k83",
+                  "title": "Public access to court records",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 45
+                  },
+                  "pub_date": 1604536245.851,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/Brampton/comments/hn06lg",
+                  "title": "City of Brampton reopens courthouse and extends spray pad hours",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 46
+                  },
+                  "pub_date": 1594146710.864,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_69281c4497688329a7f56a19e00e53ef",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "f6666a68-6d04-4e01-addc-48f3e6ee61fc",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "b39bdb5f-08fa-4263-80c0-13cba2b6a204",
+          "turn_exchange_id": "f5ce0ab7-b9e2-4b02-8b17-e07d64803f8a",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b39bdb5f-08fa-4263-80c0-13cba2b6a204",
+      "children": [
+        "37511baf-b530-4070-a65f-367cec16760d"
+      ]
+    },
+    "37511baf-b530-4070-a65f-367cec16760d": {
+      "id": "37511baf-b530-4070-a65f-367cec16760d",
+      "message": {
+        "id": "37511baf-b530-4070-a65f-367cec16760d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v71",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1764236356.903438,
+        "update_time": 1764236360.474603,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good question. Based on the area you gave — **Hwy 10 and Burnhamthorpe** — here’s the exact courthouse you’d likely go to, plus what to say when you get there:\n\n## 🏛️ Which courthouse to go to  \n\n**entity[\"organization\",\"Ontario Court of Justice\",0] (Mississauga courthouse)**  \n- Address: **950 Burnhamthorpe Rd W, Mississauga, ON L5C 3B4** citeturn0search4turn0search11  \n- Phone: (905) 615-4500 citeturn0search4turn0search18  \n- Hours: Monday to Friday, approximately **8:30 a.m. – 4:30 p.m.** citeturn0search11turn0search17  \n\nBecause Hwy 10 (Hurontario) and Burnhamthorpe is in Mississauga / Peel Region, this is your local OCJ court house for most criminal-warrant / search-warrant matters.  \n\n## 📝 What to say when you go  \n\nWhen you arrive at the courthouse counter (Records / Registry), you can say something like:\n\n> “Hi — I’m requesting access to the search-warrant file and the Information to Obtain (ITO) for a warrant executed at [your address] on or around [date of search]. I live at the premises, and I want to review the ITO because I’m the occupant/resident.”  \n\nIf you want **copies** and you’re low-income, you can also ask for a **fee waiver**.  \n- Ontario courts generally allow fee waivers for people who can’t afford court or document-copying fees.  \n- You only pay if you want photocopies; simply **viewing** or inspecting the ITO at the counter is free.  \n\n---\n\nIf you like — I can draft a **template letter or form** *for you* to take to the courthouse to request the ITO (with spot-holders for date, address, etc.). Would you like me to build that for you now?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "entity[\"organization\",\"Ontario Court of Justice\",0]",
+              "start_idx": 198,
+              "end_idx": 252,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Ontario Court of Justice",
+              "prompt_text": "Ontario Court of Justice",
+              "type": "alt_text"
+            },
+            {
+              "matched_text": "citeturn0search4turn0search11",
+              "start_idx": 345,
+              "end_idx": 378,
+              "safe_urls": [
+                "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice",
+                "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice?utm_source=chatgpt.com",
+                "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html",
+                "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Canada247](https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Ontario Court of Justice - 950 Burnhamthorpe Rd W, Mississauga, ON L5C 3B4, C - Hours, Directions, Reviews",
+                  "url": "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Ontario Court of Justice in Mississauga, ON L5C 3B4 - 905-615...",
+                      "url": "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Chamber of Commerce Canada"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Canada247"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search4turn0search18",
+              "start_idx": 405,
+              "end_idx": 438,
+              "safe_urls": [
+                "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html",
+                "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html?utm_source=chatgpt.com",
+                "https://www.waze.com/live-map/directions/canada/ontario/mississauga/court-house?to=place.ChIJdRRX7DZBK4gRskCHplL8Vw8",
+                "https://www.waze.com/live-map/directions/canada/ontario/mississauga/court-house?to=place.ChIJdRRX7DZBK4gRskCHplL8Vw8&utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Canada247](https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Ontario Court of Justice - 950 Burnhamthorpe Rd W, Mississauga, ON L5C 3B4, C - Hours, Directions, Reviews",
+                  "url": "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Driving directions to Court House, 950 Burnhamthorpe Rd W, Mississauga - Waze",
+                      "url": "https://www.waze.com/live-map/directions/canada/ontario/mississauga/court-house?to=place.ChIJdRRX7DZBK4gRskCHplL8Vw8&utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Waze"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 18
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Canada247"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search11turn0search17",
+              "start_idx": 508,
+              "end_idx": 542,
+              "safe_urls": [
+                "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice",
+                "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice?utm_source=chatgpt.com",
+                "https://www.mapquest.com/ca/ontario/ontario-court-of-justice-456335921",
+                "https://www.mapquest.com/ca/ontario/ontario-court-of-justice-456335921?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Chamber of Commerce Canada](https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Ontario Court of Justice in Mississauga, ON L5C 3B4 - 905-615...",
+                  "url": "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Ontario Court of Justice, 950 Burnhamthorpe Rd W, Mississauga, ON L5C, CA - MapQuest",
+                      "url": "https://www.mapquest.com/ca/ontario/ontario-court-of-justice-456335921?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "MapQuest"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 17
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Chamber of Commerce Canada"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 1604,
+              "end_idx": 1604,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Ontario Court of Justice - 950 Burnhamthorpe Rd W, Mississauga, ON L5C 3B4, C - Hours, Directions, Reviews",
+                  "url": "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html?utm_source=chatgpt.com",
+                  "attribution": "Canada247"
+                },
+                {
+                  "title": "Ontario Court of Justice in Mississauga, ON L5C 3B4 - 905-615...",
+                  "url": "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice?utm_source=chatgpt.com",
+                  "attribution": "Chamber of Commerce Canada"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice",
+            "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice?utm_source=chatgpt.com",
+            "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html",
+            "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html?utm_source=chatgpt.com",
+            "https://www.mapquest.com/ca/ontario/ontario-court-of-justice-456335921",
+            "https://www.mapquest.com/ca/ontario/ontario-court-of-justice-456335921?utm_source=chatgpt.com",
+            "https://www.waze.com/live-map/directions/canada/ontario/mississauga/court-house?to=place.ChIJdRRX7DZBK4gRskCHplL8Vw8",
+            "https://www.waze.com/live-map/directions/canada/ontario/mississauga/court-house?to=place.ChIJdRRX7DZBK4gRskCHplL8Vw8&utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "peelpolice.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.peelpolice.ca/en/services/court-information.aspx?utm_source=chatgpt.com",
+                  "title": "Court Information - Peel Regional Police",
+                  "snippet": "POPULAR LINKS  Search  SEARCH  Search  COURT INFORMATION  People visit different courthouses for various reasons. Listed below are court locations and services.  COURT LOCATIONS  People go to court fo...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "peelpolice.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/courts-and-court-services?utm_source=chatgpt.com",
+                  "title": "Courts and court services | ontario.ca",
+                  "snippet": "As a result, mail and parcel delivery have resumed, although customers may continue to experience delays in mail service.  Clients can contact the court office by email, attend in person, or file onli...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-small-claims-court-documents-online?utm_source=chatgpt.com",
+                  "title": "File small claims court documents online | ontario.ca",
+                  "snippet": "DOCUMENTS YOU CAN FILE ONLINE (TORONTO REGION)  You can submit most Small Claims Court documents online.  Note: The Small Claims Court Submissions Online portal will no longer be available to file onl...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-civil-or-divisional-court-documents-online?utm_source=chatgpt.com",
+                  "title": "File civil or Divisional Court documents online | ontario.ca",
+                  "snippet": "Ontario.ca needs JavaScript to function properly and provide you with a fast, stable experience.  To have a better experience, you need to:  * Go to your browser's settings * Enable JavaScript  * Bene...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/locations/courts?utm_source=chatgpt.com",
+                  "title": "Ontario court locations, service hours and contacts | ontario.ca",
+                  "snippet": "Skip to main content  ALL COURT LOCATIONS  A complete list of Ontario court locations sorted alphabetically by city.  Where possible, consider online filing of your civil claims, small claims, or fami...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/search-court-cases-online?utm_source=chatgpt.com",
+                  "title": "Search for court cases online | ontario.ca",
+                  "snippet": "Ontario.ca needs JavaScript to function properly and provide you with a fast, stable experience.  To have a better experience, you need to:  * Go to your browser's settings * Enable JavaScript  * Bene...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-family-court-documents-online?utm_source=chatgpt.com",
+                  "title": "File family court documents online | ontario.ca",
+                  "snippet": "Ontario.ca needs JavaScript to function properly and provide you with a fast, stable experience.  To have a better experience, you need to:  * Go to your browser's settings * Enable JavaScript  * Bene...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/ontario-courts-public-portal?utm_source=chatgpt.com",
+                  "title": "Ontario Courts Public Portal | ontario.ca",
+                  "snippet": "Ontario.ca needs JavaScript to function properly and provide you with a fast, stable experience.  To have a better experience, you need to:  * Go to your browser's settings * Enable JavaScript  * Bene...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/file-enforcement-documents-online?utm_source=chatgpt.com",
+                  "title": "File enforcement documents online | ontario.ca",
+                  "snippet": "Each office carries out civil orders and enforces them in its area. They also handle other duties assigned to sheriffs by law.  You can find more details on enforcement procedures in the Guide to Proc...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontario.ca/page/provincial-offences-court-locations?utm_source=chatgpt.com",
+                  "title": "Provincial Offences Court locations | ontario.ca",
+                  "snippet": "Ontario.ca needs JavaScript to function properly and provide you with a fast, stable experience.  To have a better experience, you need to:  * Go to your browser's settings * Enable JavaScript  * Bene...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "tps.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.tps.ca/services/receiving-court-documents/?utm_source=chatgpt.com",
+                  "title": "Get Your Court Documents- Toronto Police Service",
+                  "snippet": "* Address Service is when an officer deems that a court document recipient cannot conveniently be found, and leaves it for him/her at his/her at their home with a person who appears to be at least si...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "tps.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ontariocourts.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/ocj/notices/scheduling-of-family-matters/?utm_source=chatgpt.com",
+                  "title": "Scheduling of Family Matters - Ontario Court of Justice",
+                  "snippet": "If there is no contact information on your summons, contact the courthouse by email:  Courthouse email addresses or by telephone: Court Addresses and Phone Numbers  5.  FILING  Please see below for th...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "ontariocourts.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.ontariocourts.ca/scj/practice/practice-directions/central-west/cw-notice-profession-parties/?utm_source=chatgpt.com",
+                  "title": "",
+                  "snippet": "APPENDIX A  Documents MUST be filed through the appropriate portal set out herein or the documents will be rejected.  The Court will only accept filings by e-mail or in-person for the following reason...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "ontariocourts.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "211ontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/69806846/agency/mississauga-provincial-offences-court/?utm_source=chatgpt.com",
+                  "title": "Mississauga. Provincial Offences Court - Agency Profile",
+                  "snippet": "EN  FR  MISSISSAUGA. PROVINCIAL OFFENCES COURT  AGENCY PROFILE  Home Agency  * * *  Description Any provincial level charges laid in the city of Mississauga are dealt with at this courthouse Programs...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "211ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/69806849/mississauga-provincial-offences-court-mississauga-provincial-offences-court/?utm_source=chatgpt.com",
+                  "title": "Mississauga. Provincial Offences Court - Mississauga. Provincial Offences Court",
+                  "snippet": "EN  FR  MISSISSAUGA. PROVINCIAL OFFENCES COURT    MISSISSAUGA  Home Agency Service  View Clipboard Add  * * *  Description Handles inquiries, payment of fines related to Provincial Offences Act charge...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "211ontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://211ontario.ca/service/69796901/ontario-ministry-of-the-attorney-general-court-services-ontario-court-of-justice--superior-court-of-justice-peel-region/?utm_source=chatgpt.com",
+                  "title": "Ontario. Ministry of the Attorney General, Court Services - Ontario Court of Justice / Superior Court of Justice, Peel Region",
+                  "snippet": "EN  FR  ONTARIO. MINISTRY OF THE ATTORNEY GENERAL, COURT SERVICES  ONTARIO COURT OF JUSTICE / SUPERIOR COURT OF JUSTICE, PEEL REGION  PEEL REGION  Home Agency Service  View Clipboard Add  * * *  Descr...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "pub_date": null,
+                  "attribution": "211ontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "plalawyers.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.plalawyers.ca/Justice-services-online?utm_source=chatgpt.com",
+                  "title": "Peel Law Association - Justice Services Online",
+                  "snippet": "Menu  Log in  |  |  PEEL LAW ASSOCIATION  |  |  * Home * Courthouse * Guides * Justice Services Online  JUSTICE SERVICES ONLINE (JSO)  To submit your court documents online, you must have a My Ontario...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "plalawyers.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "mapquest.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.mapquest.com/ca/ontario/ontario-court-of-justice-456335921?utm_source=chatgpt.com",
+                  "title": "Ontario Court of Justice, 950 Burnhamthorpe Rd W, Mississauga, ON L5C, CA - MapQuest",
+                  "snippet": "ONTARIO COURT OF JUSTICE  Image  Save  Image  Call  WebsiteImage  Share  Directions  Advertisement  PHOTOS  950 Burnhamthorpe Rd W  Mississauga, ON L5C  +1 (905) 615-4500  http://ontariocourts.ca  The...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "mapquest.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "waze.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.waze.com/live-map/directions/canada/ontario/mississauga/court-house?to=place.ChIJdRRX7DZBK4gRskCHplL8Vw8&utm_source=chatgpt.com",
+                  "title": "Driving directions to Court House, 950 Burnhamthorpe Rd W, Mississauga - Waze",
+                  "snippet": "Driving directions  COURT HOUSE  950 Burnhamthorpe Rd W, Mississauga, ON, CA  (905) 615-4500  Closed now  Monday08:30 - 16:30  Tuesday08:30 - 16:30  Wednesday08:30 - 16:30  Thursday08:30 - 16:30  Frid...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "waze.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.waze.com/sv/live-map/directions/ontario-court-of-justice-burnhamthorpe-rd-w-950-mississauga?to=place.w.183697844.1837240581.374724&utm_source=chatgpt.com",
+                  "title": "Driving directions to Ontario Court of Justice, Burnhamthorpe Rd W, 950, Mississauga - Waze",
+                  "snippet": "Driving directions  ONTARIO COURT OF JUSTICE  Burnhamthorpe Rd W, 950, Mississauga, Ontario, Canada  +1-905-615-4500  ONTARIOCOURTS.CA/OCJ  Stängt nu  Måndag08:30 - 16:30  Tisdag08:30 - 16:30  Onsdag0...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "waze.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "mississauga.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.mississauga.ca/city-of-mississauga-news/news/provincial-offences-court-proceedings-in-mississauga-to-offer-video-conferencing/?utm_source=chatgpt.com",
+                  "title": "Provincial Offences Court Proceedings in Mississauga to Offer Video Conferencing – City of Mississauga",
+                  "snippet": "Skip to content  Due to the postal strike, delivery and receipt of mailed documents, payments, and notices may be delayed. For updates, visit the newsroom. Use our online or in-person options where av...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "pub_date": null,
+                  "attribution": "mississauga.ca"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "f6666a68-6d04-4e01-addc-48f3e6ee61fc",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "b0c0a69b-ec5c-4798-ad3d-193624f42b9b",
+          "turn_exchange_id": "f5ce0ab7-b9e2-4b02-8b17-e07d64803f8a",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b0c0a69b-ec5c-4798-ad3d-193624f42b9b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "37511baf-b530-4070-a65f-367cec16760d",
+  "conversation_id": "69279854-bd14-8332-adbd-29ae68851248",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.ontariocourts.ca/ocj/criminal-court/?utm_source=chatgpt.com",
+    "https://purilegalservices.ca/",
+    "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html",
+    "https://www.codefylabs.com/",
+    "https://www.waze.com/live-map/directions/canada/ontario/mississauga/court-house?to=place.ChIJdRRX7DZBK4gRskCHplL8Vw8&utm_source=chatgpt.com",
+    "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice",
+    "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents",
+    "https://www.ontario.ca/document/access-court-files-documents-and-exhibits/section-2-public-access-criminal-court-files-and-documents?utm_source=chatgpt.com",
+    "https://www.waze.com/live-map/directions/canada/ontario/mississauga/court-house?to=place.ChIJdRRX7DZBK4gRskCHplL8Vw8",
+    "https://www.mapquest.com/ca/ontario/ontario-court-of-justice-456335921",
+    "https://www.mapquest.com/ca/ontario/ontario-court-of-justice-456335921?utm_source=chatgpt.com",
+    "https://www.hitechav.ca/",
+    "https://www.openai.com",
+    "https://www.ontariocourts.ca/ocj/faqs/?utm_source=chatgpt.com",
+    "https://canada.chamberofcommerce.com/business-directory/ontario/mississauga/city-courthouse/1050760-ontario-court-of-justice?utm_source=chatgpt.com",
+    "https://canada247.info/explore/ontario/regional_municipality_of_peel/mississauga/ontario-court-of-justice-905-615-4500.html?utm_source=chatgpt.com",
+    "https://www.ontariocourts.ca/ocj/faqs/",
+    "https://www.ontariocourts.ca/ocj/criminal-court/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

@@ -1,0 +1,362 @@
+{
+  "title": "Grammatical Correction Request",
+  "create_time": 1724943313.776067,
+  "update_time": 1724943927.591049,
+  "mapping": {
+    "aaa142bf-aff1-426d-a9e7-39acad2dbc96": {
+      "id": "aaa142bf-aff1-426d-a9e7-39acad2dbc96",
+      "message": null,
+      "parent": null,
+      "children": [
+        "54e8ef8c-a745-4b2f-9be3-277a5845cb2f"
+      ]
+    },
+    "54e8ef8c-a745-4b2f-9be3-277a5845cb2f": {
+      "id": "54e8ef8c-a745-4b2f-9be3-277a5845cb2f",
+      "message": {
+        "id": "54e8ef8c-a745-4b2f-9be3-277a5845cb2f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa142bf-aff1-426d-a9e7-39acad2dbc96",
+      "children": [
+        "aaa2f65d-58b8-481d-8a39-6d2b597aba6f"
+      ]
+    },
+    "aaa2f65d-58b8-481d-8a39-6d2b597aba6f": {
+      "id": "aaa2f65d-58b8-481d-8a39-6d2b597aba6f",
+      "message": {
+        "id": "aaa2f65d-58b8-481d-8a39-6d2b597aba6f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724943313.790226,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "please make the following statement grammatically correct "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "8bad617ab86536da-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "54e8ef8c-a745-4b2f-9be3-277a5845cb2f",
+      "children": [
+        "edc51cad-2881-4621-ad37-a95c313db696"
+      ]
+    },
+    "edc51cad-2881-4621-ad37-a95c313db696": {
+      "id": "edc51cad-2881-4621-ad37-a95c313db696",
+      "message": {
+        "id": "edc51cad-2881-4621-ad37-a95c313db696",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724943314.97338,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "aaa2f65d-58b8-481d-8a39-6d2b597aba6f",
+          "request_id": "8bad617ab86536da-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa2f65d-58b8-481d-8a39-6d2b597aba6f",
+      "children": [
+        "6dbb2046-8bfb-4468-a92d-084fb4392204"
+      ]
+    },
+    "6dbb2046-8bfb-4468-a92d-084fb4392204": {
+      "id": "6dbb2046-8bfb-4468-a92d-084fb4392204",
+      "message": {
+        "id": "6dbb2046-8bfb-4468-a92d-084fb4392204",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724943314.973482,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure! Please provide the statement you'd like me to correct."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "edc51cad-2881-4621-ad37-a95c313db696",
+          "request_id": "8bad617ab86536da-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "edc51cad-2881-4621-ad37-a95c313db696",
+      "children": [
+        "aaa221e9-bb28-490c-a0a4-6c756455f75a"
+      ]
+    },
+    "aaa221e9-bb28-490c-a0a4-6c756455f75a": {
+      "id": "aaa221e9-bb28-490c-a0a4-6c756455f75a",
+      "message": {
+        "id": "aaa221e9-bb28-490c-a0a4-6c756455f75a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724943319.618164,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hello E. Nadeau,\n\nPlease review the information requested for disability tax credit certificate. My doctor will send you the other records when he receives the forms to be filled out. He has sent the forms already but was not received by you, I am not sure what happened\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "8bad61a1acd436da-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6dbb2046-8bfb-4468-a92d-084fb4392204",
+      "children": [
+        "cf42ec28-fb89-434c-8717-7566cba12770"
+      ]
+    },
+    "cf42ec28-fb89-434c-8717-7566cba12770": {
+      "id": "cf42ec28-fb89-434c-8717-7566cba12770",
+      "message": {
+        "id": "cf42ec28-fb89-434c-8717-7566cba12770",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724943323.533308,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a revised version of your statement:\n\n---\n\nHello E. Nadeau,\n\nPlease review the requested information for the Disability Tax Credit Certificate. My doctor will send you the other records once he receives the forms to be filled out. He has already sent the forms, but they were not received by you. I'm not sure what happened.\n\n---\n\nLet me know if you need any further adjustments!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "pad": "AAAAAAAAAAAAAAAA",
+          "parent_id": "aaa221e9-bb28-490c-a0a4-6c756455f75a",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8bad61a1acd436da-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa221e9-bb28-490c-a0a4-6c756455f75a",
+      "children": [
+        "aaa22ca2-e44b-4757-9871-c353110ed7b5"
+      ]
+    },
+    "aaa22ca2-e44b-4757-9871-c353110ed7b5": {
+      "id": "aaa22ca2-e44b-4757-9871-c353110ed7b5",
+      "message": {
+        "id": "aaa22ca2-e44b-4757-9871-c353110ed7b5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724943396.799122,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "add thr interim review of my journal"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "8bad63832aff36da-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cf42ec28-fb89-434c-8717-7566cba12770",
+      "children": [
+        "4b81ad91-c449-459d-8b9b-a1ce419ca0bb"
+      ]
+    },
+    "4b81ad91-c449-459d-8b9b-a1ce419ca0bb": {
+      "id": "4b81ad91-c449-459d-8b9b-a1ce419ca0bb",
+      "message": {
+        "id": "4b81ad91-c449-459d-8b9b-a1ce419ca0bb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1724943407.286604,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Certainly! Here’s the updated version of your statement with the addition:\n\n---\n\nHello E. Nadeau,\n\nPlease review the requested information for the Disability Tax Credit Certificate. My doctor will send you the other records once he receives the forms to be filled out. He has already sent the forms, but they were not received by you. I'm not sure what happened.\n\nAdditionally, please review the interim review of my journal.\n\n---\n\nLet me know if this works for you!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "pad": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+          "parent_id": "aaa22ca2-e44b-4757-9871-c353110ed7b5",
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "request_id": "8bad63832aff36da-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aaa22ca2-e44b-4757-9871-c353110ed7b5",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "4b81ad91-c449-459d-8b9b-a1ce419ca0bb",
+  "conversation_id": "63bdafed-4e77-40f8-a87c-b6ec45a0a38b",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

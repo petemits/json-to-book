@@ -1,0 +1,351 @@
+{
+  "title": "Life Expectancy 1st Century",
+  "create_time": 1773423090.744074,
+  "update_time": 1773423106.516084,
+  "mapping": {
+    "fe76b554-9fc6-4fa9-a2b1-7d0a5c7e9aa6": {
+      "id": "fe76b554-9fc6-4fa9-a2b1-7d0a5c7e9aa6",
+      "message": null,
+      "parent": null,
+      "children": [
+        "111f3e1d-2714-4f89-ab58-557431544d12"
+      ]
+    },
+    "111f3e1d-2714-4f89-ab58-557431544d12": {
+      "id": "111f3e1d-2714-4f89-ab58-557431544d12",
+      "message": {
+        "id": "111f3e1d-2714-4f89-ab58-557431544d12",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fe76b554-9fc6-4fa9-a2b1-7d0a5c7e9aa6",
+      "children": [
+        "c55e54f0-006e-4f48-b174-7bf60222c7af"
+      ]
+    },
+    "c55e54f0-006e-4f48-b174-7bf60222c7af": {
+      "id": "c55e54f0-006e-4f48-b174-7bf60222c7af",
+      "message": {
+        "id": "c55e54f0-006e-4f48-b174-7bf60222c7af",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "111f3e1d-2714-4f89-ab58-557431544d12",
+      "children": [
+        "81a6f899-3723-4894-a3cd-69f55ce46d90"
+      ]
+    },
+    "81a6f899-3723-4894-a3cd-69f55ce46d90": {
+      "id": "81a6f899-3723-4894-a3cd-69f55ce46d90",
+      "message": {
+        "id": "81a6f899-3723-4894-a3cd-69f55ce46d90",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773423090.568268,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "request_id": "c753b2e9-86ee-4520-8192-670e1a6635b4",
+          "message_source": null,
+          "turn_exchange_id": "181d9e01-7dfc-430e-9634-d3afb153a73e",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c55e54f0-006e-4f48-b174-7bf60222c7af",
+      "children": [
+        "bbb21868-568f-4c99-8ea0-0de288219ba6"
+      ]
+    },
+    "bbb21868-568f-4c99-8ea0-0de288219ba6": {
+      "id": "bbb21868-568f-4c99-8ea0-0de288219ba6",
+      "message": {
+        "id": "bbb21868-568f-4c99-8ea0-0de288219ba6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773423090.568995,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What was age in first century if humans"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "c753b2e9-86ee-4520-8192-670e1a6635b4",
+          "message_source": null,
+          "turn_exchange_id": "181d9e01-7dfc-430e-9634-d3afb153a73e",
+          "resolved_model_slug": "gpt-5-3",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "81a6f899-3723-4894-a3cd-69f55ce46d90",
+      "children": [
+        "8efdfff6-baae-4649-92d9-4800463539af"
+      ]
+    },
+    "8efdfff6-baae-4649-92d9-4800463539af": {
+      "id": "8efdfff6-baae-4649-92d9-4800463539af",
+      "message": {
+        "id": "8efdfff6-baae-4649-92d9-4800463539af",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773423090.6614468,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "c753b2e9-86ee-4520-8192-670e1a6635b4",
+          "message_type": "next",
+          "turn_exchange_id": "181d9e01-7dfc-430e-9634-d3afb153a73e",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": false,
+          "parent_id": "bbb21868-568f-4c99-8ea0-0de288219ba6",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21868-568f-4c99-8ea0-0de288219ba6",
+      "children": [
+        "5b81e53c-9eaf-4cb4-b198-392f3328f6b4"
+      ]
+    },
+    "5b81e53c-9eaf-4cb4-b198-392f3328f6b4": {
+      "id": "5b81e53c-9eaf-4cb4-b198-392f3328f6b4",
+      "message": {
+        "id": "5b81e53c-9eaf-4cb4-b198-392f3328f6b4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773423090.661218,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you’re asking **“What was the human lifespan in the 1st century?”**, historians and archaeologists estimate it roughly like this:\n\n### Average life expectancy\nIn the **1st century CE** (during the time of the entity[\"historical_period\",\"Roman Empire\"] and the life of entity[\"people\",\"Jesus Christ\"]):\n\n- **Average life expectancy at birth:** about **25–35 years**.\n\nBut this number is **misleading**.\n\n### Why it was so low\nMany people died **very young**, which pulled the average down:\n\n- High **infant mortality** (many children died before age 5)\n- **Diseases** with no antibiotics\n- **Infections and injuries**\n- **Poor sanitation**\n- **War and famine**\n\n### If someone survived childhood\nIf a person made it past childhood (around age 10–15), they often lived much longer:\n\n- Typical adult lifespan: **50–60 years**\n- Some lived **70+ years**\n\nThere are records of people even reaching **80 years**.\n\n### Example from historical sources\nAncient Roman records show:\n\n- Soldiers often served until **40–50**\n- Philosophers and politicians sometimes lived **60–70**\n\n### Comparison with today\nToday in countries like entity[\"country\",\"Canada\"]:\n\n- Average life expectancy is about **81–82 years**\n\n### Simple way to understand it\nThink of 100 babies born in the 1st century:\n\n- Many died before age **5**\n- Those who survived often lived to **50–60**\n\nSo people **weren’t dying at 30** normally — the average is low because many **children died early**.\n\n---\n\nIf you want, I can also explain something interesting:  \n**How ancient texts like the entity[\"book\",\"Bible\"] describe people living 100–900 years and what historians think about that.** It’s a fascinating topic."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"historical_period\",\"Roman Empire\"]",
+              "start_idx": 212,
+              "end_idx": 257,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Roman Empire",
+              "prompt_text": "Roman Empire",
+              "type": "entity",
+              "name": "Roman Empire",
+              "category": "historical_period",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"people\",\"Jesus Christ\"]",
+              "start_idx": 274,
+              "end_idx": 308,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Jesus Christ",
+              "prompt_text": "Jesus Christ",
+              "type": "entity",
+              "name": "Jesus Christ",
+              "category": "people",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"country\",\"Canada\"]",
+              "start_idx": 1130,
+              "end_idx": 1159,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Canada",
+              "prompt_text": "Canada",
+              "type": "entity",
+              "name": "Canada",
+              "category": "country",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"book\",\"Bible\"]",
+              "start_idx": 1562,
+              "end_idx": 1587,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Bible",
+              "prompt_text": "Bible",
+              "type": "entity",
+              "name": "Bible",
+              "category": "book",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-3",
+          "search_result_groups": [],
+          "request_id": "c753b2e9-86ee-4520-8192-670e1a6635b4",
+          "message_type": "next",
+          "turn_exchange_id": "181d9e01-7dfc-430e-9634-d3afb153a73e",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "8efdfff6-baae-4649-92d9-4800463539af",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "8efdfff6-baae-4649-92d9-4800463539af",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "5b81e53c-9eaf-4cb4-b198-392f3328f6b4",
+  "conversation_id": "69b449b0-29a0-832e-b17a-c6ad980af2cf",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

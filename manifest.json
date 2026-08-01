@@ -1,0 +1,20 @@
+{
+  "title": "My Conversations Book",
+  "chapters": [
+    {
+      "title": "Chapter 1: Introduction",
+      "parts": [
+        { "type": "text", "source": "intro.txt" },
+        { "type": "json", "source": "conversations.json" },
+        { "type": "image", "source": "cover.png", "caption": "Book cover" }
+      ]
+    },
+    {
+      "title": "Chapter 2: Analysis",
+      "parts": [
+        { "type": "json", "source": "data2.json" },
+        { "type": "text", "source": "conclusion.txt" }
+      ]
+    }
+  ]
+}

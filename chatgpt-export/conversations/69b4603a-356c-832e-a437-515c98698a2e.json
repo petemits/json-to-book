@@ -1,0 +1,617 @@
+{
+  "title": "Creating Political Party in Canada",
+  "create_time": 1773428867.625694,
+  "update_time": 1773428885.30974,
+  "mapping": {
+    "ff8e0186-c46f-4bd9-bd61-595cd40a315d": {
+      "id": "ff8e0186-c46f-4bd9-bd61-595cd40a315d",
+      "message": null,
+      "parent": null,
+      "children": [
+        "d1a8af34-6aa5-4f00-b9a8-1105d2d9925a"
+      ]
+    },
+    "d1a8af34-6aa5-4f00-b9a8-1105d2d9925a": {
+      "id": "d1a8af34-6aa5-4f00-b9a8-1105d2d9925a",
+      "message": {
+        "id": "d1a8af34-6aa5-4f00-b9a8-1105d2d9925a",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ff8e0186-c46f-4bd9-bd61-595cd40a315d",
+      "children": [
+        "dcbd72dd-a603-4322-8ac8-27c1798105e0"
+      ]
+    },
+    "dcbd72dd-a603-4322-8ac8-27c1798105e0": {
+      "id": "dcbd72dd-a603-4322-8ac8-27c1798105e0",
+      "message": {
+        "id": "dcbd72dd-a603-4322-8ac8-27c1798105e0",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d1a8af34-6aa5-4f00-b9a8-1105d2d9925a",
+      "children": [
+        "782aa40e-d7c6-40bd-91cb-0975091933e5"
+      ]
+    },
+    "782aa40e-d7c6-40bd-91cb-0975091933e5": {
+      "id": "782aa40e-d7c6-40bd-91cb-0975091933e5",
+      "message": {
+        "id": "782aa40e-d7c6-40bd-91cb-0975091933e5",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773428867.368514,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "request_id": "f98894ee-536b-4a47-b3c3-55bf95d5af39",
+          "message_source": null,
+          "turn_exchange_id": "6f9cc03a-ef09-440d-9d39-011c927149ef",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "dcbd72dd-a603-4322-8ac8-27c1798105e0",
+      "children": [
+        "bbb21379-98d6-4624-ad99-5876f9b88227"
+      ]
+    },
+    "bbb21379-98d6-4624-ad99-5876f9b88227": {
+      "id": "bbb21379-98d6-4624-ad99-5876f9b88227",
+      "message": {
+        "id": "bbb21379-98d6-4624-ad99-5876f9b88227",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773428867.36907,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Canada to create a political party do you show monwy"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "f98894ee-536b-4a47-b3c3-55bf95d5af39",
+          "message_source": null,
+          "turn_exchange_id": "6f9cc03a-ef09-440d-9d39-011c927149ef",
+          "resolved_model_slug": "gpt-5-3",
+          "paragen_variants_info": {
+            "type": "num_variants_in_stream",
+            "num_variants_in_stream": 2,
+            "display_treatment": "skippable",
+            "conversation_id": "69b4603a-356c-832e-a437-515c98698a2e"
+          },
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "782aa40e-d7c6-40bd-91cb-0975091933e5",
+      "children": [
+        "2dad7917-3e4c-4c12-8f38-da1e0c26f1a4",
+        "2b545f24-3051-484c-b3e5-3258f1ece137"
+      ]
+    },
+    "2dad7917-3e4c-4c12-8f38-da1e0c26f1a4": {
+      "id": "2dad7917-3e4c-4c12-8f38-da1e0c26f1a4",
+      "message": {
+        "id": "2dad7917-3e4c-4c12-8f38-da1e0c26f1a4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773428867.534635,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "f98894ee-536b-4a47-b3c3-55bf95d5af39",
+          "message_type": "next",
+          "turn_exchange_id": "6f9cc03a-ef09-440d-9d39-011c927149ef",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": false,
+          "parent_id": "bbb21379-98d6-4624-ad99-5876f9b88227",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21379-98d6-4624-ad99-5876f9b88227",
+      "children": [
+        "c2511f7d-3681-4606-a9d6-d3f305fbf1f8"
+      ]
+    },
+    "2b545f24-3051-484c-b3e5-3258f1ece137": {
+      "id": "2b545f24-3051-484c-b3e5-3258f1ece137",
+      "message": {
+        "id": "2b545f24-3051-484c-b3e5-3258f1ece137",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773428867.5318532,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "f98894ee-536b-4a47-b3c3-55bf95d5af39",
+          "message_type": "next",
+          "turn_exchange_id": "6f9cc03a-ef09-440d-9d39-011c927149ef",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": false,
+          "parent_id": "bbb21379-98d6-4624-ad99-5876f9b88227",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21379-98d6-4624-ad99-5876f9b88227",
+      "children": [
+        "73a5791e-0e5e-4eee-9ba4-898e550b5e52"
+      ]
+    },
+    "c2511f7d-3681-4606-a9d6-d3f305fbf1f8": {
+      "id": "c2511f7d-3681-4606-a9d6-d3f305fbf1f8",
+      "message": {
+        "id": "c2511f7d-3681-4606-a9d6-d3f305fbf1f8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773428867.530952,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In **entity[\"country\",\"Canada\"]**, you **do NOT need to show or deposit money to create a political party**. However, there are **administrative requirements** with the federal election authority, **entity[\"organization\",\"Elections Canada\"]**. 🇨🇦\n\n### Requirements to Register a Federal Political Party\nTo register a party in Canada you must:\n\n1. **Have at least 250 members**\n   - They must be **eligible voters in Canada**.\n   - They must sign declarations supporting the party.\n\n2. **Provide party leadership information**\n   - Party **leader**\n   - **Chief agent** (handles finances)\n   - **Auditor** (must be a licensed accountant)\n\n3. **Submit the party name and logo**\n   - It cannot be confusingly similar to existing parties.\n\n4. **Provide party constitution and purpose**\n   - Outline the **political goals** and structure.\n\n5. **Candidate requirement**\n   - The party must **endorse at least one candidate in a federal election** to maintain registration.\n\n### Money Rules (Important)\nYou **do not need to show money**, but:\n\n- The party must open a **bank account**.\n- All **donations and spending must follow Canadian election finance laws**.\n- Financial reports must be filed with **entity[\"organization\",\"Elections Canada\"]**.\n\n### Donations Limits (Example)\nIndividuals can donate a limited amount each year (about **$1,700+**, adjusted yearly).  \nCorporations and unions **cannot donate federally**.\n\n### Benefits of Being Registered\nA registered party can:\n\n- Issue **tax receipts for donations**.\n- Have the **party name on ballots**.\n- Receive some **reimbursements for election expenses**.\n\n### Interesting Fact\nCanada has **many small registered parties**, including:\n\n- entity[\"political_party\",\"Green Party of Canada\"]  \n- entity[\"political_party\",\"People's Party of Canada\"]  \n- entity[\"political_party\",\"Marijuana Party of Canada\"]  \n\nSome started with **very small groups of supporters**.\n\n✅ **Summary:**  \nYou **don’t need to show money**, but you must show **members, leadership, and financial compliance**.\n\n---\n\nIf you want, I can also explain:\n\n- **How to start a political party step-by-step in Canada (practical guide)**  \n- **How much money it realistically takes to run one candidate**  \n- **How small parties grow into national parties**."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"country\",\"Canada\"]",
+              "start_idx": 5,
+              "end_idx": 34,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Canada",
+              "prompt_text": "Canada",
+              "type": "entity",
+              "name": "Canada",
+              "category": "country",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Elections Canada\"]",
+              "start_idx": 202,
+              "end_idx": 246,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Elections Canada",
+              "prompt_text": "Elections Canada",
+              "type": "entity",
+              "name": "Elections Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Elections Canada\"]",
+              "start_idx": 1203,
+              "end_idx": 1247,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Elections Canada",
+              "prompt_text": "Elections Canada",
+              "type": "entity",
+              "name": "Elections Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"political_party\",\"Green Party of Canada\"]",
+              "start_idx": 1702,
+              "end_idx": 1754,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Green Party of Canada",
+              "prompt_text": "Green Party of Canada",
+              "type": "entity",
+              "name": "Green Party of Canada",
+              "category": "political_party",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"political_party\",\"People's Party of Canada\"]",
+              "start_idx": 1759,
+              "end_idx": 1814,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "People's Party of Canada",
+              "prompt_text": "People's Party of Canada",
+              "type": "entity",
+              "name": "People's Party of Canada",
+              "category": "political_party",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"political_party\",\"Marijuana Party of Canada\"]",
+              "start_idx": 1819,
+              "end_idx": 1875,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Marijuana Party of Canada",
+              "prompt_text": "Marijuana Party of Canada",
+              "type": "entity",
+              "name": "Marijuana Party of Canada",
+              "category": "political_party",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-3",
+          "search_result_groups": [],
+          "request_id": "f98894ee-536b-4a47-b3c3-55bf95d5af39",
+          "message_type": "next",
+          "turn_exchange_id": "6f9cc03a-ef09-440d-9d39-011c927149ef",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "2dad7917-3e4c-4c12-8f38-da1e0c26f1a4",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "2dad7917-3e4c-4c12-8f38-da1e0c26f1a4",
+      "children": []
+    },
+    "73a5791e-0e5e-4eee-9ba4-898e550b5e52": {
+      "id": "73a5791e-0e5e-4eee-9ba4-898e550b5e52",
+      "message": {
+        "id": "73a5791e-0e5e-4eee-9ba4-898e550b5e52",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773428867.484078,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In **entity[\"country\",\"Canada\"]**, you **do not need to show a large amount of money** to create a federal political party, but you **must meet certain legal requirements** set by **entity[\"organization\",\"Elections Canada\"]**.\n\n### Main Requirements to Register a Political Party\n\n1. **Party Leader**\n   - You must declare an official leader.\n\n2. **250 Members**\n   - At least **250 eligible voters in Canada** must sign a declaration supporting the party.\n\n3. **Party Officers**\n   - At least **three officers** (besides the leader).\n\n4. **Chief Agent**\n   - Someone responsible for finances.\n\n5. **Auditor**\n   - A licensed auditor must be appointed.\n\n6. **Party Name**\n   - The name must not be confusingly similar to an existing party.\n\n7. **Application Forms**\n   - Submit official forms to **entity[\"organization\",\"Elections Canada\"]**.\n\n### Do You Need to Show Money?\nNo minimum bank balance is required to register.  \nHowever, once registered:\n\n- You must **report all donations and expenses**.\n- If you raise or spend money, **financial statements must be filed yearly**.\n- Campaign expenses must follow limits during elections.\n\n### Optional but Practical\nMost parties still open:\n- a **party bank account**\n- a **donation system**\n\nbecause campaigning requires funding.\n\n### Example of Existing Federal Parties\nSome registered parties include:\n- entity[\"organization\",\"Liberal Party of Canada\"]  \n- entity[\"organization\",\"Conservative Party of Canada\"]  \n- entity[\"organization\",\"New Democratic Party\"]  \n- entity[\"organization\",\"Green Party of Canada\"]  \n\n---\n\n✅ **In short:**  \nYou **don’t have to prove you have money**, but you **must show organizational support (250 members) and follow financial reporting rules**.\n\n---\n\nIf you want, I can also explain:\n- **How someone could start a party in Canada step-by-step**\n- **How much it realistically costs to run one**\n- **How small parties get funding from the government**."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"country\",\"Canada\"]",
+              "start_idx": 5,
+              "end_idx": 34,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Canada",
+              "prompt_text": "Canada",
+              "type": "entity",
+              "name": "Canada",
+              "category": "country",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Elections Canada\"]",
+              "start_idx": 185,
+              "end_idx": 229,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Elections Canada",
+              "prompt_text": "Elections Canada",
+              "type": "entity",
+              "name": "Elections Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Elections Canada\"]",
+              "start_idx": 804,
+              "end_idx": 848,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Elections Canada",
+              "prompt_text": "Elections Canada",
+              "type": "entity",
+              "name": "Elections Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Liberal Party of Canada\"]",
+              "start_idx": 1366,
+              "end_idx": 1417,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Liberal Party of Canada",
+              "prompt_text": "Liberal Party of Canada",
+              "type": "entity",
+              "name": "Liberal Party of Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Conservative Party of Canada\"]",
+              "start_idx": 1422,
+              "end_idx": 1478,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Conservative Party of Canada",
+              "prompt_text": "Conservative Party of Canada",
+              "type": "entity",
+              "name": "Conservative Party of Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"New Democratic Party\"]",
+              "start_idx": 1483,
+              "end_idx": 1531,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "New Democratic Party",
+              "prompt_text": "New Democratic Party",
+              "type": "entity",
+              "name": "New Democratic Party",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Green Party of Canada\"]",
+              "start_idx": 1536,
+              "end_idx": 1585,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Green Party of Canada",
+              "prompt_text": "Green Party of Canada",
+              "type": "entity",
+              "name": "Green Party of Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-3",
+          "search_result_groups": [],
+          "request_id": "f98894ee-536b-4a47-b3c3-55bf95d5af39",
+          "message_type": "next",
+          "turn_exchange_id": "6f9cc03a-ef09-440d-9d39-011c927149ef",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "2b545f24-3051-484c-b3e5-3258f1ece137",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "2b545f24-3051-484c-b3e5-3258f1ece137",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "73a5791e-0e5e-4eee-9ba4-898e550b5e52",
+  "conversation_id": "69b4603a-356c-832e-a437-515c98698a2e",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

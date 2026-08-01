@@ -1,0 +1,1312 @@
+{
+  "title": "Budget RTW Travel Plan",
+  "create_time": 1773005320.011102,
+  "update_time": 1773005504.290214,
+  "mapping": {
+    "69251135-1980-4711-90d5-31bf1b987ee9": {
+      "id": "69251135-1980-4711-90d5-31bf1b987ee9",
+      "message": null,
+      "parent": null,
+      "children": [
+        "be4ec625-2ede-4dc6-bf62-0af7258068b8"
+      ]
+    },
+    "be4ec625-2ede-4dc6-bf62-0af7258068b8": {
+      "id": "be4ec625-2ede-4dc6-bf62-0af7258068b8",
+      "message": {
+        "id": "be4ec625-2ede-4dc6-bf62-0af7258068b8",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "69251135-1980-4711-90d5-31bf1b987ee9",
+      "children": [
+        "1f08ce06-edfc-41ed-8d2f-eb60a224de51"
+      ]
+    },
+    "1f08ce06-edfc-41ed-8d2f-eb60a224de51": {
+      "id": "1f08ce06-edfc-41ed-8d2f-eb60a224de51",
+      "message": {
+        "id": "1f08ce06-edfc-41ed-8d2f-eb60a224de51",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "be4ec625-2ede-4dc6-bf62-0af7258068b8",
+      "children": [
+        "bbb21b12-2317-4621-be7e-e1eeaf1b2f4f"
+      ]
+    },
+    "bbb21b12-2317-4621-be7e-e1eeaf1b2f4f": {
+      "id": "bbb21b12-2317-4621-be7e-e1eeaf1b2f4f",
+      "message": {
+        "id": "bbb21b12-2317-4621-be7e-e1eeaf1b2f4f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773005319.843903,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Jets set up travel plan and destinations to cover around the world starting from usa to south america to medetreeanian to Europe and to Dubai and afrinan island to oriental country. My budget would 10 thousand dollars canadian"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "f6435a0e-290b-46ea-90e2-1c7e5c46f67d",
+          "message_source": null,
+          "turn_exchange_id": "9dd7b556-7ddc-42da-838f-df25fe67131a",
+          "resolved_model_slug": "gpt-5-3",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1f08ce06-edfc-41ed-8d2f-eb60a224de51",
+      "children": [
+        "dbbb5c06-4596-4902-8652-d2eae3a6efc4"
+      ]
+    },
+    "dbbb5c06-4596-4902-8652-d2eae3a6efc4": {
+      "id": "dbbb5c06-4596-4902-8652-d2eae3a6efc4",
+      "message": {
+        "id": "dbbb5c06-4596-4902-8652-d2eae3a6efc4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773005319.962592,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "f6435a0e-290b-46ea-90e2-1c7e5c46f67d",
+          "message_type": "next",
+          "turn_exchange_id": "9dd7b556-7ddc-42da-838f-df25fe67131a",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": false,
+          "parent_id": "bbb21b12-2317-4621-be7e-e1eeaf1b2f4f",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21b12-2317-4621-be7e-e1eeaf1b2f4f",
+      "children": [
+        "7e3b6eda-dccc-4325-a674-a2fcb42d1bf9"
+      ]
+    },
+    "7e3b6eda-dccc-4325-a674-a2fcb42d1bf9": {
+      "id": "7e3b6eda-dccc-4325-a674-a2fcb42d1bf9",
+      "message": {
+        "id": "7e3b6eda-dccc-4325-a674-a2fcb42d1bf9",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773005320.0472243,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-3",
+          "request_id": "f6435a0e-290b-46ea-90e2-1c7e5c46f67d",
+          "message_type": "next",
+          "turn_exchange_id": "9dd7b556-7ddc-42da-838f-df25fe67131a",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "parent_id": "dbbb5c06-4596-4902-8652-d2eae3a6efc4",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "dbbb5c06-4596-4902-8652-d2eae3a6efc4",
+      "children": [
+        "37faa159-a07a-4b2a-aa8c-c7c54ae38c89"
+      ]
+    },
+    "37faa159-a07a-4b2a-aa8c-c7c54ae38c89": {
+      "id": "37faa159-a07a-4b2a-aa8c-c7c54ae38c89",
+      "message": {
+        "id": "37faa159-a07a-4b2a-aa8c-c7c54ae38c89",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773005319.9366007,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"Jets set up travel plan and destinations to cover around the world starting from usa to south america to medetreeanian to Europe and to Dubai and afrinan island to oriental country. My budget would 10 thousand dollars canadian\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-3",
+          "request_id": "f6435a0e-290b-46ea-90e2-1c7e5c46f67d",
+          "message_type": "next",
+          "turn_exchange_id": "9dd7b556-7ddc-42da-838f-df25fe67131a",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "parent_id": "7e3b6eda-dccc-4325-a674-a2fcb42d1bf9",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "7e3b6eda-dccc-4325-a674-a2fcb42d1bf9",
+      "children": [
+        "abe44e70-168c-4409-890f-cdc91edaca3b"
+      ]
+    },
+    "abe44e70-168c-4409-890f-cdc91edaca3b": {
+      "id": "abe44e70-168c-4409-890f-cdc91edaca3b",
+      "message": {
+        "id": "abe44e70-168c-4409-890f-cdc91edaca3b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1773005321.586794,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes — with **$10,000 CAD (~$7,400 USD)** you *can do a basic round-the-world trip* if you travel budget style (hostels, cheap flights, short stays). Budget travelers often spend **$40–$80 per day in South America and Africa and even less in parts of Asia**, which makes global travel possible if you plan carefully. citeturn0search0  \n\nBelow is a **realistic jet route plan** starting from North America and moving across continents like you asked.\n\n---\n\n# 🌍 Budget Round-the-World Travel Plan  \n**Budget:** ~$10,000 CAD  \n**Duration:** ~45–60 days  \n**Style:** Budget flights + hostels\n\n---\n\n# ✈️ Route (West → East Around Earth)\n\n### 1️⃣ USA (Start Hub)\nStart from a cheap international hub.\n\nCities:\n- New York\n- Miami\n- Los Angeles\n\nBudget flight hubs have cheaper fares because many airlines compete there. citeturn0search3  \n\nEstimated cost:  \n$200–$400 flight from Canada.\n\nStay: 2 days\n\n---\n\n# 🇧🇷 South America\nFly from Miami or NYC.\n\nDestinations:\n- Rio de Janeiro (Brazil)\n- Lima (Peru)\n- Medellín (Colombia)\n\nBudget:  \nFlight: $300–$450  \nStay: 5–7 days\n\nThings to see:\n- Amazon rainforest\n- Machu Picchu\n- Beaches\n\nDaily cost: ~$50\n\n---\n\n# 🇪🇸 Mediterranean\nNext fly to southern Europe.\n\nDestinations:\n- Barcelona (Spain)\n- Rome (Italy)\n- Athens (Greece)\n\nFlight: $400–$600\n\nStay: 6–8 days\n\nThings to see:\n- Colosseum\n- Greek islands\n- Mediterranean coast\n\n---\n\n# 🇪🇺 Europe (Central)\nTravel by cheap flights or trains.\n\nCities:\n- Paris\n- Berlin\n- Amsterdam\n\nFlight/train: $50–$120\n\nStay: 5–6 days\n\n---\n\n# 🇦🇪 Dubai (Middle East)\nFlight from Europe.\n\nFlight: $250–$350\n\nStay: 3 days\n\nSee:\n- Burj Khalifa\n- Desert safari\n- Palm Island\n\n---\n\n# 🌍 African Island\nChoose cheaper island destination.\n\nOptions:\n- Zanzibar (Tanzania)\n- Madagascar\n- Cape Verde\n\nFlight: $300–$500\n\nStay: 4–5 days\n\n---\n\n# 🌏 Oriental Asia\nFly to Southeast Asia (cheapest region).\n\nBest options:\n- Bangkok (Thailand)\n- Kuala Lumpur (Malaysia)\n- Bali (Indonesia)\n- Vietnam\n\nFlight: $350–$500\n\nStay: 10–14 days\n\nAsia is one of the cheapest places to travel with daily budgets around **£25–£40 ($40–$70 CAD)**. citeturn0search0  \n\n---\n\n# 🇯🇵 East Asia\nOptional stop:\n\n- Tokyo\n- Seoul\n\nFlight: $150–$250\n\nStay: 4 days\n\n---\n\n# 🇨🇦 Return to Canada\nFlight from Tokyo / Bangkok.\n\nCost: $500–$700\n\n---\n\n# 💰 Approx Budget Breakdown\n\n| Category | Cost CAD |\n|---|---|\nFlights | $4000 |\nAccommodation | $2500 |\nFood | $1500 |\nLocal transport | $700 |\nTours & activities | $800 |\nBuffer | $500 |\n\nTotal ≈ **$10,000 CAD**\n\n---\n\n# 🧭 Example Full Route\nToronto →  \nNew York →  \nRio de Janeiro →  \nBarcelona →  \nRome →  \nParis →  \nDubai →  \nZanzibar →  \nBangkok →  \nTokyo →  \nToronto\n\n---\n\n# 🧠 Pro Tricks to Stay Under Budget\n1. Use **Skyscanner “Everywhere” search**\n2. Carry **only backpack (no luggage fees)**\n3. Use **hostels or capsule hotels**\n4. Travel **September–November** (cheapest flights). citeturn0search15  \n\n---\n\n✅ If you want, I can also show you:\n\n- **A 30-day ultra-cheap route (~$6k CAD)**  \n- **A luxury route (~$10k but hotels included)**  \n- **A world map of the flight path**  \n- **Actual flights you could book today**."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 316,
+              "end_idx": 335,
+              "safe_urls": [
+                "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner",
+                "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Kilroy](https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Round-the-World Budget Planner | KILROY",
+                  "url": "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner?utm_source=chatgpt.com",
+                  "attribution": "Kilroy",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search3",
+              "start_idx": 815,
+              "end_idx": 834,
+              "safe_urls": [
+                "https://worldtravelerclub.com/round-the-world-trips-made-easy-from-budget-to-luxury-travel/",
+                "https://worldtravelerclub.com/round-the-world-trips-made-easy-from-budget-to-luxury-travel/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([World Traveler Club](https://worldtravelerclub.com/round-the-world-trips-made-easy-from-budget-to-luxury-travel/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Round The World Trips Made Easy: From Budget To Luxury Travel - World Traveler Club - Travel Deals By World Traveler Club",
+                  "url": "https://worldtravelerclub.com/round-the-world-trips-made-easy-from-budget-to-luxury-travel/?utm_source=chatgpt.com",
+                  "attribution": "World Traveler Club",
+                  "pub_date": 1744156800,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 2094,
+              "end_idx": 2113,
+              "safe_urls": [
+                "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner",
+                "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Kilroy](https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Round-the-World Budget Planner | KILROY",
+                  "url": "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner?utm_source=chatgpt.com",
+                  "attribution": "Kilroy",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search15",
+              "start_idx": 2874,
+              "end_idx": 2894,
+              "safe_urls": [
+                "https://brugge.arenal.be/sites/arenal/files/webform/contact/_sid_/expedia-affordable-flights-for-budget-trips-across-the-globe.pdf",
+                "https://brugge.arenal.be/sites/arenal/files/webform/contact/_sid_/expedia-affordable-flights-for-budget-trips-across-the-globe.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Arenal Brugge](https://brugge.arenal.be/sites/arenal/files/webform/contact/_sid_/expedia-affordable-flights-for-budget-trips-across-the-globe.pdf?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Expedia Affordable Flights for Budget",
+                  "url": "https://brugge.arenal.be/sites/arenal/files/webform/contact/_sid_/expedia-affordable-flights-for-budget-trips-across-the-globe.pdf?utm_source=chatgpt.com",
+                  "attribution": "Arenal Brugge",
+                  "pub_date": 1768130746,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 15
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 3118,
+              "end_idx": 3118,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Round-the-World Budget Planner | KILROY",
+                  "url": "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner?utm_source=chatgpt.com",
+                  "attribution": "Kilroy"
+                },
+                {
+                  "title": "Round The World Trips Made Easy: From Budget To Luxury Travel - World Traveler Club - Travel Deals By World Traveler Club",
+                  "url": "https://worldtravelerclub.com/round-the-world-trips-made-easy-from-budget-to-luxury-travel/?utm_source=chatgpt.com",
+                  "attribution": "World Traveler Club"
+                },
+                {
+                  "title": "Expedia Affordable Flights for Budget",
+                  "url": "https://brugge.arenal.be/sites/arenal/files/webform/contact/_sid_/expedia-affordable-flights-for-budget-trips-across-the-globe.pdf?utm_source=chatgpt.com",
+                  "attribution": "Arenal Brugge"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://brugge.arenal.be/sites/arenal/files/webform/contact/_sid_/expedia-affordable-flights-for-budget-trips-across-the-globe.pdf",
+            "https://brugge.arenal.be/sites/arenal/files/webform/contact/_sid_/expedia-affordable-flights-for-budget-trips-across-the-globe.pdf?utm_source=chatgpt.com",
+            "https://worldtravelerclub.com/round-the-world-trips-made-easy-from-budget-to-luxury-travel/",
+            "https://worldtravelerclub.com/round-the-world-trips-made-easy-from-budget-to-luxury-travel/?utm_source=chatgpt.com",
+            "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner",
+            "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "aroundtheworldticket.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://aroundtheworldticket.com/rtw-itineraries/?utm_source=chatgpt.com",
+                  "title": "RTW Itineraries - Around the World Ticket",
+                  "snippet": "SCINTILLATING CITIES 2 RTW  LAX/NEW YORK – 3 STOPS IN SOUTH AMERICA – SOUTH AFRICA – INDIA – BANGKOK/SINGAPORE/KUALA LUMPUR – BALI – SYDNEY – AUCKLAND – BORA BORA – LAX TOTAL FARE – $4700.00 – $5100.0...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "aroundtheworldticket.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://aroundtheworldticket.com/asia-budget-explorer-rtw/?utm_source=chatgpt.com",
+                  "title": "Explore the World For Cheap | Budget Explorer Trip",
+                  "snippet": "Explore Asia at an unbelievably low budget through our Asia Budget Explorer RTW.  LAX/NEW YORK – 3 STOPS IN SOUTH AMERICA – SOUTH AFRICA – INDIA – BANGKOK/SINGAPORE/KUALA LUMPUR – BALI – SYDNEY – AUC...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "aroundtheworldticket.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "travel-dealz.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://travel-dealz.com/deal/round-the-world-examples/?utm_source=chatgpt.com",
+                  "title": "Round the World: Three Example Routings, Starting at €924 (Separate Tickets; €1,081 with Checked Luggage)",
+                  "snippet": "Home » Dealz » Flights » Economy Class »  ROUND THE WORLD: THREE EXAMPLE ROUTINGS, STARTING AT €924 (SEPARATE TICKETS; €1,081 WITH CHECKED LUGGAGE)  valid  Every now and then, we set out to find the c...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": 1757980800,
+                  "attribution": "travel-dealz.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "listsbylukiih.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://listsbylukiih.com/trip-cost-breakdowns/?utm_source=chatgpt.com",
+                  "title": "💰 What I Spent Traveling to 21 Destinations (2025 Update)",
+                  "snippet": "* ☝️ Per person – All costs are per person. Except for Spain, I’ve traveled to all destinations with at least one other person, which allowed us to split costs, such as housing. * 💰 Mid-range budget –...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": 1745020800,
+                  "attribution": "listsbylukiih.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "jetsetter-magazine.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://jetsetter-magazine.com/inspiration/round-the-world-ticket/?utm_source=chatgpt.com",
+                  "title": "The Jetsetter's Guide to Round-the-World Tickets - Jetsetter",
+                  "snippet": "WHAT A ROUND-THE-WORLD TICKET LOOKS LIKE IN PRACTICE  To truly understand the value and appeal of a Round-the-World ticket, it helps to see an actual itinerary.  Below are two distinctly different exa...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "jetsetter-magazine.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "trip.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://au.trip.com/guide/info/round-the-world-flights.html?utm_source=chatgpt.com",
+                  "title": "Round the World Flgihts: Preparation, Costs, Routes & How to Book | Trip.com",
+                  "snippet": "HOW MUCH DOES A ROUND WORLD TRIP COST?  Image: How Much Does a Round World Trip Cost?  Source from Unsplash  The short answer is that a budget-conscious, longer trip can cost a similar amount to a sho...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1757376000,
+                  "attribution": "trip.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "theworldlocals.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://theworldlocals.com/discover/how-much-does-it-cost-to-travel-the-world-a-guide-to-budgeting-by-destination?utm_source=chatgpt.com",
+                  "title": "How Much Does It Cost to Travel the World? Budgeting by Destination — World Locals",
+                  "snippet": "GULF STATES (UAE, QATAR, OMAN, BAHRAIN)  Daily budget: AED 400–700 (£88–155 / €102–180 / $116–190)  The Gulf offers modern comfort and high prices. Accommodation in Dubai or Doha starts at AED 300–400...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "theworldlocals.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "bootsnall.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.bootsnall.com/articles/5-affordable-round-the-world-routes.html?utm_source=chatgpt.com",
+                  "title": "5 Affordable Round the World Routes - BootsnAll Travel Articles",
+                  "snippet": "Author: Adam Seper  5 AFFORDABLE ROUND THE WORLD ROUTES  SEARCH FOR AROUND THE WORLD TICKET  [Input: Where from?]  FAQ: How do I use this trip planner?  * Start by typing your departure city in the b...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "bootsnall.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "airtravelgenius.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.airtravelgenius.com/round-the-world-tickets/?utm_source=chatgpt.com",
+                  "title": "Round The World Tickets - The Essential RTW Guide",
+                  "snippet": "8. RTW TICKET AGENTS/BROKERS  Some well known specialist RTW agents are:  * Airtreks (US) * Bootsnall (US) * Trailfinders (UK) * Travel Nation (UK) * Roundabouttravel (Australia) * Airfare Geeks – MAV...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": 1747699200,
+                  "attribution": "airtravelgenius.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "druganov.travel",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://druganov.travel/en/how-to-plan-a-round-the-world-trip-budgeting-routing-and-logistics-your-step-by-step-playbook/?utm_source=chatgpt.com",
+                  "title": "How to Plan a Round-the-World Trip: Budgeting, Routing & Logistics",
+                  "snippet": "ITINERARY-BUILDING: A PRACTICAL EXAMPLE  Let’s assemble a hypothetical 9-month round-the-world route with budgets and a rough timeline. This will show how budgeting, routing, and logistics come togeth...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": 1756339200,
+                  "attribution": "druganov.travel"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "resolved_model_slug": "gpt-5-3",
+          "request_id": "f6435a0e-290b-46ea-90e2-1c7e5c46f67d",
+          "message_type": "next",
+          "turn_exchange_id": "9dd7b556-7ddc-42da-838f-df25fe67131a",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "8115c0c2-2102-4bfd-9936-b25dc7c407e6",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "37faa159-a07a-4b2a-aa8c-c7c54ae38c89",
+      "children": [
+        "bbb21d2b-3871-4f25-994a-07070e4f9e68"
+      ]
+    },
+    "bbb21d2b-3871-4f25-994a-07070e4f9e68": {
+      "id": "bbb21d2b-3871-4f25-994a-07070e4f9e68",
+      "message": {
+        "id": "bbb21d2b-3871-4f25-994a-07070e4f9e68",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773005480.971868,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Rearrange so I could land in India. I want to stay there for a bit "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "127d8433-db48-4efb-a8ae-0a8c5cc8012e",
+          "message_source": null,
+          "turn_exchange_id": "7d9708a8-9bb9-49b5-a982-58ab188fbc8b",
+          "resolved_model_slug": "gpt-5-3",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "abe44e70-168c-4409-890f-cdc91edaca3b",
+      "children": [
+        "ff04b4ab-10f7-46c7-b25d-710fa1aeeacd"
+      ]
+    },
+    "ff04b4ab-10f7-46c7-b25d-710fa1aeeacd": {
+      "id": "ff04b4ab-10f7-46c7-b25d-710fa1aeeacd",
+      "message": {
+        "id": "ff04b4ab-10f7-46c7-b25d-710fa1aeeacd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1773005481.310801,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To **include India for a longer stay** and still keep your **$10,000 CAD budget**, the best strategy is to move **Asia toward the end of the route**, because flights into India from Southeast Asia or the Middle East are cheap.  \n\nHere is a **more efficient round-the-world route** that naturally leads you to **India for a longer stay**.\n\n---\n\n# 🌍 Optimized Round-the-World Route (Ending with India Stay)\n\n### 🇨🇦 1. Canada → USA\nStart from a major hub.\n\nCities:\n- entity[\"city\",\"New York City\"]  \n- entity[\"city\",\"Miami\"]  \n- entity[\"city\",\"Los Angeles\"]  \n\nStay: 1–2 days  \nCost: ~$200–$350\n\nThese cities have cheaper international departures.\n\n---\n\n# 🇧🇷 2. South America\nFly from USA.\n\nDestinations:\n- entity[\"city\",\"Rio de Janeiro\"]  \n- entity[\"city\",\"Lima\"]  \n- entity[\"city\",\"Medellín\"]  \n\nStay: 5–6 days  \n\nHighlights:\n- Amazon rainforest\n- Andes mountains\n- Beaches\n\nBudget: ~$400 flight\n\n---\n\n# 🇪🇸 3. Mediterranean Europe\nNext cross the Atlantic.\n\nCities:\n- entity[\"city\",\"Barcelona\"]  \n- entity[\"city\",\"Rome\"]  \n- entity[\"city\",\"Athens\"]  \n\nStay: 6–7 days\n\nHighlights:\n- Ancient ruins\n- Mediterranean coastline\n- Greek islands\n\n---\n\n# 🇪🇺 4. Central Europe\nShort flights or trains.\n\nCities:\n- entity[\"city\",\"Paris\"]  \n- entity[\"city\",\"Berlin\"]  \n- entity[\"city\",\"Amsterdam\"]  \n\nStay: 4–5 days\n\nBudget flights: ~$80–$120\n\n---\n\n# 🇦🇪 5. Middle East Stop\nFly from Europe.\n\nCity:\n- entity[\"city\",\"Dubai\"]  \n\nStay: 3 days  \n\nSee:\n- entity[\"point_of_interest\",\"Burj Khalifa\"]  \n- desert safari  \n- modern architecture\n\n---\n\n# 🌍 6. African Island Stop\nChoose one island destination.\n\nOptions:\n- entity[\"place\",\"Zanzibar\",\"Zanzibar Archipelago, Tanzania\"]  \n- entity[\"place\",\"Madagascar\"]  \n- entity[\"place\",\"Mauritius\"]  \n\nStay: 4–5 days\n\nHighlights:\n- coral reefs\n- beaches\n- wildlife\n\n---\n\n# 🇹🇭 7. Southeast Asia\nFly from Africa or Middle East.\n\nCities:\n- entity[\"city\",\"Bangkok\"]  \n- entity[\"city\",\"Kuala Lumpur\"]  \n- entity[\"place\",\"Bali\",\"Bali, Indonesia\"]  \n\nStay: 7–10 days\n\nAsia is one of the cheapest travel regions.\n\nDaily budget: $30–$50\n\n---\n\n# 🇮🇳 8. INDIA (Main Stay)\nFly from Bangkok or Kuala Lumpur.\n\nCities to consider:\n- entity[\"city\",\"Mumbai\"]  \n- entity[\"city\",\"Delhi\"]  \n- entity[\"city\",\"Goa\"]  \n- entity[\"city\",\"Jaipur\"]  \n\nStay: **2–3 weeks**\n\nThings to see:\n- entity[\"point_of_interest\",\"Taj Mahal\"]  \n- Rajasthan palaces  \n- Himalayan regions  \n- Indian beaches\n\nIndia is **very cheap for travelers**:\nDaily budget: $20–$40\n\n---\n\n# ✈️ Return to Canada\nFly from:\n\n- entity[\"city\",\"Delhi\"]  \nor  \n- entity[\"city\",\"Mumbai\"]  \n\nFlight cost: ~$700–$900\n\n---\n\n# 💰 Estimated Budget\n\n| Category | Cost |\n|---|---|\nFlights | $4200 |\nHotels/Hostels | $2300 |\nFood | $1500 |\nLocal travel | $700 |\nActivities | $800 |\nBuffer | $500 |\n\nTotal ≈ **$10,000 CAD**\n\n---\n\n# 🌎 Final Travel Flow\n\nCanada →  \nUSA →  \nSouth America →  \nMediterranean Europe →  \nCentral Europe →  \nDubai →  \nAfrican Island →  \nSoutheast Asia →  \n**India (long stay)** →  \nCanada\n\n---\n\n✅ If you'd like, I can also show you:\n\n- **A 60-day detailed itinerary with number of days in each city**  \n- **The cheapest airlines for each leg**  \n- **How to buy a “Round-The-World” ticket for about $3500**  \n- **A world map of the route you would fly**."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"city\",\"New York City\"]",
+              "start_idx": 464,
+              "end_idx": 497,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "New York City",
+              "prompt_text": "New York City",
+              "type": "entity",
+              "name": "New York City",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Miami\"]",
+              "start_idx": 502,
+              "end_idx": 527,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Miami",
+              "prompt_text": "Miami",
+              "type": "entity",
+              "name": "Miami",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Los Angeles\"]",
+              "start_idx": 532,
+              "end_idx": 563,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Los Angeles",
+              "prompt_text": "Los Angeles",
+              "type": "entity",
+              "name": "Los Angeles",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Rio de Janeiro\"]",
+              "start_idx": 713,
+              "end_idx": 747,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Rio de Janeiro",
+              "prompt_text": "Rio de Janeiro",
+              "type": "entity",
+              "name": "Rio de Janeiro",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Lima\"]",
+              "start_idx": 752,
+              "end_idx": 776,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Lima",
+              "prompt_text": "Lima",
+              "type": "entity",
+              "name": "Lima",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Medellín\"]",
+              "start_idx": 781,
+              "end_idx": 809,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Medellín",
+              "prompt_text": "Medellín",
+              "type": "entity",
+              "name": "Medellín",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Barcelona\"]",
+              "start_idx": 984,
+              "end_idx": 1013,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Barcelona",
+              "prompt_text": "Barcelona",
+              "type": "entity",
+              "name": "Barcelona",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Rome\"]",
+              "start_idx": 1018,
+              "end_idx": 1042,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Rome",
+              "prompt_text": "Rome",
+              "type": "entity",
+              "name": "Rome",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Athens\"]",
+              "start_idx": 1047,
+              "end_idx": 1073,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Athens",
+              "prompt_text": "Athens",
+              "type": "entity",
+              "name": "Athens",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Paris\"]",
+              "start_idx": 1228,
+              "end_idx": 1253,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Paris",
+              "prompt_text": "Paris",
+              "type": "entity",
+              "name": "Paris",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Berlin\"]",
+              "start_idx": 1258,
+              "end_idx": 1284,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Berlin",
+              "prompt_text": "Berlin",
+              "type": "entity",
+              "name": "Berlin",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Amsterdam\"]",
+              "start_idx": 1289,
+              "end_idx": 1318,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Amsterdam",
+              "prompt_text": "Amsterdam",
+              "type": "entity",
+              "name": "Amsterdam",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Dubai\"]",
+              "start_idx": 1421,
+              "end_idx": 1446,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Dubai",
+              "prompt_text": "Dubai",
+              "type": "entity",
+              "name": "Dubai",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"point_of_interest\",\"Burj Khalifa\"]",
+              "start_idx": 1473,
+              "end_idx": 1518,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Burj Khalifa",
+              "prompt_text": "Burj Khalifa",
+              "type": "entity",
+              "name": "Burj Khalifa",
+              "category": "point_of_interest",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"place\",\"Zanzibar\",\"Zanzibar Archipelago, Tanzania\"]",
+              "start_idx": 1637,
+              "end_idx": 1699,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Zanzibar",
+              "prompt_text": "Zanzibar",
+              "type": "entity",
+              "name": "Zanzibar",
+              "category": "place",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "Zanzibar Archipelago, Tanzania"
+              },
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"place\",\"Madagascar\"]",
+              "start_idx": 1704,
+              "end_idx": 1735,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Madagascar",
+              "prompt_text": "Madagascar",
+              "type": "entity",
+              "name": "Madagascar",
+              "category": "place",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"place\",\"Mauritius\"]",
+              "start_idx": 1740,
+              "end_idx": 1770,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Mauritius",
+              "prompt_text": "Mauritius",
+              "type": "entity",
+              "name": "Mauritius",
+              "category": "place",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Bangkok\"]",
+              "start_idx": 1909,
+              "end_idx": 1936,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Bangkok",
+              "prompt_text": "Bangkok",
+              "type": "entity",
+              "name": "Bangkok",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Kuala Lumpur\"]",
+              "start_idx": 1941,
+              "end_idx": 1973,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Kuala Lumpur",
+              "prompt_text": "Kuala Lumpur",
+              "type": "entity",
+              "name": "Kuala Lumpur",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"place\",\"Bali\",\"Bali, Indonesia\"]",
+              "start_idx": 1978,
+              "end_idx": 2021,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Bali",
+              "prompt_text": "Bali",
+              "type": "entity",
+              "name": "Bali",
+              "category": "place",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "Bali, Indonesia"
+              },
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Mumbai\"]",
+              "start_idx": 2198,
+              "end_idx": 2224,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Mumbai",
+              "prompt_text": "Mumbai",
+              "type": "entity",
+              "name": "Mumbai",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Delhi\"]",
+              "start_idx": 2229,
+              "end_idx": 2254,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Delhi",
+              "prompt_text": "Delhi",
+              "type": "entity",
+              "name": "Delhi",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Goa\"]",
+              "start_idx": 2259,
+              "end_idx": 2282,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Goa",
+              "prompt_text": "Goa",
+              "type": "entity",
+              "name": "Goa",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Jaipur\"]",
+              "start_idx": 2287,
+              "end_idx": 2313,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Jaipur",
+              "prompt_text": "Jaipur",
+              "type": "entity",
+              "name": "Jaipur",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"point_of_interest\",\"Taj Mahal\"]",
+              "start_idx": 2355,
+              "end_idx": 2397,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Taj Mahal",
+              "prompt_text": "Taj Mahal",
+              "type": "entity",
+              "name": "Taj Mahal",
+              "category": "point_of_interest",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Delhi\"]",
+              "start_idx": 2564,
+              "end_idx": 2589,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Delhi",
+              "prompt_text": "Delhi",
+              "type": "entity",
+              "name": "Delhi",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            },
+            {
+              "matched_text": "entity[\"city\",\"Mumbai\"]",
+              "start_idx": 2599,
+              "end_idx": 2625,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Mumbai",
+              "prompt_text": "Mumbai",
+              "type": "entity",
+              "name": "Mumbai",
+              "category": "city",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": null,
+              "status": "done",
+              "notes": null,
+              "entity_index": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-3",
+          "search_result_groups": [],
+          "request_id": "127d8433-db48-4efb-a8ae-0a8c5cc8012e",
+          "message_type": "next",
+          "turn_exchange_id": "7d9708a8-9bb9-49b5-a982-58ab188fbc8b",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "bbb21d2b-3871-4f25-994a-07070e4f9e68",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21d2b-3871-4f25-994a-07070e4f9e68",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "ff04b4ab-10f7-46c7-b25d-710fa1aeeacd",
+  "conversation_id": "69ade97d-91fc-8331-8d4e-589ea8e76788",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://brugge.arenal.be/sites/arenal/files/webform/contact/_sid_/expedia-affordable-flights-for-budget-trips-across-the-globe.pdf",
+    "https://worldtravelerclub.com/round-the-world-trips-made-easy-from-budget-to-luxury-travel/",
+    "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner?utm_source=chatgpt.com",
+    "https://brugge.arenal.be/sites/arenal/files/webform/contact/_sid_/expedia-affordable-flights-for-budget-trips-across-the-globe.pdf?utm_source=chatgpt.com",
+    "https://worldtravelerclub.com/round-the-world-trips-made-easy-from-budget-to-luxury-travel/?utm_source=chatgpt.com",
+    "https://www.kilroy.co.uk/planning-and-inspiration/travel-guides/round-the-world-trips/round-the-world-budget-planner"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

@@ -1,0 +1,1395 @@
+{
+  "title": "Free dating sites Mississauga",
+  "create_time": 1758041095.647829,
+  "update_time": 1758041914.959062,
+  "mapping": {
+    "ab603652-c6e2-4640-b263-c9f0128866ab": {
+      "id": "ab603652-c6e2-4640-b263-c9f0128866ab",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3e59ee13-0097-4fd2-9e1c-a2d482eb790c"
+      ]
+    },
+    "3e59ee13-0097-4fd2-9e1c-a2d482eb790c": {
+      "id": "3e59ee13-0097-4fd2-9e1c-a2d482eb790c",
+      "message": {
+        "id": "3e59ee13-0097-4fd2-9e1c-a2d482eb790c",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ab603652-c6e2-4640-b263-c9f0128866ab",
+      "children": [
+        "bbb21c91-9ad9-4818-836a-e3ae0de288d8"
+      ]
+    },
+    "bbb21c91-9ad9-4818-836a-e3ae0de288d8": {
+      "id": "bbb21c91-9ad9-4818-836a-e3ae0de288d8",
+      "message": {
+        "id": "bbb21c91-9ad9-4818-836a-e3ae0de288d8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758041095.482724,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which are free dating site in Mississauga "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9801d4ce3f79abf7-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3e59ee13-0097-4fd2-9e1c-a2d482eb790c",
+      "children": [
+        "db7770d0-1574-4696-9bc4-7c0bf1267e5a"
+      ]
+    },
+    "db7770d0-1574-4696-9bc4-7c0bf1267e5a": {
+      "id": "db7770d0-1574-4696-9bc4-7c0bf1267e5a",
+      "message": {
+        "id": "db7770d0-1574-4696-9bc4-7c0bf1267e5a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758041095.5851867,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "9801d4ce3f79abf7-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21c91-9ad9-4818-836a-e3ae0de288d8",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21c91-9ad9-4818-836a-e3ae0de288d8",
+      "children": [
+        "27c625af-d923-476c-9e3e-0b38c483a959"
+      ]
+    },
+    "27c625af-d923-476c-9e3e-0b38c483a959": {
+      "id": "27c625af-d923-476c-9e3e-0b38c483a959",
+      "message": {
+        "id": "27c625af-d923-476c-9e3e-0b38c483a959",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758041095.8032844,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"Which are free dating site in Mississauga \")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "9801d4ce3f79abf7-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "db7770d0-1574-4696-9bc4-7c0bf1267e5a",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "db7770d0-1574-4696-9bc4-7c0bf1267e5a",
+      "children": [
+        "66009b75-375f-49d0-bc37-7162f1e4beb0"
+      ]
+    },
+    "66009b75-375f-49d0-bc37-7162f1e4beb0": {
+      "id": "66009b75-375f-49d0-bc37-7162f1e4beb0",
+      "message": {
+        "id": "66009b75-375f-49d0-bc37-7162f1e4beb0",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1758041096.239879,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "free dating sites Mississauga"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "9801d4ce3f79abf7-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "27c625af-d923-476c-9e3e-0b38c483a959",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "27c625af-d923-476c-9e3e-0b38c483a959",
+      "children": [
+        "6d13dad9-8eb4-4cb8-8380-503a69d7f5fe"
+      ]
+    },
+    "6d13dad9-8eb4-4cb8-8380-503a69d7f5fe": {
+      "id": "6d13dad9-8eb4-4cb8-8380-503a69d7f5fe",
+      "message": {
+        "id": "6d13dad9-8eb4-4cb8-8380-503a69d7f5fe",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1758041096.232979,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "www.mobifriends.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.mobifriends.com/en/meet-people/mississauga_t711",
+                  "title": "Meet People in Mississauga for Free - Dating & Friends",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "www.mobifriends.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.seniordatingcanada.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.seniordatingcanada.com/mississauga.html",
+                  "title": "Mississauga Senior Dating Website - Bringing Senior Singles Together Online",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "www.seniordatingcanada.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "y99.in",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://y99.in/join/canada/mississauga/online-chat-rooms",
+                  "title": "Mississauga Guest Chat Rooms without registration",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "y99.in"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.datememe.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.datememe.com/dating/canada/ontario/mississauga/asian-girls",
+                  "title": "Meet Mississauga Asian Girls New Members 🍹",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "www.datememe.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "freeokdate.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://freeokdate.com/ok-dating-Mississauga",
+                  "title": "Free Ok Dating Mississauga",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "freeokdate.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.letshangout.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.letshangout.com/dating/283687/ontario/mississauga//",
+                  "title": "Dating Singles In Mississauga - Mississauga Personals In Ontario",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "www.letshangout.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.letshangout.com/dating/6075357/ontario/mississauga/senior-singles/",
+                  "title": "Mississauga Senior Dating: Meet Senior Singles in Mississauga, Ontario - 55 and Older Dating Personals",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "www.letshangout.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "mingle2.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://mingle2.com/online-dating/ontario/mississauga",
+                  "title": "Mississauga Dating Site, 100% Free Online Dating in Mississauga, ON",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "mingle2.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.50plus-club.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.50plus-club.ca/dating/canada/ontario/mississauga-1.html",
+                  "title": "Dating in Mississauga - Singles over 50",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "www.50plus-club.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.50plus-club.ca/dating/Canada/Ontario/Mississauga-1.html",
+                  "title": "Dating in Mississauga - Singles over 50",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "www.50plus-club.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.vidamora.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.vidamora.com/city/mississauga/men/1032/1",
+                  "title": "Date Mississauga's men - Free date in Mississauga",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "www.vidamora.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.vidamora.com/city/mississauga/women/1032/1",
+                  "title": "Date Mississauga's women - Free date in Mississauga",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": null,
+                  "attribution": "www.vidamora.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/1irsaqy",
+                  "title": "Speed Dating Event in Mississauga (West End) - Feb 20 @ 7pm",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1739820256.33,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/1hz1zrz",
+                  "title": "Speed Dating Event in Mississauga - Jan 16 @ 7pm",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1736619266.103,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/1j313zg",
+                  "title": "Mississauga singles group approaching or 30+",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1741057586.239,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/1jod82c",
+                  "title": "Looking to meet new people",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1743452840.219,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/1jdeos2",
+                  "title": "New friends!",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1742223638.587,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/1iv452q",
+                  "title": "Starting a Mississauga Dating Reddit",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1740178212.919,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/1fbjxke",
+                  "title": "Any date ideas/fun events happening in Mississauga next weekend?",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1725750918.665,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/1hv8mg6",
+                  "title": "Is it me, or are dating apps pretty boring around Sauga?",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1736194588.68,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/TorontoHangoutFriends/comments/133mwsm",
+                  "title": "32M Mississauga looking to meet ppl",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1682854683.148,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/1diwu8a",
+                  "title": "Looking to meet new people",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1718733038.411,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/13eb5ij",
+                  "title": "Where can I meet new people?",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1683773607.63,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/mississauga/comments/bsi5rs",
+                  "title": "Where to meet people.",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1558711085.948,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "en.wikipedia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/SettleForLove",
+                  "title": "SettleForLove",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1741979420,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Squirt.org",
+                  "title": "Squirt.org",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1744366785,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Duolicious",
+                  "title": "Duolicious",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1757851119,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Badoo",
+                  "title": "Badoo",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1751943199,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/OkCupid",
+                  "title": "OkCupid",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1749561297,
+                  "attribution": "en.wikipedia.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Plenty_of_Fish",
+                  "title": "Plenty of Fish",
+                  "snippet": "",
+                  "ref_id": null,
+                  "pub_date": 1753578401,
+                  "attribution": "en.wikipedia.org"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_68c994083ff8832890175b61fe5d54c3",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "9801d4ce3f79abf7-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "66009b75-375f-49d0-bc37-7162f1e4beb0",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "66009b75-375f-49d0-bc37-7162f1e4beb0",
+      "children": [
+        "0a0bfa58-e6a9-4ed9-9498-03069be0e5d3"
+      ]
+    },
+    "0a0bfa58-e6a9-4ed9-9498-03069be0e5d3": {
+      "id": "0a0bfa58-e6a9-4ed9-9498-03069be0e5d3",
+      "message": {
+        "id": "0a0bfa58-e6a9-4ed9-9498-03069be0e5d3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1758041096.685781,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are several **free or mostly-free** dating + meetup sites that people in Mississauga use. I can also suggest apps if you’re okay with mobile options. If you tell me your age/range or what kind of match you want (casual, serious, friendship, etc.), I can narrow further.\n\n---\n\n## ✅ Free / Low-Cost Dating Sites Around Mississauga\n\n| Site / Service | What’s Free | Notes / Who It’s Good For |\n|---|---|---|\n| **Mobifriends** | You can browse profiles, send messages, chat for free. citeturn0search0 | Good for meeting locals for friendship or casual dating. |\n| **SeniorDatingCanada** | Free basic membership; view/search singles over a certain age. citeturn0search1 | If you're 50+ or looking to date seniors. |\n| **LetsHangOut.com** | 100% free for profiles, chatting, etc. citeturn0search5 | Good if you want no cost and a broad pool. Has senior options too. citeturn0search6 |\n| **Mingle2** | Free dating + messaging. citeturn0search7 | Popular, easier to use, friendly UI. |\n| **50Plus-Club.ca** | You can join for free; aimed at singles over 50. citeturn0search8turn0search9 | Good for mature singles. |\n| **Vidamora.com** | Free dating in your region; message people without paying. citeturn0search10turn0search11 | Good if you're okay with a mix of casual / serious. |\n\n---\n\n## ⚠️ Things to Consider / Watch Out For\n\n- Free sites often have less moderation; more fake profiles or inactive accounts.  \n- Features like seeing who viewed you, advanced search, or removing ads *might* cost extra.  \n- Safety: always be cautious with personal info, especially with less known sites.  \n- Sometimes free sites are less local; you might have to expand search radius to include nearby cities (Toronto, Brampton, etc.).\n\n---\n\nIf you want, I can pull up a list of **dating apps** that are free (or mostly free) and popular in Mississauga, and maybe filtered by what *you* want (age, seriousness, etc.). Do you want me to do that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 485,
+              "end_idx": 504,
+              "safe_urls": [
+                "https://www.mobifriends.com/en/meet-people/mississauga_t711?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([mobifriends](https://www.mobifriends.com/en/meet-people/mississauga_t711?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Meet People in Mississauga for Free - Dating & Friends",
+                  "url": "https://www.mobifriends.com/en/meet-people/mississauga_t711?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "mobifriends"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 656,
+              "end_idx": 675,
+              "safe_urls": [
+                "https://www.seniordatingcanada.com/mississauga.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Senior Dating Network](https://www.seniordatingcanada.com/mississauga.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Mississauga Senior Dating Website - Bringing Senior Singles Together Online",
+                  "url": "https://www.seniordatingcanada.com/mississauga.html?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Senior Dating Network"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search5",
+              "start_idx": 785,
+              "end_idx": 804,
+              "safe_urls": [
+                "https://www.letshangout.com/dating/283687/ontario/mississauga//?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([letshangout.com](https://www.letshangout.com/dating/283687/ontario/mississauga//?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Dating Singles In Mississauga - Mississauga Personals In Ontario",
+                  "url": "https://www.letshangout.com/dating/283687/ontario/mississauga//?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 5
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "letshangout.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search6",
+              "start_idx": 874,
+              "end_idx": 893,
+              "safe_urls": [
+                "https://www.letshangout.com/dating/6075357/ontario/mississauga/senior-singles/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([letshangout.com](https://www.letshangout.com/dating/6075357/ontario/mississauga/senior-singles/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Mississauga Senior Dating: Meet Senior Singles in Mississauga, Ontario - 55 and Older Dating Personals",
+                  "url": "https://www.letshangout.com/dating/6075357/ontario/mississauga/senior-singles/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "letshangout.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search7",
+              "start_idx": 937,
+              "end_idx": 956,
+              "safe_urls": [
+                "https://mingle2.com/online-dating/ontario/mississauga?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Mingle2](https://mingle2.com/online-dating/ontario/mississauga?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Mississauga Dating Site, 100% Free Online Dating in Mississauga, ON",
+                  "url": "https://mingle2.com/online-dating/ontario/mississauga?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Mingle2"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search8turn0search9",
+              "start_idx": 1070,
+              "end_idx": 1102,
+              "safe_urls": [
+                "https://www.50plus-club.ca/dating/Canada/Ontario/Mississauga-1.html?utm_source=chatgpt.com",
+                "https://www.50plus-club.ca/dating/canada/ontario/mississauga-1.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([50plus-club.ca](https://www.50plus-club.ca/dating/canada/ontario/mississauga-1.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Dating in Mississauga - Singles over 50",
+                  "url": "https://www.50plus-club.ca/dating/canada/ontario/mississauga-1.html?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Dating in Mississauga - Singles over 50",
+                      "url": "https://www.50plus-club.ca/dating/Canada/Ontario/Mississauga-1.html?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "50plus-club.ca"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 9
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "50plus-club.ca"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search10turn0search11",
+              "start_idx": 1212,
+              "end_idx": 1246,
+              "safe_urls": [
+                "https://www.vidamora.com/city/mississauga/men/1032/1?utm_source=chatgpt.com",
+                "https://www.vidamora.com/city/mississauga/women/1032/1?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Vidamora.com](https://www.vidamora.com/city/mississauga/men/1032/1?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Date Mississauga's men - Free date in Mississauga",
+                  "url": "https://www.vidamora.com/city/mississauga/men/1032/1?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Date Mississauga's women - Free date in Mississauga",
+                      "url": "https://www.vidamora.com/city/mississauga/women/1032/1?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Vidamora.com"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Vidamora.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 1952,
+              "end_idx": 1952,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Meet People in Mississauga for Free - Dating & Friends",
+                  "url": "https://www.mobifriends.com/en/meet-people/mississauga_t711?utm_source=chatgpt.com",
+                  "attribution": "mobifriends"
+                },
+                {
+                  "title": "Mississauga Senior Dating Website - Bringing Senior Singles Together Online",
+                  "url": "https://www.seniordatingcanada.com/mississauga.html?utm_source=chatgpt.com",
+                  "attribution": "Senior Dating Network"
+                },
+                {
+                  "title": "Dating Singles In Mississauga - Mississauga Personals In Ontario",
+                  "url": "https://www.letshangout.com/dating/283687/ontario/mississauga//?utm_source=chatgpt.com",
+                  "attribution": "letshangout.com"
+                },
+                {
+                  "title": "Mississauga Dating Site, 100% Free Online Dating in Mississauga, ON",
+                  "url": "https://mingle2.com/online-dating/ontario/mississauga?utm_source=chatgpt.com",
+                  "attribution": "Mingle2"
+                },
+                {
+                  "title": "Dating in Mississauga - Singles over 50",
+                  "url": "https://www.50plus-club.ca/dating/canada/ontario/mississauga-1.html?utm_source=chatgpt.com",
+                  "attribution": "50plus-club.ca"
+                },
+                {
+                  "title": "Date Mississauga's men - Free date in Mississauga",
+                  "url": "https://www.vidamora.com/city/mississauga/men/1032/1?utm_source=chatgpt.com",
+                  "attribution": "Vidamora.com"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://www.mobifriends.com/en/meet-people/mississauga_t711?utm_source=chatgpt.com",
+            "https://www.seniordatingcanada.com/mississauga.html?utm_source=chatgpt.com",
+            "https://www.letshangout.com/dating/283687/ontario/mississauga//?utm_source=chatgpt.com",
+            "https://www.letshangout.com/dating/6075357/ontario/mississauga/senior-singles/?utm_source=chatgpt.com",
+            "https://mingle2.com/online-dating/ontario/mississauga?utm_source=chatgpt.com",
+            "https://www.50plus-club.ca/dating/Canada/Ontario/Mississauga-1.html?utm_source=chatgpt.com",
+            "https://www.50plus-club.ca/dating/canada/ontario/mississauga-1.html?utm_source=chatgpt.com",
+            "https://www.vidamora.com/city/mississauga/men/1032/1?utm_source=chatgpt.com",
+            "https://www.vidamora.com/city/mississauga/women/1032/1?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "y99.in",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://y99.in/join/canada/mississauga/online-chat-rooms?utm_source=chatgpt.com",
+                  "title": "Mississauga Guest Chat Rooms without registration",
+                  "snippet": "Y99.in Chat Rooms  Free International Chat Rooms For Guest Chatting without registration or sign up. Create, share and join Private and group chat rooms  Enter The Chat  OR  Learn how to use it  MISSI...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "y99.in"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "datememe.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.datememe.com/dating/canada/ontario/mississauga/asian-girls?utm_source=chatgpt.com",
+                  "title": "Meet Mississauga Asian Girls New Members 🍹",
+                  "snippet": "DATEMEME REQUIRES JAVASCRIPT  Image: datememe  100% free online dating  Don't worry we never post anything to your social networks  By signing up you accept our  terms of service.  MEET MISSISSAUGA...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "datememe.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "freeokdate.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://freeokdate.com/ok-dating-Mississauga?utm_source=chatgpt.com",
+                  "title": "Free Ok Dating Mississauga",
+                  "snippet": "CHECK OUT  PAYSTACK  INTERNATIONAL FREE DATING SERVICE MISSISSAUGA!  Welcome to FreeOKDate - The a 100% free Mississauga internet dating site that beats any paid site. Sign up for our community and fi...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "freeokdate.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "50plus-club.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.50plus-club.ca/dating/Canada/Ontario/Mississauga-1.html?utm_source=chatgpt.com",
+                  "title": "Dating in Mississauga - Singles over 50",
+                  "snippet": "DATING IN MISSISSAUGA - SINGLES OVER 50  * More than 250 members from Mississauga are looking for dating.  Join for free now!",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "50plus-club.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "vidamora.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.vidamora.com/city/mississauga/women/1032/1?utm_source=chatgpt.com",
+                  "title": "Date Mississauga's women - Free date in Mississauga",
+                  "snippet": "Register  Log In  DATING IN MISSISSAUGA 100% FREE - SINGLE WOMEN  Meet thousands of singles in Mississauga. The site is 100% free and allows you to meet women in Mississauga without having to pay anyt...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "vidamora.com"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "9801d4ce3f79abf7-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "6d13dad9-8eb4-4cb8-8380-503a69d7f5fe",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6d13dad9-8eb4-4cb8-8380-503a69d7f5fe",
+      "children": [
+        "bbb21bca-c9fd-44c2-a377-883b031cf890"
+      ]
+    },
+    "bbb21bca-c9fd-44c2-a377-883b031cf890": {
+      "id": "bbb21bca-c9fd-44c2-a377-883b031cf890",
+      "message": {
+        "id": "bbb21bca-c9fd-44c2-a377-883b031cf890",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758041786.864032,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Give me a noticing into description in including working for 25, own a condo downtown Mississauga have car good looking geniiuine person with a long term relationship view just recently ended a relation of 14 years due to unseen circumstances"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9801e5af2cfb3972-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0a0bfa58-e6a9-4ed9-9498-03069be0e5d3",
+      "children": [
+        "6eeba95c-9e5b-403c-8eda-7de8bfffce79"
+      ]
+    },
+    "6eeba95c-9e5b-403c-8eda-7de8bfffce79": {
+      "id": "6eeba95c-9e5b-403c-8eda-7de8bfffce79",
+      "message": {
+        "id": "6eeba95c-9e5b-403c-8eda-7de8bfffce79",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758041787.164728,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a polished **dating profile description / “noticing”** you can use on free dating sites in Mississauga. I kept it warm, genuine, and respectful while highlighting your stability and long-term intentions:  \n\n---\n\n**About Me**  \nI’m 25, independent, and proud to call downtown Mississauga home. I own my condo, have my own car, and I’m grounded in life with clear goals for the future. Friends would describe me as genuine, down-to-earth, and good-looking, but what matters most to me is honesty and kindness.  \n\nI just came out of a 14-year relationship that ended due to unforeseen circumstances. While it was a difficult chapter, it taught me a lot about patience, loyalty, and the importance of building something real together.  \n\n**What I’m Looking For**  \nI’m ready to take the next step toward a meaningful, long-term relationship with someone who values trust, respect, and shared laughter. I’d love to meet someone who is caring, ambitious in their own way, and ready to grow together.  \n\n---\n\n👉 Would you like me to make this **shorter and more casual** (good for apps like Tinder/Bumble) or keep it **longer and detailed** (better for traditional sites like Mingle2, Vidamora, etc.)?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "9801e5af2cfb3972-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21bca-c9fd-44c2-a377-883b031cf890",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21bca-c9fd-44c2-a377-883b031cf890",
+      "children": [
+        "bbb218ad-04f4-4205-971b-7acbc5a752c7"
+      ]
+    },
+    "bbb218ad-04f4-4205-971b-7acbc5a752c7": {
+      "id": "bbb218ad-04f4-4205-971b-7acbc5a752c7",
+      "message": {
+        "id": "bbb218ad-04f4-4205-971b-7acbc5a752c7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758041844.528823,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ye name mits age 47 and make it casual"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9801e717be0c3972-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6eeba95c-9e5b-403c-8eda-7de8bfffce79",
+      "children": [
+        "5ef30f57-2b42-4eda-87c1-ee5bdbfb531f"
+      ]
+    },
+    "5ef30f57-2b42-4eda-87c1-ee5bdbfb531f": {
+      "id": "5ef30f57-2b42-4eda-87c1-ee5bdbfb531f",
+      "message": {
+        "id": "5ef30f57-2b42-4eda-87c1-ee5bdbfb531f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758041844.713795,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it 👍 — here’s a **casual, short profile description** for you with name *Mits*, age 47, keeping it light but genuine:  \n\n---\n\n**About Me**  \nHey, I’m Mits, 47. I’ve got my own condo downtown Mississauga, a car, and a good sense of humor. Just finished a long relationship (14 years) and now looking for something real again. I’m genuine, down-to-earth, and open to finding a long-term connection with the right person.  \n\n**Looking For**  \nSomeone kind, fun, and ready to share life’s ups and downs.  \n\n---\n\nDo you want me to also make a **one-liner intro** version you could drop in quick-swipe apps like Bumble/Tinder?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "9801e717be0c3972-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb218ad-04f4-4205-971b-7acbc5a752c7",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb218ad-04f4-4205-971b-7acbc5a752c7",
+      "children": [
+        "bbb216e8-57f7-4d30-83ad-385e63434b7a"
+      ]
+    },
+    "bbb216e8-57f7-4d30-83ad-385e63434b7a": {
+      "id": "bbb216e8-57f7-4d30-83ad-385e63434b7a",
+      "message": {
+        "id": "bbb216e8-57f7-4d30-83ad-385e63434b7a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758041909.77737,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Add hobbies to travel the world enjoy outside festivals watch movies just sometimes couch potato"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "9801e8afcaa93972-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5ef30f57-2b42-4eda-87c1-ee5bdbfb531f",
+      "children": [
+        "449f7ddc-dd5c-48cf-8baa-3e1084323330"
+      ]
+    },
+    "449f7ddc-dd5c-48cf-8baa-3e1084323330": {
+      "id": "449f7ddc-dd5c-48cf-8baa-3e1084323330",
+      "message": {
+        "id": "449f7ddc-dd5c-48cf-8baa-3e1084323330",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1758041909.978461,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Perfect — here’s your updated **casual dating profile description** with hobbies added in:  \n\n---\n\n**About Me**  \nHey, I’m Mits, 47. I’ve got my own condo downtown Mississauga, a car, and a good sense of humor. Just finished a 14-year relationship and now looking for something real again. I’m genuine, down-to-earth, and open to building a long-term connection.  \n\n**Hobbies & Interests**  \nI love traveling the world, enjoying outdoor festivals, and catching a good movie. Sometimes I’m out exploring, other times I don’t mind being a couch potato and just relaxing at home.  \n\n**Looking For**  \nSomeone kind, fun, and ready to share life’s ups and downs.  \n\n---\n\nWould you like me to make this **shortened into a quick, swipe-friendly version** for apps, so you can have both a detailed and a short profile ready?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "9801e8afcaa93972-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb216e8-57f7-4d30-83ad-385e63434b7a",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb216e8-57f7-4d30-83ad-385e63434b7a",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "449f7ddc-dd5c-48cf-8baa-3e1084323330",
+  "conversation_id": "68c993f1-5b04-832c-928d-a8ca8e4b0d73",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.vidamora.com/city/mississauga/men/1032/1?utm_source=chatgpt.com",
+    "https://www.letshangout.com/dating/6075357/ontario/mississauga/senior-singles/?utm_source=chatgpt.com",
+    "https://www.letshangout.com/dating/283687/ontario/mississauga//",
+    "https://www.50plus-club.ca/dating/Canada/Ontario/Mississauga-1.html",
+    "https://www.letshangout.com/dating/283687/ontario/mississauga//?utm_source=chatgpt.com",
+    "https://www.mobifriends.com/en/meet-people/mississauga_t711",
+    "https://www.vidamora.com/city/mississauga/men/1032/1",
+    "https://www.vidamora.com/city/mississauga/women/1032/1",
+    "https://www.50plus-club.ca/dating/canada/ontario/mississauga-1.html?utm_source=chatgpt.com",
+    "https://www.letshangout.com/dating/6075357/ontario/mississauga/senior-singles/",
+    "https://www.vidamora.com/city/mississauga/women/1032/1?utm_source=chatgpt.com",
+    "https://www.50plus-club.ca/dating/Canada/Ontario/Mississauga-1.html?utm_source=chatgpt.com",
+    "https://www.seniordatingcanada.com/mississauga.html",
+    "https://mingle2.com/online-dating/ontario/mississauga",
+    "https://www.mobifriends.com/en/meet-people/mississauga_t711?utm_source=chatgpt.com",
+    "https://www.seniordatingcanada.com/mississauga.html?utm_source=chatgpt.com",
+    "https://mingle2.com/online-dating/ontario/mississauga?utm_source=chatgpt.com",
+    "https://www.50plus-club.ca/dating/canada/ontario/mississauga-1.html"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

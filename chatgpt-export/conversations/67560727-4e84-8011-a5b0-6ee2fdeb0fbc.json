@@ -1,0 +1,198 @@
+{
+  "title": "Civil Litigation Process",
+  "create_time": 1733691175.625861,
+  "update_time": 1733691204.405731,
+  "mapping": {
+    "bbb2352f-87b1-49b0-891f-b86d10adec78": {
+      "id": "bbb2352f-87b1-49b0-891f-b86d10adec78",
+      "message": null,
+      "parent": null,
+      "children": [
+        "51cbc04a-fc0e-4ad3-b0bc-690a83444ecc"
+      ]
+    },
+    "51cbc04a-fc0e-4ad3-b0bc-690a83444ecc": {
+      "id": "51cbc04a-fc0e-4ad3-b0bc-690a83444ecc",
+      "message": {
+        "id": "51cbc04a-fc0e-4ad3-b0bc-690a83444ecc",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2352f-87b1-49b0-891f-b86d10adec78",
+      "children": [
+        "bbb21810-43e9-4b02-a030-333193fe02b1"
+      ]
+    },
+    "bbb21810-43e9-4b02-a030-333193fe02b1": {
+      "id": "bbb21810-43e9-4b02-a030-333193fe02b1",
+      "message": {
+        "id": "bbb21810-43e9-4b02-a030-333193fe02b1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733691175.629801,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How do you proceed with civil litigation"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8eefa4553a9aa240-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "51cbc04a-fc0e-4ad3-b0bc-690a83444ecc",
+      "children": [
+        "a170a40b-dcc4-48b0-b563-5fa5268a3e63"
+      ]
+    },
+    "a170a40b-dcc4-48b0-b563-5fa5268a3e63": {
+      "id": "a170a40b-dcc4-48b0-b563-5fa5268a3e63",
+      "message": {
+        "id": "a170a40b-dcc4-48b0-b563-5fa5268a3e63",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733691202.605613,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21810-43e9-4b02-a030-333193fe02b1",
+          "request_id": "8eefa4553a9aa240-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21810-43e9-4b02-a030-333193fe02b1",
+      "children": [
+        "458a09b9-54b5-4611-8948-049c0773c109"
+      ]
+    },
+    "458a09b9-54b5-4611-8948-049c0773c109": {
+      "id": "458a09b9-54b5-4611-8948-049c0773c109",
+      "message": {
+        "id": "458a09b9-54b5-4611-8948-049c0773c109",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733691202.605762,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Civil litigation involves resolving disputes between individuals, organizations, or entities in a court of law. Here's an outline of the typical steps in the process:\n\n### **1. Consult with an Attorney**\n- **Seek legal advice:** Speak with a lawyer experienced in civil litigation to evaluate your case.\n- **Gather evidence:** Collect documents, emails, contracts, photos, or other materials relevant to the dispute.\n\n### **2. File a Complaint**\n- **Draft the complaint:** The plaintiff (person filing the lawsuit) or their lawyer files a legal document explaining the claims and the relief sought.\n- **File in court:** Submit the complaint to the appropriate court, usually where the incident occurred or where the defendant resides.\n- **Serve the defendant:** The defendant must receive formal notice of the lawsuit through a process server or certified mail.\n\n### **3. Defendant’s Response**\n- **File an answer:** The defendant responds to the complaint, admitting or denying the allegations.\n- **File counterclaims or motions:** The defendant may counter-sue or ask the court to dismiss the case.\n\n### **4. Discovery Phase**\n- **Exchange evidence:** Both parties request and share information and documents.\n- **Depositions:** Witnesses and parties provide sworn statements during interviews.\n- **Expert witnesses:** If applicable, experts may provide opinions or analysis to strengthen the case.\n\n### **5. Pre-Trial Motions and Hearings**\n- **Motions:** Parties may request the court to rule on specific issues (e.g., dismissing parts of the case).\n- **Settlement discussions:** Many cases settle before going to trial, avoiding further costs and time.\n\n### **6. Trial**\n- **Opening statements:** Both parties present their case to the judge or jury.\n- **Presentation of evidence:** Witnesses testify, and evidence is submitted.\n- **Closing arguments:** Summarization of the case is presented.\n- **Verdict:** The judge or jury decides the outcome.\n\n### **7. Post-Trial Motions and Appeals**\n- **Judgment enforcement:** If you win, take steps to collect damages or enforce the judgment.\n- **Appeals:** The losing party can appeal to a higher court if they believe the judgment was incorrect.\n\n### **8. Enforcement of Judgment**\n- Collect compensation, ensure compliance with court orders, or negotiate further if the defendant resists payment or action.\n\n### **Tips for Civil Litigation**\n- **Be timely:** Adhere to deadlines for filing and responses.\n- **Document everything:** Keep detailed records of communications and events related to the dispute.\n- **Consider alternative dispute resolution:** Mediation or arbitration can sometimes resolve issues without a trial.\n\nWould you like help with a specific step or more details?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "a170a40b-dcc4-48b0-b563-5fa5268a3e63",
+          "request_id": "8eefa4553a9aa240-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a170a40b-dcc4-48b0-b563-5fa5268a3e63",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "458a09b9-54b5-4611-8948-049c0773c109",
+  "conversation_id": "67560727-4e84-8011-a5b0-6ee2fdeb0fbc",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

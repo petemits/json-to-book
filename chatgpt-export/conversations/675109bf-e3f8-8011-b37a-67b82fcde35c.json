@@ -1,0 +1,204 @@
+{
+  "title": "Canadian Digital Directories",
+  "create_time": 1733364160.235246,
+  "update_time": 1733364188.366975,
+  "mapping": {
+    "bbb23a72-37b1-4295-b936-f44848d1be1b": {
+      "id": "bbb23a72-37b1-4295-b936-f44848d1be1b",
+      "message": null,
+      "parent": null,
+      "children": [
+        "8ca259f2-0cd9-4e2c-ae99-7845dd7d1265"
+      ]
+    },
+    "8ca259f2-0cd9-4e2c-ae99-7845dd7d1265": {
+      "id": "8ca259f2-0cd9-4e2c-ae99-7845dd7d1265",
+      "message": {
+        "id": "8ca259f2-0cd9-4e2c-ae99-7845dd7d1265",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23a72-37b1-4295-b936-f44848d1be1b",
+      "children": [
+        "bbb21297-6ca4-4d63-9846-f9d98969d541"
+      ]
+    },
+    "bbb21297-6ca4-4d63-9846-f9d98969d541": {
+      "id": "bbb21297-6ca4-4d63-9846-f9d98969d541",
+      "message": {
+        "id": "bbb21297-6ca4-4d63-9846-f9d98969d541",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733364160.240629,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Where can find  Canadian downloadable digital directories "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8ed0748dc9983703-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8ca259f2-0cd9-4e2c-ae99-7845dd7d1265",
+      "children": [
+        "5badaa94-793a-40c0-9d86-43bdf949990a"
+      ]
+    },
+    "5badaa94-793a-40c0-9d86-43bdf949990a": {
+      "id": "5badaa94-793a-40c0-9d86-43bdf949990a",
+      "message": {
+        "id": "5badaa94-793a-40c0-9d86-43bdf949990a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733364187.592865,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21297-6ca4-4d63-9846-f9d98969d541",
+          "request_id": "8ed0748dc9983703-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21297-6ca4-4d63-9846-f9d98969d541",
+      "children": [
+        "fc4ffd00-98bc-4eec-bbba-ea0b9e9a914c"
+      ]
+    },
+    "fc4ffd00-98bc-4eec-bbba-ea0b9e9a914c": {
+      "id": "fc4ffd00-98bc-4eec-bbba-ea0b9e9a914c",
+      "message": {
+        "id": "fc4ffd00-98bc-4eec-bbba-ea0b9e9a914c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733364187.592994,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "To find Canadian downloadable digital directories, consider the following sources:\n\n### **1. Canadian Business Directories**\n- **Scott’s Directories**: Offers downloadable business directories for Canadian companies across industries. [Visit Scott’s Directories](https://www.scottsdirectories.com).\n- **InfoCanada**: Provides access to detailed Canadian business information. You can export data in various formats. [Visit InfoCanada](https://www.infocanada.ca).\n\n### **2. Public and Government Databases**\n- **Canada Business Network**: Lists government and business directories. Some are downloadable. [Visit Canada Business Network](https://www.canada.ca/en/services/business.html).\n- **Statistics Canada**: Provides open data directories and digital information. [Visit Statistics Canada](https://www.statcan.gc.ca).\n\n### **3. Industry-Specific Directories**\n- **Chamber of Commerce Listings**: Many Canadian Chambers of Commerce offer local business directories for download.\n- **Yellow Pages Canada**: Some areas allow downloadable versions of their directories. [Visit Yellow Pages](https://www.yellowpages.ca).\n\n### **4. Online Marketplaces**\n- **Etsy** and **Amazon**: Sometimes, digital versions of Canadian business directories are sold here.\n\n### **5. Libraries and Universities**\n- Check with **Library and Archives Canada** or local public libraries, which often provide access to free or paid directories for download.\n\nIf you're looking for a specific type of directory (e.g., businesses, professionals, nonprofits), let me know, and I can refine the suggestions."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "5badaa94-793a-40c0-9d86-43bdf949990a",
+          "request_id": "8ed0748dc9983703-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5badaa94-793a-40c0-9d86-43bdf949990a",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "fc4ffd00-98bc-4eec-bbba-ea0b9e9a914c",
+  "conversation_id": "675109bf-e3f8-8011-b37a-67b82fcde35c",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.canada.ca/en/services/business.html",
+    "https://www.yellowpages.ca",
+    "https://www.statcan.gc.ca",
+    "https://www.infocanada.ca",
+    "https://www.scottsdirectories.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

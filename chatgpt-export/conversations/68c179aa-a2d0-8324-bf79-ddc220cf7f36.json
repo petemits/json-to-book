@@ -1,0 +1,204 @@
+{
+  "title": "Civil lawsuit procedure Ontario",
+  "create_time": 1757510127.495065,
+  "update_time": 1757510155.22342,
+  "mapping": {
+    "24227d7c-9a31-4cfa-9311-8f58cd95397d": {
+      "id": "24227d7c-9a31-4cfa-9311-8f58cd95397d",
+      "message": null,
+      "parent": null,
+      "children": [
+        "f2ef7076-c3d6-4d44-87ac-405287ad31bb"
+      ]
+    },
+    "f2ef7076-c3d6-4d44-87ac-405287ad31bb": {
+      "id": "f2ef7076-c3d6-4d44-87ac-405287ad31bb",
+      "message": {
+        "id": "f2ef7076-c3d6-4d44-87ac-405287ad31bb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "24227d7c-9a31-4cfa-9311-8f58cd95397d",
+      "children": [
+        "bbb21bbb-d703-4518-942d-5c9c167118f8"
+      ]
+    },
+    "bbb21bbb-d703-4518-942d-5c9c167118f8": {
+      "id": "bbb21bbb-d703-4518-942d-5c9c167118f8",
+      "message": {
+        "id": "bbb21bbb-d703-4518-942d-5c9c167118f8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757510127.230001,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is the procedure to file a civil lawsuit in  Ontario Canada and where do I get the form to sibmit"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "request_id": "97cf31b6db47ac81-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f2ef7076-c3d6-4d44-87ac-405287ad31bb",
+      "children": [
+        "87bb252c-99a2-40ea-b568-effb5625a695"
+      ]
+    },
+    "87bb252c-99a2-40ea-b568-effb5625a695": {
+      "id": "87bb252c-99a2-40ea-b568-effb5625a695",
+      "message": {
+        "id": "87bb252c-99a2-40ea-b568-effb5625a695",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757510127.3632298,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "97cf31b6db47ac81-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21bbb-d703-4518-942d-5c9c167118f8",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21bbb-d703-4518-942d-5c9c167118f8",
+      "children": [
+        "8ca3bf8d-8bee-48ba-8f98-7ab4839cd371"
+      ]
+    },
+    "8ca3bf8d-8bee-48ba-8f98-7ab4839cd371": {
+      "id": "8ca3bf8d-8bee-48ba-8f98-7ab4839cd371",
+      "message": {
+        "id": "8ca3bf8d-8bee-48ba-8f98-7ab4839cd371",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1757510127.387816,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Ontario, the procedure for filing a **civil lawsuit** depends on the type of claim, the amount of money involved, and the nature of the dispute. I’ll break it down for you:  \n\n---\n\n### 1. **Decide the Court**\n- **Small Claims Court** → for claims **up to $35,000** (e.g., contracts, property damage, unpaid bills).  \n- **Ontario Superior Court of Justice** → for claims **over $35,000** or more complex cases (e.g., malpractice, negligence, personal injury, constitutional issues).  \n\n---\n\n### 2. **Prepare Your Claim**\n- **Small Claims Court**  \n  - Complete **Form 7A: Plaintiff’s Claim**.  \n  - Available online here: [Plaintiff’s Claim (Form 7A)](https://www.ontariocourtforms.on.ca/en/small-claims-court-forms/).  \n  - You’ll need to outline: names of parties, what happened, amount claimed, and supporting documents.  \n\n- **Superior Court of Justice**  \n  - You usually start with a **Statement of Claim (Form 14A or 14B)**.  \n  - Forms are available here: [Superior Court Civil Forms](https://www.ontariocourtforms.on.ca/en/rules-of-civil-procedure-forms/).  \n  - A lawyer is strongly advised for these cases since the process is more complex.  \n\n---\n\n### 3. **File the Claim**\n- **Online filing**:  \n  - [Small Claims Court e-Filing Service](https://www.ontario.ca/page/file-small-claims-court-documents-online) (for claims up to $35,000).  \n  - [Civil Claims Online Portal](https://www.ontario.ca/page/file-civil-claim-online) (for Superior Court).  \n\n- **In person**:  \n  - At the courthouse where the defendant lives, works, or where the issue happened.  \n\n- **Filing Fee**:  \n  - Small Claims → around **$102** to file a Plaintiff’s Claim (extra fees apply as case progresses).  \n  - Superior Court → higher fees (e.g., **$229** to issue a Statement of Claim).  \n\n---\n\n### 4. **Serve the Defendant**\n- After filing, you must **serve the documents** (personally or via alternatives) within the required time.  \n- Proof of service must also be filed with the court.  \n\n---\n\n### 5. **Wait for a Response**\n- Defendant has:  \n  - **20 days** (in Ontario)  \n  - **40 days** (outside Canada/US)  \n  - to file a **Statement of Defence**.  \n\nIf no defence is filed, you may request a **default judgment**.  \n\n---\n\n👉 Since you mentioned **medical malpractice** in earlier chats, that type of case usually goes through the **Superior Court of Justice** (not Small Claims), because damages are typically higher than $35,000 and the process requires expert evidence.  \n\n---\n\nWould you like me to draft a **step-by-step guide specifically for a medical malpractice civil claim in Ontario** (Superior Court), or do you want the simpler **Small Claims Court version** first?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "97cf31b6db47ac81-YYZ",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "87bb252c-99a2-40ea-b568-effb5625a695",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "87bb252c-99a2-40ea-b568-effb5625a695",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "8ca3bf8d-8bee-48ba-8f98-7ab4839cd371",
+  "conversation_id": "68c179aa-a2d0-8324-bf79-ddc220cf7f36",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.ontario.ca/page/file-civil-claim-online",
+    "https://www.ontario.ca/page/file-small-claims-court-documents-online"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

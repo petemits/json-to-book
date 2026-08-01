@@ -1,0 +1,306 @@
+{
+  "title": "Rule-based chatbot script",
+  "create_time": 1765914178.6805,
+  "update_time": 1765914551.886704,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "62f3418b-c63f-4791-b268-f8d63108345f"
+      ]
+    },
+    "62f3418b-c63f-4791-b268-f8d63108345f": {
+      "id": "62f3418b-c63f-4791-b268-f8d63108345f",
+      "message": {
+        "id": "62f3418b-c63f-4791-b268-f8d63108345f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "671249dd-29db-4186-ab93-9f7d7a0300b2"
+      ]
+    },
+    "671249dd-29db-4186-ab93-9f7d7a0300b2": {
+      "id": "671249dd-29db-4186-ab93-9f7d7a0300b2",
+      "message": {
+        "id": "671249dd-29db-4186-ab93-9f7d7a0300b2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1765914178.925,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "is there a script that you can for chatbots on ruled based comapny chatbox. give me like 221 that willmake in geric ways and i will fill out content for the company include sales customer service technical onBOARDING organization progression pregresssion in hte like. mimc 2025 human mind in the comapny structure. i want 22 user and bot dialougue"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "4971bf29-c664-4c8a-812d-6abe9fb940e5",
+          "message_source": null,
+          "turn_exchange_id": "87b2d882-2436-4d5f-b08f-7d6446e6d899",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "62f3418b-c63f-4791-b268-f8d63108345f",
+      "children": [
+        "4ab60278-5108-403b-95dc-822c5956057c"
+      ]
+    },
+    "4ab60278-5108-403b-95dc-822c5956057c": {
+      "id": "4ab60278-5108-403b-95dc-822c5956057c",
+      "message": {
+        "id": "4ab60278-5108-403b-95dc-822c5956057c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1765914178.5416615,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "4971bf29-c664-4c8a-812d-6abe9fb940e5",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "671249dd-29db-4186-ab93-9f7d7a0300b2",
+          "turn_exchange_id": "87b2d882-2436-4d5f-b08f-7d6446e6d899",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "671249dd-29db-4186-ab93-9f7d7a0300b2",
+      "children": [
+        "88366368-96d0-4b8f-99c9-a6ac111d2bdd"
+      ]
+    },
+    "88366368-96d0-4b8f-99c9-a6ac111d2bdd": {
+      "id": "88366368-96d0-4b8f-99c9-a6ac111d2bdd",
+      "message": {
+        "id": "88366368-96d0-4b8f-99c9-a6ac111d2bdd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1765914178.571877,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "{\"name\":\"Rule-Based Company Chatbot – 22 Generic User/Bot Dialogues (2025 Style)\",\"type\":\"document\",\"content\":\"Below are **22 generic, rule‑based chatbot dialogue templates** designed for a **company chatbot** covering **sales, customer service, technical support, onboarding, organizational progression, and internal culture**. \\n\\nThey are written to **mimic a 2025 human‑centric corporate mindset**: calm, structured, empathetic, efficient, and policy‑aware.\\n\\n👉 You can **replace placeholders** like [Company Name], [Product], [Policy], [Team], [Timeline], etc.\\n\\n---\\n\\n## 1. General Greeting & Intent Detection\\n**User:** Hi\\n\\n**Bot:** Hello 👋 Welcome to [Company Name]. I can help with sales, support, onboarding, or account questions. What would you like help with today?\\n\\n---\\n\\n## 2. Sales – Product Discovery\\n**User:** I’m looking for a solution for my business.\\n\\n**Bot:** I can help with that. To guide you properly, may I know your business size and main goal (cost reduction, growth, automation, or compliance)?\\n\\n---\\n\\n## 3. Sales – Feature Clarification\\n**User:** Does your product support automation?\\n\\n**Bot:** Yes. [Product Name] includes automation for [feature]. Would you like a basic overview or a use‑case example?\\n\\n---\\n\\n## 4. Sales – Pricing Inquiry\\n**User:** How much does it cost?\\n\\n**Bot:** Pricing depends on usage and plan level. I can show standard plans or connect you with a sales specialist. Which would you prefer?\\n\\n---\\n\\n## 5. Sales – Lead Qualification\\n**User:** I want to talk to sales.\\n\\n**Bot:** I can arrange that. May I collect your name, company email, and preferred contact time?\\n\\n---\\n\\n## 6. Customer Service – Existing Customer Verification\\n**User:** I have an issue with my account.\\n\\n**Bot:** I’m here to help. For security, please confirm your registered email or account ID.\\n\\n---\\n\\n## 7. Customer Service – Issue Categorization\\n**User:** My service isn’t working.\\n\\n**Bot:** Understood. Is the issue related to login, performance, billing, or something else?\\n\\n---\\n\\n## 8. Customer Service – Empathy First Response\\n**User:** I’m frustrated with the delay.\\n\\n**Bot:** I understand how frustrating that can be, and I appreciate your patience. Let me check the status and guide you forward.\\n\\n---\\n\\n## 9. Technical Support – Basic Troubleshooting\\n**User:** The system is not loading.\\n\\n**Bot:** Thanks for reporting this. Please confirm:\\n1) Device type\\n2) Browser/app version\\n3) Time the issue started\\n\\n---\\n\\n## 10. Technical Support – Known Issue Handling\\n**User:** Is this a known issue?\\n\\n**Bot:** Yes, this issue is currently under investigation by our technical team. The estimated resolution time is [Timeline]. I’ll keep you updated.\\n\\n---\\n\\n## 11. Technical Support – Escalation Logic\\n**User:** This didn’t fix it.\\n\\n**Bot:** Thank you for confirming. I’ll escalate this to our Level‑2 support team. You’ll receive an update via email shortly.\\n\\n---\\n\\n## 12. Onboarding – New User Welcome\\n**User:** I just signed up.\\n\\n**Bot:** Welcome to [Company Name]! 🎉 I can guide you through setup, best practices, or help you reach your first milestone. Where would you like to start?\\n\\n---\\n\\n## 13. Onboarding – Step‑by‑Step Guidance\\n**User:** How do I get started?\\n\\n**Bot:** Step 1: Complete your profile\\nStep 2: Connect [Tool/Service]\\nStep 3: Launch your first workflow\\nWould you like help with Step 1 now?\\n\\n---\\n\\n## 14. Onboarding – Progress Tracking\\n**User:** Am I set up correctly?\\n\\n**Bot:** You’re 70% set up ✅\\nRemaining steps:\\n• Enable notifications\\n• Assign team roles\\nWould you like to complete them now?\\n\\n---\\n\\n## 15. Organization – Role-Based Guidance\\n**User:** I’m a manager. What can I do here?\\n\\n**Bot:** As a manager, you can assign tasks, review performance metrics, and approve workflows. Would you like a quick tour or documentation?\\n\\n---\\n\\n## 16. Organization – Internal Policy Inquiry\\n**User:** What is the company policy on approvals?\\n\\n**Bot:** According to [Policy Name], approvals are required for [conditions]. Would you like the full policy or a summarized version?\\n\\n---\\n\\n## 17. Progression – Performance & Growth\\n**User:** How do I track my progress?\\n\\n**Bot:** Your dashboard shows goal completion, efficiency trends, and improvement areas. I can explain each metric if you like.\\n\\n---\\n\\n## 18. Progression – Skill Development\\n**User:** How can I improve my performance?\\n\\n**Bot:** Based on your activity, I recommend focusing on [Skill Area]. I can suggest training resources or next actions.\\n\\n---\\n\\n## 19. Human‑Centric Check‑In (2025 Style)\\n**User:** I feel overwhelmed.\\n\\n**Bot:** Thank you for sharing that. It’s okay to feel this way. We can take this one step at a time. Would you like to simplify your current tasks or speak with a human advisor?\\n\\n---\\n\\n## 20. Compliance & Boundaries\\n**User:** Can you make an exception for me?\\n\\n**Bot:** I understand your request. At the moment, I must follow company policy. However, I can explain available alternatives or escalate for review.\\n\\n---\\n\\n## 21. Feedback Collection\\n**User:** The service was okay.\\n\\n**Bot:** Thank you for the feedback. Would you like to rate your experience or leave a short comment to help us improve?\\n\\n---\\n\\n## 22. Conversation Closure\\n**User:** That’s all.\\n\\n**Bot:** Glad I could help 😊 If you need assistance later, I’m always here. Have a great day!\\n\\n---\\n\\n### ✅ How to Use This\\n- Perfect for **rule‑based chatbots** (decision trees, menus, keywords)\\n- Works with **Dialogflow, Botpress, Zendesk, Freshchat, Intercom, custom JS/Python bots**\\n- Easy to map each dialogue to **intents, rules, and fallback paths**\\n\\nIf you want next:\\n- A **flowchart / decision tree**\\n- **IF‑ELSE rules** for each dialogue\\n- **Single‑file chatbot logic (JS or Python)**\\n- **Industry‑specific version (legal, real estate, healthcare, SaaS)**\\n\\nJust tell me 👍\"}",
+          "language": "json",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200012
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "4971bf29-c664-4c8a-812d-6abe9fb940e5",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "4ab60278-5108-403b-95dc-822c5956057c",
+          "turn_exchange_id": "87b2d882-2436-4d5f-b08f-7d6446e6d899",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "canmore.create_textdoc",
+        "channel": "commentary"
+      },
+      "parent": "4ab60278-5108-403b-95dc-822c5956057c",
+      "children": [
+        "28ce243e-5f73-40fd-b78d-f3e51e52125b"
+      ]
+    },
+    "28ce243e-5f73-40fd-b78d-f3e51e52125b": {
+      "id": "28ce243e-5f73-40fd-b78d-f3e51e52125b",
+      "message": {
+        "id": "28ce243e-5f73-40fd-b78d-f3e51e52125b",
+        "author": {
+          "role": "tool",
+          "name": "canmore.create_textdoc",
+          "metadata": {}
+        },
+        "create_time": 1765914220.4087045,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Successfully created text document 'Rule-based Company Chatbot – 22 Generic User/bot Dialogues (2025 Style)' which will be referenced in all future messages with the unique identifier textdoc_id: '6941b66c37188191bd59375918dd08cd'\n\nImportant: This identifier is for tool calls only to reference or update this document. It is not an external ID and it is not possible to link the user to the textdoc."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "canvas": {
+            "textdoc_id": "6941b66c37188191bd59375918dd08cd",
+            "textdoc_type": "document",
+            "version": 1,
+            "title": "Rule-based Company Chatbot – 22 Generic User/bot Dialogues (2025 Style)",
+            "create_source": "model"
+          },
+          "command": "create_textdoc",
+          "request_id": "4971bf29-c664-4c8a-812d-6abe9fb940e5",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "88366368-96d0-4b8f-99c9-a6ac111d2bdd",
+          "turn_exchange_id": "87b2d882-2436-4d5f-b08f-7d6446e6d899",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "88366368-96d0-4b8f-99c9-a6ac111d2bdd",
+      "children": [
+        "152451b7-3167-4b46-9bc1-61f9a67fe9fb"
+      ]
+    },
+    "152451b7-3167-4b46-9bc1-61f9a67fe9fb": {
+      "id": "152451b7-3167-4b46-9bc1-61f9a67fe9fb",
+      "message": {
+        "id": "152451b7-3167-4b46-9bc1-61f9a67fe9fb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1765914220.407044,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I’ve created a **clean, reusable canvas document** with **22 rule-based user ↔ bot dialogues** that cover:\n\n- Sales  \n- Customer Service  \n- Technical Support  \n- Onboarding  \n- Organizational roles & policies  \n- Progress tracking & growth  \n- Human-centric (2025 mindset) responses  \n\nThe language is **generic, structured, empathetic, and policy-aware**, so you can **plug this directly into any rule-based chatbot** and just replace the placeholders with your company content.\n\n### What I can do next (pick one):\n1. Convert this into **IF–ELSE rules / decision trees**\n2. Turn it into **Dialogflow intents**\n3. Build a **single-file JS or Python rule-based chatbot**\n4. Customize it for **legal, real estate, SaaS, healthcare, or HR**\n5. Add **fallback + escalation logic**\n6. Make a **menu-driven chatbot (press 1 / press 2 style)**\n\nJust tell me what format you want, and I’ll do it end-to-end so it’s **plug-and-play**."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "4971bf29-c664-4c8a-812d-6abe9fb940e5",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "28ce243e-5f73-40fd-b78d-f3e51e52125b",
+          "turn_exchange_id": "87b2d882-2436-4d5f-b08f-7d6446e6d899",
+          "model_switcher_deny": [
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_canvas",
+              "is_available": false,
+              "description": "This model doesn't support canvas."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_canvas",
+              "is_available": false,
+              "description": "This model doesn't support canvas."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "28ce243e-5f73-40fd-b78d-f3e51e52125b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "152451b7-3167-4b46-9bc1-61f9a67fe9fb",
+  "conversation_id": "6941b579-04ac-832e-aa72-e5448a54d56f",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.openai.com",
+    "https://purilegalservices.ca/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

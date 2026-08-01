@@ -1,0 +1,1529 @@
+{
+  "title": "Free Android Call Recorders",
+  "create_time": 1734460512.035403,
+  "update_time": 1734460526.776958,
+  "mapping": {
+    "bbb237bc-9293-4f82-b774-fb1839c9860c": {
+      "id": "bbb237bc-9293-4f82-b774-fb1839c9860c",
+      "message": null,
+      "parent": null,
+      "children": [
+        "9db50c1e-ba00-40aa-813e-f2bd0319e3d1"
+      ]
+    },
+    "9db50c1e-ba00-40aa-813e-f2bd0319e3d1": {
+      "id": "9db50c1e-ba00-40aa-813e-f2bd0319e3d1",
+      "message": {
+        "id": "9db50c1e-ba00-40aa-813e-f2bd0319e3d1",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb237bc-9293-4f82-b774-fb1839c9860c",
+      "children": [
+        "bbb2163f-a605-40a1-abc9-5ae45fedf7ea"
+      ]
+    },
+    "bbb2163f-a605-40a1-abc9-5ae45fedf7ea": {
+      "id": "bbb2163f-a605-40a1-abc9-5ae45fedf7ea",
+      "message": {
+        "id": "bbb2163f-a605-40a1-abc9-5ae45fedf7ea",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1734460512.042052,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What free android apps to record calls"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8f3902edbd943704-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9db50c1e-ba00-40aa-813e-f2bd0319e3d1",
+      "children": [
+        "8c231656-e5c6-4875-846b-fb915041422e"
+      ]
+    },
+    "8c231656-e5c6-4875-846b-fb915041422e": {
+      "id": "8c231656-e5c6-4875-846b-fb915041422e",
+      "message": {
+        "id": "8c231656-e5c6-4875-846b-fb915041422e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1734460525.338013,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2163f-a605-40a1-abc9-5ae45fedf7ea",
+          "request_id": "8f3902edbd943704-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2163f-a605-40a1-abc9-5ae45fedf7ea",
+      "children": [
+        "6a749f94-b9ec-4f99-b46c-20be47195e8b"
+      ]
+    },
+    "6a749f94-b9ec-4f99-b46c-20be47195e8b": {
+      "id": "6a749f94-b9ec-4f99-b46c-20be47195e8b",
+      "message": {
+        "id": "6a749f94-b9ec-4f99-b46c-20be47195e8b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1734460525.338168,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"What free android apps to record calls\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_complete": true,
+          "finish_details": {
+            "type": "stop"
+          },
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "8c231656-e5c6-4875-846b-fb915041422e",
+          "request_id": "8f3902edbd943704-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "8c231656-e5c6-4875-846b-fb915041422e",
+      "children": [
+        "c3043e3d-be53-408f-a39c-af81f0bebd39"
+      ]
+    },
+    "c3043e3d-be53-408f-a39c-af81f0bebd39": {
+      "id": "c3043e3d-be53-408f-a39c-af81f0bebd39",
+      "message": {
+        "id": "c3043e3d-be53-408f-a39c-af81f0bebd39",
+        "author": {
+          "role": "tool",
+          "name": "web",
+          "metadata": {}
+        },
+        "create_time": 1734460525.338287,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "command": "search",
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "6a749f94-b9ec-4f99-b46c-20be47195e8b",
+          "request_id": "8f3902edbd943704-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "assistant",
+        "channel": null
+      },
+      "parent": "6a749f94-b9ec-4f99-b46c-20be47195e8b",
+      "children": [
+        "8a17c1ad-938e-4954-a9b8-f19bd3903291"
+      ]
+    },
+    "8a17c1ad-938e-4954-a9b8-f19bd3903291": {
+      "id": "8a17c1ad-938e-4954-a9b8-f19bd3903291",
+      "message": {
+        "id": "8a17c1ad-938e-4954-a9b8-f19bd3903291",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "real_author": "tool:web"
+          }
+        },
+        "create_time": 1734460525.338444,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Recording phone calls on Android devices has become increasingly challenging due to policy changes and restrictions implemented by Google and device manufacturers. However, several free apps still offer call recording functionalities. Here are some options you might consider:\n\n:::contextList\n【{\"image_fetch\": \"Cube ACR app logo\"}】\n**Cube ACR**  \nCube ACR is a popular call recorder that supports recording for both regular phone calls and VoIP services like WhatsApp, Skype, and Facebook. The basic version is free but displays ads and doesn't offer cloud-based backups. It requires accessibility permissions to function properly. citeturn0search2\n:::\n\n:::contextList\n【{\"image_fetch\": \"ACR Phone app logo\"}】\n**ACR Phone**  \nDeveloped by the creators of ACR Call Recorder, ACR Phone is a dialer app that includes call recording features. To enable recording, it uses a helper app called ACR Phone Helper (APH), which can be downloaded from sources outside the Google Play Store. This combination allows for call recording despite Google's restrictions. citeturn0search0\n:::\n\n:::contextList\n【{\"image_fetch\": \"Call Recorder by Lucky Mobile Apps logo\"}】\n**Call Recorder by Lucky Mobile Apps**  \nThis app automatically records incoming and outgoing calls. While the app is free, it contains ads, and a premium version is available for an ad-free experience. It requires accessibility permissions to operate. citeturn0search0\n:::\n\n:::contextList\n【{\"image_fetch\": \"Automatic Call Recorder Pro app logo\"}】\n**Automatic Call Recorder Pro (formerly CallU)**  \nThis app offers automatic call recording with a straightforward setup. The free version includes ads, with a one-time payment option to remove them. It also requires accessibility permissions. citeturn0search0\n:::\n\n:::contextList\n【{\"image_fetch\": \"CallApp app logo\"}】\n**CallApp**  \nCallApp provides caller ID, call blocking, and call recording features. It offers real-time information about incoming and outgoing calls by utilizing user-generated content and social networking services. The app is free to use but may contain ads. citeturn0search9\n:::\n\n**Important Considerations:**\n\n- **Legal Compliance:** Call recording laws vary by jurisdiction. Ensure you comply with local regulations, which may require informing all parties that the call is being recorded.\n\n- **Device Compatibility:** Some devices and Android versions may not support call recording due to hardware limitations or manufacturer restrictions.\n\n- **Permissions:** These apps typically require extensive permissions, including access to your contacts, microphone, and storage. Review the permissions carefully to understand the data access involved.\n\n- **App Source:** Due to Google's restrictions, some call recording apps or their helper components may need to be downloaded from sources outside the Google Play Store. Ensure you download from reputable sources to avoid security risks.\n\nGiven the evolving nature of app capabilities and restrictions, it's advisable to check the latest user reviews and app updates to ensure the app meets your specific needs.\n\nFor a visual overview of some of these apps, you might find this video helpful:\n\nvideoBest FREE Call Recording Apps for Android in 2024turn0search7 "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "androidauthority.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/",
+                  "title": "The 10 best call recorder apps for Android in 2024",
+                  "snippet": "The best call recorder apps for Android · ACR Phone + APH · Call Recorder by Lucky Mobile Apps · Automatic Call Recorder Pro · Cube ACR · Pixelify ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/androidapps/comments/18e6iwe/best_app_for_recording_phone_calls/",
+                  "title": "Best app for recording phone calls? : r/androidapps - Reddit",
+                  "snippet": "Cube ACR has a Helper app which allows recording phone calls and voip calls. It works on Android 14 and was working fine on Android 13 both without root.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "google.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.catalinagroup.callrecorder",
+                  "title": "Call Recorder - Cube ACR - Apps on Google Play",
+                  "snippet": "Call recorder - Cube ACR lets you easily record your incoming and outgoing phone calls and VoIP conversations. The best part? It's FREE!",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.enlightment.voicecallrecorder",
+                  "title": "Call Recorder - Apps on Google Play",
+                  "snippet": "Call Recorder gives you the easiest way to record all your phone conversations and manage them. 1. Record your calls automatically while calling.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "techradar.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.techradar.com/best/best-call-recorder-software",
+                  "title": "Best call recorder software of 2024 - TechRadar",
+                  "snippet": "But Cube Call Recorder is capable of recording calls through Skype, Facebook, WhatsApp, Slack, and more on Android devices. The free version of ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "pcmag.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.pcmag.com/how-to/record-calls-on-your-android-phone",
+                  "title": "How to Record Calls on Your Android Phone (While You Still Can)",
+                  "snippet": "Cube ACR offers more premium features than the other apps. The basic version is free but displays ads and offers no cloud-based backup for your recordings. If ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "youtube.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=3LJhYeqMcq0",
+                  "title": "Best FREE Call Recording Apps for Android in 2024 - YouTube",
+                  "snippet": "Find out the best free call recording apps for Android that record incoming and outgoing calls and manage your database automatically.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "tapeacall.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.tapeacall.com/",
+                  "title": "TapeACall",
+                  "snippet": "The leading call recorder app for iPhone and Android. Record important phone call with TapeACall. Try for Free. TapeACall App ...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "content_type": null,
+                  "pub_date": null,
+                  "attributions": null,
+                  "attributions_debug": null
+                }
+              ]
+            }
+          ],
+          "safe_urls": [
+            "https://play.google.com/store/apps/details?hl=en_US&id=com.catalinagroup.callrecorder&utm_source=chatgpt.com",
+            "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com",
+            "https://tse3.mm.bing.net/th?id=OIP.PDpxnAfdNMfxnWAH-C5kMgAAAA&pid=Api",
+            "https://m.media-amazon.com/images/I/81d4P78CLzL.png",
+            "https://www.youtube.com/watch?v=3LJhYeqMcq0&utm_source=chatgpt.com",
+            "https://play.google.com/store/apps/details?id=com.callapp.contacts",
+            "https://tse1.mm.bing.net/th?id=OIP.p0EDxmSZW-eRKkEFMwH0HgHaNK&pid=Api",
+            "https://m.media-amazon.com/images/I/81Oruy9nx4L.png",
+            "https://cdn6.aptoide.com/imgs/5/6/d/56d3981b95e15ec8efbfab5b963251fd_feature_graphic.png",
+            "https://img.youtube.com/vi/3LJhYeqMcq0/maxresdefault.jpg",
+            "https://acrphone.en.aptoide.com/app",
+            "https://com-lma-callrecorder.en.uptodown.com/android",
+            "https://play-lh.googleusercontent.com/WHQuWucnys3sGbDxxA1k15XW2Nn6Hj_X-9uWuirnHmjQBL0JME65kqwiM0Kz5oIHAN15",
+            "https://tse2.mm.bing.net/th?id=OIP.0aJpj3xacpf5N3JnSDjKywHaDn&pid=Api",
+            "https://tse1.mm.bing.net/th?id=OIP.EGelN0q35kwgOZ2hOARjuQHaHa&pid=Api",
+            "https://en.wikipedia.org/wiki/CallApp?utm_source=chatgpt.com",
+            "https://www.amazon.com/oudsimlab-Automatic-Call-Recorder-Pro/dp/B01CMEO30E",
+            "https://tse3.mm.bing.net/th?id=OIP.Mt8CNisl5rATVInTl60yxQHaEo&pid=Api",
+            "https://img.utdstc.com/icon/cc0/621/cc0621363be582c77595a32150091d862ad9de289996f5acd9e0eebda650ccc6:200",
+            "https://www.amazon.com/CUBE-APPS-LIMITED-Cube-Helper/dp/B0C5MG535V"
+          ],
+          "message_locale": "en-US",
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "c3043e3d-be53-408f-a39c-af81f0bebd39",
+          "image_results": [],
+          "content_references": [
+            {
+              "matched_text": "",
+              "start_idx": 0,
+              "end_idx": 1,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 164,
+              "end_idx": 165,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 166,
+              "end_idx": 167,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 237,
+              "end_idx": 238,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 280,
+              "end_idx": 281,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "【{\"image_fetch\": \"Cube ACR app logo\"}】",
+              "start_idx": 298,
+              "end_idx": 336,
+              "alt": "![Cube ACR Helper - App on Amazon Appstore](https://tse1.mm.bing.net/th?id=OIP.p0EDxmSZW-eRKkEFMwH0HgHaNK&pid=Api)\n",
+              "prompt_text": "\n## Images:\n![Cube ACR Helper - App on Amazon Appstore](https://tse1.mm.bing.net/th?id=OIP.p0EDxmSZW-eRKkEFMwH0HgHaNK&pid=Api)\n",
+              "type": "image_v2",
+              "images": [
+                {
+                  "url": "https://www.amazon.com/CUBE-APPS-LIMITED-Cube-Helper/dp/B0C5MG535V",
+                  "content_url": "https://m.media-amazon.com/images/I/81d4P78CLzL.png",
+                  "thumbnail_url": "https://tse1.mm.bing.net/th?id=OIP.p0EDxmSZW-eRKkEFMwH0HgHaNK&pid=Api",
+                  "title": "Cube ACR Helper - App on Amazon Appstore",
+                  "content_size": {
+                    "width": 1080,
+                    "height": 1920
+                  },
+                  "thumbnail_size": {
+                    "width": 474,
+                    "height": 842
+                  }
+                }
+              ]
+            },
+            {
+              "matched_text": "",
+              "start_idx": 352,
+              "end_idx": 353,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 495,
+              "end_idx": 496,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 497,
+              "end_idx": 498,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 579,
+              "end_idx": 580,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 581,
+              "end_idx": 582,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 641,
+              "end_idx": 642,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search2",
+              "start_idx": 643,
+              "end_idx": 662,
+              "alt": "([Google Play](https://play.google.com/store/apps/details?hl=en_US&id=com.catalinagroup.callrecorder&utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "Call Recorder - Cube ACR - Apps on Google Play",
+              "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.catalinagroup.callrecorder&utm_source=chatgpt.com",
+              "pub_date": null,
+              "snippet": "Call recorder - Cube ACR lets you easily record your incoming and outgoing phone calls and VoIP conversations. The best part? It's FREE!",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "Google Play"
+            },
+            {
+              "matched_text": "【{\"image_fetch\": \"ACR Phone app logo\"}】",
+              "start_idx": 683,
+              "end_idx": 722,
+              "alt": "![ACR Phone - APK Download for Android | Aptoide](https://tse2.mm.bing.net/th?id=OIP.0aJpj3xacpf5N3JnSDjKywHaDn&pid=Api)\n",
+              "prompt_text": "\n## Images:\n![ACR Phone - APK Download for Android | Aptoide](https://tse2.mm.bing.net/th?id=OIP.0aJpj3xacpf5N3JnSDjKywHaDn&pid=Api)\n",
+              "type": "image_v2",
+              "images": [
+                {
+                  "url": "https://acrphone.en.aptoide.com/app",
+                  "content_url": "https://cdn6.aptoide.com/imgs/5/6/d/56d3981b95e15ec8efbfab5b963251fd_feature_graphic.png",
+                  "thumbnail_url": "https://tse2.mm.bing.net/th?id=OIP.0aJpj3xacpf5N3JnSDjKywHaDn&pid=Api",
+                  "title": "ACR Phone - APK Download for Android | Aptoide",
+                  "content_size": {
+                    "width": 1024,
+                    "height": 500
+                  },
+                  "thumbnail_size": {
+                    "width": 474,
+                    "height": 231
+                  }
+                }
+              ]
+            },
+            {
+              "matched_text": "",
+              "start_idx": 739,
+              "end_idx": 740,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 852,
+              "end_idx": 853,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 854,
+              "end_idx": 855,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 995,
+              "end_idx": 996,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 997,
+              "end_idx": 998,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1071,
+              "end_idx": 1072,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 1073,
+              "end_idx": 1092,
+              "alt": "([Android Authority](https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "The 10 best call recorder apps for Android in 2024",
+              "url": "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com",
+              "pub_date": 1711731626,
+              "snippet": "The best call recorder apps for Android · ACR Phone + APH · Call Recorder by Lucky Mobile Apps · Automatic Call Recorder Pro · Cube ACR · Pixelify ...",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "Android Authority"
+            },
+            {
+              "matched_text": "【{\"image_fetch\": \"Call Recorder by Lucky Mobile Apps logo\"}】",
+              "start_idx": 1113,
+              "end_idx": 1173,
+              "alt": "![Lucky Mobile Apps's Call Recorder for Android - Download the APK from Uptodown](https://tse3.mm.bing.net/th?id=OIP.PDpxnAfdNMfxnWAH-C5kMgAAAA&pid=Api)\n",
+              "prompt_text": "\n## Images:\n![Lucky Mobile Apps's Call Recorder for Android - Download the APK from Uptodown](https://tse3.mm.bing.net/th?id=OIP.PDpxnAfdNMfxnWAH-C5kMgAAAA&pid=Api)\n",
+              "type": "image_v2",
+              "images": [
+                {
+                  "url": "https://com-lma-callrecorder.en.uptodown.com/android",
+                  "content_url": "https://img.utdstc.com/icon/cc0/621/cc0621363be582c77595a32150091d862ad9de289996f5acd9e0eebda650ccc6:200",
+                  "thumbnail_url": "https://tse3.mm.bing.net/th?id=OIP.PDpxnAfdNMfxnWAH-C5kMgAAAA&pid=Api",
+                  "title": "Lucky Mobile Apps's Call Recorder for Android - Download the APK from Uptodown",
+                  "content_size": {
+                    "width": 200,
+                    "height": 200
+                  },
+                  "thumbnail_size": {
+                    "width": 200,
+                    "height": 200
+                  }
+                }
+              ]
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1215,
+              "end_idx": 1216,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1275,
+              "end_idx": 1276,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1277,
+              "end_idx": 1278,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1379,
+              "end_idx": 1380,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1381,
+              "end_idx": 1382,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1431,
+              "end_idx": 1432,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 1433,
+              "end_idx": 1452,
+              "alt": "([Android Authority](https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "The 10 best call recorder apps for Android in 2024",
+              "url": "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com",
+              "pub_date": 1711731626,
+              "snippet": "The best call recorder apps for Android · ACR Phone + APH · Call Recorder by Lucky Mobile Apps · Automatic Call Recorder Pro · Cube ACR · Pixelify ...",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "Android Authority"
+            },
+            {
+              "matched_text": "【{\"image_fetch\": \"Automatic Call Recorder Pro app logo\"}】",
+              "start_idx": 1473,
+              "end_idx": 1530,
+              "alt": "![Automatic Call Recorder Pro - App on Amazon Appstore](https://tse3.mm.bing.net/th?id=OIP.Mt8CNisl5rATVInTl60yxQHaEo&pid=Api)\n",
+              "prompt_text": "\n## Images:\n![Automatic Call Recorder Pro - App on Amazon Appstore](https://tse3.mm.bing.net/th?id=OIP.Mt8CNisl5rATVInTl60yxQHaEo&pid=Api)\n",
+              "type": "image_v2",
+              "images": [
+                {
+                  "url": "https://www.amazon.com/oudsimlab-Automatic-Call-Recorder-Pro/dp/B01CMEO30E",
+                  "content_url": "https://m.media-amazon.com/images/I/81Oruy9nx4L.png",
+                  "thumbnail_url": "https://tse3.mm.bing.net/th?id=OIP.Mt8CNisl5rATVInTl60yxQHaEo&pid=Api",
+                  "title": "Automatic Call Recorder Pro - App on Amazon Appstore",
+                  "content_size": {
+                    "width": 2560,
+                    "height": 1600
+                  },
+                  "thumbnail_size": {
+                    "width": 474,
+                    "height": 296
+                  }
+                }
+              ]
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1582,
+              "end_idx": 1583,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1653,
+              "end_idx": 1654,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1655,
+              "end_idx": 1656,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1733,
+              "end_idx": 1734,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1735,
+              "end_idx": 1736,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1779,
+              "end_idx": 1780,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 1781,
+              "end_idx": 1800,
+              "alt": "([Android Authority](https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "The 10 best call recorder apps for Android in 2024",
+              "url": "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com",
+              "pub_date": 1711731626,
+              "snippet": "The best call recorder apps for Android · ACR Phone + APH · Call Recorder by Lucky Mobile Apps · Automatic Call Recorder Pro · Cube ACR · Pixelify ...",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "Android Authority"
+            },
+            {
+              "matched_text": "【{\"image_fetch\": \"CallApp app logo\"}】",
+              "start_idx": 1821,
+              "end_idx": 1858,
+              "alt": "![CallApp: Caller ID & Block - Apps on Google Play](https://tse1.mm.bing.net/th?id=OIP.EGelN0q35kwgOZ2hOARjuQHaHa&pid=Api)\n",
+              "prompt_text": "\n## Images:\n![CallApp: Caller ID & Block - Apps on Google Play](https://tse1.mm.bing.net/th?id=OIP.EGelN0q35kwgOZ2hOARjuQHaHa&pid=Api)\n",
+              "type": "image_v2",
+              "images": [
+                {
+                  "url": "https://play.google.com/store/apps/details?id=com.callapp.contacts",
+                  "content_url": "https://play-lh.googleusercontent.com/WHQuWucnys3sGbDxxA1k15XW2Nn6Hj_X-9uWuirnHmjQBL0JME65kqwiM0Kz5oIHAN15",
+                  "thumbnail_url": "https://tse1.mm.bing.net/th?id=OIP.EGelN0q35kwgOZ2hOARjuQHaHa&pid=Api",
+                  "title": "CallApp: Caller ID & Block - Apps on Google Play",
+                  "content_size": {
+                    "width": 512,
+                    "height": 512
+                  },
+                  "thumbnail_size": {
+                    "width": 474,
+                    "height": 474
+                  }
+                }
+              ]
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1873,
+              "end_idx": 1874,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1945,
+              "end_idx": 1946,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 1947,
+              "end_idx": 1948,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2081,
+              "end_idx": 2082,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2083,
+              "end_idx": 2084,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2127,
+              "end_idx": 2128,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "citeturn0search9",
+              "start_idx": 2129,
+              "end_idx": 2148,
+              "alt": "([Wikipedia](https://en.wikipedia.org/wiki/CallApp?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "webpage",
+              "title": "CallApp",
+              "url": "https://en.wikipedia.org/wiki/CallApp?utm_source=chatgpt.com",
+              "pub_date": 1727525273,
+              "snippet": "",
+              "attributions": null,
+              "attributions_debug": null,
+              "attribution": "Wikipedia"
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2209,
+              "end_idx": 2210,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2251,
+              "end_idx": 2252,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2367,
+              "end_idx": 2368,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2398,
+              "end_idx": 2399,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2521,
+              "end_idx": 2522,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2522,
+              "end_idx": 2523,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2544,
+              "end_idx": 2545,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2656,
+              "end_idx": 2657,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2730,
+              "end_idx": 2731,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2751,
+              "end_idx": 2752,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2903,
+              "end_idx": 2904,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2972,
+              "end_idx": 2973,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 2975,
+              "end_idx": 2976,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 3148,
+              "end_idx": 3149,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "",
+              "start_idx": 3149,
+              "end_idx": 3150,
+              "alt": null,
+              "prompt_text": null,
+              "type": "hidden",
+              "invalid": false
+            },
+            {
+              "matched_text": "videoBest FREE Call Recording Apps for Android in 2024turn0search7",
+              "start_idx": 3233,
+              "end_idx": 3303,
+              "alt": "[Best FREE Call Recording Apps for Android in 2024](https://www.youtube.com/watch?v=3LJhYeqMcq0&utm_source=chatgpt.com)\n",
+              "prompt_text": null,
+              "type": "video",
+              "title": "Best FREE Call Recording Apps for Android in 2024",
+              "thumbnail_url": "https://img.youtube.com/vi/3LJhYeqMcq0/maxresdefault.jpg",
+              "url": "https://www.youtube.com/watch?v=3LJhYeqMcq0&utm_source=chatgpt.com",
+              "video_site": "youtube",
+              "video_id": "3LJhYeqMcq0"
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 3303,
+              "end_idx": 3303,
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Call Recorder - Cube ACR - Apps on Google Play",
+                  "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.catalinagroup.callrecorder&utm_source=chatgpt.com",
+                  "attribution": "Google Play"
+                },
+                {
+                  "title": "The 10 best call recorder apps for Android in 2024",
+                  "url": "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com",
+                  "attribution": "Android Authority"
+                },
+                {
+                  "title": "CallApp",
+                  "url": "https://en.wikipedia.org/wiki/CallApp?utm_source=chatgpt.com",
+                  "attribution": "Wikipedia"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "citations": [
+            {
+              "start_ix": 0,
+              "end_ix": 1,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 164,
+              "end_ix": 165,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 166,
+              "end_ix": 167,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 237,
+              "end_ix": 238,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 280,
+              "end_ix": 281,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 298,
+              "end_ix": 336,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 352,
+              "end_ix": 353,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 495,
+              "end_ix": 496,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 497,
+              "end_ix": 498,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 579,
+              "end_ix": 580,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 581,
+              "end_ix": 582,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 641,
+              "end_ix": 642,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 643,
+              "end_ix": 662,
+              "metadata": {
+                "type": "webpage",
+                "title": "Call Recorder - Cube ACR - Apps on Google Play",
+                "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.catalinagroup.callrecorder&utm_source=chatgpt.com",
+                "text": "Call recorder - Cube ACR lets you easily record your incoming and outgoing phone calls and VoIP conversations. The best part? It's FREE!",
+                "pub_date": null,
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 683,
+              "end_ix": 722,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 739,
+              "end_ix": 740,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 852,
+              "end_ix": 853,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 854,
+              "end_ix": 855,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 995,
+              "end_ix": 996,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 997,
+              "end_ix": 998,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1071,
+              "end_ix": 1072,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1073,
+              "end_ix": 1092,
+              "metadata": {
+                "type": "webpage",
+                "title": "The 10 best call recorder apps for Android in 2024",
+                "url": "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com",
+                "text": "The best call recorder apps for Android · ACR Phone + APH · Call Recorder by Lucky Mobile Apps · Automatic Call Recorder Pro · Cube ACR · Pixelify ...",
+                "pub_date": "2024-03-29T17:00:26+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 1113,
+              "end_ix": 1173,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1215,
+              "end_ix": 1216,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1275,
+              "end_ix": 1276,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1277,
+              "end_ix": 1278,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1379,
+              "end_ix": 1380,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1381,
+              "end_ix": 1382,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1431,
+              "end_ix": 1432,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1433,
+              "end_ix": 1452,
+              "metadata": {
+                "type": "webpage",
+                "title": "The 10 best call recorder apps for Android in 2024",
+                "url": "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com",
+                "text": "The best call recorder apps for Android · ACR Phone + APH · Call Recorder by Lucky Mobile Apps · Automatic Call Recorder Pro · Cube ACR · Pixelify ...",
+                "pub_date": "2024-03-29T17:00:26+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 1473,
+              "end_ix": 1530,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1582,
+              "end_ix": 1583,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1653,
+              "end_ix": 1654,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1655,
+              "end_ix": 1656,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1733,
+              "end_ix": 1734,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1735,
+              "end_ix": 1736,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1779,
+              "end_ix": 1780,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1781,
+              "end_ix": 1800,
+              "metadata": {
+                "type": "webpage",
+                "title": "The 10 best call recorder apps for Android in 2024",
+                "url": "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com",
+                "text": "The best call recorder apps for Android · ACR Phone + APH · Call Recorder by Lucky Mobile Apps · Automatic Call Recorder Pro · Cube ACR · Pixelify ...",
+                "pub_date": "2024-03-29T17:00:26+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 1821,
+              "end_ix": 1858,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1873,
+              "end_ix": 1874,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1945,
+              "end_ix": 1946,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 1947,
+              "end_ix": 1948,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2081,
+              "end_ix": 2082,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2083,
+              "end_ix": 2084,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2127,
+              "end_ix": 2128,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2129,
+              "end_ix": 2148,
+              "metadata": {
+                "type": "webpage",
+                "title": "CallApp",
+                "url": "https://en.wikipedia.org/wiki/CallApp?utm_source=chatgpt.com",
+                "text": "",
+                "pub_date": "2024-09-28T12:07:53+00:00",
+                "extra": null,
+                "og_tags": null
+              }
+            },
+            {
+              "start_ix": 2209,
+              "end_ix": 2210,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2251,
+              "end_ix": 2252,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2367,
+              "end_ix": 2368,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2398,
+              "end_ix": 2399,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2521,
+              "end_ix": 2522,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2522,
+              "end_ix": 2523,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2544,
+              "end_ix": 2545,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2656,
+              "end_ix": 2657,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2730,
+              "end_ix": 2731,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2751,
+              "end_ix": 2752,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2903,
+              "end_ix": 2904,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2972,
+              "end_ix": 2973,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 2975,
+              "end_ix": 2976,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3148,
+              "end_ix": 3149,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3149,
+              "end_ix": 3150,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3233,
+              "end_ix": 3303,
+              "invalid_reason": "Unsupported, please upgrade"
+            },
+            {
+              "start_ix": 3303,
+              "end_ix": 3303,
+              "invalid_reason": "Unsupported, please upgrade"
+            }
+          ],
+          "request_id": "8f3902edbd943704-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c3043e3d-be53-408f-a39c-af81f0bebd39",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "8a17c1ad-938e-4954-a9b8-f19bd3903291",
+  "conversation_id": "6761c45e-6c9c-8011-9665-fa1d18ffd574",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://en.wikipedia.org/wiki/CallApp?utm_source=chatgpt.com",
+    "https://play-lh.googleusercontent.com/WHQuWucnys3sGbDxxA1k15XW2Nn6Hj_X-9uWuirnHmjQBL0JME65kqwiM0Kz5oIHAN15",
+    "https://tse2.mm.bing.net/th?id=OIP.0aJpj3xacpf5N3JnSDjKywHaDn&pid=Api",
+    "https://img.youtube.com/vi/3LJhYeqMcq0/maxresdefault.jpg",
+    "https://tse3.mm.bing.net/th?id=OIP.Mt8CNisl5rATVInTl60yxQHaEo&pid=Api",
+    "https://www.amazon.com/oudsimlab-Automatic-Call-Recorder-Pro/dp/B01CMEO30E",
+    "https://cdn6.aptoide.com/imgs/5/6/d/56d3981b95e15ec8efbfab5b963251fd_feature_graphic.png",
+    "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/?utm_source=chatgpt.com",
+    "https://www.youtube.com/watch?v=3LJhYeqMcq0&utm_source=chatgpt.com",
+    "https://www.amazon.com/CUBE-APPS-LIMITED-Cube-Helper/dp/B0C5MG535V",
+    "https://m.media-amazon.com/images/I/81Oruy9nx4L.png",
+    "https://tse1.mm.bing.net/th?id=OIP.EGelN0q35kwgOZ2hOARjuQHaHa&pid=Api",
+    "https://en.wikipedia.org/wiki/CallApp",
+    "https://play.google.com/store/apps/details?hl=en_US&id=com.catalinagroup.callrecorder",
+    "https://img.utdstc.com/icon/cc0/621/cc0621363be582c77595a32150091d862ad9de289996f5acd9e0eebda650ccc6:200",
+    "https://com-lma-callrecorder.en.uptodown.com/android",
+    "https://www.androidauthority.com/best-call-recorder-apps-android-1001838/",
+    "https://play.google.com/store/apps/details?hl=en_US&id=com.catalinagroup.callrecorder&utm_source=chatgpt.com",
+    "https://www.youtube.com/watch?v=3LJhYeqMcq0",
+    "https://m.media-amazon.com/images/I/81d4P78CLzL.png",
+    "https://acrphone.en.aptoide.com/app",
+    "https://tse3.mm.bing.net/th?id=OIP.PDpxnAfdNMfxnWAH-C5kMgAAAA&pid=Api",
+    "https://tse1.mm.bing.net/th?id=OIP.p0EDxmSZW-eRKkEFMwH0HgHaNK&pid=Api",
+    "https://play.google.com/store/apps/details?id=com.callapp.contacts"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

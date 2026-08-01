@@ -1,0 +1,3351 @@
+{
+  "title": "Booting from USB resources",
+  "create_time": 1763881950.472607,
+  "update_time": 1763884237.059166,
+  "mapping": {
+    "20a9b3c8-ec22-4f3a-b9b4-89823c14bf5c": {
+      "id": "20a9b3c8-ec22-4f3a-b9b4-89823c14bf5c",
+      "message": null,
+      "parent": null,
+      "children": [
+        "c64e6081-1774-49d5-b9b6-0bed8815a716"
+      ]
+    },
+    "c64e6081-1774-49d5-b9b6-0bed8815a716": {
+      "id": "c64e6081-1774-49d5-b9b6-0bed8815a716",
+      "message": {
+        "id": "c64e6081-1774-49d5-b9b6-0bed8815a716",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "20a9b3c8-ec22-4f3a-b9b4-89823c14bf5c",
+      "children": [
+        "bbb21e76-c7df-431b-b088-22c73b41858e"
+      ]
+    },
+    "bbb21e76-c7df-431b-b088-22c73b41858e": {
+      "id": "bbb21e76-c7df-431b-b088-22c73b41858e",
+      "message": {
+        "id": "bbb21e76-c7df-431b-b088-22c73b41858e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763881950.316778,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "When you boot from usb drive does it use computer resources "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "cfbf5b89-3fe7-4e2a-b9ce-4bd506200b6f",
+          "message_source": null,
+          "turn_exchange_id": "d26b2ccb-538e-4dea-8bd8-561553312d68",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c64e6081-1774-49d5-b9b6-0bed8815a716",
+      "children": [
+        "e38eb670-81d2-47c8-98a4-11dae3310b96"
+      ]
+    },
+    "e38eb670-81d2-47c8-98a4-11dae3310b96": {
+      "id": "e38eb670-81d2-47c8-98a4-11dae3310b96",
+      "message": {
+        "id": "e38eb670-81d2-47c8-98a4-11dae3310b96",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763881950.392879,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "cfbf5b89-3fe7-4e2a-b9ce-4bd506200b6f",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21e76-c7df-431b-b088-22c73b41858e",
+          "turn_exchange_id": "d26b2ccb-538e-4dea-8bd8-561553312d68",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21e76-c7df-431b-b088-22c73b41858e",
+      "children": [
+        "eca69a50-8f64-4433-a096-7854be357127"
+      ]
+    },
+    "eca69a50-8f64-4433-a096-7854be357127": {
+      "id": "eca69a50-8f64-4433-a096-7854be357127",
+      "message": {
+        "id": "eca69a50-8f64-4433-a096-7854be357127",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763881950.408948,
+        "update_time": 1763881957.717686,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "**Short answer:** Yes — it still uses your computer’s hardware resources.\n\nHere’s how it works when you **boot a computer from a USB drive** (Linux, Windows-To-Go, etc.):\n\n### ✅ **What resources come from the USB?**\n- The **operating system (OS) files** are stored on the USB.\n- Programs and system files **load from the USB** instead of the internal SSD/HDD.\n\n### ✅ **What resources come from your computer?**\nEven though the OS is on the USB, the computer *still uses*:\n\n- **CPU (processor)**  \n- **RAM (memory)**  \n- **Graphics (GPU)**  \n- **Motherboard / power system**  \n- **Keyboard, screen, Wi-Fi, Bluetooth**  \n- **Internal SSD/HDD** (only if you choose to access them)\n\n### 🧠 Think of it like this:\nBooting from USB is like bringing your own “portable OS,”  \n**but you are still borrowing the computer’s brain, memory, and muscles.**\n\n### ⚠️ Important:\nBooting from USB does **NOT** increase your RAM.  \nIt also does **NOT** bypass hardware limits.  \nIt only changes *where the OS loads from*, not the computer’s specs.\n\n### Example:\nIf your laptop has:\n- 4GB RAM  \n- i5 CPU  \n\nEven if you boot Ubuntu from USB, the OS still has only:\n- 4GB RAM  \n- the same i5 CPU  \n\n### If you want something else:\nIf your goal is to **add more RAM using a USB** or make the phone/computer faster, tell me — I’ll explain what’s possible and what isn’t."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "cfbf5b89-3fe7-4e2a-b9ce-4bd506200b6f",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "e38eb670-81d2-47c8-98a4-11dae3310b96",
+          "turn_exchange_id": "d26b2ccb-538e-4dea-8bd8-561553312d68",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "e38eb670-81d2-47c8-98a4-11dae3310b96",
+      "children": [
+        "bbb21b35-aec0-450f-aed6-ef3f1180e919"
+      ]
+    },
+    "bbb21b35-aec0-450f-aed6-ef3f1180e919": {
+      "id": "bbb21b35-aec0-450f-aed6-ef3f1180e919",
+      "message": {
+        "id": "bbb21b35-aec0-450f-aed6-ef3f1180e919",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763882189.559176,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you install run rasa on with 4 GB ram"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "19e87d6d-7e32-4f4d-9b61-ec66eadbad9d",
+          "message_source": null,
+          "turn_exchange_id": "93105511-7915-466c-8e89-da37d98a24d2",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "eca69a50-8f64-4433-a096-7854be357127",
+      "children": [
+        "1e3c6f6d-e293-4ec1-8ff0-2a0f365ec65f"
+      ]
+    },
+    "1e3c6f6d-e293-4ec1-8ff0-2a0f365ec65f": {
+      "id": "1e3c6f6d-e293-4ec1-8ff0-2a0f365ec65f",
+      "message": {
+        "id": "1e3c6f6d-e293-4ec1-8ff0-2a0f365ec65f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763882191.03652,
+        "update_time": 1763882200.30723,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes — **you *can* install and run Rasa with 4GB RAM**, but with **important limitations**.\n\nHere’s the realistic breakdown:\n\n---\n\n# ✅ **Can Rasa run on 4GB RAM?**\n**Yes, Rasa Open Source can run on 4GB RAM**, especially if:\n\n- You are running **simple or medium-sized** NLU models  \n- You are not training large transformer-based models locally  \n- You keep background apps to a minimum  \n\nMany people run Rasa on **low-spec laptops**, Raspberry Pi, or small cloud instances.\n\n---\n\n# ⚠️ What will be slow or limited?\nWith **only 4GB RAM**, you may struggle with:\n\n### ❌ Training large models (BERT, spaCy transformers, DIET with large embeddings)\n### ❌ Running Rasa X or Rasa Pro (needs more resources)\n### ❌ Multiple components (Rasa + Action Server + PostgreSQL)\n\nYou may see:\n- Slow training  \n- Occasional crashes if RAM is exhausted  \n- Need to swap (which slows the machine)\n\n---\n\n# ✅ What works well on 4GB RAM?\n### ✔ Basic Rasa NLU (intents, entities)  \n### ✔ DIET classifier with small/medium config  \n### ✔ Simple rules + stories  \n### ✔ Simple custom actions  \n### ✔ Running a small bot for development  \n\n---\n\n# 📌 Recommended setup for 4GB RAM\nUse a *lightweight* `config.yml` such as:\n\n```yaml\nlanguage: en\npipeline:\n  - name: WhitespaceTokenizer\n  - name: CountVectorsFeaturizer\n  - name: DIETClassifier\n    epochs: 50\n  - name: EntitySynonymMapper\n\npolicies:\n  - name: RulePolicy\n  - name: MemoizationPolicy\n  - name: TEDPolicy\n    max_history: 5\n    epochs: 50\n```\n\nThis avoids heavy transformer-based models.\n\n---\n\n# 🧠 Tips to improve performance on 4GB RAM\n- Close all other apps  \n- Add a **2–4GB swap file** if running Linux  \n- Use **Rasa 3.x** with lightweight configs  \n- Avoid transformer featurizers like BERT  \n- Use **SQLite** instead of PostgreSQL  \n\n---\n\n# 🚀 If you tell me your device (Windows / Linux / Mac),  \nI can give you the exact installation steps optimized for **4GB RAM**."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "19e87d6d-7e32-4f4d-9b61-ec66eadbad9d",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21b35-aec0-450f-aed6-ef3f1180e919",
+          "turn_exchange_id": "93105511-7915-466c-8e89-da37d98a24d2",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21b35-aec0-450f-aed6-ef3f1180e919",
+      "children": [
+        "bbb21327-70b9-45d8-9e41-71a6208ca680"
+      ]
+    },
+    "bbb21327-70b9-45d8-9e41-71a6208ca680": {
+      "id": "bbb21327-70b9-45d8-9e41-71a6208ca680",
+      "message": {
+        "id": "bbb21327-70b9-45d8-9e41-71a6208ca680",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763882350.769755,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Is there rasa cloud"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "a6a9583e-78bc-4c94-814d-3efe3fe1d509",
+          "message_source": null,
+          "turn_exchange_id": "daf33120-b6e7-4755-bc13-9589c50c0618",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1e3c6f6d-e293-4ec1-8ff0-2a0f365ec65f",
+      "children": [
+        "ce1ea4dc-615d-4060-a7fb-e258dca3c6b7"
+      ]
+    },
+    "ce1ea4dc-615d-4060-a7fb-e258dca3c6b7": {
+      "id": "ce1ea4dc-615d-4060-a7fb-e258dca3c6b7",
+      "message": {
+        "id": "ce1ea4dc-615d-4060-a7fb-e258dca3c6b7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763882350.844617,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"Is there rasa cloud\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "a6a9583e-78bc-4c94-814d-3efe3fe1d509",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21327-70b9-45d8-9e41-71a6208ca680",
+          "turn_exchange_id": "daf33120-b6e7-4755-bc13-9589c50c0618",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "bbb21327-70b9-45d8-9e41-71a6208ca680",
+      "children": [
+        "a70c6953-c525-4a74-8a57-017a06dad608"
+      ]
+    },
+    "a70c6953-c525-4a74-8a57-017a06dad608": {
+      "id": "a70c6953-c525-4a74-8a57-017a06dad608",
+      "message": {
+        "id": "a70c6953-c525-4a74-8a57-017a06dad608",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v7",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1763882351.437954,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "Rasa cloud hosting options for Rasa Open Source",
+              "Does Rasa provide Rasa cloud solution for conversational AI deployment",
+              "Rasa X cloud hosting rasa.com cloud offering for Rasa Enterprise or Rasa Cloud?"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "a6a9583e-78bc-4c94-814d-3efe3fe1d509",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "ce1ea4dc-615d-4060-a7fb-e258dca3c6b7",
+          "turn_exchange_id": "daf33120-b6e7-4755-bc13-9589c50c0618",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ce1ea4dc-615d-4060-a7fb-e258dca3c6b7",
+      "children": [
+        "11df1338-d4f2-4ab6-8a1e-95bffd371b6a"
+      ]
+    },
+    "11df1338-d4f2-4ab6-8a1e-95bffd371b6a": {
+      "id": "11df1338-d4f2-4ab6-8a1e-95bffd371b6a",
+      "message": {
+        "id": "11df1338-d4f2-4ab6-8a1e-95bffd371b6a",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v7",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1763882351.4365091,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "info.rasa.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience",
+                  "title": "Rasa Conversational AI Platform for Superior Customer Experience",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "info.rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://info.rasa.com/rasa-conversational-ai-platform-for-customer-experience",
+                  "title": "Rasa Conversational AI Platform for Superior Customer Experience",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "info.rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://info.rasa.com/faqs",
+                  "title": "Frequently Asked Questions | Rasa",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "info.rasa.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.statewatch.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.statewatch.org/media/4758/deliverable-d2-01-target-architecture-and-design-report.pdf",
+                  "title": "",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": 1759244855,
+                  "attribution": "www.statewatch.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "rasa.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/docs/rasa-enterprise/installation-and-setup/connect-rasa-to-rasa-enterprise/",
+                  "title": "Connect Rasa Open Source to Rasa Enterprise",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/docs/rasa/2.x/how-to-deploy/",
+                  "title": "Deploying Your Rasa Assistant",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/blog/how-to-deploy-conversational-ai",
+                  "title": "How to Build and Deploy Conversational AI | Rasa Blog",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/docs/rasa-pro/production/model-storage/",
+                  "title": "Model Storage | Rasa Documentation",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/docs/rasa/2.x/model-storage/",
+                  "title": "Model Storage",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.precognio.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.precognio.com/rasa/",
+                  "title": "Rasa – Precognio",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "www.precognio.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "turcomat.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://turcomat.org/index.php/turkbilmat/article/download/5394/4501/10006",
+                  "title": "",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1737180864,
+                  "attribution": "turcomat.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "forum.rasa.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/hosting-price/31602",
+                  "title": "Hosting Price - Rasa Open Source - 2024-12-09",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": 1595310000,
+                  "attribution": "forum.rasa.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.aitoolnet.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.aitoolnet.com/rasa",
+                  "title": "Rasa",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "www.aitoolnet.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "opensource.rasa.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://opensource.rasa.com/",
+                  "title": "Open source conversational AI | Rasa",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": 1663158701,
+                  "attribution": "opensource.rasa.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "storage.googleapis.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf",
+                  "title": "Note: Our open source framework Rasa (formerly Rasa NLU and Core) is still available under the",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": 1757402052,
+                  "attribution": "storage.googleapis.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "irp.cdn-website.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://irp.cdn-website.com/a6bf1735/files/uploaded/dadivuwuxubuk.pdf",
+                  "title": "",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": 1749793765,
+                  "attribution": "irp.cdn-website.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ijiird.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ijiird.com/wp-content/uploads/050211.pdf",
+                  "title": "International Journal of Interdisciplinary Innovative Research &Development (IJIIRD)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": 1739522542,
+                  "attribution": "ijiird.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "arxiv.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/1712.05181",
+                  "title": "Rasa: Open Source Language Understanding and Dialogue Management",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "academia",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/2208.06104",
+                  "title": "Building a Chatbot on a Closed Domain using RASA",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "academia",
+                    "ref_index": 20
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/LanguageTechnology/comments/1ilxhd5",
+                  "title": "ASR with Rasa",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 18
+                  },
+                  "pub_date": 1739160435.799,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/LLMDevs/comments/1j8opwk",
+                  "title": "Local Chat-BOT for Customer experience",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 19
+                  },
+                  "pub_date": 1741693195.693,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/LLMDevs/comments/1gngqbz",
+                  "title": "Alternatives for managing complex AI agent architectures beyond RASA?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 21
+                  },
+                  "pub_date": 1731177501.587,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/AI_Agents/comments/1gntfq3",
+                  "title": "Alternatives for managing complex AI agent architectures beyond RASA?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 22
+                  },
+                  "pub_date": 1731216016.523,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/developers_hire/comments/1ouxvbl",
+                  "title": "How Much Does It Cost to Build an AI Chatbot in 2026?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 23
+                  },
+                  "pub_date": 1762928948.257,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/askCTO/comments/1i1n5ss",
+                  "title": "What is the most comprehensive API for chatbot platforms?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1736907477.446,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1h6bych",
+                  "title": "Having trouble understanding RASA and its CALM system",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1733303421.996,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/learnprogramming/comments/132k3kq",
+                  "title": "How to make a chatbot deployed on a VM accesible from http in my website?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 26
+                  },
+                  "pub_date": 1682745663.948,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/developersIndia/comments/11zika5",
+                  "title": "Is RASA chatbot free for enterprise usage??",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 27
+                  },
+                  "pub_date": 1679573832.175,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/Chatbots/comments/hm3t9c",
+                  "title": "NLP Chatbot Using RASA Core & NLU",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 28
+                  },
+                  "pub_date": 1594024085.207,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/Chatbots/comments/1g9hbzy",
+                  "title": "Seeking Guidance on Deploying a Custom Rasa Chatbot for Instagram",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 29
+                  },
+                  "pub_date": 1729601376.836,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/learnmachinelearning/comments/ipcr7l",
+                  "title": "RASA Chatbot platform and building end-to-end bot within a few hours..",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 30
+                  },
+                  "pub_date": 1599643859.584,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_6922b56f75108325b5f7f73a53c6da83",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "a6a9583e-78bc-4c94-814d-3efe3fe1d509",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "a70c6953-c525-4a74-8a57-017a06dad608",
+          "turn_exchange_id": "daf33120-b6e7-4755-bc13-9589c50c0618",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a70c6953-c525-4a74-8a57-017a06dad608",
+      "children": [
+        "b6ac6a6c-b7ca-4392-b373-5855e03933b8"
+      ]
+    },
+    "b6ac6a6c-b7ca-4392-b373-5855e03933b8": {
+      "id": "b6ac6a6c-b7ca-4392-b373-5855e03933b8",
+      "message": {
+        "id": "b6ac6a6c-b7ca-4392-b373-5855e03933b8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v7",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1763882351.781949,
+        "update_time": 1763882356.475539,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good question. **Not exactly** in the way many SaaS tools (“cloud platforms”) work. Here’s a breakdown of how Rasa handles hosting / “cloud”:  \n\n---\n\n## What Rasa *does* offer\n\n1. **Self-Hosting Required**  \n   Rasa (Open Source) is built to be deployed on your own infrastructure — whether that's on-premises, a private cloud, or a public cloud (like AWS / GCP / Azure). citeturn0search0turn0search8turn0search3  \n   \n2. **Model Storage in the Cloud**  \n   While the Rasa **server itself isn’t a “Rasa-hosted cloud”**, you *can* store your trained Rasa models on cloud storage:  \n   - Amazon S3 citeturn0search7  \n   - Google Cloud Storage citeturn0search8  \n   - Azure Blob Storage citeturn0search7  \n   This lets your Rasa instance pull models from remote storage. citeturn0search8  \n   \n3. **Rasa-as-a-Service**  \n   On Rasa’s own site, they mention a “Rasa-as-a-Service” option, where “we take care of managing the Rasa Platform so you can move faster.” citeturn0search11  \n   \n   - However, that doesn’t necessarily mean a fully open “Rasa Cloud” where you just sign up and deploy bots like with ChatGPT — it seems more tailored to enterprise / teams.  \n   - According to Rasa’s FAQ, your data stays on your infrastructure; Rasa emphasizes that you can run everything on *your own cloud or private infra*. citeturn0search6  \n   - So, this “service” is more about Rasa managing the infrastructure *for you*, rather than Rasa completely controlling user data.  \n\n---\n\n## Why There’s No Fully Public “Rasa Cloud” (Like SaaS Chatbot Provider)\n\n- Rasa’s business model is centered on **data control** and **customizability**. They want teams to own their training data and models. citeturn0search0turn0search6  \n- Because of this, they don’t force or require you to send conversation data to Rasa’s servers — you host the actual assistant logic.\n\n---\n\n## TL;DR — So, Is There “Rasa Cloud”?\n\n- **Yes-ish**: There is a **“Rasa-as-a-Service”** but it's not a generic free Cloud UI for everyone — more for teams / enterprises who want Rasa to manage infra. citeturn0search11  \n- **No**: There’s no fully managed, public multi-tenant “Rasa Cloud” where you just spin up bots like a typical chatbot SaaS — you’re expected to host Rasa yourself (or pay for managed Rasa service).\n\n---\n\nIf you like, I can check **current (2025) Rasa cloud / hosting options and pricing** — do you want me to do that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "citeturn0search0turn0search8turn0search3",
+              "start_idx": 372,
+              "end_idx": 417,
+              "safe_urls": [
+                "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience",
+                "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience?utm_source=chatgpt.com",
+                "https://rasa.com/docs/rasa/2.x/how-to-deploy/",
+                "https://rasa.com/docs/rasa/2.x/how-to-deploy/?utm_source=chatgpt.com",
+                "https://rasa.com/docs/rasa/2.x/model-storage/",
+                "https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([info.rasa.com](https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Rasa Conversational AI Platform for Superior Customer Experience",
+                  "url": "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Model Storage",
+                      "url": "https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "rasa.com"
+                    },
+                    {
+                      "title": "Deploying Your Rasa Assistant",
+                      "url": "https://rasa.com/docs/rasa/2.x/how-to-deploy/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "rasa.com"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "info.rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search7",
+              "start_idx": 601,
+              "end_idx": 620,
+              "safe_urls": [
+                "https://rasa.com/docs/rasa-pro/production/model-storage/",
+                "https://rasa.com/docs/rasa-pro/production/model-storage/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([rasa.com](https://rasa.com/docs/rasa-pro/production/model-storage/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Model Storage | Rasa Documentation",
+                  "url": "https://rasa.com/docs/rasa-pro/production/model-storage/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search8",
+              "start_idx": 649,
+              "end_idx": 668,
+              "safe_urls": [
+                "https://rasa.com/docs/rasa/2.x/model-storage/",
+                "https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([rasa.com](https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Model Storage",
+                  "url": "https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search7",
+              "start_idx": 695,
+              "end_idx": 714,
+              "safe_urls": [
+                "https://rasa.com/docs/rasa-pro/production/model-storage/",
+                "https://rasa.com/docs/rasa-pro/production/model-storage/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([rasa.com](https://rasa.com/docs/rasa-pro/production/model-storage/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Model Storage | Rasa Documentation",
+                  "url": "https://rasa.com/docs/rasa-pro/production/model-storage/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search8",
+              "start_idx": 782,
+              "end_idx": 801,
+              "safe_urls": [
+                "https://rasa.com/docs/rasa/2.x/model-storage/",
+                "https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([rasa.com](https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Model Storage",
+                  "url": "https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search11",
+              "start_idx": 976,
+              "end_idx": 996,
+              "safe_urls": [
+                "https://opensource.rasa.com/",
+                "https://opensource.rasa.com/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Rasa](https://opensource.rasa.com/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Open source conversational AI | Rasa",
+                  "url": "https://opensource.rasa.com/?utm_source=chatgpt.com",
+                  "pub_date": 1663158701,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Rasa"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search6",
+              "start_idx": 1332,
+              "end_idx": 1351,
+              "safe_urls": [
+                "https://info.rasa.com/faqs",
+                "https://info.rasa.com/faqs?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([info.rasa.com](https://info.rasa.com/faqs?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Frequently Asked Questions | Rasa",
+                  "url": "https://info.rasa.com/faqs?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "info.rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0turn0search6",
+              "start_idx": 1705,
+              "end_idx": 1737,
+              "safe_urls": [
+                "https://info.rasa.com/faqs",
+                "https://info.rasa.com/faqs?utm_source=chatgpt.com",
+                "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience",
+                "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([info.rasa.com](https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Rasa Conversational AI Platform for Superior Customer Experience",
+                  "url": "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Frequently Asked Questions | Rasa",
+                      "url": "https://info.rasa.com/faqs?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "info.rasa.com"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 6
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "info.rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search11",
+              "start_idx": 2081,
+              "end_idx": 2101,
+              "safe_urls": [
+                "https://opensource.rasa.com/",
+                "https://opensource.rasa.com/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Rasa](https://opensource.rasa.com/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Open source conversational AI | Rasa",
+                  "url": "https://opensource.rasa.com/?utm_source=chatgpt.com",
+                  "pub_date": 1663158701,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Rasa"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 2423,
+              "end_idx": 2423,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Rasa Conversational AI Platform for Superior Customer Experience",
+                  "url": "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience?utm_source=chatgpt.com",
+                  "attribution": "info.rasa.com"
+                },
+                {
+                  "title": "Model Storage | Rasa Documentation",
+                  "url": "https://rasa.com/docs/rasa-pro/production/model-storage/?utm_source=chatgpt.com",
+                  "attribution": "rasa.com"
+                },
+                {
+                  "title": "Open source conversational AI | Rasa",
+                  "url": "https://opensource.rasa.com/?utm_source=chatgpt.com",
+                  "attribution": "Rasa"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://info.rasa.com/faqs",
+            "https://info.rasa.com/faqs?utm_source=chatgpt.com",
+            "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience",
+            "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience?utm_source=chatgpt.com",
+            "https://opensource.rasa.com/",
+            "https://opensource.rasa.com/?utm_source=chatgpt.com",
+            "https://rasa.com/docs/rasa-pro/production/model-storage/",
+            "https://rasa.com/docs/rasa-pro/production/model-storage/?utm_source=chatgpt.com",
+            "https://rasa.com/docs/rasa/2.x/how-to-deploy/",
+            "https://rasa.com/docs/rasa/2.x/how-to-deploy/?utm_source=chatgpt.com",
+            "https://rasa.com/docs/rasa/2.x/model-storage/",
+            "https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "rasa.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://info.rasa.com/rasa-conversational-ai-platform-for-customer-experience?utm_source=chatgpt.com",
+                  "title": "Rasa Conversational AI Platform for Superior Customer Experience",
+                  "snippet": "THE FUTURE OF CUSTOMER EXPERIENCE  Build assistants loved by customers, with the framework loved by conversational teams. With Rasa, all teams can create personalized, automated interactions with cust...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/docs/rasa-enterprise/installation-and-setup/connect-rasa-to-rasa-enterprise/?utm_source=chatgpt.com",
+                  "title": "Connect Rasa Open Source to Rasa Enterprise",
+                  "snippet": "CONNECT A RASA OPEN SOURCE SERVER  In order to collect incoming conversations and interact with your running bot in the UI, you will need to connect your deployment to a Rasa Open Source server.  By d...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/docs/rasa/2.x/how-to-deploy/?utm_source=chatgpt.com",
+                  "title": "Deploying Your Rasa Assistant",
+                  "snippet": "WHEN TO DEPLOY YOUR ASSISTANT  The best time to deploy your assistant and make it available to test users is once it can handle the most important happy paths or is what we call a minimum viable assis...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/blog/how-to-deploy-conversational-ai?utm_source=chatgpt.com",
+                  "title": "How to Build and Deploy Conversational AI | Rasa Blog",
+                  "snippet": "HOW TO BUILD AND DEPLOY CONVERSATIONAL AI  Posted Apr 11, 2025  Updated  Enterprises now treat conversational AI as a core strategy, not a side project. As LLMs gain traction and demand for automation...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/hosting-price/31602?utm_source=chatgpt.com",
+                  "title": "Hosting Price - Rasa Open Source - 2024-12-09",
+                  "snippet": "HOSTING PRICE  Rasa Open Source  divine (Divine Maredi) July 21, 2020, 5:40am 1  Hi there, I’m new and I’d like to get clarification on something.  I understand that Rasa X is not available for commer...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": 1595310000,
+                  "attribution": "rasa.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "precognio.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.precognio.com/rasa/?utm_source=chatgpt.com",
+                  "title": "Rasa – Precognio",
+                  "snippet": "KEY FEATURES OF RASA  * Open-Source Flexibility: Full control over design and deployment; customizable for any domain; fast community updates; ideal for scalable projects.  * Advanced NLU: Uses transf...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "precognio.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "aitoolnet.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.aitoolnet.com/rasa?utm_source=chatgpt.com",
+                  "title": "Rasa",
+                  "snippet": "﻿ Rasa - Enterprise Conversational AI for Custom, Secure Assistants - Aitoolnet  Sponsored by MiniMe The AI Memory Operating System for Developers  RASA  Visit website  WHAT IS RASA?  Rasa is an enter...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "aitoolnet.com"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "a6a9583e-78bc-4c94-814d-3efe3fe1d509",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "11df1338-d4f2-4ab6-8a1e-95bffd371b6a",
+          "turn_exchange_id": "daf33120-b6e7-4755-bc13-9589c50c0618",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "11df1338-d4f2-4ab6-8a1e-95bffd371b6a",
+      "children": [
+        "bbb21a7f-e38b-4308-a269-9c54a7fb50f9"
+      ]
+    },
+    "bbb21a7f-e38b-4308-a269-9c54a7fb50f9": {
+      "id": "bbb21a7f-e38b-4308-a269-9c54a7fb50f9",
+      "message": {
+        "id": "bbb21a7f-e38b-4308-a269-9c54a7fb50f9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763882476.204739,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "42ac32e2-735d-45fb-9f04-2a5e73a9fe1c",
+          "message_source": null,
+          "turn_exchange_id": "e14ea69d-7e88-4b45-9afb-0faec7fd2ef4",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b6ac6a6c-b7ca-4392-b373-5855e03933b8",
+      "children": [
+        "aff8d36d-aac1-47ad-b872-35c939059b0f"
+      ]
+    },
+    "aff8d36d-aac1-47ad-b872-35c939059b0f": {
+      "id": "aff8d36d-aac1-47ad-b872-35c939059b0f",
+      "message": {
+        "id": "aff8d36d-aac1-47ad-b872-35c939059b0f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763882476.34554,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"Yes \")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "42ac32e2-735d-45fb-9f04-2a5e73a9fe1c",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21a7f-e38b-4308-a269-9c54a7fb50f9",
+          "turn_exchange_id": "e14ea69d-7e88-4b45-9afb-0faec7fd2ef4",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "bbb21a7f-e38b-4308-a269-9c54a7fb50f9",
+      "children": [
+        "6253a4c5-fbb6-4f9e-a005-90f190463662"
+      ]
+    },
+    "6253a4c5-fbb6-4f9e-a005-90f190463662": {
+      "id": "6253a4c5-fbb6-4f9e-a005-90f190463662",
+      "message": {
+        "id": "6253a4c5-fbb6-4f9e-a005-90f190463662",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v7",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1763882476.9440708,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "Rasa cloud hosting options 2025 Rasa-as-a-Service pricing",
+              "Rasa managed hosting Rasa enterprise cloud pricing",
+              "Rasa cloud managed by Rasa pricing Rasa X cloud pricing"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "42ac32e2-735d-45fb-9f04-2a5e73a9fe1c",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "aff8d36d-aac1-47ad-b872-35c939059b0f",
+          "turn_exchange_id": "e14ea69d-7e88-4b45-9afb-0faec7fd2ef4",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aff8d36d-aac1-47ad-b872-35c939059b0f",
+      "children": [
+        "bd7a0db6-c7a5-496d-bac7-ba77f8425c10"
+      ]
+    },
+    "bd7a0db6-c7a5-496d-bac7-ba77f8425c10": {
+      "id": "bd7a0db6-c7a5-496d-bac7-ba77f8425c10",
+      "message": {
+        "id": "bd7a0db6-c7a5-496d-bac7-ba77f8425c10",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v7",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1763882476.9423616,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "rasa.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/pricing",
+                  "title": "Rasa Pricing | Conversational AI Platform",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.com/product/managed-service/",
+                  "title": "Take away the worry of Conversational AI Infrastucture Management | Explore Rasa as a Service",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 1666078092,
+                  "attribution": "rasa.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "rasa.io",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.io/pricing/",
+                  "title": "Pricing | rasa.io",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.io"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "forum.rasa.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/rasa-free-or-paid/49437",
+                  "title": "RASA Free or Paid? - Rasa Open Source - 2024-12-09",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": 1637674723,
+                  "attribution": "forum.rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/is-there-a-managed-cloud-service-that-runs-rasa/39035",
+                  "title": "Is there a managed cloud service that runs Rasa? - Rasa Open Source - 2024-12-09",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": 1610647654,
+                  "attribution": "forum.rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828",
+                  "title": "What gives Rasa a competitive edge over the competition? - Rasa Open Source - 2024-12-09",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": 1680538923,
+                  "attribution": "forum.rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/rasa-cost-on-google-cloud/42867",
+                  "title": "Rasa cost on google cloud - Rasa Open Source - 2024-12-09",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1619352252,
+                  "attribution": "forum.rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/hosting-price/31602",
+                  "title": "Hosting Price - Rasa Open Source - 2024-12-09",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": 1595310000,
+                  "attribution": "forum.rasa.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "crozdesk.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://crozdesk.com/compare/claid-vs-murf-ai-vs-rasa",
+                  "title": "Compare Claid vs Murf AI vs Rasa",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "crozdesk.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://crozdesk.com/compare/ai-collective-vs-accessibe-vs-rasa",
+                  "title": "Compare AI Collective vs accessiBe vs Rasa",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "crozdesk.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "master--rasahq.netlify.app",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://master--rasahq.netlify.app/product/pricing/",
+                  "title": "Pricing: Open source & paid enterprise subscriptions | Rasa",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": 1606831720,
+                  "attribution": "master--rasahq.netlify.app"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "aws.amazon.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg",
+                  "title": "AWS Marketplace: Rasa Open Source on Ubuntu22.04 with maintenance support by Apps4Rent",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "aws.amazon.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "storage.googleapis.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf",
+                  "title": "Note: Our open source framework Rasa (formerly Rasa NLU and Core) is still available under the",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": 1757402052,
+                  "attribution": "storage.googleapis.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.eunis.cz",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.eunis.cz/_files/userfiles/DokumentyEUNIS/ProgramyKonferenci/2021/Proceedings_of_IT_for_Practice_2021_v4.pdf",
+                  "title": "",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1751354166,
+                  "attribution": "www.eunis.cz"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/developersIndia/comments/11zika5",
+                  "title": "Is RASA chatbot free for enterprise usage??",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 14
+                  },
+                  "pub_date": 1679573832.175,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/FutureTechFinds/comments/1jmfmvd",
+                  "title": "rasa.io - Tool for Newsletters",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 18
+                  },
+                  "pub_date": 1743227127.077,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/Kenya/comments/1kst2k6",
+                  "title": "Techies na developers, njooni kiasi",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 19
+                  },
+                  "pub_date": 1747926434.945,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/developers_hire/comments/1ouxvbl",
+                  "title": "How Much Does It Cost to Build an AI Chatbot in 2026?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 20
+                  },
+                  "pub_date": 1762928948.257,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/Chatbots/comments/181u3ka",
+                  "title": "I am working on making a chatbot.Can someone who has good knowledge about Chatbots, RASA and Integration the bot w the website help me. I'll pay.",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 21
+                  },
+                  "pub_date": 1700718180.025,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/kubernetes/comments/ox8ozj",
+                  "title": "RASA X best deployment place ?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 22
+                  },
+                  "pub_date": 1628012661.582,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/LanguageTechnology/comments/1ilxhd5",
+                  "title": "ASR with Rasa",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 23
+                  },
+                  "pub_date": 1739160435.799,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/AI_Agents/comments/1j7hnrw",
+                  "title": "Free cloud platform to host ai agents",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1741554301.158,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/Chatbots/comments/1gb8ur1",
+                  "title": "Exploring the Development of Conversational Chatbots for Local Businesses",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1729792477.845,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/apachekafka/comments/1oyljxp/the_floor_price_of_kafka_in_the_cloud/",
+                  "title": "The Floor Price of Kafka (in the cloud)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 26
+                  },
+                  "pub_date": 1763299198.279,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/learnmachinelearning/comments/ox7559",
+                  "title": "RASA X best deployment place ?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 27
+                  },
+                  "pub_date": 1628008288.165,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/learnprogramming/comments/132k3kq",
+                  "title": "How to make a chatbot deployed on a VM accesible from http in my website?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 28
+                  },
+                  "pub_date": 1682745663.948,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.statewatch.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.statewatch.org/media/4758/deliverable-d2-01-target-architecture-and-design-report.pdf",
+                  "title": "",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": 1759244855,
+                  "attribution": "www.statewatch.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "arxiv.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://arxiv.org/abs/2104.05491",
+                  "title": "LIBRA: An Economical Hybrid Approach for Cloud Applications with Strict SLAs",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "academia",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "arxiv.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "thameezacademy.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf",
+                  "title": "",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": 1757359236,
+                  "attribution": "thameezacademy.com"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_6922b5ed21088328a9c445d22f3b7550",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "42ac32e2-735d-45fb-9f04-2a5e73a9fe1c",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "6253a4c5-fbb6-4f9e-a005-90f190463662",
+          "turn_exchange_id": "e14ea69d-7e88-4b45-9afb-0faec7fd2ef4",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6253a4c5-fbb6-4f9e-a005-90f190463662",
+      "children": [
+        "12125e28-f7c3-48b4-a71e-d55a9897afd2"
+      ]
+    },
+    "12125e28-f7c3-48b4-a71e-d55a9897afd2": {
+      "id": "12125e28-f7c3-48b4-a71e-d55a9897afd2",
+      "message": {
+        "id": "12125e28-f7c3-48b4-a71e-d55a9897afd2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonicberry_v7",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1763882477.484614,
+        "update_time": 1763882482.356775,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Good question. As of **2025**, here’s a breakdown of what “Rasa cloud” / managed hosting options are available — and what the pricing looks like / where things are unclear.\n\n---\n\n## 🌐 Current Rasa Cloud / Managed Options & Pricing (2025)\n\n1. **Rasa Managed Service (“Rasa-as-a-Service”)**  \n   - Rasa offers a *managed service* where they handle the infrastructure for you. citeturn0search8  \n   - According to their pricing page, this falls under their **Enterprise** tier. citeturn0search0  \n   - You need to **contact sales** to get a quote. citeturn0search8  \n   - The cost may be quite high for smaller projects: some community discussions suggest that enterprise contracts can run **in the hundreds of thousands of dollars per year**. citeturn0search5  \n\n2. **Rasa Open Source / Self-Managed**  \n   - The core Rasa framework (Open Source) is free under the Apache 2.0 license. citeturn0search12  \n   - You can deploy Rasa (or Rasa X) on your own cloud infrastructure (e.g., AWS, GCP, Azure) using VMs, Kubernetes, or Docker. citeturn0search17turn0search7  \n   - For example: there is a listing on **AWS Marketplace** for Rasa with maintenance support. It’s ~$0.10/hour for the AMI + AWS infra. citeturn0search11  \n\n3. **Rasa X Community Edition (CE)**  \n   - Rasa X CE is free to use and lets you run Rasa locally or on your infrastructure. citeturn0search12  \n   - Important license note: **you can’t use Rasa X CE to host Rasa for *other parties*** (i.e. you can’t resell “Rasa as SaaS” using CE). citeturn0search12  \n   - You can, however, run Rasa X CE on a VM / cloud server you control.\n\n---\n\n## ⚠️ Things to Watch Out For / Trade-offs\n\n- Because the **managed service** requires a sales contract, there’s *no public pricing tier* for “just a small chatbot with a few users.”  \n- Running Rasa in the cloud yourself means **you pay for infrastructure** (VMs, storage, networking) + any support or devops.  \n- If you self-host, you need to manage updates, scaling, and resilience yourself (or hire someone to).\n\n---\n\n### ✅ My Recommendation (Given Your Situation)\n\n- If you’re **experimenting / prototyping**: Use Rasa Open Source + deploy on a cheap cloud VM (e.g. AWS, GCP) — this gives you flexibility and low cost for now.  \n- If you scale and need **enterprise-level support / managed infrastructure**, talk to Rasa about their Managed Service / Enterprise plan.  \n- Always **estimate your cloud infra costs** (VM size, uptime, data storage) to compare against any managed plan.\n\n---\n\nIf you like, I can check **Rasa cloud costs for a very small bot** (e.g., 100–1,000 active users) using typical cloud infra — want me to run those numbers?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "citeturn0search8",
+              "start_idx": 374,
+              "end_idx": 393,
+              "safe_urls": [
+                "https://rasa.com/product/managed-service/",
+                "https://rasa.com/product/managed-service/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([rasa.com](https://rasa.com/product/managed-service/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Take away the worry of Conversational AI Infrastucture Management | Explore Rasa as a Service",
+                  "url": "https://rasa.com/product/managed-service/?utm_source=chatgpt.com",
+                  "pub_date": 1666078092,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 478,
+              "end_idx": 497,
+              "safe_urls": [
+                "https://rasa.com/pricing",
+                "https://rasa.com/pricing?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([rasa.com](https://rasa.com/pricing?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Rasa Pricing | Conversational AI Platform",
+                  "url": "https://rasa.com/pricing?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search8",
+              "start_idx": 551,
+              "end_idx": 570,
+              "safe_urls": [
+                "https://rasa.com/product/managed-service/",
+                "https://rasa.com/product/managed-service/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([rasa.com](https://rasa.com/product/managed-service/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Take away the worry of Conversational AI Infrastucture Management | Explore Rasa as a Service",
+                  "url": "https://rasa.com/product/managed-service/?utm_source=chatgpt.com",
+                  "pub_date": 1666078092,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "rasa.com"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search5",
+              "start_idx": 750,
+              "end_idx": 769,
+              "safe_urls": [
+                "https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828",
+                "https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([2024-12-09](https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "What gives Rasa a competitive edge over the competition? - Rasa Open Source - 2024-12-09",
+                  "url": "https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828?utm_source=chatgpt.com",
+                  "pub_date": 1680538923,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 5
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "2024-12-09"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search12",
+              "start_idx": 895,
+              "end_idx": 915,
+              "safe_urls": [
+                "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf",
+                "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Google Cloud Storage](https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Note: Our open source framework Rasa (formerly Rasa NLU and Core) is still available under the",
+                  "url": "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com",
+                  "pub_date": 1757402052,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Google Cloud Storage"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search17turn0search7",
+              "start_idx": 1046,
+              "end_idx": 1079,
+              "safe_urls": [
+                "https://forum.rasa.com/t/rasa-cost-on-google-cloud/42867",
+                "https://forum.rasa.com/t/rasa-cost-on-google-cloud/42867?utm_source=chatgpt.com",
+                "https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf",
+                "https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Thameez Academy](https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "",
+                  "url": "https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf?utm_source=chatgpt.com",
+                  "pub_date": 1757359236,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Rasa cost on google cloud - Rasa Open Source - 2024-12-09",
+                      "url": "https://forum.rasa.com/t/rasa-cost-on-google-cloud/42867?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "2024-12-09"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 17
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 7
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Thameez Academy"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search11",
+              "start_idx": 1219,
+              "end_idx": 1239,
+              "safe_urls": [
+                "https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg",
+                "https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Amazon Web Services, Inc.](https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "AWS Marketplace: Rasa Open Source on Ubuntu22.04 with maintenance support by Apps4Rent",
+                  "url": "https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Amazon Web Services, Inc."
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search12",
+              "start_idx": 1369,
+              "end_idx": 1389,
+              "safe_urls": [
+                "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf",
+                "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Google Cloud Storage](https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Note: Our open source framework Rasa (formerly Rasa NLU and Core) is still available under the",
+                  "url": "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com",
+                  "pub_date": 1757402052,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Google Cloud Storage"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search12",
+              "start_idx": 1531,
+              "end_idx": 1551,
+              "safe_urls": [
+                "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf",
+                "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Google Cloud Storage](https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Note: Our open source framework Rasa (formerly Rasa NLU and Core) is still available under the",
+                  "url": "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com",
+                  "pub_date": 1757402052,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Google Cloud Storage"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 2683,
+              "end_idx": 2683,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Take away the worry of Conversational AI Infrastucture Management | Explore Rasa as a Service",
+                  "url": "https://rasa.com/product/managed-service/?utm_source=chatgpt.com",
+                  "attribution": "rasa.com"
+                },
+                {
+                  "title": "What gives Rasa a competitive edge over the competition? - Rasa Open Source - 2024-12-09",
+                  "url": "https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828?utm_source=chatgpt.com",
+                  "attribution": "2024-12-09"
+                },
+                {
+                  "title": "Note: Our open source framework Rasa (formerly Rasa NLU and Core) is still available under the",
+                  "url": "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com",
+                  "attribution": "Google Cloud Storage"
+                },
+                {
+                  "title": "",
+                  "url": "https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf?utm_source=chatgpt.com",
+                  "attribution": "Thameez Academy"
+                },
+                {
+                  "title": "AWS Marketplace: Rasa Open Source on Ubuntu22.04 with maintenance support by Apps4Rent",
+                  "url": "https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg?utm_source=chatgpt.com",
+                  "attribution": "Amazon Web Services, Inc."
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg",
+            "https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg?utm_source=chatgpt.com",
+            "https://forum.rasa.com/t/rasa-cost-on-google-cloud/42867",
+            "https://forum.rasa.com/t/rasa-cost-on-google-cloud/42867?utm_source=chatgpt.com",
+            "https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828",
+            "https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828?utm_source=chatgpt.com",
+            "https://rasa.com/pricing",
+            "https://rasa.com/pricing?utm_source=chatgpt.com",
+            "https://rasa.com/product/managed-service/",
+            "https://rasa.com/product/managed-service/?utm_source=chatgpt.com",
+            "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf",
+            "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com",
+            "https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf",
+            "https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "rasa.io",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://rasa.io/pricing/?utm_source=chatgpt.com",
+                  "title": "Pricing | rasa.io",
+                  "snippet": "PRICING  GROW WITH THE RIGHT PLAN.  CHOOSE THE PLAN THAT’S RIGHT FOR YOUR ORGANIZATION.  Newsletters  Campaigns  BASIC  RASA.IO NEWSLETTERS  $500/MONTH  Get Started  * Up to 10,000 Contacts * 1 User...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "rasa.io"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "rasa.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/rasa-free-or-paid/49437?utm_source=chatgpt.com",
+                  "title": "RASA Free or Paid? - Rasa Open Source - 2024-12-09",
+                  "snippet": "RASA FREE OR PAID?  Rasa Open Source  Ameer (mohd.ameer06) November 23, 2021, 1:38pm 1  As per the official documentation RASA they say RASA is open source and free. If It is free of cost then why we...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": 1637674723,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/is-there-a-managed-cloud-service-that-runs-rasa/39035?utm_source=chatgpt.com",
+                  "title": "Is there a managed cloud service that runs Rasa? - Rasa Open Source - 2024-12-09",
+                  "snippet": "IS THERE A MANAGED CLOUD SERVICE THAT RUNS RASA?  Rasa Open Source  Nasnl (Nas) January 14, 2021, 6:07pm 1  I read about ways to deploy Rasa with Docker, with Heroku, in AWS, in GCP, etc. This still s...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": 1610647654,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/rasa-cost-on-google-cloud/42867?utm_source=chatgpt.com",
+                  "title": "Rasa cost on google cloud - Rasa Open Source - 2024-12-09",
+                  "snippet": "RASA COST ON GOOGLE CLOUD  Rasa Open Source  newchapter3 (Newchapter3) April 25, 2021, 12:04pm 1  I am deploying my Rasa in google cloud VM, so far the cost is almost $150 !!  Is there anyway for chea...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1619352252,
+                  "attribution": "rasa.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://forum.rasa.com/t/hosting-price/31602?utm_source=chatgpt.com",
+                  "title": "Hosting Price - Rasa Open Source - 2024-12-09",
+                  "snippet": "HOSTING PRICE  Rasa Open Source  divine (Divine Maredi) July 21, 2020, 5:40am 1  Hi there, I’m new and I’d like to get clarification on something.  I understand that Rasa X is not available for commer...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": 1595310000,
+                  "attribution": "rasa.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "crozdesk.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://crozdesk.com/compare/claid-vs-murf-ai-vs-rasa?utm_source=chatgpt.com",
+                  "title": "Compare Claid vs Murf AI vs Rasa",
+                  "snippet": "PRICING  FREE  Free  INCLUDED IN PLAN:  * Try all 100+ voices * 10 mins of voice generation * 10 mins of transcription * Share link for audio/video output  BASIC MONTHLY  $19.00 1 user(s) / month  INC...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "crozdesk.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://crozdesk.com/compare/ai-collective-vs-accessibe-vs-rasa?utm_source=chatgpt.com",
+                  "title": "Compare AI Collective vs accessiBe vs Rasa",
+                  "snippet": "INCLUDED IN PLAN:  * WCAG 2.1 AA, ADA, Section 508, EN 301549 compliance * Monthly accessibility compliance audits * 24/7 automated compliance monitoring scans * Screen-Reader & Keyboard Navigation Ad...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "crozdesk.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "master--rasahq.netlify.app",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://master--rasahq.netlify.app/product/pricing/?utm_source=chatgpt.com",
+                  "title": "Pricing: Open source & paid enterprise subscriptions | Rasa",
+                  "snippet": "Skip to content  Rasa Announces Game-Changing Generative AI Solution Enhancements in Rasa ProRead more  RASA SUBSCRIPTION PRICING  One Platform for automating Conversational Experience. Implement with...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": 1606831720,
+                  "attribution": "master--rasahq.netlify.app"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "42ac32e2-735d-45fb-9f04-2a5e73a9fe1c",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bd7a0db6-c7a5-496d-bac7-ba77f8425c10",
+          "turn_exchange_id": "e14ea69d-7e88-4b45-9afb-0faec7fd2ef4",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bd7a0db6-c7a5-496d-bac7-ba77f8425c10",
+      "children": [
+        "bbb21974-25f2-49e8-9ffd-f8061fce590e"
+      ]
+    },
+    "bbb21974-25f2-49e8-9ffd-f8061fce590e": {
+      "id": "bbb21974-25f2-49e8-9ffd-f8061fce590e",
+      "message": {
+        "id": "bbb21974-25f2-49e8-9ffd-f8061fce590e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763882615.894157,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you download rasa on an android "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "ec234442-d7c9-43e4-a13b-b1d6fa067ae5",
+          "message_source": null,
+          "turn_exchange_id": "842d8772-b205-4c14-9f59-67d66ba53475",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "12125e28-f7c3-48b4-a71e-d55a9897afd2",
+      "children": [
+        "692afe19-33b3-46e1-b51a-063c0a429508"
+      ]
+    },
+    "692afe19-33b3-46e1-b51a-063c0a429508": {
+      "id": "692afe19-33b3-46e1-b51a-063c0a429508",
+      "message": {
+        "id": "692afe19-33b3-46e1-b51a-063c0a429508",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763882616.02857,
+        "update_time": 1763882628.697807,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "**Yes — you *can* install Rasa on Android**, but only in **one specific way**:\n\n---\n\n# ✅ **You can install Rasa on Android using:**\n### **✔ Pydroid 3 (Python environment for Android)**  \nThis is the only workable method for Rasa on Android phones or tablets.\n\nBUT:  \n👉 **Rasa will NOT run fully on low RAM phones**  \n👉 **Rasa needs a lot of dependencies that may fail on mobile**  \n👉 **Training large models will not work**\n\nYou *can* run small bots with simple configs.\n\n---\n\n# 🌟 **Good news for you specifically**\nYou already told me before:\n\n> You use **Pydroid 3**, and you need to use built-in Python libraries.\n\nRasa **cannot** run only on built-in Python libraries.  \nIt needs **TensorFlow**, **Sanic**, **SQLAlchemy**, **Rasa SDK**, etc.\n\nAnd **TensorFlow does NOT install on Pydroid 3** (because it requires special wheels and heavy hardware).\n\nSo on Android:\n\n### ❌ You cannot run full Rasa with TensorFlow  \n### ❌ You cannot train a Rasa model  \n### ❌ You cannot run the full Rasa server  \n### ✔ You *can* run lightweight NLU code without Rasa  \n### ✔ You *can* build simple bots using basic Python logic in Pydroid 3\n\n---\n\n# 🔧 **Realistic Options on Android**\n\n## **Option 1: Mini-Chatbot (No Rasa)**\nUse:\n- Regular Python  \n- Regex  \n- Simple Intents  \n- JSON for training data  \n\nI can build this for you — works perfectly in Pydroid 3.\n\n---\n\n## **Option 2: Run Rasa on a Cloud Server**\nYou control Rasa from your phone, but installation runs on:\n- AWS  \n- GCP  \n- Azure  \n- Render  \n- Railway  \n- Your home PC with SSH  \n\nYour Android only becomes the *controller*, not the host.\n\n---\n\n## **Option 3: Use Termux (Advanced)**\nSome people install Rasa in **Termux** using Debian chroot.  \nBut it is:\n- Slow  \n- Unstable  \n- Requires root or heavy setup  \n- Often fails during TensorFlow installation\n\nNot recommended for your device.\n\n---\n\n# 🚫 **Summary**\n| Feature | On Android (Pydroid) | Cloud Server |\n|--------|-----------------------|---------------|\n| Install Rasa | ❌ No | ✔ Yes |\n| Train models | ❌ No | ✔ Yes |\n| Run full Rasa server | ❌ No | ✔ Yes |\n| Simple chatbot | ✔ Yes | ✔ Yes |\n| Uses built-in Python libs | ✔ Yes | ❌ Rasa needs extra libs |\n\n---\n\n# 👉 If you want, I can:\n### ✔ Build you a Pydroid-compatible mini-chatbot  \n### ✔ Help you set up Rasa on a cloud server  \n### ✔ Show you how to connect your Android to a cloud Rasa bot  \n### ✔ Build a simple Rasa-like engine using only built-ins\n\nWhich option do you want?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "ec234442-d7c9-43e4-a13b-b1d6fa067ae5",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21974-25f2-49e8-9ffd-f8061fce590e",
+          "turn_exchange_id": "842d8772-b205-4c14-9f59-67d66ba53475",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21974-25f2-49e8-9ffd-f8061fce590e",
+      "children": [
+        "bbb21898-86b5-4e29-bcd4-a1d858c279a4"
+      ]
+    },
+    "bbb21898-86b5-4e29-bcd4-a1d858c279a4": {
+      "id": "bbb21898-86b5-4e29-bcd4-a1d858c279a4",
+      "message": {
+        "id": "bbb21898-86b5-4e29-bcd4-a1d858c279a4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763883341.936749,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can I use usb stick as more rams on pc"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "4b5c9dcb-1c42-4859-9ce6-382e5df7de09",
+          "message_source": null,
+          "turn_exchange_id": "13d74029-65b0-43df-85e0-5f96eeccffed",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "692afe19-33b3-46e1-b51a-063c0a429508",
+      "children": [
+        "7c0d5863-0dba-4037-b849-deb2ffb8f5ab"
+      ]
+    },
+    "7c0d5863-0dba-4037-b849-deb2ffb8f5ab": {
+      "id": "7c0d5863-0dba-4037-b849-deb2ffb8f5ab",
+      "message": {
+        "id": "7c0d5863-0dba-4037-b849-deb2ffb8f5ab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763883342.545214,
+        "update_time": 1763883351.959484,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "**Short answer: No — a USB stick cannot become real RAM.  \nBut it *can* act as a slow “fake RAM” using special features.**\n\nLet me explain clearly:\n\n---\n\n# ✅ **You CANNOT use a USB stick as real RAM**\nRAM is **hardware** that sits directly on the motherboard.  \nA USB flash drive is **storage**, not memory.\n\nSo you **cannot increase your actual RAM** from 4GB → 8GB or 16GB using USB.\n\n---\n\n# ✅ What you *CAN* do: Use USB as **virtual memory**  \nWindows has a feature called **ReadyBoost**.  \nThis lets you use a USB drive as **extra cache**, acting like slow, temporary memory.\n\n### 🟢 ReadyBoost works only if:\n- You are on **Windows**\n- Your USB is **fast enough**\n- You have a **HDD (hard drive)**  \n  (ReadyBoost is useless on SSD computers)\n\n### ⚠️ But:\n- It does **NOT** replace real RAM  \n- It is **much slower**  \n- It helps **only a little**\n\n---\n\n# 🧠 Example:\nIf you have a laptop with:\n\n- **4GB RAM**\n- USB readyboost stick (e.g. 16GB)\n\nYour PC still has **4GB RAM**, but it gets a *small speed improvement* because the USB acts as emergency “overflow space.”\n\n---\n\n# 🔥 If you are using Linux:\nLinux can use a USB as **swap memory**.\n\nThis CAN help prevent crashes, but it is:\n\n- Slower than RAM  \n- Only good for light workloads  \n- Not good for heavy tasks like Rasa, AI training, etc.  \n\n---\n\n# 🚫 If your goal is:\n### “Use USB to run Rasa or AI because I only have 4GB RAM”\nThat will **not work**, because Rasa needs actual RAM, not USB swap.\n\n---\n\n# ⭐ Best solution:\nIf you want real performance:\n- **Add actual RAM** to your PC  \n- Or run heavy software (like Rasa) on:\n  - A cloud server  \n  - A more powerful computer  \n\n---\n\n# If you tell me your PC model  \nI can check:\n- How much RAM it supports  \n- What upgrade you can do  \n- Whether ReadyBoost or swap will help at all"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "4b5c9dcb-1c42-4859-9ce6-382e5df7de09",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21898-86b5-4e29-bcd4-a1d858c279a4",
+          "turn_exchange_id": "13d74029-65b0-43df-85e0-5f96eeccffed",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21898-86b5-4e29-bcd4-a1d858c279a4",
+      "children": [
+        "bbb21447-ad36-4495-b718-c45fd2640c41"
+      ]
+    },
+    "bbb21447-ad36-4495-b718-c45fd2640c41": {
+      "id": "bbb21447-ad36-4495-b718-c45fd2640c41",
+      "message": {
+        "id": "bbb21447-ad36-4495-b718-c45fd2640c41",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763883636.942153,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What I have 64 GB usb "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "871966f1-7667-413c-ab96-3709cd578a15",
+          "message_source": null,
+          "turn_exchange_id": "0b479260-da52-4a1b-af12-6dca8a222f4e",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7c0d5863-0dba-4037-b849-deb2ffb8f5ab",
+      "children": [
+        "df5e7445-133b-4099-93fa-3da86d0c87f6"
+      ]
+    },
+    "df5e7445-133b-4099-93fa-3da86d0c87f6": {
+      "id": "df5e7445-133b-4099-93fa-3da86d0c87f6",
+      "message": {
+        "id": "df5e7445-133b-4099-93fa-3da86d0c87f6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763883637.044803,
+        "update_time": 1763883647.39543,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Having a **64GB USB** is useful — but it still **cannot become real RAM**.  \nHowever, depending on your computer and operating system, you *can* use it for **virtual memory** or **ReadyBoost**, which helps a little but does **not** replace RAM.\n\nHere’s exactly what you can do:\n\n---\n\n# ✅ **If you are on Windows (ReadyBoost)**\nYour 64GB USB can be used for **ReadyBoost**, which gives your PC extra cache space.\n\n### ✔ What it helps with:\n- Slightly faster loading on old computers  \n- Reduces freezing  \n- Helps if you have a **slow HDD**\n\n### ❌ What it does *not* do:\n- It does NOT give you actual RAM  \n- It does NOT make 4GB RAM become 8GB or 16GB  \n- It does NOT help much if you have an SSD drive\n\n### ✔ How to enable ReadyBoost:\n1. Plug in your USB  \n2. Open **This PC**  \n3. Right-click the USB → **Properties**  \n4. Go to **ReadyBoost** tab  \n5. Select **Use this device**  \n6. Allocate 32GB–64GB for ReadyBoost  \n7. Click **Apply**\n\n---\n\n# ✅ **If you are on Linux**\nYou can use the 64GB USB as a **swap drive**.\n\nThis is like giving your system extra “overflow space” when RAM runs out.\n\n### ✔ It prevents crashes  \n### ❌ It is VERY slow compared to RAM  \n### ✔ Good for light work  \n### ❌ Not good for heavy software like Rasa or AI/ML\n\n---\n\n# ❗ Important Reality Check\nEven with 64GB USB used as ReadyBoost or swap:\n\n### 🔹 4GB RAM is still 4GB RAM  \n### 🔹 Rasa will still struggle  \n### 🔹 AI models will still run slow or fail  \n\nUSB speed ≠ RAM speed.\n\n**RAM speed → 10,000–20,000 MB/s**  \n**USB speed → 40–200 MB/s**  \n(Big difference!)\n\n---\n\n# ⭐ But your 64GB USB **is still useful** for:\n- Installing **Linux** to run from USB  \n- Storing **virtual machines**  \n- Running **Portable apps**  \n- Using **swap space** on Linux  \n- Lightweight chatbots in Python  \n- Storing datasets, models, etc.\n\n---\n\n# 👉 If you want, tell me:  \n### **Are you using Windows, Linux, or Android right now?**\n\nI can tell you the BEST way to use your 64GB USB to improve performance on **your specific device**."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "871966f1-7667-413c-ab96-3709cd578a15",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21447-ad36-4495-b718-c45fd2640c41",
+          "turn_exchange_id": "0b479260-da52-4a1b-af12-6dca8a222f4e",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21447-ad36-4495-b718-c45fd2640c41",
+      "children": [
+        "bbb2194d-1eb5-4558-9034-3a61911d7ce2"
+      ]
+    },
+    "bbb2194d-1eb5-4558-9034-3a61911d7ce2": {
+      "id": "bbb2194d-1eb5-4558-9034-3a61911d7ce2",
+      "message": {
+        "id": "bbb2194d-1eb5-4558-9034-3a61911d7ce2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763883901.685825,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "But your 64GB USB is still useful for:\n\nInstalling Linux to run from USB\n\nStoring virtual machines\n\nRunning Portable apps\n\nUsing swap space on Linux\n\nLightweight chatbots in Python\n\nStoring datasets, models, etc.\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "36931d39-bb3c-4bbd-8e6e-b65baff1e387",
+          "message_source": null,
+          "turn_exchange_id": "3c0964f9-4156-4b99-b4a3-a347e9de378b",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "df5e7445-133b-4099-93fa-3da86d0c87f6",
+      "children": [
+        "5b5f5b5f-6c8d-4d1e-8b86-df4fc465ef57"
+      ]
+    },
+    "5b5f5b5f-6c8d-4d1e-8b86-df4fc465ef57": {
+      "id": "5b5f5b5f-6c8d-4d1e-8b86-df4fc465ef57",
+      "message": {
+        "id": "5b5f5b5f-6c8d-4d1e-8b86-df4fc465ef57",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763883901.93122,
+        "update_time": 1763883917.247368,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is EXACTLY what each of those options means and how your **64GB USB** can help you — in simple, practical terms:\n\n---\n\n# ✅ **1. Install Linux to Run From USB (Portable OS)**\nYour 64GB USB is PERFECT for a **full Linux operating system** that runs directly from the USB.\n\n### What this gives you:\n- A clean, fast OS separate from your Windows  \n- More stability for programming  \n- You can install Python, editors, tools  \n- Works even on old/weak laptops  \n- Great for coding, school, projects  \n\n### Recommended Linux:\n- **Ubuntu**\n- **Linux Mint**\n- **Zorin OS**\n- **Peppermint OS** (very light)  \n- **Kali NetHunter (mobile)** — if needed\n\nThis turns your USB into a **portable computer system**.\n\n---\n\n# ✅ **2. Storing Virtual Machines (VMs)**\nYou can use the USB to keep:\n- VirtualBox VMs  \n- Kali VM  \n- Ubuntu VM  \n- Windows 10 Lite VM\n\nThis saves space on your laptop.\n\nBut remember:\n- Your computer still needs enough RAM to run the VM  \n- A USB does NOT magically remove the need for RAM  \n\nStill, it is great for **storage**.\n\n---\n\n# ✅ **3. Running Portable Apps**\nA 64GB USB can hold:\n- Portable Python  \n- VS Code (portable)  \n- Portable Chrome  \n- Portable utilities  \n- Cybersecurity tools  \n- Programming tools  \n\nYou plug it into any PC and your apps are ready.\n\n---\n\n# ✅ **4. Using Swap Space on Linux**\nIf you install Linux on the USB, you can create a **swap partition**.\n\n### What swap does:\n- Helps prevent RAM crashes  \n- Allows you to open more tabs  \n- Allows light AI or Python without crashing  \n\n### But:\n- Swap is **not real RAM**  \n- It is MUCH slower  \n- Useful only for light work\n\n---\n\n# ✅ **5. Running Lightweight Chatbots in Python**\nYou can run:\n- Python scripts  \n- NLP models (small ones)  \n- Simple bots (no Rasa, but custom Python logic)\n\nThis works perfectly from USB.\n\nI can build you a **portable chatbot** that runs on your Linux USB if you want.\n\n---\n\n# ✅ **6. Storing Datasets, Models, Notes**\nPerfect use:\n- Store training data  \n- Store your school/AI notes  \n- Store images, code, backups  \n- Keep Rasa datasets for future use  \n- Keep Python projects\n\nA 64GB USB is huge for programming and ML beginners.\n\n---\n\n# ⭐ **Your Best Possible Setup With a 64GB USB**\nIf you want the MOST VALUE, here is the best plan for your situation:\n\n### 🔹 Install Linux Mint or Ubuntu on the 64GB USB  \n### 🔹 Create 4–8GB swap space  \n### 🔹 Install Python 3.10  \n### 🔹 Use it for:\n- Python chatbot projects  \n- Basic automation  \n- Cloud-based Rasa testing  \n- Web development  \n- Storing your projects  \n- Running portable Linux  \n- Solving RAM problems through swap\n\nThis is a GREAT environment for learning programming.\n\n---\n\n# 👉 If you want, I can guide you step-by-step:\n### ✔ How to install Linux on your 64GB USB  \n### ✔ How to set up Python  \n### ✔ How to add swap  \n### ✔ How to make it portable  \n### ✔ How to run your chatbot from USB  \n\nJust tell me:\n\n**Do you want Ubuntu, Linux Mint, or a lighter Linux?**"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "36931d39-bb3c-4bbd-8e6e-b65baff1e387",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2194d-1eb5-4558-9034-3a61911d7ce2",
+          "turn_exchange_id": "3c0964f9-4156-4b99-b4a3-a347e9de378b",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb2194d-1eb5-4558-9034-3a61911d7ce2",
+      "children": [
+        "bbb21dc7-862a-4a5d-a3d0-0a223a81c172"
+      ]
+    },
+    "bbb21dc7-862a-4a5d-a3d0-0a223a81c172": {
+      "id": "bbb21dc7-862a-4a5d-a3d0-0a223a81c172",
+      "message": {
+        "id": "bbb21dc7-862a-4a5d-a3d0-0a223a81c172",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763884110.209628,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "But if everything is storage can not write a code to ,ale it ram"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "919b5a71-762d-4c93-989a-a0c88c86250f",
+          "message_source": null,
+          "turn_exchange_id": "0ea5765e-67dd-48cb-b60d-ae0b97b9a1f6",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5b5f5b5f-6c8d-4d1e-8b86-df4fc465ef57",
+      "children": [
+        "9d1a7ab4-f794-4835-b1a3-d718c74d4b51"
+      ]
+    },
+    "9d1a7ab4-f794-4835-b1a3-d718c74d4b51": {
+      "id": "9d1a7ab4-f794-4835-b1a3-d718c74d4b51",
+      "message": {
+        "id": "9d1a7ab4-f794-4835-b1a3-d718c74d4b51",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763884111.394209,
+        "update_time": 1763884124.229728,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Great question — and many people wonder the same thing:\n\n# ❌ **No — you cannot turn storage into real RAM with code.**  \nNot with Python, not with C, not with any programming language.\n\nAnd here’s the *exact* reason why, in simple terms:\n\n---\n\n# 🧠 **RAM and Storage Are Physically Different Hardware**\nThink of it like this:\n\n- **RAM** = brain working memory  \n- **USB / SSD / HDD** = notebook where you write things down  \n\nNo matter what code you write, you cannot make a notebook behave like a human brain.\n\nThe *hardware itself* is totally different:\n\n| Feature | RAM | USB / SSD |\n|--------|------|-----------|\n| Speed | **10,000 – 20,000 MB/s** | **20 – 400 MB/s** |\n| Location | On the motherboard | External or internal port |\n| Purpose | Temporary fast memory | Long-term storage |\n| Electricity | Needs constant flow | Does not |\n\nA programming language **cannot change hardware physics.**\n\n---\n\n# 💡 “But can software fake RAM?”\n\nYes — but only *fake*, not real.\n\n### ✔ Linux swap  \n### ✔ Windows ReadyBoost  \n### ✔ Pagefile  \n### ✔ Virtual memory  \n\nThese help only a little, because they use **storage as emergency memory**, but:\n\n### ❌ It is 100× slower  \n### ❌ Cannot run heavy programs  \n### ❌ Cannot replace real RAM  \n\nThese systems already use all possible tricks through the OS.  \nYou cannot improve it by “writing your own code.”\n\n---\n\n# 🧪 Why can’t code convert storage → real RAM?\n\nBecause:\n\n### 🔹 RAM connects to the CPU through a **very fast, dedicated bus (DDR4/DDR5)**  \n### 🔹 USB connects through a slow port (USB 2.0/3.0)  \n### 🔹 CPU expects RAM latency in nanoseconds  \n### 🔹 USB has latency in milliseconds  \n\nNo amount of code can make a slow pipe behave like a fast one.\n\nIt’s a **hardware limitation**, not software.\n\n---\n\n# ✔ So what CAN you do with code?\n\nYou *can* write code to:\n\n- Use your USB as **swap** on Linux  \n- Make a **RAM-like cache system**  \n- Build a **virtual memory manager**  \n- Optimize memory usage  \n- Compress data in RAM  \n- Make your programs require less RAM  \n- Stream data from USB instead of loading all into memory  \n\nBut none of these make the USB **actual RAM**.\n\n---\n\n# ⭐ REAL SOLUTIONS IF YOU HAVE LOW RAM\n\nDepending on what you want to run, I can help you:\n\n### ✔ Speed up your system  \n### ✔ Use swap safely  \n### ✔ Use Linux from USB  \n### ✔ Offload heavy work to cloud servers  \n### ✔ Run AI / Python models without big RAM  \n### ✔ Build lightweight chatbots that work on 4GB  \n\nJust tell me what you want to run, and I’ll give you the **best way** for your device."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "919b5a71-762d-4c93-989a-a0c88c86250f",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21dc7-862a-4a5d-a3d0-0a223a81c172",
+          "turn_exchange_id": "0ea5765e-67dd-48cb-b60d-ae0b97b9a1f6",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21dc7-862a-4a5d-a3d0-0a223a81c172",
+      "children": [
+        "bbb21bd1-aa1f-48dd-ab32-9136cb2d57b3"
+      ]
+    },
+    "bbb21bd1-aa1f-48dd-ab32-9136cb2d57b3": {
+      "id": "bbb21bd1-aa1f-48dd-ab32-9136cb2d57b3",
+      "message": {
+        "id": "bbb21bd1-aa1f-48dd-ab32-9136cb2d57b3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763884219.921118,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How does ram work when it says it's 8 GB of rams "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "991154fe-9183-4b6d-8113-121da9a8abc5",
+          "message_source": null,
+          "turn_exchange_id": "725175da-24f1-4c38-a427-d41710b477c1",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9d1a7ab4-f794-4835-b1a3-d718c74d4b51",
+      "children": [
+        "3c49d0d1-9ca3-42d7-8fdc-560d282aab7e"
+      ]
+    },
+    "3c49d0d1-9ca3-42d7-8fdc-560d282aab7e": {
+      "id": "3c49d0d1-9ca3-42d7-8fdc-560d282aab7e",
+      "message": {
+        "id": "3c49d0d1-9ca3-42d7-8fdc-560d282aab7e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1763884220.907685,
+        "update_time": 1763884234.573189,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a **simple and clear explanation** of what it means when a computer or phone says it has **8GB of RAM** — and how RAM actually works.\n\n---\n\n# 🧠 **What RAM Really Is (Simple Explanation)**  \nRAM = **Random Access Memory**\n\nThink of it like your brain’s **short-term memory**.\n\n### ✔ It stores data your computer is using *right now*  \n### ✔ It is extremely fast  \n### ✔ It loses everything when power is off  \n### ✔ It is used by:\n- Apps  \n- The operating system  \n- Games  \n- Browsers  \n- Programs like Python  \n\nRAM is NOT storage.  \nIt is NOT permanent.\n\n---\n\n# 📐 **What “8GB of RAM” means**\nIt means your computer can hold **8 gigabytes** of active data *at the same time* in fast memory.\n\n### Example:\nIf you have **8GB RAM**, your computer might use:\n- Windows: 2–3GB  \n- Chrome with a few tabs: 1GB  \n- Python app: 0.5GB  \n- Game or AI model: 2GB  \n\nWhen RAM becomes full, your computer slows down, freezes, or crashes.\n\n---\n\n# ⚡ **Why RAM is extremely fast**\nRAM connects directly to the CPU through a **very high-speed channel** called the memory bus.\n\nSpeed comparison:\n\n| Device | Speed |\n|--------|--------|\n| **RAM (DDR4/DDR5)** | 15,000–30,000 MB/s |\n| SSD | 500–3,500 MB/s |\n| USB | 20–400 MB/s |\n| HDD | 50–150 MB/s |\n\nThis is why **storage cannot act like RAM**.\n\n---\n\n# 🔥 **What happens when RAM gets full?**\nThe system uses **virtual memory** (swap/page file):\n\n- Windows uses disk or USB for ReadyBoost  \n- Linux uses swap space  \n- macOS uses compressed memory + SSD  \n\nBut this is **100× slower** than real RAM.\n\nThat’s why upgrading RAM gives the biggest performance improvement.\n\n---\n\n# 🧩 **How RAM is physically installed**\nRAM is a **chip on a stick** (called a DIMM or SO-DIMM) that you plug into the motherboard.\n\nEach stick has a capacity:\n- 4GB  \n- 8GB  \n- 16GB  \n- 32GB  \netc.\n\nIf your laptop has **8GB**, it may be:\n- One 8GB stick  \n- Two 4GB sticks  \n\nOr sometimes RAM is **soldered** (cannot remove).\n\n---\n\n# 🚀 **Why more RAM makes your computer faster**\nWith more RAM, you can:\n- Run more apps at once  \n- Load bigger programs  \n- Reduce lag  \n- Run AI models  \n- Open many browser tabs  \n- Run tools like Rasa, VS Code, Virtual Machines  \n\nYour system avoids using slow virtual memory.\n\n---\n\n# 🎯 If you want, tell me:\n### ✔ Your computer model  \n### ✔ How much RAM you have  \n### ✔ What you want to run (Python, Rasa, games, etc.)\n\nI can tell you exactly:\n- If you can upgrade  \n- How much RAM your device supports  \n- What RAM stick you need  \n- The cheapest way to improve speed without replacing RAM"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "request_id": "991154fe-9183-4b6d-8113-121da9a8abc5",
+          "message_type": "next",
+          "model_slug": "gpt-5-1",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21bd1-aa1f-48dd-ab32-9136cb2d57b3",
+          "turn_exchange_id": "725175da-24f1-4c38-a427-d41710b477c1",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21bd1-aa1f-48dd-ab32-9136cb2d57b3",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "3c49d0d1-9ca3-42d7-8fdc-560d282aab7e",
+  "conversation_id": "6922b3ba-5a10-832f-8197-67a893a5cdd1",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://forum.rasa.com/t/rasa-cost-on-google-cloud/42867?utm_source=chatgpt.com",
+    "https://opensource.rasa.com/?utm_source=chatgpt.com",
+    "https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg?utm_source=chatgpt.com",
+    "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience?utm_source=chatgpt.com",
+    "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf?utm_source=chatgpt.com",
+    "https://forum.rasa.com/t/rasa-cost-on-google-cloud/42867",
+    "https://info.rasa.com/faqs?utm_source=chatgpt.com",
+    "https://opensource.rasa.com/",
+    "https://www.hitechav.ca/",
+    "https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828?utm_source=chatgpt.com",
+    "https://info.rasa.com/rasa-conversational-ai-chatbot-solution-platform-for-customer-experience",
+    "https://rasa.com/docs/rasa-pro/production/model-storage/?utm_source=chatgpt.com",
+    "https://rasa.com/docs/rasa/2.x/how-to-deploy/?utm_source=chatgpt.com",
+    "https://www.openai.com",
+    "https://rasa.com/docs/rasa-pro/production/model-storage/",
+    "https://rasa.com/product/managed-service/?utm_source=chatgpt.com",
+    "https://forum.rasa.com/t/what-gives-rasa-a-competitive-edge-over-the-competition/57828",
+    "https://rasa.com/pricing?utm_source=chatgpt.com",
+    "https://rasa.com/pricing",
+    "https://storage.googleapis.com/rasa-x-releases/rasa_x_ce_license_faq.pdf",
+    "https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf?utm_source=chatgpt.com",
+    "https://rasa.com/product/managed-service/",
+    "https://rasa.com/docs/rasa/2.x/model-storage/?utm_source=chatgpt.com",
+    "https://thameezacademy.com/wp-content/uploads/2025/01/chatbot-7.-rasa-the-open-source-solution.pdf",
+    "https://aws.amazon.com/marketplace/pp/prodview-pmap7edy5uqhg",
+    "https://info.rasa.com/faqs",
+    "https://purilegalservices.ca/",
+    "https://www.codefylabs.com/",
+    "https://rasa.com/docs/rasa/2.x/model-storage/",
+    "https://rasa.com/docs/rasa/2.x/how-to-deploy/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

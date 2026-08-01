@@ -1,0 +1,302 @@
+{
+  "title": "Urgent Door Repair Request",
+  "create_time": 1770923013.48233,
+  "update_time": 1770923096.353866,
+  "mapping": {
+    "d59767c6-713c-468d-b410-80eb1597f85d": {
+      "id": "d59767c6-713c-468d-b410-80eb1597f85d",
+      "message": null,
+      "parent": null,
+      "children": [
+        "ce7218da-84f9-419d-83c4-86969163b612"
+      ]
+    },
+    "ce7218da-84f9-419d-83c4-86969163b612": {
+      "id": "ce7218da-84f9-419d-83c4-86969163b612",
+      "message": {
+        "id": "ce7218da-84f9-419d-83c4-86969163b612",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d59767c6-713c-468d-b410-80eb1597f85d",
+      "children": [
+        "bbb213be-a2c7-4746-ac2a-c148574425ea"
+      ]
+    },
+    "bbb213be-a2c7-4746-ac2a-c148574425ea": {
+      "id": "bbb213be-a2c7-4746-ac2a-c148574425ea",
+      "message": {
+        "id": "bbb213be-a2c7-4746-ac2a-c148574425ea",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770923013.223278,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I need a quote for the door please before the inspection happens, it's been delayed ,ore then month and half. I have tried the ci pant myself but it's not the  same. Would you have try look door provider. Or can I fix my door my self til quote is available. Please I am going back to workforce I cannot leave my door opened like that, please understand the importance of urgency. I am unable t[ leave the house, my parents are old u need to go see them as well. Precisely send this urgent r9 kotter to property mana.ger named ms adam"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "1a4d88d3-989e-4e1d-a437-327bdf042d9c",
+          "message_source": null,
+          "turn_exchange_id": "d0e448f4-fce0-428f-8784-2ee72155bd6e",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ce7218da-84f9-419d-83c4-86969163b612",
+      "children": [
+        "0b5fcbb9-760e-48c2-bcc9-19f03b68084b"
+      ]
+    },
+    "0b5fcbb9-760e-48c2-bcc9-19f03b68084b": {
+      "id": "0b5fcbb9-760e-48c2-bcc9-19f03b68084b",
+      "message": {
+        "id": "0b5fcbb9-760e-48c2-bcc9-19f03b68084b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770923013.3631651,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "1a4d88d3-989e-4e1d-a437-327bdf042d9c",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "bbb213be-a2c7-4746-ac2a-c148574425ea",
+          "turn_exchange_id": "d0e448f4-fce0-428f-8784-2ee72155bd6e",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb213be-a2c7-4746-ac2a-c148574425ea",
+      "children": [
+        "e4d61e2a-2131-402c-89a2-dd32b5db3388"
+      ]
+    },
+    "e4d61e2a-2131-402c-89a2-dd32b5db3388": {
+      "id": "e4d61e2a-2131-402c-89a2-dd32b5db3388",
+      "message": {
+        "id": "e4d61e2a-2131-402c-89a2-dd32b5db3388",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770923013.386219,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is a clear and urgent version of your email:\n\n:::writing{id=\"84321\" variant=\"email\" subject=\"Urgent: Door Repair Quote Required Before Inspection\"}\nDear Ms. Adam,\n\nI am writing to urgently request the quote for my door repair before the upcoming inspection. It has now been delayed for more than a month and a half, and I have not yet received any update regarding the door provider or the expected timeline.\n\nI attempted to paint and temporarily fix the door myself, but it is not the same and does not resolve the underlying issue. At this point, I need to know whether you have contacted a door provider and when I can expect the official quote.\n\nPlease also advise if I am permitted to temporarily repair the door myself until the formal quote is available. I cannot leave my door in its current condition. I am preparing to return to the workforce and cannot continue being confined at home due to this issue. Additionally, my parents are elderly, and I need to be able to leave my home to assist and visit them.\n\nI kindly ask that you understand the urgency of this matter and provide a precise update as soon as possible.\n\nThank you for your prompt attention.\n\nSincerely,  \nAmit Puri\n:::"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "1a4d88d3-989e-4e1d-a437-327bdf042d9c",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "0b5fcbb9-760e-48c2-bcc9-19f03b68084b",
+          "turn_exchange_id": "d0e448f4-fce0-428f-8784-2ee72155bd6e",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "0b5fcbb9-760e-48c2-bcc9-19f03b68084b",
+      "children": [
+        "bbb2193e-f228-45f4-b463-ee7dd5ef0f09"
+      ]
+    },
+    "bbb2193e-f228-45f4-b463-ee7dd5ef0f09": {
+      "id": "bbb2193e-f228-45f4-b463-ee7dd5ef0f09",
+      "message": {
+        "id": "bbb2193e-f228-45f4-b463-ee7dd5ef0f09",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770923090.64297,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Change u attempted to a can try to attempt to fix it temporarily "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "0d153522-4fd0-4aa2-bc44-fba0450edf83",
+          "message_source": null,
+          "turn_exchange_id": "9341798e-4ec7-4a9f-8081-33580e186b0a",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4d61e2a-2131-402c-89a2-dd32b5db3388",
+      "children": [
+        "ebb9c691-c462-4b2b-a747-4502728d368e"
+      ]
+    },
+    "ebb9c691-c462-4b2b-a747-4502728d368e": {
+      "id": "ebb9c691-c462-4b2b-a747-4502728d368e",
+      "message": {
+        "id": "ebb9c691-c462-4b2b-a747-4502728d368e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770923090.769474,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ":::writing{id=\"84322\" variant=\"email\" subject=\"Urgent: Door Repair Quote Required Before Inspection\"}\nDear Ms. Adam,\n\nI am writing to urgently request the quote for my door repair before the upcoming inspection. It has now been delayed for more than a month and a half, and I have not yet received any update regarding the door provider or the expected timeline.\n\nI can try to attempt to fix the door temporarily myself, but this will not resolve the underlying issue. At this point, I need to know whether you have contacted a door provider and when I can expect the official quote.\n\nPlease also advise if I am permitted to temporarily repair the door myself until the formal quote is available. I cannot leave my door in its current condition. I am preparing to return to the workforce and cannot continue being confined at home due to this issue. Additionally, my parents are elderly, and I need to be able to leave my home to assist and visit them.\n\nI kindly ask that you understand the urgency of this matter and provide a precise update as soon as possible.\n\nThank you for your prompt attention.\n\nSincerely,  \nAmit Puri\n:::"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "0d153522-4fd0-4aa2-bc44-fba0450edf83",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2193e-f228-45f4-b463-ee7dd5ef0f09",
+          "turn_exchange_id": "9341798e-4ec7-4a9f-8081-33580e186b0a",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb2193e-f228-45f4-b463-ee7dd5ef0f09",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "ebb9c691-c462-4b2b-a747-4502728d368e",
+  "conversation_id": "698e23e5-5188-832e-9c0b-c032a14e6eb3",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.openai.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

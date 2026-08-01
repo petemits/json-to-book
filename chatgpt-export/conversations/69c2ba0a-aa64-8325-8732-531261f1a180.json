@@ -1,0 +1,344 @@
+{
+  "title": "How to Fly",
+  "create_time": 1774369306.756538,
+  "update_time": 1774369320.850497,
+  "mapping": {
+    "49254004-8987-49ea-b510-b088bc22cd96": {
+      "id": "49254004-8987-49ea-b510-b088bc22cd96",
+      "message": null,
+      "parent": null,
+      "children": [
+        "272cb951-6a66-4a25-afde-c1125b8282be"
+      ]
+    },
+    "272cb951-6a66-4a25-afde-c1125b8282be": {
+      "id": "272cb951-6a66-4a25-afde-c1125b8282be",
+      "message": {
+        "id": "272cb951-6a66-4a25-afde-c1125b8282be",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "49254004-8987-49ea-b510-b088bc22cd96",
+      "children": [
+        "68f47011-5cc8-4139-9b58-d40656f420d6"
+      ]
+    },
+    "68f47011-5cc8-4139-9b58-d40656f420d6": {
+      "id": "68f47011-5cc8-4139-9b58-d40656f420d6",
+      "message": {
+        "id": "68f47011-5cc8-4139-9b58-d40656f420d6",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "272cb951-6a66-4a25-afde-c1125b8282be",
+      "children": [
+        "5905e200-9a5b-4fc3-af11-60c7edf21d4f"
+      ]
+    },
+    "5905e200-9a5b-4fc3-af11-60c7edf21d4f": {
+      "id": "5905e200-9a5b-4fc3-af11-60c7edf21d4f",
+      "message": {
+        "id": "5905e200-9a5b-4fc3-af11-60c7edf21d4f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774369306.526632,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "request_id": "48d0b2d4-6b7c-4c26-9228-4231490b61f3",
+          "message_source": null,
+          "turn_exchange_id": "e0c77945-ee56-4024-9897-043fac7b870a",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "68f47011-5cc8-4139-9b58-d40656f420d6",
+      "children": [
+        "bbb21959-dd22-480b-8033-c69c7b4a6ee0"
+      ]
+    },
+    "bbb21959-dd22-480b-8033-c69c7b4a6ee0": {
+      "id": "bbb21959-dd22-480b-8033-c69c7b4a6ee0",
+      "message": {
+        "id": "bbb21959-dd22-480b-8033-c69c7b4a6ee0",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774369306.526994,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How can I fly"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "48d0b2d4-6b7c-4c26-9228-4231490b61f3",
+          "message_source": null,
+          "turn_exchange_id": "e0c77945-ee56-4024-9897-043fac7b870a",
+          "resolved_model_slug": "gpt-5-3",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5905e200-9a5b-4fc3-af11-60c7edf21d4f",
+      "children": [
+        "5d2a8d7c-d8cd-40b8-981c-57d21059721e"
+      ]
+    },
+    "5d2a8d7c-d8cd-40b8-981c-57d21059721e": {
+      "id": "5d2a8d7c-d8cd-40b8-981c-57d21059721e",
+      "message": {
+        "id": "5d2a8d7c-d8cd-40b8-981c-57d21059721e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774369306.66601,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "48d0b2d4-6b7c-4c26-9228-4231490b61f3",
+          "message_type": "next",
+          "turn_exchange_id": "e0c77945-ee56-4024-9897-043fac7b870a",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": false,
+          "parent_id": "bbb21959-dd22-480b-8033-c69c7b4a6ee0",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21959-dd22-480b-8033-c69c7b4a6ee0",
+      "children": [
+        "6ad1c9ba-fd26-4d08-a4e2-08ecc5d8721d"
+      ]
+    },
+    "6ad1c9ba-fd26-4d08-a4e2-08ecc5d8721d": {
+      "id": "6ad1c9ba-fd26-4d08-a4e2-08ecc5d8721d",
+      "message": {
+        "id": "6ad1c9ba-fd26-4d08-a4e2-08ecc5d8721d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774369306.658367,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Short answer: humans can’t fly with their bodies alone like birds. Our muscles and bone structure just aren’t built for it. But you *can* experience flying in a few real, practical ways—some simple, some advanced:\n\n### 1. Easiest: Air travel ✈️  \nCommercial airplanes (like those made by entity[\"company\",\"Boeing\",\"aircraft manufacturer\"] or entity[\"company\",\"Airbus\",\"aircraft manufacturer\"]) let you “fly” safely over long distances.\n\n### 2. Personal flight experiences\n- **Paragliding** – You glide using wind currents and a canopy.  \n- **Hang gliding** – More control, uses a rigid wing.  \n- **Skydiving** – Jump from a plane and fall, then parachute.  \n- **Indoor skydiving** – Wind tunnels simulate flight safely.\n\n### 3. Powered personal flight\n- **Jetpacks / wingsuits with engines** – Real but expensive and risky.  \n  Example: entity[\"company\",\"JetPack Aviation\",\"jetpack developer\"]  \n- **Paramotors** – A fan on your back + parachute = controlled flight.\n\n### 4. Learning to fly yourself\nYou can actually become a pilot:\n- Get a **Private Pilot License (PPL)**  \n- Train at a local flight school  \n- Fly small planes on your own\n\n---\n\n### Reality check (important)\nYou mentioned earlier about forces and powers—so just to be clear:\n- Humans **can’t generate lift naturally** (like birds or magnets lifting you)\n- Flight always needs **aerodynamics + external energy** (airflow, engines, etc.)\n- Even things like magnets or gravity can’t be used to “fly a person” freely on Earth with current science\n\n---\n\nIf you want something closer to a *superpower feeling*, tell me your budget and I can suggest the closest real-life option (some feel insanely close to flying)."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"company\",\"Boeing\",\"aircraft manufacturer\"]",
+              "prefix": null,
+              "start_idx": 288,
+              "end_idx": 341,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Boeing",
+              "prompt_text": "Boeing",
+              "type": "entity",
+              "name": "Boeing",
+              "category": "company",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "aircraft manufacturer"
+              },
+              "status": "done",
+              "notes": null,
+              "entity_index": null,
+              "id": null
+            },
+            {
+              "matched_text": "entity[\"company\",\"Airbus\",\"aircraft manufacturer\"]",
+              "prefix": null,
+              "start_idx": 345,
+              "end_idx": 398,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Airbus",
+              "prompt_text": "Airbus",
+              "type": "entity",
+              "name": "Airbus",
+              "category": "company",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "aircraft manufacturer"
+              },
+              "status": "done",
+              "notes": null,
+              "entity_index": null,
+              "id": null
+            },
+            {
+              "matched_text": "entity[\"company\",\"JetPack Aviation\",\"jetpack developer\"]",
+              "prefix": null,
+              "start_idx": 843,
+              "end_idx": 902,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "JetPack Aviation",
+              "prompt_text": "JetPack Aviation",
+              "type": "entity",
+              "name": "JetPack Aviation",
+              "category": "company",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "jetpack developer"
+              },
+              "status": "done",
+              "notes": null,
+              "entity_index": null,
+              "id": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-3",
+          "search_result_groups": [],
+          "request_id": "48d0b2d4-6b7c-4c26-9228-4231490b61f3",
+          "message_type": "next",
+          "turn_exchange_id": "e0c77945-ee56-4024-9897-043fac7b870a",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "5d2a8d7c-d8cd-40b8-981c-57d21059721e",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "5d2a8d7c-d8cd-40b8-981c-57d21059721e",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "6ad1c9ba-fd26-4d08-a4e2-08ecc5d8721d",
+  "conversation_id": "69c2ba0a-aa64-8325-8732-531261f1a180",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

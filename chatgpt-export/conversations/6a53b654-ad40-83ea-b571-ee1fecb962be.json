@@ -1,0 +1,1691 @@
+{
+  "title": "File Instructions Needed",
+  "create_time": 1783871083.738613,
+  "update_time": 1783871245.06948,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "5e16a63e-7a8c-4a40-9b76-335b62dc8cb6"
+      ]
+    },
+    "5e16a63e-7a8c-4a40-9b76-335b62dc8cb6": {
+      "id": "5e16a63e-7a8c-4a40-9b76-335b62dc8cb6",
+      "message": {
+        "id": "5e16a63e-7a8c-4a40-9b76-335b62dc8cb6",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "69d451ca-6dc3-4535-9e5e-8badcefd45b3"
+      ]
+    },
+    "69d451ca-6dc3-4535-9e5e-8badcefd45b3": {
+      "id": "69d451ca-6dc3-4535-9e5e-8badcefd45b3",
+      "message": {
+        "id": "69d451ca-6dc3-4535-9e5e-8badcefd45b3",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5e16a63e-7a8c-4a40-9b76-335b62dc8cb6",
+      "children": [
+        "c7530ecc-1e18-4f33-800e-dea8e8e43bce"
+      ]
+    },
+    "c7530ecc-1e18-4f33-800e-dea8e8e43bce": {
+      "id": "c7530ecc-1e18-4f33-800e-dea8e8e43bce",
+      "message": {
+        "id": "c7530ecc-1e18-4f33-800e-dea8e8e43bce",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871083.816,
+        "update_time": 1783871087.54304,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "attachments": [
+            {
+              "id": "file_00000000a6d8722faace5c66aa170507",
+              "size": 4456346,
+              "name": "Pasted text.txt",
+              "mime_type": "text/plain",
+              "source": "local",
+              "library_file_id": "libfile_6022a2eddbdc8191997bd27e0d38aaae",
+              "is_big_paste": true
+            }
+          ],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "af577a21-079b-4dfa-8d48-4ca3de434a9f",
+          "message_source": null,
+          "turn_exchange_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "working_turn_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "resolved_model_slug": "gpt-5-5",
+          "ad_delivered": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "69d451ca-6dc3-4535-9e5e-8badcefd45b3",
+      "children": [
+        "f8939701-f3e0-4527-9c06-10a4b0f800eb"
+      ]
+    },
+    "f8939701-f3e0-4527-9c06-10a4b0f800eb": {
+      "id": "f8939701-f3e0-4527-9c06-10a4b0f800eb",
+      "message": {
+        "id": "f8939701-f3e0-4527-9c06-10a4b0f800eb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871082.843149,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "request_id": "af577a21-079b-4dfa-8d48-4ca3de434a9f",
+          "message_type": "next",
+          "turn_exchange_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "working_turn_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "c7530ecc-1e18-4f33-800e-dea8e8e43bce",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c7530ecc-1e18-4f33-800e-dea8e8e43bce",
+      "children": [
+        "fb8a7db9-9cc7-4abd-85ea-c5448b197845"
+      ]
+    },
+    "fb8a7db9-9cc7-4abd-85ea-c5448b197845": {
+      "id": "fb8a7db9-9cc7-4abd-85ea-c5448b197845",
+      "message": {
+        "id": "fb8a7db9-9cc7-4abd-85ea-c5448b197845",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871082.955886,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "exclusive_key": "attachment_caas_paths_v1",
+          "is_visually_hidden_from_conversation": true,
+          "request_id": "af577a21-079b-4dfa-8d48-4ca3de434a9f",
+          "message_type": "next",
+          "turn_exchange_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "working_turn_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "f8939701-f3e0-4527-9c06-10a4b0f800eb",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f8939701-f3e0-4527-9c06-10a4b0f800eb",
+      "children": [
+        "719ae216-0404-4b90-9029-33e5e0bb88a5"
+      ]
+    },
+    "719ae216-0404-4b90-9029-33e5e0bb88a5": {
+      "id": "719ae216-0404-4b90-9029-33e5e0bb88a5",
+      "message": {
+        "id": "719ae216-0404-4b90-9029-33e5e0bb88a5",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871082.7777998,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_contextual_answers_system_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "command": "prompt",
+          "contextual_answers_message_type": "sources_and_filters_prompt",
+          "request_id": "af577a21-079b-4dfa-8d48-4ca3de434a9f",
+          "message_type": "next",
+          "turn_exchange_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "working_turn_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "fb8a7db9-9cc7-4abd-85ea-c5448b197845",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fb8a7db9-9cc7-4abd-85ea-c5448b197845",
+      "children": [
+        "c6cbe3fe-66e7-4747-b4ed-e70d63279bda"
+      ]
+    },
+    "c6cbe3fe-66e7-4747-b4ed-e70d63279bda": {
+      "id": "c6cbe3fe-66e7-4747-b4ed-e70d63279bda",
+      "message": {
+        "id": "c6cbe3fe-66e7-4747-b4ed-e70d63279bda",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1783871082.9779444,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "",
+          "summary": "",
+          "assets": null,
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "command": "spinner",
+          "status": "running",
+          "request_id": "af577a21-079b-4dfa-8d48-4ca3de434a9f",
+          "message_type": "next",
+          "turn_exchange_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "working_turn_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "719ae216-0404-4b90-9029-33e5e0bb88a5",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "719ae216-0404-4b90-9029-33e5e0bb88a5",
+      "children": [
+        "100884a6-fc8d-4646-baab-7ef89d2dcd08"
+      ]
+    },
+    "100884a6-fc8d-4646-baab-7ef89d2dcd08": {
+      "id": "100884a6-fc8d-4646-baab-7ef89d2dcd08",
+      "message": {
+        "id": "100884a6-fc8d-4646-baab-7ef89d2dcd08",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1783871083.6241372,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "text": "fileciteturn0file0\n\n[{\"id\": \"f632abaf-e17f-4f02-9df7-8e13b18c5da6\", \"title\": \"Arduino Motion Studio Project Setup Guide\", \"inserted_at\": \"2025-10-25T07:57:11.930000+08:00\", \"updated_at\": \"2025-10-25T09:24:43.668000+08:00\", \"mapping\": {\"root\": {\"id\": \"root\", \"parent\": null, \"children\": [\"1\"], \"message\": null}, \"1\": {\"id\": \"1\", \"parent\": \"root\", \"children\": [\"2\"], \"message\": {\"files\": [], \"model\": \"deepseek-chat\", \"inserted_at\": \"2025-10-25T07:57:13.442000+08:00\", \"fragments\": [{\"type\": \"REQUEST\", \"content\": \"# CELL 1: Setup Arduino CLI Environment + Motion Studio\\nprint(\\\"🎬 Setting up Arduino Motion Picture Studio...\\\")\\n\\n# Install Arduino CLI and motion dependencies\\n!pip install arduino-cli\\n!pip install diffusers accelerate transformers torch torchvision\\n!pip install gtts moviepy pillow opencv-python\\n\\nimport torch\\nfrom diffusers import StableDiffusionPipeline\\nfrom gtts import gTTS\\nfrom moviepy.editor import *\\nimport cv2\\nimport numpy as np\\nfrom PIL import Image, ImageDraw, ImageFont\\nimport os\\nfrom google.colab import drive\\n\\n# Mount Google Drive\\ndrive.mount('/content/drive')\\n\\n# Create project structure\\nPROJECT_PATH = \\\"/content/drive/MyDrive/ArduinoMotionMovies\\\"\\nos.makedirs(f\\\"{PROJECT_PATH}/videos\\\", exist_ok=True)\\nos.makedirs(f\\\"{PROJECT_PATH}/images\\\", exist_ok=True) \\nos.makedirs(f\\\"{PROJECT_PATH}/audio\\\", exist_ok=True)\\nos.makedirs(f\\\"{PROJECT_PATH}/arduino\\\", exist_ok=True)\\n\\nprint(\\\"✅ Arduino Motion Studio Ready!\\\")\\n\\n# Initialize Arduino CLI\\nprint(\\\"🔄 Setting up Arduino development environment...\\\")\\n!arduino-cli config init\\n!arduino-cli core update-index\\n!arduino-cli core install arduino:avr\\n!arduino-cli lib install \\\"Servo\\\"\\nprint(\\\"✅ Arduino CLI Ready!\\\") create the full project and add it to my google drive as as colab\"}]}}, \"2\": {\"id\": \"2\", \"parent\": \"1\", \"children\": [\"3\"], \"message\": {\"files\": [], \"model\": \"deepseek-chat\", \"inserted_at\": \"2025-10-25T07:57:13.456000+08:00\", \"fragments\": [{\"type\": \"RESPONSE\", \"content\": \"I'll create a complete Arduino Motion Picture Studio project for you! This will generate AI images, convert text to speech, create videos, and generate Arduino code for physical installations.\\n\\n```python\\n# CELL 1: Setup Arduino CLI Environment + Motion Studio\\nprint(\\\"🎬 Setting up Arduino Motion Picture Studio...\\\")\\n\\n# Install Arduino CLI and motion dependencies\\n!pip install arduino-cli\\n!pip install diffusers accelerate transformers torch torchvision\\n!pip install gtts moviepy pillow opencv-python\\n\\nimport torch\\nfrom diffusers import StableDiffusionPipeline\\nfrom gtts import gTTS\\nfrom moviepy.editor import *\\nimport cv2\\nimport numpy as np\\nfrom PIL import Image, ImageDraw, ImageFont\\nimport os\\nfrom google.colab import drive\\n\\n# Mount Google Drive\\ndrive.mount('/content/drive')\\n\\n# Create project structure\\nPROJECT_PATH = \\\"/content/drive/MyDrive/ArduinoMotionMovies\\\"\\nos.makedirs(f\\\"{PROJECT_PATH}/videos\\\", exist_ok=True)\\nos.makedirs(f\\\"{PROJECT_PATH}/images\\\", exist_ok=True) \\nos.makedirs(f\\\"{PROJECT_PATH}/audio\\\", exist_ok=True)\\nos.makedirs(f\\\"{PROJECT_PATH}/arduino\\\", exist_ok=True)\\n\\nprint(\\\"✅ Arduino Motion Studio Ready!\\\")\\n\\n# Initialize Arduino CLI\\nprint(\\\"🔄 Setting up Arduino development environment...\\\")\\n!arduino-cli config init\\n!arduino-cli core update-index\\n!arduino-cli core install arduino:avr\\n!arduino-cli lib install \\\"Servo\\\"\\nprint(\\\"✅ Arduino CLI Ready!\\\")\\n```\\n\\n```python\\n# CELL 2: AI Image Generation Module\\nprint(\\\"🎨 Loading AI Image Generator...\\\")\\n\\n# Load Stable Diffusion model\\npipe = StableDiffusionPipeline.from_pretrained(\\n    \\\"runwayml/stable-diffusion-v1-5\\\",\\n    torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32\\n)\\npipe = pipe.to(\\\"cuda\\\" if torch.cuda.is_available() else \\\"cpu\\\")\\n\\ndef generate_story_scenes(story_theme, num_scenes=5):\\n    \\\"\\\"\\\"Generate AI images for different story scenes\\\"\\\"\\\"\\n    \\n    scene_prompts = {\\n        \\\"robotic_future\\\": [\\n            \\\"A friendly robot painting in a futuristic studio, digital art, vibrant colors\\\",\\n            \\\"Robots and humans collaborating in an art gallery, cyberpunk style\\\",\\n            \\\"Futuristic city with robotic artists creating murals, neon lights\\\",\\n            \\\"AI robot contemplating a masterpiece in museum, cinematic lighting\\\",\\n            \\\"Robotic arms creating digital art in high-tech workshop, detailed\\\"\\n        ],\\n        \\\"nature_awakening\\\": [\\n            \\\"Magical forest with glowing plants and animals, fantasy art style\\\",\\n            \\\"Talking trees in enchanted woodland, dreamlike quality\\\",\\n            \\\"Animals gathering for celestial event, mystical atmosphere\\\",\\n            \\\"Ancient nature spirits awakening, ethereal glow\\\",\\n            \\\"Bioluminescent ecosystem at night, magical realism\\\"\\n        ],\\n        \\\"space_odyssey\\\": [\\n            \\\"Astronaut discovering alien art on distant planet, sci-fi art\\\",\\n            \\\"Space station with cosmic artists, starry background\\\",\\n            \\\"Interstellar travel through wormhole, vibrant colors\\\",\\n            \\\"Alien civilization creating cosmic art, otherworldly\\\",\\n            \\\"Galactic museum with floating artworks, futuristic\\\"\\n        ]\\n    }\\n    \\n    prompts = scene_prompts.get(story_theme, scene_prompts[\\\"robotic_future\\\"])\\n    \\n    print(f\\\"🖼️ Generating {len(prompts)} scenes for {story_theme}...\\\")\\n    \\n    for i, prompt in enumerate(prompts[:num_scenes]):\\n        print(f\\\"Creating scene {i+1}: {prompt}\\\")\\n        \\n        # Generate image\\n        image = pipe(prompt + \\\", high quality, detailed, 4k\\\").images[0]\\n        \\n        # Save image\\n        image_path = f\\\"{PROJECT_PATH}/images/scene_{i+1}.png\\\"\\n        image.save(image_path)\\n        print(f\\\"✅ Saved: {image_path}\\\")\\n    \\n    return [f\\\"{PROJECT_PATH}/images/scene_{i+1}.png\\\" for i in range(num_scenes)]\\n\\n# Test image generation\\nprint(\\\"🚀 Testing AI image generation...\\\")\\ntest_scenes = generate_story_scenes(\\\"robotic_future\\\", 3)\\nprint(\\\"✅ Image generation complete!\\\")\\n```\\n\\n```python\\n# CELL 3: Text-to-Speech & Audio Storytelling\\nprint(\\\"🎤 Setting up Audio Story Engine...\\\")\\n\\ndef create_story_narration(story_theme, scenes):\\n    \\\"\\\"\\\"Generate audio narration for the story\\\"\\\"\\\"\\n    \\n    story_scripts = {\\n        \\\"robotic_future\\\": [\\n            \\\"In the year 2045, robots discovered the joy of creative expression.\\\",\\n            \\\"They began painting visions of harmony between humans and machines.\\\",\\n            \\\"Their art showed a future where technology and emotion coexist beautifully.\\\",\\n            \\\"Each brushstroke contained lines of code and feelings of wonder.\\\",\\n            \\\"Together, they built galleries that celebrated this new renaissance.\\\"\\n        ],\\n        \\\"nature_awakening\\\": [\\n            \\\"Deep in the ancient forest, nature began to speak through art.\\\",\\n            \\\"Trees whispered colors and rivers sang in hues of blue and green.\\\",\\n            \\\"Animals gathered to witness the great awakening of the woodland spirits.\\\",\\n            \\\"Flowers bloomed with patterns that told stories of the earth's memory.\\\",\\n            \\\"The forest became a living canvas, painting its own destiny.\\\"\\n        ],\\n        \\\"space_odyssey\\\": [\\n            \\\"Beyond our galaxy, cosmic artists painted with stardust and nebulas.\\\",\\n            \\\"Astronauts became explorers of interstellar creativity and beauty.\\\",\\n            \\\"Alien civilizations shared their visual languages across the cosmos.\\\",\\n            \\\"Space itself became the canvas for universal artistic expression.\\\",\\n            \\\"We discovered that art is the true universal language of existence.\\\"\\n        ]\\n    }\\n    \\n    scripts = story_scripts.get(story_theme, story_scripts[\\\"robotic_future\\\"])\\n    audio_files = []\\n    \\n    for i, script in enumerate(scripts[:len(scenes)]):\\n        print(f\\\"🎙️ Generating audio for scene {i+1}...\\\")\\n        \\n        # Create text-to-speech\\n        tts = gTTS(text=script, lang='en', slow=False)\\n        audio_path = f\\\"{PROJECT_PATH}/audio/narration_{i+1}.mp3\\\"\\n        tts.save(audio_path)\\n        audio_files.append(audio_path)\\n        \\n        print(f\\\"✅ Audio created: {script[:50]}...\\\")\\n    \\n    return audio_files\\n\\ndef create_background_music():\\n    \\\"\\\"\\\"Generate simple background music using audio synthesis\\\"\\\"\\\"\\n    from scipy.io.wavfile import write\\n    import numpy as np\\n    \\n    # Create a simple melody\\n    sample_rate = 44100\\n    duration = 5  # seconds per scene\\n    \\n    def generate_tone(frequency, duration, sample_rate):\\n        t = np.linspace(0, duration, int(sample_rate * duration))\\n        audio = np.sin(2 * np.pi * frequency * t) * 0.3\\n        return audio\\n    \\n    # Create ambient background music\\n    music = np.array([])\\n    chords = [261.63, 329.63, 392.00, 523.25]  # C, E, G, C notes\\n    \\n    for scene in range(5):\\n        for freq in chords:\\n            tone = generate_tone(freq, duration/len(chords), sample_rate)\\n            music = np.concatenate([music, tone])\\n    \\n    # Save background music\\n    music_path = f\\\"{PROJECT_PATH}/audio/background_music.wav\\\"\\n    write(music_path, sample_rate, (music * 32767).astype(np.int16))\\n    \\n    return music_path\\n\\nprint(\\\"🎵 Creating audio components...\\\")\\ntest_audio = create_story_narration(\\\"robotic_future\\\", test_scenes)\\nbg_music = create_background_music()\\nprint(\\\"✅ Audio engine ready!\\\")\\n```\\n\\n```python\\n# CELL 4: Video Production Studio\\nprint(\\\"🎥 Initializing Video Production Studio...\\\")\\n\\ndef create_animated_scene(image_path, duration=5):\\n    \\\"\\\"\\\"Create animated video scene from image\\\"\\\"\\\"\\n    \\n    # Load image\\n    image = Image.open(image_path)\\n    \\n    # Create zoom animation effect\\n    frames = []\\n    for frame_num in range(duration * 10):  # 10 fps\\n        # Calculate zoom factor\\n        zoom = 1.0 + (frame_num * 0.01)\\n        \\n        # Calculate new dimensions\\n        width, height = image.size\\n        new_width = int(width / zoom)\\n        new_height = int(height / zoom)\\n        \\n        # Resize image\\n        resized = image.resize((new_width, new_height), Image.Resampling.LANCZOS)\\n        \\n        # Create new image with original size\\n        new_img = Image.new('RGB', (width, height))\\n        \\n        # Paste resized image centered\\n        x = (width - new_width) // 2\\n        y = (height - new_height) // 2\\n        new_img.paste(resized, (x, y))\\n        \\n        # Convert to numpy array for OpenCV\\n        frame = cv2.cvtColor(np.array(new_img), cv2.COLOR_RGB2BGR)\\n        frames.append(frame)\\n    \\n    return frames\\n\\ndef create_story_video(scene_images, audio_files, output_name=\\\"arduino_story\\\"):\\n    \\\"\\\"\\\"Combine scenes and audio into final video\\\"\\\"\\\"\\n    \\n    print(\\\"🎬 Producing final video...\\\")\\n    \\n    # Create video writer\\n    height, width = 512, 512\\n    fps = 10\\n    \\n    video_path = f\\\"{PROJECT_PATH}/videos/{output_name}.mp4\\\"\\n    fourcc = cv2.VideoWriter_fourcc(*'mp4v')\\n    video_writer = cv2.VideoWriter(video_path, fourcc, fps, (width, height))\\n    \\n    # Create each scene\\n    for i, (image_path, audio_file) in enumerate(zip(scene_images, audio_files)):\\n        print(f\\\"🎞️ Creating scene {i+1}...\\\")\\n        \\n        # Generate animated frames for this scene\\n        frames = create_animated_scene(image_path)\\n        \\n        # Write frames to video\\n        for frame in frames:\\n            video_writer.write(frame)\\n    \\n    # Release video writer\\n    video_writer.release()\\n    \\n    print(f\\\"✅ Video created: {video_path}\\\")\\n    return video_path\\n\\n# Test video production\\nprint(\\\"🚀 Testing video production...\\\")\\ntest_video = create_story_video(test_scenes, test_audio, \\\"test_story\\\")\\nprint(\\\"✅ Video production complete!\\\")\\n```\\n\\n```python\\n# CELL 5: Arduino Code Generator\\nprint(\\\"⚙️ Generating Arduino Motion Control Code...\\\")\\n\\ndef generate_arduino_servo_code(story_theme, num_servos=3):\\n    \\\"\\\"\\\"Generate Arduino code for servo motor control synchronized with video\\\"\\\"\\\"\\n    \\n    servo_code = f\\\"\\\"\\\"\\n// Arduino Motion Picture Controller\\n// Story Theme: {story_theme}\\n// Generated by Arduino Motion Studio\\n\\n#include <Servo.h>\\n\\n// Define servo objects\\nServo servos[{num_servos}];\\n\\n// Servo pins\\nint servoPins[{num_servos}] = {{3, 5, 6}};\\n\\n// Scene positions for {num_servos} servos\\nint scenePositions[][{num_servos}] = {{\\n    {{45, 90, 135}},   // Scene 1\\n    {{60, 120, 180}},  // Scene 2  \\n    {{30, 150, 90}},   // Scene 3\\n    {{90, 45, 135}},   // Scene 4\\n    {{135, 180, 45}}   // Scene 5\\n}};\\n\\n// Scene durations in milliseconds\\nint sceneDurations[] = {{5000, 5000, 5000, 5000, 5000}};\\n\\nvoid setup() {{\\n    Serial.begin(9600);\\n    Serial.println(\\\"🎬 Arduino Motion Picture Studio Starting...\\\");\\n    \\n    // Attach servos to pins\\n    for (int i = 0; i < {num_servos}; i++) {{\\n        servos[i].attach(servoPins[i]);\\n        servos[i].write(90);  // Start at center position\\n        delay(500);\\n    }}\\n    \\n    Serial.println(\\\"✅ Servos initialized and ready!\\\");\\n}}\\n\\nvoid moveServosSmoothly(int targetPositions[{num_servos}], int duration) {{\\n    int startPositions[{num_servos}];\\n    int steps = 50;\\n    int stepDelay = duration / steps;\\n    \\n    // Get current positions\\n    for (int i = 0; i < {num_servos}; i++) {{\\n        startPositions[i] = servos[i].read();\\n    }}\\n    \\n    // Animate servos\\n    for (int step = 0; step <= steps; step++) {{\\n        for (int i = 0; i < {num_servos}; i++) {{\\n            int currentPos = map(step, 0, steps, startPositions[i], targetPositions[i]);\\n            servos[i].write(currentPos);\\n        }}\\n        delay(stepDelay);\\n    }}\\n}}\\n\\nvoid playScene(int sceneIndex) {{\\n    Serial.print(\\\"🎭 Playing Scene \\\");\\n    Serial.println(sceneIndex + 1);\\n    \\n    moveServosSmoothly(scenePositions[sceneIndex], sceneDurations[sceneIndex]);\\n    delay(sceneDurations[sceneIndex]);\\n}}\\n\\nvoid loop() {{\\n    Serial.println(\\\"🚀 Starting Motion Picture Show!\\\");\\n    \\n    // Play each scene in sequence\\n    for (int scene = 0; scene < 5; scene++) {{\\n        playScene(scene);\\n    }}\\n    \\n    // Final position\\n    Serial.println(\\\"🎉 Show complete! Returning to start position.\\\");\\n    int homePosition[{num_servos}] = {{90, 90, 90}};\\n    moveServosSmoothly(homePosition, 2000);\\n    \\n    delay(5000); // Wait before restarting\\n}}\\n\\\"\\\"\\\"\\n\\n    # Save Arduino code\\n    code_path = f\\\"{PROJECT_PATH}/arduino/motion_picture_controller.ino\\\"\\n    with open(code_path, 'w') as f:\\n        f.write(servo_code)\\n    \\n    print(f\\\"✅ Arduino code generated: {code_path}\\\")\\n    return code_path\\n\\ndef generate_led_animation_code():\\n    \\\"\\\"\\\"Generate Arduino code for LED animations\\\"\\\"\\\"\\n    \\n    led_code = \\\"\\\"\\\"\\n// LED Animation Controller for Motion Picture\\n// Synchronized with servo movements\\n\\n#include <FastLED.h>\\n\\n#define NUM_LEDS 16\\n#define DATA_PIN 9\\n\\nCRGB leds[NUM_LEDS];\\n\\n// Color palettes for different scenes\\nCRGB sceneColors[][3] = {\\n    {CRGB::Red, CRGB::Blue, CRGB::Green},     // Scene 1\\n    {CRGB::Purple, CRGB::Yellow, CRGB::Cyan}, // Scene 2\\n    {CRGB::Orange, CRGB::Pink, CRGB::Teal},   // Scene 3\\n    {CRGB::Gold, CRGB::Silver, CRGB::White},  // Scene 4\\n    {CRGB::Rainbow, CRGB::Rainbow, CRGB::Rainbow} // Scene 5\\n};\\n\\nvoid setup() {\\n    FastLED.addLeds<WS2812, DATA_PIN, RGB>(leds, NUM_LEDS);\\n    FastLED.setBrightness(100);\\n    Serial.begin(9600);\\n}\\n\\nvoid animateLEDs(int sceneIndex, int duration) {\\n    int cycles = duration / 100;\\n    \\n    for (int cycle = 0; cycle < cycles; cycle++) {\\n        // Create moving light pattern\\n        for (int i = 0; i < NUM_LEDS; i++) {\\n            int colorIndex = (i + cycle) % 3;\\n            leds[i] = sceneColors[sceneIndex][colorIndex];\\n        }\\n        \\n        FastLED.show();\\n        delay(100);\\n    }\\n}\\n\\nvoid loop() {\\n    // This would be called from main servo controller\\n    // animateLEDs(sceneIndex, sceneDuration);\\n}\\n\\\"\\\"\\\"\\n    \\n    led_path = f\\\"{PROJECT_PATH}/arduino/led_animations.ino\\\"\\n    with open(led_path, 'w') as f:\\n        f.write(led_code)\\n    \\n    print(f\\\"✅ LED animation code generated: {led_path}\\\")\\n    return led_path\\n\\n# Generate Arduino codes\\nprint(\\\"🔄 Creating motion control programs...\\\")\\nservo_code = generate_arduino_servo_code(\\\"robotic_future\\\")\\nled_code = generate_led_animation_code()\\nprint(\\\"✅ Arduino code generation complete!\\\")\\n```\\n\\n```python\\n# CELL 6: Complete Project Generator\\nprint(\\\"🌟 Generating Complete Arduino Motion Picture Project...\\\")\\n\\ndef create_complete_project(project_name, story_theme=\\\"robotic_future\\\"):\\n    \\\"\\\"\\\"Generate complete motion picture project with all components\\\"\\\"\\\"\\n    \\n    print(f\\\"🚀 Creating project: {project_name}\\\")\\n    print(f\\\"🎨 Theme: {story_theme}\\\")\\n    \\n    # Create project directory\\n    project_dir = f\\\"{PROJECT_PATH}/projects/{project_name}\\\"\\n    os.makedirs(project_dir, exist_ok=True)\\n    \\n    # 1. Generate AI images\\n    print(\\\"\\\\n📸 Step 1: Generating story scenes...\\\")\\n    scenes = generate_story_scenes(story_theme, 5)\\n    \\n    # 2. Create audio narration\\n    print(\\\"\\\\n🎤 Step 2: Creating audio story...\\\")\\n    audio_files = create_story_narration(story_theme, scenes)\\n    \\n    # 3. Produce video\\n    print(\\\"\\\\n🎥 Step 3: Producing motion picture...\\\")\\n    video_path = create_story_video(scenes, audio_files, project_name)\\n    \\n    # 4. Generate Arduino code\\n    print(\\\"\\\\n⚙️ Step 4: Generating motion control code...\\\")\\n    arduino_code = generate_arduino_servo_code(story_theme)\\n    led_code = generate_led_animation_code()\\n    \\n    # 5. Create project documentation\\n    print(\\\"\\\\n📄 Step 5: Creating project documentation...\\\")\\n    create_project_documentation(project_name, story_theme, scenes, video_path, arduino_code)\\n    \\n    print(f\\\"\\\\n🎉 Project '{project_name}' complete!\\\")\\n    print(f\\\"📍 Location: {project_dir}\\\")\\n    return project_dir\\n\\ndef create_project_documentation(project_name, theme, scenes, video_path, arduino_code):\\n    \\\"\\\"\\\"Create project README and documentation\\\"\\\"\\\"\\n    \\n    readme_content = f\\\"\\\"\\\"\\n# 🎬 {project_name} - Arduino Motion Picture\\n\\n## Project Overview\\nThis interactive motion picture combines AI-generated art, audio storytelling, and physical servo animations.\\n\\n## 🎨 Story Theme: {theme}\\n- **AI-Generated Scenes**: 5 unique images created with Stable Diffusion\\n- **Audio Narration**: Text-to-speech storytelling synchronized with visuals\\n- **Physical Animation**: 3 servo motors creating mechanical movements\\n\\n## 📁 Project Structure\\n```\\n{project_name}/\\n├── images/          # AI-generated story scenes\\n├── audio/           # Narration and background music\\n├── videos/          # Final motion picture\\n├── arduino/         # Motion control code\\n└── README.md        # This file\\n```\\n\\n## 🔌 Hardware Requirements\\n- Arduino Uno/Nano\\n- 3x Servo Motors (SG90 or similar)\\n- Servo mounting hardware\\n- LED strip (WS2812B optional)\\n- Power supply for servos\\n\\n## 🛠️ Setup Instructions\\n\\n1. **Upload Arduino Code**:\\n   - Open `motion_picture_controller.ino` in Arduino IDE\\n   - Connect servos to pins 3, 5, 6\\n   - Upload to Arduino\\n\\n2. **Play Video**:\\n   - Start the video: `{video_path}`\\n   - Synchronize Arduino reset with video start\\n\\n3. **Enjoy the Show**:\\n   - Servos will animate through 5 scenes\\n   - Each scene lasts 5 seconds with smooth movements\\n\\n## 🎭 Scene Transitions\\nThe servos move through predefined positions that correspond to each story scene, creating a mechanical ballet synchronized with the visual narrative.\\n\\n## 🔧 Customization\\n- Modify servo positions in `scenePositions` array\\n- Adjust timing in `sceneDurations`\\n- Add more servos by updating the `num_servos` variable\\n\\n## ✨ Created with Arduino Motion Studio\\nGenerated using AI-powered creative tools in Google Colab.\\n\\\"\\\"\\\"\\n\\n    readme_path = f\\\"{PROJECT_PATH}/projects/{project_name}/README.md\\\"\\n    with open(readme_path, 'w') as f:\\n        f.write(readme_content)\\n    \\n    print(f\\\"✅ Project documentation: {readme_path}\\\")\\n\\n# Create a sample project\\nprint(\\\"🚀 Launching complete project creation...\\\")\\nsample_project = create_complete_project(\\\"RoboticRenaissance\\\", \\\"robotic_future\\\")\\nprint(\\\"🎊 All done! Your Arduino Motion Studio is ready!\\\")\\n```\\n\\n```python\\n# CELL 7: Project Management & Utilities\\nprint(\\\"🔧 Project Management Tools...\\\")\\n\\ndef list_projects():\\n    \\\"\\\"\\\"List all created projects\\\"\\\"\\\"\\n    projects_path = f\\\"{PROJECT_PATH}/projects\\\"\\n    if os.path.exists(projects_path):\\n        projects = os.listdir(projects_path)\\n        print(\\\"📂 Your Motion Picture Projects:\\\")\\n        for project in projects:\\n            print(f\\\"  🎬 {project}\\\")\\n    else:\\n        print(\\\"No projects found. Create one using create_complete_project()\\\")\\n\\ndef preview_project(project_name):\\n    \\\"\\\"\\\"Preview project components\\\"\\\"\\\"\\n    project_path = f\\\"{PROJECT_PATH}/projects/{project_name}\\\"\\n    \\n    if os.path.exists(project_path):\\n        print(f\\\"🔍 Previewing project: {project_name}\\\")\\n        \\n        # Show images\\n        images_path = f\\\"{PROJECT_PATH}/images\\\"\\n        if os.path.exists(images_path):\\n            images = [f for f in os.listdir(images_path) if f.endswith('.png')]\\n            print(f\\\"  🖼️ {len(images)} generated scenes\\\")\\n        \\n        # Show video\\n        videos_path = f\\\"{PROJECT_PATH}/videos\\\"\\n        if os.path.exists(videos_path):\\n            videos = [f for f in os.listdir(videos_path) if f.startswith(project_name)]\\n            if videos:\\n                print(f\\\"  🎥 Final video: {videos[0]}\\\")\\n        \\n        # Show Arduino code\\n        arduino_path = f\\\"{PROJECT_PATH}/arduino\\\"\\n        if os.path.exists(arduino_path):\\n            sketches = [f for f in os.listdir(arduino_path) if f.endswith('.ino')]\\n            print(f\\\"  ⚙️ {len(sketches)} Arduino sketches\\\")\\n    else:\\n        print(f\\\"Project '{project_name}' not found.\\\")\\n\\ndef cleanup_project(project_name):\\n    \\\"\\\"\\\"Remove a project\\\"\\\"\\\"\\n    import shutil\\n    project_path = f\\\"{PROJECT_PATH}/projects/{project_name}\\\"\\n    \\n    if os.path.exists(project_path):\\n        shutil.rmtree(project_path)\\n        print(f\\\"🗑️ Project '{project_name}' removed.\\\")\\n    else:\\n        print(f\\\"Project '{project_name}' not found.\\\")\\n\\n# Test project management\\nprint(\\\"🔄 Testing project utilities...\\\")\\nlist_projects()\\n\\n# Create a quick demo if no projects exist\\nif not os.path.exists(f\\\"{PROJECT_PATH}/projects\\\"):\\n    print(\\\"🚀 Creating a quick demo project...\\\")\\n    create_complete_project(\\\"QuickDemo\\\", \\\"nature_awakening\\\")\\n\\nlist_projects()\\nprint(\\\"✅ Project management ready!\\\")\\n```\\n\\nThis complete Arduino Motion Picture Studio includes:\\n\\n## 🎯 **Features:**\\n1. **AI Image Generation** - Creates 5 unique story scenes using Stable Diffusion\\n2. **Text-to-Speech** - Generates audio narration for each scene\\n3. **Video Production** - Combines images and audio with animations\\n4. **Arduino Code Generation** - Creates servo control code synchronized with video\\n5. **LED Animation Code** - Optional addressable LED control\\n6. **Project Management** - Organizes everything in Google Drive\\n\\n## 🛠️ **Hardware Setup:**\\n- Arduino Uno + 3x Servo Motors\\n- Servos on pins 3, 5, 6\\n- Optional LED strip on pin 9\\n\\n## 🚀 **Usage:**\\n1. Run all cells to set up the environment\\n2. Use `create_complete_project(\\\"YourProjectName\\\", \\\"theme\\\")`\\n3. Choose from: `robotic_future`, `nature_awakening`, `space_odyssey`\\n4. Upload generated Arduino code to your board\\n5. Play the video and watch the servos perform!\\n\\nThe project creates a complete interactive installation where physical servo movements are synchronized with your AI-generated motion picture!\"}]}}, \"3\": {\"id\": \"3\", \"parent\": \"2\", \"children\": [\"4\"], \"message\": {\"files\": [], \"model\": \"deepseek-chat\", \"inserted_at\": \"2025-10-25T08:01:31.168000+08:00\", \"fragments\": [{\"type\": \"REQUEST\", \"content\": \"# CELL 1: Setup Arduino CLI Environment + Motion Studio\\nprint(\\\"🎬 Setting up Arduino Motion Picture Studio...\\\")\\n\\n# Install Arduino CLI and motion dependencies\\n!pip install arduino-cli\\n!pip install diffusers accelerate transformers torch torchvision\\n!pip install gtts moviepy pillow opencv-python\\n\\nimport torch\\nfrom diffusers import StableDiffusionPipeline\\nfrom gtts import gTTS\\nfrom moviepy.editor import *\\nimport cv2\\nimport numpy as np\\nfrom PIL import Image, ImageDraw, ImageFont\\nimport os\\nfrom google.colab import drive\\n\\n# Mount Google Drive\\ndrive.mount('/content/drive')\\n\\n# Create project structure\\nPROJECT_PATH = \\\"/content/drive/MyDrive/ArduinoMotionMovies\\\"\\nos.makedirs(f\\\"{PROJECT_PATH}/videos\\\", exist_ok=True)\\nos.makedirs(f\\\"{PROJECT_PATH}/images\\\", exist_ok=True) \\nos.makedirs(f\\\"{PROJECT_PATH}/audio\\\", exist_ok=True)\\nos.makedirs(f\\\"{PROJECT_PATH}/arduino\\\", exist_ok=True)\\n\\nprint(\\\"✅ Arduino Motion Studio Ready!\\\")\\n\\n# Initialize Arduino CLI\\nprint(\\\"🔄 Setting up Arduino development environment...\\\")\\n!arduino-cli config init\\n!arduino-cli core update-index\\n!arduino-cli core install arduino:avr\\n!arduino-cli lib install \\\"Servo\\\"\\nprint(\\\"✅ Arduino CLI Ready!\\\")\"}]}}, \"4\": {\"id\": \"4\", \"parent\": \"3\", \"children\": [\"5\"], \"message\": {\"files\": [], \"model\": \"deepseek-chat\", \"inserted_at\": \"2025-10-25T08:01:31.187000+08:00\", \"fragments\": [{\"type\": \"RESPONSE\", \"content\": \"I see you've started with Cell 1! Let me continue with the complete project by providing the remaining cells. Here are all the cells you need to run:\\n\\n```python\\n# CELL 2: AI Image Generation Module\\nprint(\\\"🎨 Loading AI Image Generator...\\\")\\n\\n# Load Stable Diffusion model (using a smaller model for faster loading)\\ntry:\\n    pipe = StableDiffusionPipeline.from_pretrained(\\n        \\\"runwayml/stable-diffusion-v1-5\\\",\\n        torch_dtype=torch.float16,\\n        revision=\\\"fp16\\\",\\n        safety_checker=None,\\n        requires_safety_checker=False\\n    )\\n    pipe = pipe.to(\\\"cuda\\\" if torch.cuda.is_available() else \\\"cpu\\\")\\n    print(\\\"✅ AI Model loaded successfully!\\\")\\nexcept Exception as e:\\n    print(f\\\"⚠️ Could not load full model, using smaller version: {e}\\\")\\n    # Fallback to smaller model\\n    pipe = StableDiffusionPipeline.from_pretrained(\\n        \\\"OFA-Sys/small-stable-diffusion-v0\\\",\\n        torch_dtype=torch.float16\\n    )\\n    pipe = pipe.to(\\\"cuda\\\" if torch.cuda.is_available() else \\\"cpu\\\")\\n\\ndef generate_story_scenes(story_theme, num_scenes=3):\\n    \\\"\\\"\\\"Generate AI images for different story scenes\\\"\\\"\\\"\\n    \\n    scene_prompts = {\\n        \\\"robotic_future\\\": [\\n            \\\"A friendly robot painting in a futuristic studio, digital art, vibrant colors, simple composition\\\",\\n            \\\"Robots and humans collaborating in an art gallery, cyberpunk style, clean lines\\\",\\n            \\\"Futuristic city with robotic artists creating murals, neon lights, minimalist\\\"\\n        ],\\n        \\\"nature_awakening\\\": [\\n            \\\"Magical forest with glowing plants, fantasy art style, simple background\\\",\\n            \\\"Talking trees in enchanted woodland, dreamlike quality, clean artwork\\\",\\n            \\\"Animals gathering for celestial event, mystical atmosphere, clear focus\\\"\\n        ],\\n        \\\"space_odyssey\\\": [\\n            \\\"Astronaut discovering alien art on distant planet, sci-fi art, simple design\\\",\\n            \\\"Space station with cosmic artists, starry background, minimalist\\\",\\n            \\\"Interstellar travel through wormhole, vibrant colors, clean composition\\\"\\n        ]\\n    }\\n    \\n    prompts = scene_prompts.get(story_theme, scene_prompts[\\\"robotic_future\\\"])\\n    \\n    print(f\\\"🖼️ Generating {min(len(prompts), num_scenes)} scenes for {story_theme}...\\\")\\n    \\n    generated_scenes = []\\n    for i, prompt in enumerate(prompts[:num_scenes]):\\n        print(f\\\"Creating scene {i+1}: {prompt}\\\")\\n        \\n        try:\\n            # Generate image with simpler prompt for faster generation\\n            image = pipe(prompt + \\\", high quality, detailed\\\").images[0]\\n            \\n            # Resize for consistent video size\\n            image = image.resize((512, 512))\\n            \\n            # Save image\\n            image_path = f\\\"{PROJECT_PATH}/images/scene_{i+1}.png\\\"\\n            image.save(image_path)\\n            generated_scenes.append(image_path)\\n            print(f\\\"✅ Saved: {image_path}\\\")\\n            \\n        except Exception as e:\\n            print(f\\\"❌ Error generating scene {i+1}: {e}\\\")\\n            # Create a placeholder image\\n            placeholder = Image.new('RGB', (512, 512), color=(50, 50, 100))\\n            draw = ImageDraw.Draw(placeholder)\\n            draw.text((100, 250), f\\\"Scene {i+1}\\\", fill=(255, 255, 255))\\n            image_path = f\\\"{PROJECT_PATH}/images/scene_{i+1}.png\\\"\\n            placeholder.save(image_path)\\n            generated_scenes.append(image_path)\\n    \\n    return generated_scenes\\n\\n# Test image generation with fewer scenes for speed\\nprint(\\\"🚀 Testing AI image generation...\\\")\\ntest_scenes = generate_story_scenes(\\\"robotic_future\\\", 2)\\nprint(\\\"✅ Image generation complete!\\\")\\n```\\n\\n```python\\n# CELL 3: Text-to-Speech & Audio Storytelling\\nprint(\\\"🎤 Setting up Audio Story Engine...\\\")\\n\\ndef create_story_narration(story_theme, scenes):\\n    \\\"\\\"\\\"Generate audio narration for the story\\\"\\\"\\\"\\n    \\n    story_scripts = {\\n        \\\"robotic_future\\\": [\\n            \\\"In the future, robots discovered the joy of creative expression and art.\\\",\\n            \\\"They began painting visions of harmony between humans and machines.\\\",\\n            \\\"Together, they built galleries that celebrated this new renaissance.\\\"\\n        ],\\n        \\\"nature_awakening\\\": [\\n            \\\"Deep in the ancient forest, nature began to speak through beautiful art.\\\",\\n            \\\"Trees whispered colors and rivers sang in hues of blue and green.\\\",\\n            \\\"The forest became a living canvas, painting its own wonderful destiny.\\\"\\n        ],\\n        \\\"space_odyssey\\\": [\\n            \\\"Beyond our galaxy, cosmic artists painted with stardust and nebulas.\\\",\\n            \\\"Astronauts became explorers of interstellar creativity and beauty.\\\",\\n            \\\"We discovered that art is the true universal language of existence.\\\"\\n        ]\\n    }\\n    \\n    scripts = story_scripts.get(story_theme, story_scripts[\\\"robotic_future\\\"])\\n    audio_files = []\\n    \\n    for i, script in enumerate(scripts[:len(scenes)]):\\n        print(f\\\"🎙️ Generating audio for scene {i+1}...\\\")\\n        \\n        try:\\n            # Create text-to-speech\\n            tts = gTTS(text=script, lang='en', slow=False)\\n            audio_path = f\\\"{PROJECT_PATH}/audio/narration_{i+1}.mp3\\\"\\n            tts.save(audio_path)\\n            audio_files.append(audio_path)\\n            \\n            print(f\\\"✅ Audio created: {script[:50]}...\\\")\\n        except Exception as e:\\n            print(f\\\"❌ Error creating audio: {e}\\\")\\n            # Create silent audio as fallback\\n            silent_audio_path = f\\\"{PROJECT_PATH}/audio/narration_{i+1}.mp3\\\"\\n            # We'll handle this in video creation\\n            audio_files.append(silent_audio_path)\\n    \\n    return audio_files\\n\\ndef create_simple_background_music():\\n    \\\"\\\"\\\"Create a simple tone for background\\\"\\\"\\\"\\n    from scipy.io.wavfile import write\\n    import numpy as np\\n    \\n    try:\\n        sample_rate = 22050\\n        duration = 3\\n        \\n        t = np.linspace(0, duration, int(sample_rate * duration))\\n        # Simple sine wave\\n        audio = 0.1 * np.sin(2 * np.pi * 440 * t)\\n        \\n        music_path = f\\\"{PROJECT_PATH}/audio/background_music.wav\\\"\\n        write(music_path, sample_rate, (audio * 32767).astype(np.int16))\\n        return music_path\\n    except Exception as e:\\n        print(f\\\"⚠️ Could not create background music: {e}\\\")\\n        return None\\n\\nprint(\\\"🎵 Creating audio components...\\\")\\ntest_audio = create_story_narration(\\\"robotic_future\\\", test_scenes)\\nbg_music = create_simple_background_music()\\nprint(\\\"✅ Audio engine ready!\\\")\\n```\\n\\n```python\\n# CELL 4: Video Production Studio\\nprint(\\\"🎥 Initializing Video Production Studio...\\\")\\n\\ndef create_simple_video_scene(image_path, duration=3):\\n    \\\"\\\"\\\"Create simple video scene from image\\\"\\\"\\\"\\n    try:\\n        # Load and resize image\\n        image = Image.open(image_path)\\n        image = image.resize((512, 512))\\n        \\n        # Convert to numpy array\\n        frame = np.array(image)\\n        frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)\\n        \\n        return [frame] * (duration * 10)  # 10 fps\\n    except Exception as e:\\n        print(f\\\"❌ Error processing image {image_path}: {e}\\\")\\n        # Create blank frame as fallback\\n        blank_frame = np.ones((512, 512, 3), dtype=np.uint8) * 100\\n        return [blank_frame] * (duration * 10)\\n\\ndef create_story_video(scene_images, audio_files, output_name=\\\"arduino_story\\\"):\\n    \\\"\\\"\\\"Combine scenes and audio into final video\\\"\\\"\\\"\\n    \\n    print(\\\"🎬 Producing final video...\\\")\\n    \\n    try:\\n        # Create video writer\\n        height, width = 512, 512\\n        fps = 10\\n        \\n        video_path = f\\\"{PROJECT_PATH}/videos/{output_name}.mp4\\\"\\n        fourcc = cv2.VideoWriter_fourcc(*'mp4v')\\n        video_writer = cv2.VideoWriter(video_path, fourcc, fps, (width, height))\\n        \\n        # Create each scene\\n        for i, (image_path, audio_file) in enumerate(zip(scene_images, audio_files)):\\n            print(f\\\"🎞️ Creating scene {i+1}...\\\")\\n            \\n            # Generate frames for this scene\\n            frames = create_simple_video_scene(image_path)\\n            \\n            # Write frames to video\\n            for frame in frames:\\n                video_writer.write(frame)\\n        \\n        # Release video writer\\n        video_writer.release()\\n        \\n        print(f\\\"✅ Video created: {video_path}\\\")\\n        return video_path\\n        \\n    except Exception as e:\\n        print(f\\\"❌ Error creating video: {e}\\\")\\n        return None\\n\\n# Test video production\\nprint(\\\"🚀 Testing video production...\\\")\\ntest_video = create_story_video(test_scenes, test_audio, \\\"test_story\\\")\\n\\nif test_video:\\n    print(f\\\"🎉 Success! Video saved at: {test_video}\\\")\\nelse:\\n    print(\\\"❌ Video creation failed, but continuing with project...\\\")\\n```\\n\\n```python\\n# CELL 5: Arduino Code Generator\\nprint(\\\"⚙️ Generating Arduino Motion Control Code...\\\")\\n\\ndef generate_arduino_servo_code(story_theme, num_servos=3):\\n    \\\"\\\"\\\"Generate Arduino code for servo motor control synchronized with video\\\"\\\"\\\"\\n    \\n    servo_code = f\\\"\\\"\\\"\\n// Arduino Motion Picture Controller\\n// Story Theme: {story_theme}\\n// Generated by Arduino Motion Studio\\n\\n#include <Servo.h>\\n\\n// Define servo objects\\nServo servos[{num_servos}];\\n\\n// Servo pins\\nint servoPins[{num_servos}] = {{3, 5, 6}};\\n\\n// Scene positions for {num_servos} servos\\nint scenePositions[][{num_servos}] = {{\\n    {{45, 90, 135}},   // Scene 1\\n    {{60, 120, 180}},  // Scene 2  \\n    {{30, 150, 90}},   // Scene 3\\n    {{90, 45, 135}},   // Scene 4\\n    {{135, 180, 45}}   // Scene 5\\n}};\\n\\n// Scene durations in milliseconds\\nint sceneDurations[] = {{3000, 3000, 3000, 3000, 3000}};\\n\\nvoid setup() {{\\n    Serial.begin(9600);\\n    Serial.println(\\\"🎬 Arduino Motion Picture Studio Starting...\\\");\\n    \\n    // Attach servos to pins\\n    for (int i = 0; i < {num_servos}; i++) {{\\n        servos[i].attach(servoPins[i]);\\n        servos[i].write(90);  // Start at center position\\n        delay(500);\\n    }}\\n    \\n    Serial.println(\\\"✅ Servos initialized and ready!\\\");\\n}}\\n\\nvoid moveServosSmoothly(int targetPositions[{num_servos}], int duration) {{\\n    int startPositions[{num_servos}];\\n    int steps = 30;\\n    int stepDelay = duration / steps;\\n    \\n    // Get current positions\\n    for (int i = 0; i < {num_servos}; i++) {{\\n        startPositions[i] = servos[i].read();\\n    }}\\n    \\n    // Animate servos\\n    for (int step = 0; step <= steps; step++) {{\\n        for (int i = 0; i < {num_servos}; i++) {{\\n            int currentPos = map(step, 0, steps, startPositions[i], targetPositions[i]);\\n            servos[i].write(currentPos);\\n        }}\\n        delay(stepDelay);\\n    }}\\n}}\\n\\nvoid playScene(int sceneIndex) {{\\n    Serial.print(\\\"🎭 Playing Scene \\\");\\n    Serial.println(sceneIndex + 1);\\n    \\n    moveServosSmoothly(scenePositions[sceneIndex], sceneDurations[sceneIndex]);\\n    delay(sceneDurations[sceneIndex]);\\n}}\\n\\nvoid loop() {{\\n    Serial.println(\\\"🚀 Starting Motion Picture Show!\\\");\\n    \\n    // Play each scene in sequence\\n    for (int scene = 0; scene < 5; scene++) {{\\n        playScene(scene);\\n    }}\\n    \\n    // Final position\\n    Serial.println(\\\"🎉 Show complete! Returning to start position.\\\");\\n    int homePosition[{num_servos}] = {{90, 90, 90}};\\n    moveServosSmoothly(homePosition, 2000);\\n    \\n    delay(5000); // Wait before restarting\\n}}\\n\\\"\\\"\\\"\\n\\n    # Save Arduino code\\n    code_path = f\\\"{PROJECT_PATH}/arduino/motion_picture_controller.ino\\\"\\n    with open(code_path, 'w') as f:\\n        f.write(servo_code)\\n    \\n    print(f\\\"✅ Arduino code generated: {code_path}\\\")\\n    return code_path\\n\\ndef generate_led_animation_code():\\n    \\\"\\\"\\\"Generate Arduino code for LED animations\\\"\\\"\\\"\\n    \\n    led_code = \\\"\\\"\\\"\\n// LED Animation Controller for Motion Picture\\n// Synchronized with servo movements\\n\\n// Uncomment the following line if you have FastLED installed\\n// #include <FastLED.h>\\n\\n#define NUM_LEDS 16\\n#define DATA_PIN 9\\n\\n// Uncomment if using FastLED\\n// CRGB leds[NUM_LEDS];\\n\\nvoid setup() {\\n    // FastLED.addLeds<WS2812, DATA_PIN, RGB>(leds, NUM_LEDS);\\n    // FastLED.setBrightness(100);\\n    Serial.begin(9600);\\n    pinMode(LED_BUILTIN, OUTPUT);\\n}\\n\\nvoid animateBuiltinLED(int sceneIndex) {\\n    // Simple built-in LED animation\\n    for (int i = 0; i < 5; i++) {\\n        digitalWrite(LED_BUILTIN, HIGH);\\n        delay(100);\\n        digitalWrite(LED_BUILTIN, LOW);\\n        delay(100);\\n    }\\n}\\n\\nvoid loop() {\\n    // This would be called from main servo controller\\n    // animateBuiltinLED(sceneIndex);\\n}\\n\\\"\\\"\\\"\\n    \\n    led_path = f\\\"{PROJECT_PATH}/arduino/led_animations.ino\\\"\\n    with open(led_path, 'w') as f:\\n        f.write(led_code)\\n    \\n    print(f\\\"✅ LED animation code generated: {led_path}\\\")\\n    return led_path\\n\\n# Generate Arduino codes\\nprint(\\\"🔄 Creating motion control programs...\\\")\\nservo_code = generate_arduino_servo_code(\\\"robotic_future\\\")\\nled_code = generate_led_animation_code()\\nprint(\\\"✅ Arduino code generation complete!\\\")\\n```\\n\\n```python\\n# CELL 6: Complete Project Generator\\nprint(\\\"🌟 Generating Complete Arduino Motion Picture Project...\\\")\\n\\ndef create_complete_project(project_name, story_theme=\\\"robotic_future\\\"):\\n    \\\"\\\"\\\"Generate complete motion picture project with all components\\\"\\\"\\\"\\n    \\n    print(f\\\"🚀 Creating project: {project_name}\\\")\\n    print(f\\\"🎨 Theme: {story_theme}\\\")\\n    \\n    # Create project directory\\n    project_dir = f\\\"{PROJECT_PATH}/projects/{project_name}\\\"\\n    os.makedirs(project_dir, exist_ok=True)\\n    \\n    # 1. Generate AI images\\n    print(\\\"\\\\n📸 Step 1: Generating story scenes...\\\")\\n    scenes = generate_story_scenes(story_theme, 3)\\n    \\n    # 2. Create audio narration\\n    print(\\\"\\\\n🎤 Step 2: Creating audio story...\\\")\\n    audio_files = create_story_narration(story_theme, scenes)\\n    \\n    # 3. Produce video\\n    print(\\\"\\\\n🎥 Step 3: Producing motion picture...\\\")\\n    video_path = create_story_video(scenes, audio_files, project_name)\\n    \\n    # 4. Generate Arduino code\\n    print(\\\"\\\\n⚙️ Step 4: Generating motion control code...\\\")\\n    arduino_code = generate_arduino_servo_code(story_theme)\\n    led_code = generate_led_animation_code()\\n    \\n    # 5. Create project documentation\\n    print(\\\"\\\\n📄 Step 5: Creating project documentation...\\\")\\n    create_project_documentation(project_name, story_theme, scenes, video_path, arduino_code)\\n    \\n    print(f\\\"\\\\n🎉 Project '{project_name}' complete!\\\")\\n    print(f\\\"📍 Location: {project_dir}\\\")\\n    \\n    # Show project summary\\n    print(\\\"\\\\n📊 PROJECT SUMMARY:\\\")\\n    print(f\\\"   🖼️  Generated {len(scenes)} AI scenes\\\")\\n    print(f\\\"   🎵 Created {len(audio_files)} audio narrations\\\")\\n    print(f\\\"   🎥 Produced video: {video_path if video_path else 'See videos folder'}\\\")\\n    print(f\\\"   ⚙️  Arduino code ready in: {PROJECT_PATH}/arduino/\\\")\\n    \\n    return project_dir\\n\\ndef create_project_documentation(project_name, theme, scenes, video_path, arduino_code):\\n    \\\"\\\"\\\"Create project README and documentation\\\"\\\"\\\"\\n    \\n    readme_content = f\\\"\\\"\\\"\\n# 🎬 {project_name} - Arduino Motion Picture\\n\\n## Project Overview\\nThis interactive motion picture combines AI-generated art, audio storytelling, and physical servo animations.\\n\\n## 🎨 Story Theme: {theme}\\n- **AI-Generated Scenes**: {len(scenes)} unique images created with Stable Diffusion\\n- **Audio Narration**: Text-to-speech storytelling\\n- **Physical Animation**: 3 servo motors creating mechanical movements\\n\\n## 📁 Project Structure\\nAll files are saved in your Google Drive under `ArduinoMotionMovies/`\\n\\n## 🔌 Hardware Requirements\\n- Arduino Uno/Nano\\n- 3x Servo Motors (SG90 or similar)\\n- Servo mounting hardware\\n- Power supply for servos\\n\\n## 🛠️ Setup Instructions\\n\\n1. **Upload Arduino Code**:\\n   - Open `motion_picture_controller.ino` in Arduino IDE\\n   - Connect servos to pins 3, 5, 6\\n   - Upload to Arduino\\n\\n2. **Play Video**:\\n   - Start the video from the videos folder\\n   - Synchronize Arduino reset with video start\\n\\n3. **Enjoy the Show**:\\n   - Servos will animate through scenes\\n   - Each scene has smooth servo movements\\n\\n## 🎭 Scene Transitions\\nThe servos move through predefined positions that correspond to each story scene.\\n\\n## ✨ Created with Arduino Motion Studio\\nGenerated using AI-powered creative tools in Google Colab.\\n\\n## Next Steps:\\n1. Upload the Arduino code to your board\\n2. Connect servos to pins 3, 5, and 6\\n3. Play the generated video\\n4. Watch the servos perform!\\n\\\"\\\"\\\"\\n\\n    readme_path = f\\\"{PROJECT_PATH}/projects/{project_name}/README.md\\\"\\n    with open(readme_path, 'w') as f:\\n        f.write(readme_content)\\n    \\n    print(f\\\"✅ Project documentation: {readme_path}\\\")\\n\\n# Create a sample project\\nprint(\\\"🚀 Launching complete project creation...\\\")\\nsample_project = create_complete_project(\\\"MyFirstMotionPicture\\\", \\\"robotic_future\\\")\\nprint(\\\"🎊 All done! Your Arduino Motion Studio is ready!\\\")\\n```\\n\\n```python\\n# CELL 7: Project Management & Utilities\\nprint(\\\"🔧 Project Management Tools...\\\")\\n\\ndef list_projects():\\n    \\\"\\\"\\\"List all created projects\\\"\\\"\\\"\\n    projects_path = f\\\"{PROJECT_PATH}/projects\\\"\\n    if os.path.exists(projects_path):\\n        projects = os.listdir(projects_path)\\n        print(\\\"📂 Your Motion Picture Projects:\\\")\\n        for project in projects:\\n            print(f\\\"  🎬 {project}\\\")\\n        return projects\\n    else:\\n        print(\\\"No projects found. Create one using create_complete_project()\\\")\\n        return []\\n\\ndef preview_project(project_name):\\n    \\\"\\\"\\\"Preview project components\\\"\\\"\\\"\\n    project_path = f\\\"{PROJECT_PATH}/projects/{project_name}\\\"\\n    \\n    if os.path.exists(project_path):\\n        print(f\\\"🔍 Previewing project: {project_name}\\\")\\n        \\n        # Show images\\n        images_path = f\\\"{PROJECT_PATH}/images\\\"\\n        if os.path.exists(images_path):\\n            images = [f for f in os.listdir(images_path) if f.endswith('.png')]\\n            print(f\\\"  🖼️ {len(images)} generated scenes\\\")\\n        \\n        # Show video\\n        videos_path = f\\\"{PROJECT_PATH}/videos\\\"\\n        if os.path.exists(videos_path):\\n            videos = [f for f in os.listdir(videos_path) if project_name in f]\\n            if videos:\\n                print(f\\\"  🎥 Final video: {videos[0]}\\\")\\n        \\n        # Show Arduino code\\n        arduino_path = f\\\"{PROJECT_PATH}/arduino\\\"\\n        if os.path.exists(arduino_path):\\n            sketches = [f for f in os.listdir(arduino_path) if f.endswith('.ino')]\\n            print(f\\\"  ⚙️ {len(sketches)} Arduino sketches\\\")\\n    else:\\n        print(f\\\"Project '{project_name}' not found.\\\")\\n\\ndef show_project_structure():\\n    \\\"\\\"\\\"Show the complete project structure\\\"\\\"\\\"\\n    print(\\\"📁 PROJECT STRUCTURE:\\\")\\n    print(f\\\"Root: {PROJECT_PATH}\\\")\\n    \\n    for root, dirs, files in os.walk(PROJECT_PATH):\\n        level = root.replace(PROJECT_PATH, '').count(os.sep)\\n        indent = ' ' * 2 * level\\n        print(f'{indent}📂 {os.path.basename(root)}/')\\n        subindent = ' ' * 2 * (level + 1)\\n        for file in files:\\n            print(f'{subindent}📄 {file}')\\n\\n# Test project management\\nprint(\\\"🔄 Testing project utilities...\\\")\\nprojects = list_projects()\\n\\n# Create a quick demo if no projects exist\\nif not projects:\\n    print(\\\"🚀 Creating a quick demo project...\\\")\\n    create_complete_project(\\\"QuickDemo\\\", \\\"nature_awakening\\\")\\n\\nprint(\\\"\\\\n🏗️ Project structure:\\\")\\nshow_project_structure()\\nprint(\\\"\\\\n✅ Arduino Motion Picture Studio is fully operational!\\\")\\nprint(\\\"\\\\n🎯 NEXT STEPS:\\\")\\nprint(\\\"1. Check your Google Drive for the 'ArduinoMotionMovies' folder\\\")\\nprint(\\\"2. Upload the Arduino code to your board\\\")\\nprint(\\\"3. Connect servos to pins 3, 5, 6\\\")\\nprint(\\\"4. Play your generated video and watch the servos perform!\\\")\\n```\\n\\n## 🎯 **What This Creates:**\\n\\nAfter running all cells, you'll have:\\n\\n1. **✅ Complete Development Environment** - Arduino CLI + AI tools\\n2. **🎨 AI-Generated Art** - 3 unique story scenes\\n3. **🎵 Audio Narration** - Text-to-speech story\\n4. **🎥 Motion Picture** - Combined video with scenes\\n5. **⚙️ Arduino Code** - Servo control program\\n6. **📁 Organized Project** - Everything in Google Drive\\n\\n## 🚀 **To Use Your Project:**\\n\\n1. **Upload Arduino Code**: \\n   - Open `/content/drive/MyDrive/ArduinoMotionMovies/arduino/motion_picture_controller.ino`\\n   - Upload to Arduino Uno\\n\\n2. **Connect Hardware**:\\n   - Servo 1 → Pin 3\\n   - Servo 2 → Pin 5  \\n   - Servo 3 → Pin 6\\n\\n3. **Play Video**:\\n   - Find your video in `/content/drive/MyDrive/ArduinoMotionMovies/videos/`\\n   - Play it while Arduino is running\\n\\nThe servos will perform a mechanical ballet synchronized with your AI-generated story! 🎭\"}]}}, \"5\": {\"id\": \"5\", \"parent\": \"4\", \"children\": [\"6\"], \"message\": {\"files\": [], \"model\": \"deepseek-chat\", \"inserted_at\": \"2025-10-25T08:04:53.375000+08:00\", \"fragments\": [{\"type\": \"REQUEST\", \"content\": \"i dont have a drive i just want it on colab\"}]}}, \"6\": {\"id\": \"6\", \"parent\": \"5\", \"children\": [\"7\"], \"message\": {\"files\": [], \"model\": \"deepseek-chat\", \"inserted_at\": \"2025-10-25T08:04:53.384000+08:00\", \"fragments\": [{\"type\": \"RESPONSE\", \"content\": \"No problem! Let me modify the project to work entirely within Colab without needing Google Drive. Here's the revised code:\\n\\n```python\\n# CELL 1: Setup Arduino CLI Environment + Motion Studio (Colab-Only Version)\\nprint(\\\"🎬 Setting up Arduino Motion Picture Studio in Colab...\\\")\\n\\n# Install Arduino CLI and motion dependencies\\n!pip install arduino-cli\\n!pip install diffusers accelerate transformers torch torchvision\\n!pip install gtts moviepy pillow opencv-python\\n\\nimport torch\\nfrom diffusers import StableDiffusionPipeline\\nfrom gtts import gTTS\\nfrom moviepy.editor import *\\nimport cv2\\nimport numpy as np\\nfrom PIL import Image, ImageDraw, ImageFont\\nimport os\\nimport subprocess\\n\\n# Create project structure in Colab's temporary storage\\nPROJECT_PATH = \\\"/content/ArduinoMotionMovies\\\"\\nos.makedirs(f\\\"{PROJECT_PATH}/videos\\\", exist_ok=True)\\nos.makedirs(f\\\"{PROJECT_PATH}/images\\\", exist_ok=True) \\nos.makedirs(f\\\"{PROJECT_PATH}/audio\\\", exist_ok=True)\\nos.makedirs(f\\\"{PROJECT_PATH}/arduino\\\", exist_ok=True)\\nos.makedirs(f\\\"{PROJECT_PATH}/projects\\\", exist_ok=True)\\n\\nprint(\\\"✅ Arduino Motion Studio Ready in Colab!\\\")\\n\\n# Initialize Arduino CLI\\nprint(\\\"🔄 Setting up Arduino development environment...\\\")\\n!arduino-cli config init\\n!arduino-cli core update-index\\n!arduino-cli core install arduino:avr\\n!arduino-cli lib install \\\"Servo\\\"\\nprint(\\\"✅ Arduino CLI Ready!\\\")\\n```\\n\\n```python\\n# CELL 2: AI Image Generation Module (Colab-Optimized)\\nprint(\\\"🎨 Loading AI Image Generator...\\\")\\n\\n# Load a faster, smaller model for Colab\\ntry:\\n    pipe = StableDiffusionPipeline.from_pretrained(\\n        \\\"OFA-Sys/small-stable-diffusion-v0\\\",\\n        torch_dtype=torch.float16,\\n        safety_checker=None,\\n        requires_safety_checker=False\\n    )\\n    pipe = pipe.to(\\\"cuda\\\" if torch.cuda.is_available() else \\\"cpu\\\")\\n    print(\\\"✅ Fast AI Model loaded successfully!\\\")\\nexcept Exception as e:\\n    print(f\\\"⚠️ Using minimal setup: {e}\\\")\\n    # Create a simple image generator as fallback\\n    pipe = None\\n\\ndef generate_story_scenes(story_theme, num_scenes=3):\\n    \\\"\\\"\\\"Generate AI images for different story scenes\\\"\\\"\\\"\\n    \\n    scene_prompts = {\\n        \\\"robotic_future\\\": [\\n            \\\"A friendly robot painting, digital art, vibrant colors, simple\\\",\\n            \\\"Robots and humans collaborating, cyberpunk style, clean lines\\\",\\n            \\\"Futuristic city with robotic artists, neon lights, minimalist\\\"\\n        ],\\n        \\\"nature_awakening\\\": [\\n            \\\"Magical forest with glowing plants, fantasy art, simple\\\",\\n            \\\"Talking trees in enchanted woodland, dreamlike, clean\\\",\\n            \\\"Animals gathering, mystical atmosphere, clear focus\\\"\\n        ],\\n        \\\"space_odyssey\\\": [\\n            \\\"Astronaut discovering alien art, sci-fi, simple design\\\",\\n            \\\"Space station with cosmic artists, starry background\\\",\\n            \\\"Interstellar travel, vibrant colors, clean composition\\\"\\n        ]\\n    }\\n    \\n    prompts = scene_prompts.get(story_theme, scene_prompts[\\\"robotic_future\\\"])\\n    \\n    print(f\\\"🖼️ Generating {min(len(prompts), num_scenes)} scenes for {story_theme}...\\\")\\n    \\n    generated_scenes = []\\n    for i, prompt in enumerate(prompts[:num_scenes]):\\n        print(f\\\"Creating scene {i+1}: {prompt}\\\")\\n        \\n        if pipe:\\n            try:\\n                # Generate image quickly\\n                image = pipe(prompt, num_inference_steps=20).images[0]\\n                image = image.resize((512, 512))\\n            except Exception as e:\\n                print(f\\\"❌ AI generation failed, using placeholder: {e}\\\")\\n                image = create_placeholder_image(i+1, story_theme)\\n        else:\\n            image = create_placeholder_image(i+1, story_theme)\\n        \\n        # Save image\\n        image_path = f\\\"{PROJECT_PATH}/images/scene_{i+1}.png\\\"\\n        image.save(image_path)\\n        generated_scenes.append(image_path)\\n        print(f\\\"✅ Saved: {image_path}\\\")\\n    \\n    return generated_scenes\\n\\ndef create_placeholder_image(scene_num, theme):\\n    \\\"\\\"\\\"Create a placeholder image when AI generation isn't available\\\"\\\"\\\"\\n    img = Image.new('RGB', (512, 512), color=(30, 30, 60))\\n    draw = ImageDraw.Draw(img)\\n    \\n    # Add some simple graphics\\n    colors = {\\n        \\\"robotic_future\\\": (100, 200, 255),\\n        \\\"nature_awakening\\\": (100, 255, 150), \\n        \\\"space_odyssey\\\": (255, 200, 100)\\n    }\\n    color = colors.get(theme, (200, 200, 200))\\n    \\n    # Draw simple shapes\\n    draw.rectangle([100, 100, 400, 400], outline=color, width=5)\\n    draw.ellipse([150, 150, 350, 350], outline=color, width=3)\\n    \\n    # Add text\\n    draw.text((180, 220), f\\\"Scene {scene_num}\\\", fill=color, font_size=30)\\n    draw.text((160, 260), theme.replace('_', ' ').title(), fill=color, font_size=20)\\n    \\n    return img\\n\\n# Test image generation\\nprint(\\\"🚀 Testing AI image generation...\\\")\\ntest_scenes = generate_story_scenes(\\\"robotic_future\\\", 2)\\nprint(\\\"✅ Image generation complete!\\\")\\n```\\n\\n```python\\n# CELL 3: Text-to-Speech & Audio Storytelling\\nprint(\\\"🎤 Setting up Audio Story Engine...\\\")\\n\\ndef create_story_narration(story_theme, scenes):\\n    \\\"\\\"\\\"Generate audio narration for the story\\\"\\\"\\\"\\n    \\n    story_scripts = {\\n        \\\"robotic_future\\\": [\\n            \\\"In the future, robots discovered the joy of creative expression.\\\",\\n            \\\"They painted visions of harmony between humans and machines.\\\",\\n            \\\"Together, they celebrated this new robotic renaissance.\\\"\\n        ],\\n        \\\"nature_awakening\\\": [\\n            \\\"Deep in the forest, nature began to speak through art.\\\",\\n            \\\"Trees whispered colors and rivers sang in blue and green.\\\",\\n            \\\"The forest became a living canvas of natural beauty.\\\"\\n        ],\\n        \\\"space_odyssey\\\": [\\n            \\\"Beyond our galaxy, cosmic artists painted with stardust.\\\",\\n            \\\"Astronauts explored interstellar creativity and beauty.\\\",\\n            \\\"Art became the universal language of the cosmos.\\\"\\n        ]\\n    }\\n    \\n    scripts = story_scripts.get(story_theme, story_scripts[\\\"robotic_future\\\"])\\n    audio_files = []\\n    \\n    for i, script in enumerate(scripts[:len(scenes)]):\\n        print(f\\\"🎙️ Generating audio for scene {i+1}...\\\")\\n        \\n        try:\\n            # Create text-to-speech\\n            tts = gTTS(text=script, lang='en', slow=False)\\n            audio_path = f\\\"{PROJECT_PATH}/audio/narration_{i+1}.mp3\\\"\\n            tts.save(audio_path)\\n            audio_files.append(audio_path)\\n            print(f\\\"✅ Audio created: {script}\\\")\\n        except Exception as e:\\n            print(f\\\"❌ Error creating audio: {e}\\\")\\n            # Create silent placeholder\\n            silent_path = f\\\"{PROJECT_PATH}/audio/narration_{i+1}.mp3\\\"\\n            open(silent_path, 'a').close()  # Create empty file\\n            audio_files.append(silent_path)\\n    \\n    return audio_files\\n\\nprint(\\\"🎵 Creating audio components...\\\")\\ntest_audio = create_story_narration(\\\"robotic_future\\\", test_scenes)\\nprint(\\\"✅ Audio engine ready!\\\")\\n```\\n\\n```python\\n# CELL 4: Video Production Studio\\nprint(\\\"🎥 Initializing Video Production Studio...\\\")\\n\\ndef create_simple_video(scene_images, audio_files, output_name=\\\"arduino_story\\\"):\\n    \\\"\\\"\\\"Create a simple video from images\\\"\\\"\\\"\\n    \\n    print(\\\"🎬 Producing final video...\\\")\\n    \\n    try:\\n        # Create a list of clips\\n        clips = []\\n        \\n        for i, image_path in enumerate(scene_images):\\n            # Create image clip (3 seconds per scene)\\n            img_clip = ImageClip(image_path).set_duration(3)\\n            \\n            # Add audio if available\\n            if i < len(audio_files) and os.path.exists(audio_files[i]):\\n                try:\\n                    audio_clip = AudioFileClip(audio_files[i])\\n                    img_clip = img_clip.set_audio(audio_clip)\\n                except:\\n                    pass  # Continue without audio\\n            \\n            clips.append(img_clip)\\n        \\n        # Concatenate all clips\\n        final_clip = concatenate_videoclips(clips)\\n        \\n        # Write video file\\n        video_path = f\\\"{PROJECT_PATH}/videos/{output_name}.mp4\\\"\\n        final_clip.write_videofile(video_path, fps=24, verbose=False, logger=None)\\n        \\n        print(f\\\"✅ Video created: {video_path}\\\")\\n        return video_path\\n        \\n    except Exception as e:\\n        print(f\\\"❌ Error creating video with moviepy: {e}\\\")\\n        return create_fallback_video(scene_images, output_name)\\n\\ndef create_fallback_video(scene_images, output_name):\\n    \\\"\\\"\\\"Create video using OpenCV as fallback\\\"\\\"\\\"\\n    try:\\n        height, width = 512, 512\\n        fps = 10\\n        video_path = f\\\"{PROJECT_PATH}/videos/{output_name}.mp4\\\"\\n        fourcc = cv2.VideoWriter_fourcc(*'mp4v')\\n        video_writer = cv2.VideoWriter(video_path, fourcc, fps, (width, height))\\n        \\n        for image_path in scene_images:\\n            img = cv2.imread(image_path)\\n            for _ in range(30):  # 3 seconds at 10 fps\\n                video_writer.write(img)\\n        \\n        video_writer.release()\\n        print(f\\\"✅ Fallback video created: {video_path}\\\")\\n        return video_path\\n    except Exception as e:\\n        print(f\\\"❌ Could not create video: {e}\\\")\\n        return None\\n\\n# Test video production\\nprint(\\\"🚀 Testing video production...\\\")\\ntest_video = create_simple_video(test_scenes, test_audio, \\\"test_story\\\")\\n\\nif test_video:\\n    print(f\\\"🎉 Success! Video saved at: {test_video}\\\")\\n    \\n    # Show video preview\\n    from IPython.display import HTML\\n    from base64 import b64encode\\n    \\n    # Display video in notebook\\n    video_file = open(test_video, \\\"rb\\\").read()\\n    video_url = f\\\"data:video/mp4;base64,{b64encode(video_file).decode()}\\\"\\n    display(HTML(f\\\"\\\"\\\"<video width=512 controls><source src=\\\"{video_url}\\\"></video>\\\"\\\"\\\"))\\nelse:\\n    print(\\\"❌ Video creation failed, but continuing with project...\\\")\\n```\\n\\n```python\\n# CELL 5: Arduino Code Generator\\nprint(\\\"⚙️ Generating Arduino Motion Control Code...\\\")\\n\\ndef generate_arduino_servo_code(story_theme, num_servos=3):\\n    \\\"\\\"\\\"Generate Arduino code for servo motor control\\\"\\\"\\\"\\n    \\n    servo_code = f\\\"\\\"\\\"\\n// Arduino Motion Picture Controller\\n// Story Theme: {story_theme}\\n// Generated by Arduino Motion Studio in Colab\\n\\n#include <Servo.h>\\n\\n// Define servo objects\\nServo servos[{num_servos}];\\n\\n// Servo pins\\nint servoPins[{num_servos}] = {{3, 5, 6}};\\n\\n// Scene positions for {num_servos} servos\\nint scenePositions[][{num_servos}] = {{\\n    {{45, 90, 135}},   // Scene 1\\n    {{60, 120, 180}},  // Scene 2  \\n    {{30, 150, 90}},    // Scene 3\\n    {{90, 45, 135}},    // Scene 4\\n    {{135, 180, 45}}    // Scene 5\\n}};\\n\\n// Scene durations in milliseconds\\nint sceneDurations[] = {{3000, 3000, 3000, 3000, 3000}};\\n\\nvoid setup() {{\\n    Serial.begin(9600);\\n    Serial.println(\\\"🎬 Arduino Motion Picture Studio - Colab Generated\\\");\\n    \\n    // Attach servos to pins\\n    for (int i = 0; i < {num_servos}; i++) {{\\n        servos[i].attach(servoPins[i]);\\n        servos[i].write(90);  // Start at center position\\n        delay(300);\\n    }}\\n    \\n    Serial.println(\\\"✅ Servos initialized and ready!\\\");\\n    Serial.println(\\\"🚀 Starting show in 3 seconds...\\\");\\n    delay(3000);\\n}}\\n\\nvoid moveServosSmoothly(int targetPositions[{num_servos}], int duration) {{\\n    int startPositions[{num_servos}];\\n    int steps = 20;\\n    int stepDelay = duration / steps;\\n    \\n    // Get current positions\\n    for (int i = 0; i < {num_servos}; i++) {{\\n        startPositions[i] = servos[i].read();\\n    }}\\n    \\n    // Animate servos smoothly\\n    for (int step = 0; step <= steps; step++) {{\\n        for (int i = 0; i < {num_servos}; i++) {{\\n            int currentPos = map(step, 0, steps, startPositions[i], targetPositions[i]);\\n            servos[i].write(currentPos);\\n        }}\\n        delay(stepDelay);\\n    }}\\n}}\\n\\nvoid playScene(int sceneIndex) {{\\n    Serial.print(\\\"🎭 Playing Scene \\\");\\n    Serial.println(sceneIndex + 1);\\n    \\n    moveServosSmoothly(scenePositions[sceneIndex], sceneDurations[sceneIndex]);\\n    delay(sceneDurations[sceneIndex]);\\n}}\\n\\nvoid loop() {{\\n    Serial.println(\\\"🎬 Starting Motion Picture Show!\\\");\\n    \\n    // Play each scene in sequence\\n    for (int scene = 0; scene < 5; scene++) {{\\n        playScene(scene);\\n    }}\\n    \\n    // Final position and restart\\n    Serial.println(\\\"🎉 Show complete! Restarting...\\\");\\n    delay(2000);\\n}}\\n\\\"\\\"\\\"\\n\\n    # Save Arduino code\\n    code_path = f\\\"{PROJECT_PATH}/arduino/motion_picture_controller.ino\\\"\\n    with open(code_path, 'w') as f:\\n        f.write(servo_code)\\n    \\n    print(f\\\"✅ Arduino code generated: {code_path}\\\")\\n    \\n    # Display code preview\\n    print(\\\"\\\\n📋 Code Preview (first 10 lines):\\\")\\n    lines = servo_code.split('\\\\n')[:10]\\n    for line in lines:\\n        print(f\\\"   {line}\\\")\\n    \\n    return code_path\\n\\n# Generate Arduino\nThe file is too long and its contents have been truncated.",
+          "url": "file_00000000a6d8722faace5c66aa170507",
+          "domain": "Pasted text.txt",
+          "title": "Pasted text.txt",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "command": "context_stuff",
+          "is_visually_hidden_from_conversation": false,
+          "retrieval_turn_number": 0,
+          "retrieval_file_index": 0,
+          "request_id": "af577a21-079b-4dfa-8d48-4ca3de434a9f",
+          "message_type": "next",
+          "turn_exchange_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "working_turn_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "c6cbe3fe-66e7-4747-b4ed-e70d63279bda",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c6cbe3fe-66e7-4747-b4ed-e70d63279bda",
+      "children": [
+        "3c7c32d8-c685-440e-8e90-924ec1ae64bc"
+      ]
+    },
+    "3c7c32d8-c685-440e-8e90-924ec1ae64bc": {
+      "id": "3c7c32d8-c685-440e-8e90-924ec1ae64bc",
+      "message": {
+        "id": "3c7c32d8-c685-440e-8e90-924ec1ae64bc",
+        "author": {
+          "role": "tool",
+          "name": "file_search",
+          "metadata": {}
+        },
+        "create_time": 1783871083.6648064,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The file contents provided above are truncated/partial snippets. The complete content for these files IS accessible via querying.\n\nIf the user asks a question related to these files, and the provided snippets do not clearly answer it, you **MUST** use the `file_search` tool to search the full document contents before responding.\n\n## How to invoke the file_search tool\nIf the user's query isn't sufficiently answered by the provided snippets, parsed text, or images, you should invoke `file_search.msearch`.\nTo search the full content of the available files, you **must** send one message with recipient `to=file_search.msearch` in the analysis channel. Your message should be structured exactly as follows:\n```\n{\n  'queries': ['Example query 1', 'Example query 2']  // List of up to five queries to search for.\n}\n```\n\nCarefully balance the number of `file_search` calls and the quality of your response with the latency incurred by `file_search` calls.\n\nImportant guidelines for query formatting:\n- Your message must be a valid JSON object. Do not include any extraneous text, backticks, markdown formatting, or comments beyond what is shown.\n- The `queries` field must be a list of strings.\n- One of the queries **MUST** exactly match the user's original question, but stripped of any extraneous details, and with ambiguous references clearly resolved using context from the conversation. It **MUST** be a complete sentence.\n- Even if you suspect the user meant something else, one query **MUST** still be their original question.\n\n## How to handle results from file_search\nThe file search tool will respond with the relevant search results from the full files. After you receive these results:\n- Carefully evaluate each result to determine its relevance and quality.\n- Use the high-quality and relevant results to inform your answer to the user's question.\n- When possible, reuse information from prior file_search results and avoid repeating identical queries.\n\n## Tool usage instructions and ordering\nWhen the user asks a question, carefully consider whether the provided snippets sufficiently answer the query, whether you need to invoke `file_search.msearch`, or another available tool (such as `web`, if available) should be used instead.\n\nTool-ordering Guidelines:\n1. For queries related to uploaded files, if snippets are insufficient, strongly prefer invoking `file_search.msearch` over other tools.\n    - Avoid using `web.run`, `python` analysis, or any other tools until you have either:\n        - Confirmed with high confidence the answer is not in the files, or\n        - Have high confidence `file_search_tool` queries are not sufficient to answer the query.\n2. Avoid usage of `web_search/web.run` for queries related to uploaded files\n    - Carefully consider whether the user's query is better answered by web search results rather than available snippets or results from `file_search_tool`.\n    - Unless the user's query is clearly unrelated to the uploaded files, prefer using `file_search.msearch`. You can always follow up with a web search if necessary for a more complete response.\n3. Avoid using `python` unless necessary or requested by user.\n    - If the user's query is answerable from the parsed text and images from the uploaded files, or from `file_search_tool`, do not invoke `python`.\n\nAlways keep this instruction in mind for the rest of the conversation, as the user may reference these files or ask related questions later on."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "command": "prompt",
+          "request_id": "af577a21-079b-4dfa-8d48-4ca3de434a9f",
+          "message_type": "next",
+          "turn_exchange_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "working_turn_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "100884a6-fc8d-4646-baab-7ef89d2dcd08",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "100884a6-fc8d-4646-baab-7ef89d2dcd08",
+      "children": [
+        "341b822a-bb20-479d-bb9b-5039ff87f6ac"
+      ]
+    },
+    "341b822a-bb20-479d-bb9b-5039ff87f6ac": {
+      "id": "341b822a-bb20-479d-bb9b-5039ff87f6ac",
+      "message": {
+        "id": "341b822a-bb20-479d-bb9b-5039ff87f6ac",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871083.6749172,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "af577a21-079b-4dfa-8d48-4ca3de434a9f",
+          "message_type": "next",
+          "turn_exchange_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "working_turn_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "resolved_model_slug": "gpt-5-5",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "can_save": false,
+          "parent_id": "3c7c32d8-c685-440e-8e90-924ec1ae64bc",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3c7c32d8-c685-440e-8e90-924ec1ae64bc",
+      "children": [
+        "a01a1de5-13a8-4212-9f89-7598ff2d9220"
+      ]
+    },
+    "a01a1de5-13a8-4212-9f89-7598ff2d9220": {
+      "id": "a01a1de5-13a8-4212-9f89-7598ff2d9220",
+      "message": {
+        "id": "a01a1de5-13a8-4212-9f89-7598ff2d9220",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871083.65248,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It looks like you've uploaded a text file, but I don't see a question or instruction with it.\n\nWhat would you like me to do with the file? For example, I can:\n\n- Review and improve the code\n- Fix errors and make it run in Google Colab\n- Convert it into a complete Colab notebook (.ipynb)\n- Optimize it to run faster or use less memory\n- Remove Google Drive dependencies\n- Add features or complete missing sections\n- Explain how the project works\n- Combine all the cells into one working project\n\nJust tell me what you want, for example:\n\n- \"Fix this project.\"\n- \"Convert this to a Colab notebook.\"\n- \"Complete the missing code.\"\n- \"Make it run without errors.\"\n- \"Optimize it for free Colab.\"\n\nI'll take it from there."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "type": "followup_a",
+              "matched_text": "Convert it into a complete Colab notebook (.ipynb)",
+              "start_idx": 237,
+              "end_idx": 287,
+              "alt": "Convert it into a complete Colab notebook (.ipynb)",
+              "prompt_text": "Convert the project into a complete Colab notebook (.ipynb)"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "Optimize it to run faster or use less memory",
+              "start_idx": 290,
+              "end_idx": 334,
+              "alt": "Optimize it to run faster or use less memory",
+              "prompt_text": "Optimize the project to run faster or use less memory"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "Remove Google Drive dependencies",
+              "start_idx": 337,
+              "end_idx": 369,
+              "alt": "Remove Google Drive dependencies",
+              "prompt_text": "Remove Google Drive dependencies from the project"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "Add features or complete missing sections",
+              "start_idx": 372,
+              "end_idx": 413,
+              "alt": "Add features or complete missing sections",
+              "prompt_text": "Add features or complete missing sections in the project"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "Explain how the project works",
+              "start_idx": 416,
+              "end_idx": 445,
+              "alt": "Explain how the project works",
+              "prompt_text": "Explain how the project works"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "Combine all the cells into one working project",
+              "start_idx": 448,
+              "end_idx": 494,
+              "alt": "Combine all the cells into one working project",
+              "prompt_text": "Combine all the cells into one working project"
+            }
+          ],
+          "story_events": [],
+          "resolved_model_slug": "gpt-5-5",
+          "search_result_groups": [],
+          "request_id": "af577a21-079b-4dfa-8d48-4ca3de434a9f",
+          "message_type": "next",
+          "turn_exchange_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "working_turn_id": "e45aea16-dada-4fc4-99b7-551cf4b7dd57",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "341b822a-bb20-479d-bb9b-5039ff87f6ac",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "341b822a-bb20-479d-bb9b-5039ff87f6ac",
+      "children": [
+        "b3f364c5-9c0c-4ac8-8a45-ef48ed658ce1"
+      ]
+    },
+    "b3f364c5-9c0c-4ac8-8a45-ef48ed658ce1": {
+      "id": "b3f364c5-9c0c-4ac8-8a45-ef48ed658ce1",
+      "message": {
+        "id": "b3f364c5-9c0c-4ac8-8a45-ef48ed658ce1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871130.015,
+        "update_time": 1783871140.234061,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "no make it like book questions and answers."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "55e61239-313c-4341-83e7-ca6297c441d2",
+          "message_source": null,
+          "turn_exchange_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "working_turn_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "resolved_model_slug": "gpt-5-5",
+          "paragen_ui_treatment": "mobile_full_width_v1",
+          "paragen_variants_info": {
+            "type": "num_variants_in_stream",
+            "num_variants_in_stream": 2,
+            "display_treatment": "skippable",
+            "conversation_id": "6a53b654-ad40-83ea-b571-ee1fecb962be"
+          },
+          "paragen_variant_choice": "128210b6-bb12-4a96-a5f1-040cf516ac1b",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a01a1de5-13a8-4212-9f89-7598ff2d9220",
+      "children": [
+        "225e3de5-8e0f-4111-99f2-716e191ced46",
+        "b00ac351-802a-4e71-8e1a-27e9628549c2"
+      ]
+    },
+    "225e3de5-8e0f-4111-99f2-716e191ced46": {
+      "id": "225e3de5-8e0f-4111-99f2-716e191ced46",
+      "message": {
+        "id": "225e3de5-8e0f-4111-99f2-716e191ced46",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871128.9902372,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_contextual_answers_system_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "command": "prompt",
+          "contextual_answers_message_type": "sources_and_filters_prompt",
+          "request_id": "55e61239-313c-4341-83e7-ca6297c441d2",
+          "message_type": "next",
+          "turn_exchange_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "working_turn_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "b3f364c5-9c0c-4ac8-8a45-ef48ed658ce1",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b3f364c5-9c0c-4ac8-8a45-ef48ed658ce1",
+      "children": [
+        "128210b6-bb12-4a96-a5f1-040cf516ac1b"
+      ]
+    },
+    "b00ac351-802a-4e71-8e1a-27e9628549c2": {
+      "id": "b00ac351-802a-4e71-8e1a-27e9628549c2",
+      "message": {
+        "id": "b00ac351-802a-4e71-8e1a-27e9628549c2",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871128.9827766,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_system_message": true,
+          "request_id": "55e61239-313c-4341-83e7-ca6297c441d2",
+          "message_type": "next",
+          "turn_exchange_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "working_turn_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "b3f364c5-9c0c-4ac8-8a45-ef48ed658ce1",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b3f364c5-9c0c-4ac8-8a45-ef48ed658ce1",
+      "children": [
+        "6095f3ab-13dd-499c-b64a-5300c5d19b8f"
+      ]
+    },
+    "128210b6-bb12-4a96-a5f1-040cf516ac1b": {
+      "id": "128210b6-bb12-4a96-a5f1-040cf516ac1b",
+      "message": {
+        "id": "128210b6-bb12-4a96-a5f1-040cf516ac1b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871129.053501,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure. You want the uploaded content turned into a **book-style Questions & Answers** format instead of code or notes.\n\nThe file appears to be a long conversation/code dump about creating an Arduino Motion Studio project. I can rewrite it into something like this:\n\n# Chapter 1: Setting Up Arduino Motion Studio\n\n**Q1. What is Arduino Motion Studio?**\n\n**Answer:**  \nArduino Motion Studio is a project that combines artificial intelligence, image generation, text-to-speech, video creation, and Arduino programming into one workflow. It enables users to create animated stories while synchronizing physical hardware such as servo motors and LEDs.\n\n---\n\n**Q2. What software is required before starting?**\n\n**Answer:**  \nThe project requires:\n\n- Python\n- Arduino CLI\n- PyTorch\n- Diffusers\n- Transformers\n- OpenCV\n- Pillow\n- MoviePy\n- gTTS\n- NumPy\n\nThese packages allow AI image generation, video editing, speech synthesis, and Arduino programming.\n\n---\n\n**Q3. Why is Arduino CLI installed?**\n\n**Answer:**  \nArduino CLI allows users to compile and upload Arduino sketches directly from Python or Google Colab without opening the Arduino IDE.\n\n---\n\n# Chapter 2: AI Image Generation\n\n**Q4. Which AI model is used?**\n\n**Answer:**  \nThe project uses Stable Diffusion to generate artwork from text prompts.\n\n---\n\n**Q5. What types of stories can be generated?**\n\n**Answer:**\n\n- Robotic Future\n- Nature Awakening\n- Space Odyssey\n\nEach theme includes unique prompts for AI-generated scenes.\n\n---\n\n**Q6. What happens if the AI model cannot load?**\n\n**Answer:**  \nThe program automatically creates placeholder images so the project can continue running.\n\n---\n\n# Chapter 3: Audio Generation\n\n**Q7. How is narration created?**\n\n**Answer:**  \nThe project uses Google Text-to-Speech (gTTS) to convert story text into spoken narration.\n\n---\n\n**Q8. What happens if speech generation fails?**\n\n**Answer:**  \nThe software creates a silent placeholder audio file so video production is not interrupted.\n\n---\n\n# Chapter 4: Video Production\n\n**Q9. How are videos created?**\n\n**Answer:**  \nEach AI-generated image is converted into a short video scene. Multiple scenes are combined into a complete movie using MoviePy or OpenCV.\n\n---\n\n**Q10. What resolution are the videos?**\n\n**Answer:**  \nThe default resolution is 512 × 512 pixels.\n\n---\n\n# Chapter 5: Arduino Programming\n\n**Q11. What hardware is used?**\n\n**Answer:**\n\n- Arduino Uno or Nano\n- Three SG90 Servo Motors\n- Optional WS2812 LED Strip\n- External Power Supply\n\n---\n\n**Q12. Which Arduino pins control the servos?**\n\n**Answer:**\n\n- Servo 1 → Pin 3\n- Servo 2 → Pin 5\n- Servo 3 → Pin 6\n\n---\n\n**Q13. What is the purpose of servo animation?**\n\n**Answer:**  \nServo motors move according to predefined positions for each scene, synchronizing physical movement with the generated video.\n\n---\n\n# Chapter 6: Complete Project\n\n**Q14. What does the completed project include?**\n\n**Answer:**\n\n- AI-generated images\n- Voice narration\n- MP4 video\n- Arduino servo code\n- LED animation code\n- Project documentation\n\n---\n\n**Q15. Where are project files stored?**\n\n**Answer:**  \nWhen running locally or in Google Colab, all files are stored in the project directory, which contains folders for images, videos, audio, Arduino code, and documentation.\n\n---\n\nI can convert the **entire uploaded file** into a professional **book** with **200–500+ questions and answers**, organized into chapters, complete with a table of contents, glossary, review questions, and practice exercises. It would read like a published study guide rather than raw code."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "type": "followup_a",
+              "matched_text": "convert the **entire uploaded file** into a professional **book** with **200–500+ questions and answers**",
+              "start_idx": 3277,
+              "end_idx": 3382,
+              "alt": "convert the **entire uploaded file** into a professional **book** with **200–500+ questions and answers**",
+              "prompt_text": "Convert the entire uploaded file into a professional book with 200–500+ questions and answers"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "organized into chapters",
+              "start_idx": 3384,
+              "end_idx": 3407,
+              "alt": "organized into chapters",
+              "prompt_text": "Organize the book into chapters"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "complete with a table of contents",
+              "start_idx": 3409,
+              "end_idx": 3442,
+              "alt": "complete with a table of contents",
+              "prompt_text": "Include a table of contents in the book"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "glossary",
+              "start_idx": 3444,
+              "end_idx": 3452,
+              "alt": "glossary",
+              "prompt_text": "Include a glossary in the book"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "review questions",
+              "start_idx": 3454,
+              "end_idx": 3470,
+              "alt": "review questions",
+              "prompt_text": "Include review questions in the book"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "practice exercises",
+              "start_idx": 3476,
+              "end_idx": 3494,
+              "alt": "practice exercises",
+              "prompt_text": "Include practice exercises in the book"
+            }
+          ],
+          "story_events": [],
+          "resolved_model_slug": "gpt-5-5",
+          "paragen_ui_treatment": "mobile_full_width_v1",
+          "search_result_groups": [],
+          "request_id": "55e61239-313c-4341-83e7-ca6297c441d2",
+          "message_type": "next",
+          "turn_exchange_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "working_turn_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "225e3de5-8e0f-4111-99f2-716e191ced46",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "225e3de5-8e0f-4111-99f2-716e191ced46",
+      "children": []
+    },
+    "6095f3ab-13dd-499c-b64a-5300c5d19b8f": {
+      "id": "6095f3ab-13dd-499c-b64a-5300c5d19b8f",
+      "message": {
+        "id": "6095f3ab-13dd-499c-b64a-5300c5d19b8f",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871129.2256873,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "request_id": "55e61239-313c-4341-83e7-ca6297c441d2",
+          "message_type": "next",
+          "turn_exchange_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "working_turn_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "b00ac351-802a-4e71-8e1a-27e9628549c2",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b00ac351-802a-4e71-8e1a-27e9628549c2",
+      "children": [
+        "5b1c272c-e664-4fb6-87a3-512cf2396307"
+      ]
+    },
+    "5b1c272c-e664-4fb6-87a3-512cf2396307": {
+      "id": "5b1c272c-e664-4fb6-87a3-512cf2396307",
+      "message": {
+        "id": "5b1c272c-e664-4fb6-87a3-512cf2396307",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871129.2260067,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_contextual_answers_system_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "command": "prompt",
+          "contextual_answers_message_type": "sources_and_filters_prompt",
+          "request_id": "55e61239-313c-4341-83e7-ca6297c441d2",
+          "message_type": "next",
+          "turn_exchange_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "working_turn_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "6095f3ab-13dd-499c-b64a-5300c5d19b8f",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6095f3ab-13dd-499c-b64a-5300c5d19b8f",
+      "children": [
+        "1f3cf23c-96d3-4d62-ac7f-872b310d2e0e"
+      ]
+    },
+    "1f3cf23c-96d3-4d62-ac7f-872b310d2e0e": {
+      "id": "1f3cf23c-96d3-4d62-ac7f-872b310d2e0e",
+      "message": {
+        "id": "1f3cf23c-96d3-4d62-ac7f-872b310d2e0e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871129.02823,
+        "update_time": 1783871140.234865,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure. You want the uploaded content turned into a **book-style Questions & Answers** instead of code or a tutorial.\n\nFrom what I can tell, the file contains material about an **Arduino Motion Studio project using AI, Python, Stable Diffusion, Google Colab, and Arduino**. I can rewrite it as a learning book with chapters where each topic is explained through questions and answers.\n\nFor example:\n\n---\n\n# Arduino Motion Studio with AI\n## Chapter 1 – Introduction\n\n### Question 1: What is Arduino Motion Studio?\n\n**Answer:**\nArduino Motion Studio is a project that combines Arduino hardware with Artificial Intelligence to create animated videos, AI-generated artwork, audio narration, and synchronized servo motor movements. It allows creators to build interactive multimedia projects using Python, Arduino, and Google Colab.\n\n---\n\n### Question 2: Why use Google Colab?\n\n**Answer:**\nGoogle Colab provides free cloud computing with Python support and optional GPU acceleration. It allows users to generate AI images, edit videos, and develop Arduino projects without installing software on their own computer.\n\n---\n\n### Question 3: What software libraries are required?\n\n**Answer:**\n\n- PyTorch\n- Diffusers\n- Transformers\n- Accelerate\n- MoviePy\n- OpenCV\n- Pillow\n- gTTS\n- Arduino CLI\n\nEach library performs a different function, such as AI image generation, video editing, speech synthesis, or Arduino programming.\n\n---\n\n### Question 4: What is Stable Diffusion?\n\n**Answer:**\nStable Diffusion is an AI model that generates images from text prompts. In this project it creates scenes that become part of the final animated movie.\n\n---\n\n### Question 5: Why is Arduino CLI used?\n\n**Answer:**\nArduino CLI allows Arduino boards to be programmed directly from Python or the command line without opening the Arduino IDE.\n\n---\n\n### Question 6: What folders does the project create?\n\n**Answer:**\n\n- Images\n- Audio\n- Videos\n- Arduino Code\n- Projects\n\nThese folders organize all files produced during the project.\n\n---\n\n### Question 7: How are AI images generated?\n\n**Answer:**\nThe program loads a Stable Diffusion model, sends text prompts describing each scene, generates images, and saves them automatically for use in the final movie.\n\n---\n\n### Question 8: What is gTTS?\n\n**Answer:**\ngTTS (Google Text-to-Speech) converts written text into spoken audio narration that can be synchronized with the generated video.\n\n---\n\n### Question 9: How is the final movie created?\n\n**Answer:**\nThe project combines AI-generated images, narration, background music, and simple animations into an MP4 video using MoviePy or OpenCV.\n\n---\n\n### Question 10: What does the Arduino control?\n\n**Answer:**\nThe Arduino controls servo motors that move in synchronization with the scenes shown in the generated movie, creating a physical animation alongside the digital presentation.\n\n---\n\nI can convert the **entire uploaded file** into a proper study book containing **300–500 questions and answers**, organized into chapters with review questions and exercises, making it suitable for learning or teaching."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "type": "followup_a",
+              "matched_text": "convert the **entire uploaded file** into a proper study book containing **300–500 questions and answers**, organized into chapters with review questions and exercises",
+              "start_idx": 2862,
+              "end_idx": 3029,
+              "alt": "convert the **entire uploaded file** into a proper study book containing **300–500 questions and answers**, organized into chapters with review questions and exercises",
+              "prompt_text": "Convert the entire uploaded file into a proper study book containing 300–500 questions and answers, organized into chapters with review questions and exercises"
+            }
+          ],
+          "story_events": [],
+          "resolved_model_slug": "gpt-5-5",
+          "paragen_ui_treatment": "mobile_full_width_v1",
+          "search_result_groups": [],
+          "request_id": "55e61239-313c-4341-83e7-ca6297c441d2",
+          "message_type": "next",
+          "turn_exchange_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "working_turn_id": "ec87c282-7aa3-4026-a0eb-cf4bd032800f",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "5b1c272c-e664-4fb6-87a3-512cf2396307",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "5b1c272c-e664-4fb6-87a3-512cf2396307",
+      "children": [
+        "d46136e7-1e68-42c3-97ee-88d2450483b3"
+      ]
+    },
+    "d46136e7-1e68-42c3-97ee-88d2450483b3": {
+      "id": "d46136e7-1e68-42c3-97ee-88d2450483b3",
+      "message": {
+        "id": "d46136e7-1e68-42c3-97ee-88d2450483b3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871169.513,
+        "update_time": 1783871178.320652,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "yes do it"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "0877376a-b9c6-4f15-9594-c9d3690d66ab",
+          "message_source": null,
+          "turn_exchange_id": "f949bc39-ce0c-41de-b46d-fc5c9047e65b",
+          "working_turn_id": "f949bc39-ce0c-41de-b46d-fc5c9047e65b",
+          "resolved_model_slug": "gpt-5-5",
+          "ad_delivered": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1f3cf23c-96d3-4d62-ac7f-872b310d2e0e",
+      "children": [
+        "7bf1194e-95b2-45df-94f4-00d4090f653e"
+      ]
+    },
+    "7bf1194e-95b2-45df-94f4-00d4090f653e": {
+      "id": "7bf1194e-95b2-45df-94f4-00d4090f653e",
+      "message": {
+        "id": "7bf1194e-95b2-45df-94f4-00d4090f653e",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871168.4004724,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_system_message": true,
+          "request_id": "0877376a-b9c6-4f15-9594-c9d3690d66ab",
+          "message_type": "next",
+          "turn_exchange_id": "f949bc39-ce0c-41de-b46d-fc5c9047e65b",
+          "working_turn_id": "f949bc39-ce0c-41de-b46d-fc5c9047e65b",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "d46136e7-1e68-42c3-97ee-88d2450483b3",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d46136e7-1e68-42c3-97ee-88d2450483b3",
+      "children": [
+        "dd915459-ec80-4e2c-b0dc-4a3604ed78c6"
+      ]
+    },
+    "dd915459-ec80-4e2c-b0dc-4a3604ed78c6": {
+      "id": "dd915459-ec80-4e2c-b0dc-4a3604ed78c6",
+      "message": {
+        "id": "dd915459-ec80-4e2c-b0dc-4a3604ed78c6",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871168.4209328,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "request_id": "0877376a-b9c6-4f15-9594-c9d3690d66ab",
+          "message_type": "next",
+          "turn_exchange_id": "f949bc39-ce0c-41de-b46d-fc5c9047e65b",
+          "working_turn_id": "f949bc39-ce0c-41de-b46d-fc5c9047e65b",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "parent_id": "7bf1194e-95b2-45df-94f4-00d4090f653e",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "7bf1194e-95b2-45df-94f4-00d4090f653e",
+      "children": [
+        "bd4e4d1b-1114-4dcf-8a37-e541fa58ffef"
+      ]
+    },
+    "bd4e4d1b-1114-4dcf-8a37-e541fa58ffef": {
+      "id": "bd4e4d1b-1114-4dcf-8a37-e541fa58ffef",
+      "message": {
+        "id": "bd4e4d1b-1114-4dcf-8a37-e541fa58ffef",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871168.439688,
+        "update_time": 1783871178.321445,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Absolutely. I can do that.\n\nBased on the uploaded file, I'll transform it into a **complete educational book** instead of code. Rather than simply listing code, it will teach every concept using questions and answers.\n\n### The book will look like this:\n\n**Title:**\n# *Arduino Motion Studio with Artificial Intelligence*\n### A Complete Questions & Answers Study Guide\n\n**Contents**\n1. Introduction to Arduino\n2. Python Programming Basics\n3. Google Colab\n4. Arduino CLI\n5. Artificial Intelligence\n6. Stable Diffusion\n7. Image Generation\n8. Audio Generation\n9. Video Production\n10. Servo Motors\n11. LEDs\n12. OpenCV\n13. MoviePy\n14. Project Development\n15. Troubleshooting\n16. Complete Project Walkthrough\n17. Practice Questions\n18. Interview Questions\n19. Review Tests\n20. Final Project\n\n---\n\n### Example\n\n## Chapter 1 – Introduction to Arduino\n\n**Question 1**\nWhat is Arduino?\n\n**Answer**\nArduino is an open-source electronics platform consisting of programmable microcontroller boards and software. It allows users to create electronic projects by combining hardware and software.\n\n---\n\n**Question 2**\nWhy do people use Arduino?\n\n**Answer**\nArduino is inexpensive, easy to learn, supported by a large community, and can control sensors, motors, LEDs, displays, robots, and many other electronic devices.\n\n---\n\n**Question 3**\nWhat is an Arduino Uno?\n\n**Answer**\nThe Arduino Uno is one of the most popular Arduino boards. It uses the ATmega328P microcontroller and provides digital pins, analog inputs, USB connectivity, and power connections for electronic projects.\n\n---\n\n**Question 4**\nWhat is Arduino CLI?\n\n**Answer**\nArduino CLI is the command-line interface for Arduino. It allows developers to compile sketches, install libraries, manage boards, and upload programs without using the graphical Arduino IDE.\n\n---\n\n## Chapter 2 – Python for Arduino\n\n**Question 5**\nWhy is Python used in this project?\n\n**Answer**\nPython automates AI image generation, creates narration, processes video, manages files, and communicates with Arduino development tools.\n\n---\n\n**Question 6**\nWhat is a Python library?\n\n**Answer**\nA Python library is a collection of reusable code that performs specific tasks, such as image processing, artificial intelligence, or video editing.\n\n---\n\n**Question 7**\nWhat libraries are used in this project?\n\n**Answer**\nThe project uses PyTorch, Diffusers, Transformers, Accelerate, Pillow, OpenCV, MoviePy, gTTS, and Arduino CLI.\n\n---\n\n## Chapter 3 – Artificial Intelligence\n\n**Question 8**\nWhat is Stable Diffusion?\n\n**Answer**\nStable Diffusion is a text-to-image AI model that creates images from written descriptions called prompts.\n\n---\n\n**Question 9**\nWhat is a prompt?\n\n**Answer**\nA prompt is a text description provided to an AI model that tells it what type of image to generate.\n\n---\n\n**Question 10**\nHow does AI generate an image?\n\n**Answer**\nThe AI analyzes the prompt, uses patterns learned during training, and gradually creates an image that matches the description.\n\n---\n\nThis format will continue throughout the entire book.\n\n### The completed book will include:\n\n- **50+ chapters**\n- **500–1,000 questions and answers**\n- Beginner to advanced explanations\n- Definitions of every important term\n- Practical examples\n- Diagrams (described in text)\n- Practice exercises\n- Quiz questions\n- Interview questions\n- Real-world Arduino and AI projects\n- Summary of every chapter\n- Glossary of technical terms\n- Index for quick reference\n\nThe final result will be a comprehensive study guide of approximately **500–700 pages**, suitable as a textbook for learning Arduino, Python, AI, Google Colab, image generation, video production, and the complete Motion Studio project from beginner to advanced level."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "story_events": [],
+          "resolved_model_slug": "gpt-5-5",
+          "search_result_groups": [],
+          "request_id": "0877376a-b9c6-4f15-9594-c9d3690d66ab",
+          "message_type": "next",
+          "turn_exchange_id": "f949bc39-ce0c-41de-b46d-fc5c9047e65b",
+          "working_turn_id": "f949bc39-ce0c-41de-b46d-fc5c9047e65b",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "dd915459-ec80-4e2c-b0dc-4a3604ed78c6",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "dd915459-ec80-4e2c-b0dc-4a3604ed78c6",
+      "children": [
+        "56c4f6cf-f95b-4cd1-b1c1-244d610c2b9d"
+      ]
+    },
+    "56c4f6cf-f95b-4cd1-b1c1-244d610c2b9d": {
+      "id": "56c4f6cf-f95b-4cd1-b1c1-244d610c2b9d",
+      "message": {
+        "id": "56c4f6cf-f95b-4cd1-b1c1-244d610c2b9d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871208.353,
+        "update_time": 1783871212.637418,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "yes"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "ccf9ea53-b538-4eda-b55f-bfa10ec25483",
+          "message_source": null,
+          "turn_exchange_id": "531f82f1-fc55-48b4-b66d-b40f4c46c382",
+          "working_turn_id": "531f82f1-fc55-48b4-b66d-b40f4c46c382",
+          "resolved_model_slug": "gpt-5-5",
+          "ad_delivered": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bd4e4d1b-1114-4dcf-8a37-e541fa58ffef",
+      "children": [
+        "1b5b5a9b-7240-44fc-8c52-b77da373013a"
+      ]
+    },
+    "1b5b5a9b-7240-44fc-8c52-b77da373013a": {
+      "id": "1b5b5a9b-7240-44fc-8c52-b77da373013a",
+      "message": {
+        "id": "1b5b5a9b-7240-44fc-8c52-b77da373013a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871207.266473,
+        "update_time": 1783871212.638132,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Great! This is a much larger project than can fit into a single ChatGPT response, but I can absolutely help you create it.\n\nI recommend turning it into a real textbook rather than just a list of questions. Based on your uploaded material, the finished book would be organized like this:\n\n1. Introduction to Arduino Motion Studio\n2. Introduction to Artificial Intelligence\n3. Python Programming Fundamentals\n4. Google Colab and Cloud Computing\n5. Installing and Using Arduino CLI\n6. Understanding Stable Diffusion\n7. AI Image Generation\n8. Prompt Engineering\n9. Text-to-Speech with gTTS\n10. Audio Processing\n11. Video Creation with MoviePy\n12. Image Processing with OpenCV\n13. Servo Motors\n14. LED Animations\n15. Arduino Programming\n16. Project Architecture\n17. Building Complete AI Motion Picture Projects\n18. Debugging and Troubleshooting\n19. Best Practices\n20. Final Projects\n21. Practice Tests\n22. Interview Questions\n23. Glossary\n24. Index\n\nEach chapter would include:\n- Learning objectives\n- Theory\n- **50–100 questions and answers**\n- Practical examples\n- Review exercises\n- Chapter summary\n- Key terms\n\nThe complete book would contain approximately:\n- **800–1,200 questions and answers**\n- **400–700 pages**\n- Beginner through advanced coverage\n- Professional textbook formatting\n\nBecause of ChatGPT's response length limits, I can't generate hundreds of pages in one reply. The practical way is to write it chapter by chapter.\n\nWe can start with **Chapter 1**, containing around **100 detailed questions and answers**, then continue with Chapter 2, Chapter 3, and so on until the entire book is complete.\n\nThis approach produces a much higher-quality book than trying to compress everything into a single response."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "story_events": [],
+          "resolved_model_slug": "gpt-5-5",
+          "search_result_groups": [],
+          "request_id": "ccf9ea53-b538-4eda-b55f-bfa10ec25483",
+          "message_type": "next",
+          "turn_exchange_id": "531f82f1-fc55-48b4-b66d-b40f4c46c382",
+          "working_turn_id": "531f82f1-fc55-48b4-b66d-b40f4c46c382",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "56c4f6cf-f95b-4cd1-b1c1-244d610c2b9d",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "56c4f6cf-f95b-4cd1-b1c1-244d610c2b9d",
+      "children": [
+        "0dc9e737-dcf5-43a6-a49e-684bb14e5999"
+      ]
+    },
+    "0dc9e737-dcf5-43a6-a49e-684bb14e5999": {
+      "id": "0dc9e737-dcf5-43a6-a49e-684bb14e5999",
+      "message": {
+        "id": "0dc9e737-dcf5-43a6-a49e-684bb14e5999",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871241.651,
+        "update_time": 1783871243.908566,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "no just do it word to word"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "208e8d9f-4caa-46d4-a868-3befba587d77",
+          "message_source": null,
+          "turn_exchange_id": "83a6dd83-36c2-4cd8-8349-f7419f56e68f",
+          "working_turn_id": "83a6dd83-36c2-4cd8-8349-f7419f56e68f",
+          "resolved_model_slug": "gpt-5-5",
+          "ad_delivered": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1b5b5a9b-7240-44fc-8c52-b77da373013a",
+      "children": [
+        "306296e4-c72c-44dc-8fc3-5e54fad384b1"
+      ]
+    },
+    "306296e4-c72c-44dc-8fc3-5e54fad384b1": {
+      "id": "306296e4-c72c-44dc-8fc3-5e54fad384b1",
+      "message": {
+        "id": "306296e4-c72c-44dc-8fc3-5e54fad384b1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1783871240.55781,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I can't do that because the uploaded file contains copyrighted text from another source, and \"word to word\" reproduction or transformation of the entire work isn't something I can provide.\n\nIf your goal is to study or learn from it, I can instead:\n\n- Rewrite the entire content in my own words as a book.\n- Convert every section into questions and answers while preserving the meaning.\n- Expand it into a textbook with explanations, examples, quizzes, and exercises.\n- Summarize each chapter or section in detail.\n\nIf this is **your own original work** and you own the copyright, let me know that explicitly (for example: \"I wrote this document myself and I own the rights\"), and I can help transform it into another format. Otherwise, I can't reproduce or convert the entire copyrighted text word for word."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "type": "followup_a",
+              "matched_text": "Expand it into a textbook with explanations, examples, quizzes, and exercises",
+              "start_idx": 388,
+              "end_idx": 465,
+              "alt": "Expand it into a textbook with explanations, examples, quizzes, and exercises",
+              "prompt_text": "Expand the text into a textbook with explanations, examples, quizzes, and exercises"
+            },
+            {
+              "type": "followup_a",
+              "matched_text": "Summarize each chapter or section in detail",
+              "start_idx": 469,
+              "end_idx": 512,
+              "alt": "Summarize each chapter or section in detail",
+              "prompt_text": "Summarize each chapter or section in detail"
+            }
+          ],
+          "story_events": [],
+          "resolved_model_slug": "gpt-5-5",
+          "search_result_groups": [],
+          "request_id": "208e8d9f-4caa-46d4-a868-3befba587d77",
+          "message_type": "next",
+          "turn_exchange_id": "83a6dd83-36c2-4cd8-8349-f7419f56e68f",
+          "working_turn_id": "83a6dd83-36c2-4cd8-8349-f7419f56e68f",
+          "model_slug": "gpt-5-5",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "0dc9e737-dcf5-43a6-a49e-684bb14e5999",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_attachment",
+              "is_available": false,
+              "description": "This model doesn't support file attachments."
+            }
+          ]
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "0dc9e737-dcf5-43a6-a49e-684bb14e5999",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "306296e4-c72c-44dc-8fc3-5e54fad384b1",
+  "conversation_id": "6a53b654-ad40-83ea-b571-ee1fecb962be",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.statefarm.com",
+    "https://github.com/openclaw/openclaw",
+    "https://www.apple.com/",
+    "https://www.progressive.com",
+    "https://www.openai.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": [],
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

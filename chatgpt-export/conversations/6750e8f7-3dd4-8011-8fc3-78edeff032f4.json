@@ -1,0 +1,1416 @@
+{
+  "title": "Free Cannabis Classifieds Sites",
+  "create_time": 1733355767.458908,
+  "update_time": 1733359495.462923,
+  "mapping": {
+    "bbb23a72-37b1-4295-b936-f44848d1be1b": {
+      "id": "bbb23a72-37b1-4295-b936-f44848d1be1b",
+      "message": null,
+      "parent": null,
+      "children": [
+        "fe2a8140-cfb0-4804-81ad-81e769bfef20"
+      ]
+    },
+    "fe2a8140-cfb0-4804-81ad-81e769bfef20": {
+      "id": "fe2a8140-cfb0-4804-81ad-81e769bfef20",
+      "message": {
+        "id": "fe2a8140-cfb0-4804-81ad-81e769bfef20",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23a72-37b1-4295-b936-f44848d1be1b",
+      "children": [
+        "bbb216de-a99c-44ca-bc61-819a57fc919f"
+      ]
+    },
+    "bbb216de-a99c-44ca-bc61-819a57fc919f": {
+      "id": "bbb216de-a99c-44ca-bc61-819a57fc919f",
+      "message": {
+        "id": "bbb216de-a99c-44ca-bc61-819a57fc919f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733355767.464986,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which website Free cannabis classifieds "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8ecfa7a8ceda53dd-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fe2a8140-cfb0-4804-81ad-81e769bfef20",
+      "children": [
+        "07dd3c18-2d89-4ea2-9268-f5e91e6fa391"
+      ]
+    },
+    "07dd3c18-2d89-4ea2-9268-f5e91e6fa391": {
+      "id": "07dd3c18-2d89-4ea2-9268-f5e91e6fa391",
+      "message": {
+        "id": "07dd3c18-2d89-4ea2-9268-f5e91e6fa391",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733355781.547064,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb216de-a99c-44ca-bc61-819a57fc919f",
+          "request_id": "8ecfa7a8ceda53dd-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb216de-a99c-44ca-bc61-819a57fc919f",
+      "children": [
+        "c6aa3b57-88c0-48d7-8972-67f1a2ecd7cb"
+      ]
+    },
+    "c6aa3b57-88c0-48d7-8972-67f1a2ecd7cb": {
+      "id": "c6aa3b57-88c0-48d7-8972-67f1a2ecd7cb",
+      "message": {
+        "id": "c6aa3b57-88c0-48d7-8972-67f1a2ecd7cb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733355781.547181,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"free cannabis classifieds websites\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "07dd3c18-2d89-4ea2-9268-f5e91e6fa391",
+          "request_id": "8ecfa7a8ceda53dd-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "07dd3c18-2d89-4ea2-9268-f5e91e6fa391",
+      "children": [
+        "d4ea36f5-da95-4716-98d2-2affb9f4c989"
+      ]
+    },
+    "d4ea36f5-da95-4716-98d2-2affb9f4c989": {
+      "id": "d4ea36f5-da95-4716-98d2-2affb9f4c989",
+      "message": {
+        "id": "d4ea36f5-da95-4716-98d2-2affb9f4c989",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1733355781.547258,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_browsing_display",
+          "result": "# 【0†The Largest Cannabis Forums For Growers - THCFarmer†www.thcfarmer.com】\nTHCFarmer is the home for cannabis growers. Watch videos or view photos from leaders in the industry. ... Win free seeds each month. Threads 171 Messages 4.3K. Sub-forums: Hall of Fame Threads 171 Messages 4.3K. POTM Nominations - Dec 2024. Monday at 10:45 PM; lenhug; ... Cannabis Classifieds. Trade your cannabis genetics - Seed Trading, Clone ...\n# 【1†Cannabis Classifieds - THCFarmer†www.thcfarmer.com】\nTHCFarmer Cannabis Classifieds provides users with a platform to trade your cannabis seeds, marijuana clones and pollen. Cannabis Seeds. Looking to score or get rid of some beans? Buy sell and trade regular, feminized, and autoflowering marijuana seeds. Threads 460 Messages 8K.\n# 【2†Free Cannabis Classifieds | Hemp & CBD Classified Ads | CBX®,†cannabisbx.com】\nCBX is a Free Cannabis Classifieds is an Online Marijuana, Hemp, CBD & 420 Products Listing Platform Store Offering Classified Ads to Licensed Mmj Businesses Looking to Buy & Sell and Market Products and services Online. We have a list of cannabis businesses in categories below:\n# 【3†Classified Ads | Cannabis Associates Network†x-cannabis.com】\nWe are more than just a cannabis classified ads website, we are a cannabis industry social network with a classified ads marketplace. Membership is free and it works. DISCLAIMER: The Cannabis Associates Network maintains a zero-tolerance policy on cannabis sales, illegal activity or deception of any kind on this page.\n# 【4†The Nation’s Largest Cannabis Directory & Classifieds Site†www.jivetree.com】\nBest Marijuana Dispensaries in Colorado (According to Coloradans) Colorado legalized recreational marijuana back in 2012, making it one of a handful of U.S. states in where adults who are of age can legally purchase marijuana in many forms, along with its accessories, without any special paperwork beyond a valid ID. Since the state legalized marijuana, a number of businesses have rushed in to ...\n# 【5†High Times Magazine | News, Culture, Politics & Weed†hightimes.com】\nSince 1974, High Times Magazine has been the #1 resource for cannabis news, culture, brands and marijuana legalization laws.\n# 【6†Cannabis businesses for sale in the United States - CannaMLS†www.cannamls.com】\nFind lucrative U.S. cannabis businesses for sale - cultivation, dispensaries, manufacturing and more. Your gateway to the booming marijuana industry! ... List for free. Advertise your facility to thousands of potential buyers FREE for 30 days. Simply create an account, fill out our listing form, and your listing will automatically appear in all ...\n# 【7†eBudCanada: Home of Cannabis Culture FREE Classifieds and a ... - Leafly†www.leafly.com】\n420 Classifieds is home to the Cannabis Culture Classifieds and so much more! As cannabis culture expands across North America, fueled by legalization, more people are searching for cannabis and ...\n# 【8†Marijuana Classifieds - only420.com†only420.com】\nMarijuana Videos. Marijuana Product Reviews. The Marijuana Industry Website. Wednesday , October 2 2024 ... Classifieds. Free Marijuana Classifieds. Find dispensary specials, marijuana, jobs, pipes, bongs, vaporizers, grow equipment, pro-marijuana groups, business services, discounts and more in the Only420.com marijuana classifieds ...\n# 【9†Cannabis Classifieds - Ganjapreneur†www.ganjapreneur.com】\nCannabis Classifieds has been online since 2000 and publishes ads relating to marijuana for sale and various cannabis products. In December of 2014 a brand new website platform was launched to assist visitors with more interactive marijuana marketing options. a word from our sponsors: become a sponsor. advertisement. advertise here\n# 【10†Top 50 Cannabis Websites, Blogs and Magazines - Hail Mary Jane†www.hailmaryjane.com】\nTop 50 Cannabis Websites 1. LEAFLY Leafly is the world’s largest cannabis information resource. They make the process of finding the right strains and products for you fast, simple, and comfortable, allowing users to rate and review different strains of cannabis and cannabis dispensaries. 2. WEEDMAPS Weedmaps is a community where businesses and consumers can search […]\n# 【11†Friendly, Fast, & Free Weed Delivery | Lantern†www.lanternnow.com】\nGet friendly, fast, & free weed delivery today! Shop deals & discounts on flower, prerolls, edibles, concentrates, tinctures, topicals, & more with Lantern! ... edibles, concentrates, tinctures, topicals, & more with Lantern! Lantern Let's discover cannabis together. To visit Lantern, you must be 21 years or older. I VERIFY I AM OF AGE. By ...\n# 【12†Oklahomas B2B Cannabis Classifieds†www.mjclassifieds.com】\nMJ Classifieds : A website for growers, retailers, suppliers of the Oklahoma cannabis industry to connect, network and trade. ... Register Now; Oklahomas Premiere B2B Cannabis Classifieds. Find the best deals on Business to Business Cannabis products in Oklahoma. Search. Explore The Latest Listings. Top Shelf. Top shelf grade AA . Tagg Flats ...\n# 【13†These 7 Organizations and Programs Help Low-Income People ... - Weedmaps†weedmaps.com】\nPatients making less than $32,000 per year or $46,000 for a family of four can access their medical cannabis for free from local medical dispensaries. According to the ordinance, dispensaries must offer at least 2% by weight of their annual medical cannabis supplies to very-low-income customers for free.\n# 【14†Weedmaps: Learn, Find, and Order Weed†weedmaps.com】\nA community connecting cannabis consumers, patients, retailers, doctors, and brands since 2008. About. Company Investors Careers Help center Download the app. Discover. Dispensaries Deliveries Doctors Nearby deals Brands Strains News Learn Gear Recently viewed CBD stores Best of Weedmaps. Legal.\n# 【15†Top 8 Best Cannabis Dispensary Websites (2024) | CannaPlanners†cannaplanners.com】\nAbout the Dispensary. The Zaza Green dispensary is a new, customer-focused recreational cannabis dispensary in Massachusetts with a commitment to community and premium cannabis products.. What We Like. The Zaza Green dispensary website is clean-cut, easy to navigate, but it is also highly brand-inspired with icons, logos, and imagery.\n# 【16†Joints for jabs: Here's where to find free weed - Leafly†www.leafly.com】\nIn Spokane, for a limited time—Thurs., June 17, and Fri., June 18—adults who register with Apex Cannabis in advance and get the jab at their in-store clinic will receive a free joint and 25% ...\n# 【17†Cannabis Education Resources, Classes and More | Free and Low-Cost†cannacon.org】\nPopular Culture and News Sites With Free Cannabis Education. Maybe an in-person class or actual degree isn’t your thing. We get it. There are plenty of other popular news and culture websites that provide cannabis education to site visitors. For basic level free and low-cost cannabis learning opportunities, check out sites like: Leafly.com\n# 【18†Find, order, and learn about weed | Leafly†www.leafly.com】\nLearn more about types of weed strains and discover marijuana dispensaries near you. ... Place a free online order, pay when you get it. The Leafly app is where it’s at.\n# 【19†How to find low cost, free, and subsidized medical cannabis†cannigma.com】\nLegality. Cannabis is still illegal on the federal level and is not recognized by federal law as having any valid medical use. This means that people who are on probation and parole or incarcerated are not typically allowed to access cannabis – medical or other side – and can face legal consequences if they do.. In addition, parents who use medical cannabis may face problems with Child ...\nVisible: 0% - 100%",
+          "summary": null,
+          "assets": [],
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "cloud_doc_urls": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "search_engine": "bing",
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "The Largest Cannabis Forums For Growers - THCFarmer",
+                "url": "https://www.thcfarmer.com/forums/",
+                "text": "\nTHCFarmer is the home for cannabis growers. Watch videos or view photos from leaders in the industry. ... Win free seeds each month. Threads 171 Messages 4.3K. Sub-forums: Hall of Fame Threads 171 Messages 4.3K. POTM Nominations - Dec 2024. Monday at 10:45 PM; lenhug; ... Cannabis Classifieds. Trade your cannabis genetics - Seed Trading, Clone ...\n",
+                "pub_date": "2024-12-03T11:21:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Cannabis Classifieds - THCFarmer",
+                "url": "https://www.thcfarmer.com/categories/cannabis-classifieds.276/",
+                "text": "\nTHCFarmer Cannabis Classifieds provides users with a platform to trade your cannabis seeds, marijuana clones and pollen. Cannabis Seeds. Looking to score or get rid of some beans? Buy sell and trade regular, feminized, and autoflowering marijuana seeds. Threads 460 Messages 8K.\n",
+                "pub_date": "2024-12-01T17:19:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Free Cannabis Classifieds | Hemp & CBD Classified Ads | CBX®,",
+                "url": "https://cannabisbx.com/free-cannabis-classifieds/",
+                "text": "\nCBX is a Free Cannabis Classifieds is an Online Marijuana, Hemp, CBD & 420 Products Listing Platform Store Offering Classified Ads to Licensed Mmj Businesses Looking to Buy & Sell and Market Products and services Online. We have a list of cannabis businesses in categories below:\n",
+                "pub_date": "2024-12-01T22:25:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Classified Ads | Cannabis Associates Network",
+                "url": "https://x-cannabis.com/classifieds",
+                "text": "\nWe are more than just a cannabis classified ads website, we are a cannabis industry social network with a classified ads marketplace. Membership is free and it works. DISCLAIMER: The Cannabis Associates Network maintains a zero-tolerance policy on cannabis sales, illegal activity or deception of any kind on this page.\n",
+                "pub_date": "2024-12-02T19:28:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "The Nation’s Largest Cannabis Directory & Classifieds Site",
+                "url": "http://www.jivetree.com/",
+                "text": "\nBest Marijuana Dispensaries in Colorado (According to Coloradans) Colorado legalized recreational marijuana back in 2012, making it one of a handful of U.S. states in where adults who are of age can legally purchase marijuana in many forms, along with its accessories, without any special paperwork beyond a valid ID. Since the state legalized marijuana, a number of businesses have rushed in to ...\n",
+                "pub_date": "2024-11-30T16:47:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "High Times Magazine | News, Culture, Politics & Weed",
+                "url": "https://hightimes.com/",
+                "text": "\nSince 1974, High Times Magazine has been the #1 resource for cannabis news, culture, brands and marijuana legalization laws.\n",
+                "pub_date": "2024-12-04T05:19:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Cannabis businesses for sale in the United States - CannaMLS",
+                "url": "https://www.cannamls.com/",
+                "text": "\nFind lucrative U.S. cannabis businesses for sale - cultivation, dispensaries, manufacturing and more. Your gateway to the booming marijuana industry! ... List for free. Advertise your facility to thousands of potential buyers FREE for 30 days. Simply create an account, fill out our listing form, and your listing will automatically appear in all ...\n",
+                "pub_date": "2024-12-02T03:44:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "eBudCanada: Home of Cannabis Culture FREE Classifieds and a ... - Leafly",
+                "url": "https://www.leafly.com/brands/ebudcanada",
+                "text": "\n420 Classifieds is home to the Cannabis Culture Classifieds and so much more! As cannabis culture expands across North America, fueled by legalization, more people are searching for cannabis and ...\n",
+                "pub_date": "2024-12-03T15:56:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Marijuana Classifieds - only420.com",
+                "url": "https://only420.com/marijuana-classifieds/",
+                "text": "\nMarijuana Videos. Marijuana Product Reviews. The Marijuana Industry Website. Wednesday , October 2 2024 ... Classifieds. Free Marijuana Classifieds. Find dispensary specials, marijuana, jobs, pipes, bongs, vaporizers, grow equipment, pro-marijuana groups, business services, discounts and more in the Only420.com marijuana classifieds ...\n",
+                "pub_date": "2024-10-02T10:41:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Cannabis Classifieds - Ganjapreneur",
+                "url": "https://www.ganjapreneur.com/business/cannabis-classifieds/",
+                "text": "\nCannabis Classifieds has been online since 2000 and publishes ads relating to marijuana for sale and various cannabis products. In December of 2014 a brand new website platform was launched to assist visitors with more interactive marijuana marketing options. a word from our sponsors: become a sponsor. advertisement. advertise here\n",
+                "pub_date": "2024-11-29T18:23:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Top 50 Cannabis Websites, Blogs and Magazines - Hail Mary Jane",
+                "url": "https://www.hailmaryjane.com/best-marijuana-websites/",
+                "text": "\nTop 50 Cannabis Websites 1. LEAFLY Leafly is the world’s largest cannabis information resource. They make the process of finding the right strains and products for you fast, simple, and comfortable, allowing users to rate and review different strains of cannabis and cannabis dispensaries. 2. WEEDMAPS Weedmaps is a community where businesses and consumers can search […]\n",
+                "pub_date": "2024-11-30T11:24:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Friendly, Fast, & Free Weed Delivery | Lantern",
+                "url": "https://www.lanternnow.com/",
+                "text": "\nGet friendly, fast, & free weed delivery today! Shop deals & discounts on flower, prerolls, edibles, concentrates, tinctures, topicals, & more with Lantern! ... edibles, concentrates, tinctures, topicals, & more with Lantern! Lantern Let's discover cannabis together. To visit Lantern, you must be 21 years or older. I VERIFY I AM OF AGE. By ...\n",
+                "pub_date": "2024-12-03T15:24:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Oklahomas B2B Cannabis Classifieds",
+                "url": "https://www.mjclassifieds.com/",
+                "text": "\nMJ Classifieds : A website for growers, retailers, suppliers of the Oklahoma cannabis industry to connect, network and trade. ... Register Now; Oklahomas Premiere B2B Cannabis Classifieds. Find the best deals on Business to Business Cannabis products in Oklahoma. Search. Explore The Latest Listings. Top Shelf. Top shelf grade AA . Tagg Flats ...\n",
+                "pub_date": "2024-12-01T06:18:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "These 7 Organizations and Programs Help Low-Income People ... - Weedmaps",
+                "url": "https://weedmaps.com/news/2019/07/these-7-organizations-and-programs-help-low-income-people-who-need-weed/",
+                "text": "\nPatients making less than $32,000 per year or $46,000 for a family of four can access their medical cannabis for free from local medical dispensaries. According to the ordinance, dispensaries must offer at least 2% by weight of their annual medical cannabis supplies to very-low-income customers for free.\n",
+                "pub_date": "2024-12-03T07:13:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Weedmaps: Learn, Find, and Order Weed",
+                "url": "https://weedmaps.com/",
+                "text": "\nA community connecting cannabis consumers, patients, retailers, doctors, and brands since 2008. About. Company Investors Careers Help center Download the app. Discover. Dispensaries Deliveries Doctors Nearby deals Brands Strains News Learn Gear Recently viewed CBD stores Best of Weedmaps. Legal.\n",
+                "pub_date": "2024-12-04T12:32:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Top 8 Best Cannabis Dispensary Websites (2024) | CannaPlanners",
+                "url": "https://cannaplanners.com/learn/best-dispensary-websites/",
+                "text": "\nAbout the Dispensary. The Zaza Green dispensary is a new, customer-focused recreational cannabis dispensary in Massachusetts with a commitment to community and premium cannabis products.. What We Like. The Zaza Green dispensary website is clean-cut, easy to navigate, but it is also highly brand-inspired with icons, logos, and imagery.\n",
+                "pub_date": "2024-12-02T17:18:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Joints for jabs: Here's where to find free weed - Leafly",
+                "url": "https://www.leafly.com/news/health/joints-for-jabs-heres-where-to-find-free-marijuana",
+                "text": "\nIn Spokane, for a limited time—Thurs., June 17, and Fri., June 18—adults who register with Apex Cannabis in advance and get the jab at their in-store clinic will receive a free joint and 25% ...\n",
+                "pub_date": "2024-12-02T02:07:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Cannabis Education Resources, Classes and More | Free and Low-Cost",
+                "url": "https://cannacon.org/cannabis-educational-resources/",
+                "text": "\nPopular Culture and News Sites With Free Cannabis Education. Maybe an in-person class or actual degree isn’t your thing. We get it. There are plenty of other popular news and culture websites that provide cannabis education to site visitors. For basic level free and low-cost cannabis learning opportunities, check out sites like: Leafly.com\n",
+                "pub_date": "2024-12-01T13:22:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Find, order, and learn about weed | Leafly",
+                "url": "https://www.leafly.com/",
+                "text": "\nLearn more about types of weed strains and discover marijuana dispensaries near you. ... Place a free online order, pay when you get it. The Leafly app is where it’s at.\n",
+                "pub_date": "2024-12-03T10:26:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "How to find low cost, free, and subsidized medical cannabis",
+                "url": "https://cannigma.com/treatment/subsidized-medical-cannabis-programs/",
+                "text": "\nLegality. Cannabis is still illegal on the federal level and is not recognized by federal law as having any valid medical use. This means that people who are on probation and parole or incarcerated are not typically allowed to access cannabis – medical or other side – and can face legal consequences if they do.. In addition, parents who use medical cannabis may face problems with Child ...\nVisible: 0% - 100%",
+                "pub_date": "2024-11-29T15:30:00.0000000Z",
+                "extra": null,
+                "og_tags": null
+              },
+              {
+                "type": "webpage",
+                "title": "Search results for query: 'free cannabis classifieds websites'",
+                "url": "",
+                "text": "# 【0†The Largest Cannabis Forums For Growers - THCFarmer†www.thcfarmer.com】\nTHCFarmer is the home for cannabis growers. Watch videos or view photos from leaders in the industry. ... Win free seeds each month. Threads 171 Messages 4.3K. Sub-forums: Hall of Fame Threads 171 Messages 4.3K. POTM Nominations - Dec 2024. Monday at 10:45 PM; lenhug; ... Cannabis Classifieds. Trade your cannabis genetics - Seed Trading, Clone ...\n# 【1†Cannabis Classifieds - THCFarmer†www.thcfarmer.com】\nTHCFarmer Cannabis Classifieds provides users with a platform to trade your cannabis seeds, marijuana clones and pollen. Cannabis Seeds. Looking to score or get rid of some beans? Buy sell and trade regular, feminized, and autoflowering marijuana seeds. Threads 460 Messages 8K.\n# 【2†Free Cannabis Classifieds | Hemp & CBD Classified Ads | CBX®,†cannabisbx.com】\nCBX is a Free Cannabis Classifieds is an Online Marijuana, Hemp, CBD & 420 Products Listing Platform Store Offering Classified Ads to Licensed Mmj Businesses Looking to Buy & Sell and Market Products and services Online. We have a list of cannabis businesses in categories below:\n# 【3†Classified Ads | Cannabis Associates Network†x-cannabis.com】\nWe are more than just a cannabis classified ads website, we are a cannabis industry social network with a classified ads marketplace. Membership is free and it works. DISCLAIMER: The Cannabis Associates Network maintains a zero-tolerance policy on cannabis sales, illegal activity or deception of any kind on this page.\n# 【4†The Nation’s Largest Cannabis Directory & Classifieds Site†www.jivetree.com】\nBest Marijuana Dispensaries in Colorado (According to Coloradans) Colorado legalized recreational marijuana back in 2012, making it one of a handful of U.S. states in where adults who are of age can legally purchase marijuana in many forms, along with its accessories, without any special paperwork beyond a valid ID. Since the state legalized marijuana, a number of businesses have rushed in to ...\n# 【5†High Times Magazine | News, Culture, Politics & Weed†hightimes.com】\nSince 1974, High Times Magazine has been the #1 resource for cannabis news, culture, brands and marijuana legalization laws.\n# 【6†Cannabis businesses for sale in the United States - CannaMLS†www.cannamls.com】\nFind lucrative U.S. cannabis businesses for sale - cultivation, dispensaries, manufacturing and more. Your gateway to the booming marijuana industry! ... List for free. Advertise your facility to thousands of potential buyers FREE for 30 days. Simply create an account, fill out our listing form, and your listing will automatically appear in all ...\n# 【7†eBudCanada: Home of Cannabis Culture FREE Classifieds and a ... - Leafly†www.leafly.com】\n420 Classifieds is home to the Cannabis Culture Classifieds and so much more! As cannabis culture expands across North America, fueled by legalization, more people are searching for cannabis and ...\n# 【8†Marijuana Classifieds - only420.com†only420.com】\nMarijuana Videos. Marijuana Product Reviews. The Marijuana Industry Website. Wednesday , October 2 2024 ... Classifieds. Free Marijuana Classifieds. Find dispensary specials, marijuana, jobs, pipes, bongs, vaporizers, grow equipment, pro-marijuana groups, business services, discounts and more in the Only420.com marijuana classifieds ...\n# 【9†Cannabis Classifieds - Ganjapreneur†www.ganjapreneur.com】\nCannabis Classifieds has been online since 2000 and publishes ads relating to marijuana for sale and various cannabis products. In December of 2014 a brand new website platform was launched to assist visitors with more interactive marijuana marketing options. a word from our sponsors: become a sponsor. advertisement. advertise here\n# 【10†Top 50 Cannabis Websites, Blogs and Magazines - Hail Mary Jane†www.hailmaryjane.com】\nTop 50 Cannabis Websites 1. LEAFLY Leafly is the world’s largest cannabis information resource. They make the process of finding the right strains and products for you fast, simple, and comfortable, allowing users to rate and review different strains of cannabis and cannabis dispensaries. 2. WEEDMAPS Weedmaps is a community where businesses and consumers can search […]\n# 【11†Friendly, Fast, & Free Weed Delivery | Lantern†www.lanternnow.com】\nGet friendly, fast, & free weed delivery today! Shop deals & discounts on flower, prerolls, edibles, concentrates, tinctures, topicals, & more with Lantern! ... edibles, concentrates, tinctures, topicals, & more with Lantern! Lantern Let's discover cannabis together. To visit Lantern, you must be 21 years or older. I VERIFY I AM OF AGE. By ...\n# 【12†Oklahomas B2B Cannabis Classifieds†www.mjclassifieds.com】\nMJ Classifieds : A website for growers, retailers, suppliers of the Oklahoma cannabis industry to connect, network and trade. ... Register Now; Oklahomas Premiere B2B Cannabis Classifieds. Find the best deals on Business to Business Cannabis products in Oklahoma. Search. Explore The Latest Listings. Top Shelf. Top shelf grade AA . Tagg Flats ...\n# 【13†These 7 Organizations and Programs Help Low-Income People ... - Weedmaps†weedmaps.com】\nPatients making less than $32,000 per year or $46,000 for a family of four can access their medical cannabis for free from local medical dispensaries. According to the ordinance, dispensaries must offer at least 2% by weight of their annual medical cannabis supplies to very-low-income customers for free.\n# 【14†Weedmaps: Learn, Find, and Order Weed†weedmaps.com】\nA community connecting cannabis consumers, patients, retailers, doctors, and brands since 2008. About. Company Investors Careers Help center Download the app. Discover. Dispensaries Deliveries Doctors Nearby deals Brands Strains News Learn Gear Recently viewed CBD stores Best of Weedmaps. Legal.\n# 【15†Top 8 Best Cannabis Dispensary Websites (2024) | CannaPlanners†cannaplanners.com】\nAbout the Dispensary. The Zaza Green dispensary is a new, customer-focused recreational cannabis dispensary in Massachusetts with a commitment to community and premium cannabis products.. What We Like. The Zaza Green dispensary website is clean-cut, easy to navigate, but it is also highly brand-inspired with icons, logos, and imagery.\n# 【16†Joints for jabs: Here's where to find free weed - Leafly†www.leafly.com】\nIn Spokane, for a limited time—Thurs., June 17, and Fri., June 18—adults who register with Apex Cannabis in advance and get the jab at their in-store clinic will receive a free joint and 25% ...\n# 【17†Cannabis Education Resources, Classes and More | Free and Low-Cost†cannacon.org】\nPopular Culture and News Sites With Free Cannabis Education. Maybe an in-person class or actual degree isn’t your thing. We get it. There are plenty of other popular news and culture websites that provide cannabis education to site visitors. For basic level free and low-cost cannabis learning opportunities, check out sites like: Leafly.com\n# 【18†Find, order, and learn about weed | Leafly†www.leafly.com】\nLearn more about types of weed strains and discover marijuana dispensaries near you. ... Place a free online order, pay when you get it. The Leafly app is where it’s at.\n# 【19†How to find low cost, free, and subsidized medical cannabis†cannigma.com】\nLegality. Cannabis is still illegal on the federal level and is not recognized by federal law as having any valid medical use. This means that people who are on probation and parole or incarcerated are not typically allowed to access cannabis – medical or other side – and can face legal consequences if they do.. In addition, parents who use medical cannabis may face problems with Child ...\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null,
+                "og_tags": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "search",
+          "args": [
+            "free cannabis classifieds websites"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "c6aa3b57-88c0-48d7-8972-67f1a2ecd7cb",
+          "request_id": "8ecfa7a8ceda53dd-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c6aa3b57-88c0-48d7-8972-67f1a2ecd7cb",
+      "children": [
+        "d8b25310-2471-45e2-b792-22f6d7fb652b"
+      ]
+    },
+    "d8b25310-2471-45e2-b792-22f6d7fb652b": {
+      "id": "d8b25310-2471-45e2-b792-22f6d7fb652b",
+      "message": {
+        "id": "d8b25310-2471-45e2-b792-22f6d7fb652b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733355781.547328,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "mclick([\"1\", \"2\", \"3\", \"8\", \"9\"])",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "d4ea36f5-da95-4716-98d2-2affb9f4c989",
+          "request_id": "8ecfa7a8ceda53dd-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "browser",
+        "channel": null
+      },
+      "parent": "d4ea36f5-da95-4716-98d2-2affb9f4c989",
+      "children": [
+        "266bf608-3df0-4a6a-94e9-c96d25f919ba"
+      ]
+    },
+    "266bf608-3df0-4a6a-94e9-c96d25f919ba": {
+      "id": "266bf608-3df0-4a6a-94e9-c96d25f919ba",
+      "message": {
+        "id": "266bf608-3df0-4a6a-94e9-c96d25f919ba",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1733355781.547397,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "text": "\n### Search\n\n### Popular Tags\n\n  * cannabis \n  * CBD \n  * marijuana \n  * hemp \n  * marketing \n  * medical \n  * Business \n  * Edibles \n  * oil \n  * legalization \n\n  * 【0†Home】 \n  * 【1†Members】 \n  * 【2†Business Pages】 \n  * 【3†Classified Ads】 \n  * 【4†Jobs】 \n  * 【5†Resumes】 \n  * 【6†Job Search】 \n  * 【7†Groups】 \n  * 【8†Discussions】 \n  * 【9†Questions & Answers】 \n  * 【10†Polls】 \n  * 【11†Events】 \n  * 【12†Blogs and Articles】 \n  * 【13†News】 \n  * 【14†Downloads】 \n  * 【15†Videos】 \n  * 【16†Photos】 \n  * Invite Friends / Contacts \n  * 【17†Properties, Businesses, Domains】 \n\ncannabis industry classified ads\n\n# A legitimate cannabis industry classified ads marketplace monitored around-the-clock\n\nClassified ads are a great way to sell products and services, but in the cannabis industry, classified advertising is rife with peril. Websites offering a platform for legitimate cannabis-related classified ads don’t seem to exist; that is until now.  \n\nThe classified ads marketplace at the Cannabis Associates Network is a place where individuals and businesses can place legitimate, legal cannabis-related classified ads for their product, services and businesses in a professional setting, without the fear of association with the unsavory and, to the right cannabis industry audience and beyond.  \n\nEvery classified ad listing is approved before it appears in the marketplace and every cannabis-related classified ad is SEO friendly. That’s right, the search engines index every classified ad listing.  \n\nWe created an environment for successful classified advertising to help you grow your cannabis-related business. We are more than just a cannabis classified ads website, we are a cannabis industry social network with a classified ads marketplace. Membership is free and it works.\n\nDISCLAIMER: The Cannabis Associates Network maintains a zero-tolerance policy on cannabis sales, illegal activity or deception of any kind on this page. Also, know your State’s individual rules for the sales of CBD products, cannabis accessories, etc.; it is your responsibility to know them. Do not send cash to anyone. Do not send anyone your credit or debit card number. Please do your due diligence before any transaction. The Cannabis Associates Network assumes not responsibility or liability in any transaction.\n\n【18†Home】 | 【1†Members】 | 【2†Business Pages】 | 【3†Classifieds】 | 【4†Jobs】 | 【5†Resumes】 | 【6†Job Search】 | 【7†Groups】 | 【8†Discussions】 | 【9†Q & A】 | 【10†Polls】 | 【11†Events】 | 【12†Blogs & Articles】 | 【13†News】 | 【14†Downloads】 | 【15†Videos】 | 【16†Photos】 | 【17†For Sale】\n\n### Listings \n\nPost New Listing \n\n  * 【19†Newest Listings】 \n  * 【20†Most Liked Listings】 \n  * 【21†Most Viewed Listings】 \n  * 【22†Top Posters】 \n\n  *   * \n\n  *  \n\n[Image 2] \n\nApply For a Medical Marijuana Card Online in California \n\nMMJ Doctors - Online Medical Card - 420 Evaluations \n\nSanta Ana, CA, USA\n\n$59 \n\nOnline Medical Card, is one of the preeminent online cannabis portals for applying for a medica... View More >>\n\nViews: 31 \n\n  *  \n\n[Image 3] \n\n$300 Referral Fee \n\nMiscellaneous - ReLi Grow Systems \n\nEastern United States\n\n$300 \n\nI am offering a $300 finders fee for referrals that fit the following criteria!! Call Michael @... View More >>\n\nViews: 35 \n\n  *  \n\n[Image 4] \n\nHempingtonPost.com \n\nMarketing - HempingtonPost \n\nPortland, OR, USA\n\n$0 \n\nA Media Portal for ALL Things Hemp Hemp Product Reviews GameChanger Interviews Hemp Industry N... View More >>\n\nViews: 41 \n\n  *  \n\n[Image 5] \n\nCannaRev Solutions - A cannabis consulting company! \n\nConsulting - Cannabis Consulting \n\nColumbus, OH, USA\n\n$100 \n\nCannaRev Solutionsis a cannabis consulting company aimed at providing all-around services for exi... View More >>\n\nViews: 38 \n\n  *  \n\n[Image 6] \n\nMARIJUANA MOVING FORWARD \n\nConsulting - Marijuana moving Forward \n\nLivingston, MI, USA\n\n$1 \n\nMarijuana moving forward is a service representative that connects the marijuana business with ... View More >>\n\nViews: 46 \n\n  *  \n\n[Image 7] \n\nInstagram, Twitter, LinkedIn - Boost Followers and Profile Amplification - Extended Black Friday 50% Off \n\nMarketing - Nose To The Grindstoned - Growth Hack Social Media Marketing for Cannabis Companies \n\nUnited States\n\n$12.5 \n\nEffective Growth-Hack Social Media Marketing for Cannabis Companies and Marijuana Projects.... View More >>\n\nViews: 48 \n\nMore Listings >>\n\n  *   * \n\n  *  \n\n[Image 8] \n\nApply For a Medical Marijuana Card Online in California \n\nMMJ Doctors - Online Medical Card - 420 Evaluations \n\nSanta Ana, CA, USA\n\n$59 \n\nOnline Medical Card, is one of the preeminent online cannabis portals for applying for a medica... View More >>\n\nViews: 31 \n\n  *  \n\n[Image 9] \n\nInstagram, Twitter, LinkedIn - Boost Followers and Profile Amplification - Extended Black Friday 50% Off \n\nMarketing - Nose To The Grindstoned - Growth Hack Social Media Marketing for Cannabis Companies \n\nUnited States\n\n$12.5 \n\nEffective Growth-Hack",
+          "url": "https://x-cannabis.com/classifieds",
+          "domain": "x-cannabis.com",
+          "title": "Classified Ads | Cannabis Associates Network",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Classified Ads | Cannabis Associates Network",
+                "url": "https://x-cannabis.com/classifieds",
+                "text": "\n### Search\n\n### Popular Tags\n\n  * cannabis \n  * CBD \n  * marijuana \n  * hemp \n  * marketing \n  * medical \n  * Business \n  * Edibles \n  * oil \n  * legalization \n\n  * 【0†Home】 \n  * 【1†Members】 \n  * 【2†Business Pages】 \n  * 【3†Classified Ads】 \n  * 【4†Jobs】 \n  * 【5†Resumes】 \n  * 【6†Job Search】 \n  * 【7†Groups】 \n  * 【8†Discussions】 \n  * 【9†Questions & Answers】 \n  * 【10†Polls】 \n  * 【11†Events】 \n  * 【12†Blogs and Articles】 \n  * 【13†News】 \n  * 【14†Downloads】 \n  * 【15†Videos】 \n  * 【16†Photos】 \n  * Invite Friends / Contacts \n  * 【17†Properties, Businesses, Domains】 \n\ncannabis industry classified ads\n\n# A legitimate cannabis industry classified ads marketplace monitored around-the-clock\n\nClassified ads are a great way to sell products and services, but in the cannabis industry, classified advertising is rife with peril. Websites offering a platform for legitimate cannabis-related classified ads don’t seem to exist; that is until now.  \n\nThe classified ads marketplace at the Cannabis Associates Network is a place where individuals and businesses can place legitimate, legal cannabis-related classified ads for their product, services and businesses in a professional setting, without the fear of association with the unsavory and, to the right cannabis industry audience and beyond.  \n\nEvery classified ad listing is approved before it appears in the marketplace and every cannabis-related classified ad is SEO friendly. That’s right, the search engines index every classified ad listing.  \n\nWe created an environment for successful classified advertising to help you grow your cannabis-related business. We are more than just a cannabis classified ads website, we are a cannabis industry social network with a classified ads marketplace. Membership is free and it works.\n\nDISCLAIMER: The Cannabis Associates Network maintains a zero-tolerance policy on cannabis sales, illegal activity or deception of any kind on this page. Also, know your State’s individual rules for the sales of CBD products, cannabis accessories, etc.; it is your responsibility to know them. Do not send cash to anyone. Do not send anyone your credit or debit card number. Please do your due diligence before any transaction. The Cannabis Associates Network assumes not responsibility or liability in any transaction.\n\n【18†Home】 | 【1†Members】 | 【2†Business Pages】 | 【3†Classifieds】 | 【4†Jobs】 | 【5†Resumes】 | 【6†Job Search】 | 【7†Groups】 | 【8†Discussions】 | 【9†Q & A】 | 【10†Polls】 | 【11†Events】 | 【12†Blogs & Articles】 | 【13†News】 | 【14†Downloads】 | 【15†Videos】 | 【16†Photos】 | 【17†For Sale】\n\n### Listings \n\nPost New Listing \n\n  * 【19†Newest Listings】 \n  * 【20†Most Liked Listings】 \n  * 【21†Most Viewed Listings】 \n  * 【22†Top Posters】 \n\n  *   * \n\n  *  \n\n[Image 2] \n\nApply For a Medical Marijuana Card Online in California \n\nMMJ Doctors - Online Medical Card - 420 Evaluations \n\nSanta Ana, CA, USA\n\n$59 \n\nOnline Medical Card, is one of the preeminent online cannabis portals for applying for a medica... View More >>\n\nViews: 31 \n\n  *  \n\n[Image 3] \n\n$300 Referral Fee \n\nMiscellaneous - ReLi Grow Systems \n\nEastern United States\n\n$300 \n\nI am offering a $300 finders fee for referrals that fit the following criteria!! Call Michael @... View More >>\n\nViews: 35 \n\n  *  \n\n[Image 4] \n\nHempingtonPost.com \n\nMarketing - HempingtonPost \n\nPortland, OR, USA\n\n$0 \n\nA Media Portal for ALL Things Hemp Hemp Product Reviews GameChanger Interviews Hemp Industry N... View More >>\n\nViews: 41 \n\n  *  \n\n[Image 5] \n\nCannaRev Solutions - A cannabis consulting company! \n\nConsulting - Cannabis Consulting \n\nColumbus, OH, USA\n\n$100 \n\nCannaRev Solutionsis a cannabis consulting company aimed at providing all-around services for exi... View More >>\n\nViews: 38 \n\n  *  \n\n[Image 6] \n\nMARIJUANA MOVING FORWARD \n\nConsulting - Marijuana moving Forward \n\nLivingston, MI, USA\n\n$1 \n\nMarijuana moving forward is a service representative that connects the marijuana business with ... View More >>\n\nViews: 46 \n\n  *  \n\n[Image 7] \n\nInstagram, Twitter, LinkedIn - Boost Followers and Profile Amplification - Extended Black Friday 50% Off \n\nMarketing - Nose To The Grindstoned - Growth Hack Social Media Marketing for Cannabis Companies \n\nUnited States\n\n$12.5 \n\nEffective Growth-Hack Social Media Marketing for Cannabis Companies and Marijuana Projects.... View More >>\n\nViews: 48 \n\nMore Listings >>\n\n  *   * \n\n  *  \n\n[Image 8] \n\nApply For a Medical Marijuana Card Online in California \n\nMMJ Doctors - Online Medical Card - 420 Evaluations \n\nSanta Ana, CA, USA\n\n$59 \n\nOnline Medical Card, is one of the preeminent online cannabis portals for applying for a medica... View More >>\n\nViews: 31 \n\n  *  \n\n[Image 9] \n\nInstagram, Twitter, LinkedIn - Boost Followers and Profile Amplification - Extended Black Friday 50% Off \n\nMarketing - Nose To The Grindstoned - Growth Hack Social Media Marketing for Cannabis Companies \n\nUnited States\n\n$12.5 \n\nEffective Growth-Hack",
+                "pub_date": null,
+                "extra": null,
+                "og_tags": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[\"1\", \"2\", \"3\", \"8\", \"9\"]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "d8b25310-2471-45e2-b792-22f6d7fb652b",
+          "request_id": "8ecfa7a8ceda53dd-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d8b25310-2471-45e2-b792-22f6d7fb652b",
+      "children": [
+        "f5a85231-10a2-40ed-b40b-04084ea5b7c4"
+      ]
+    },
+    "f5a85231-10a2-40ed-b40b-04084ea5b7c4": {
+      "id": "f5a85231-10a2-40ed-b40b-04084ea5b7c4",
+      "message": {
+        "id": "f5a85231-10a2-40ed-b40b-04084ea5b7c4",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1733355781.547466,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "text": "\nURL: https://only420.com/marijuana-classifieds/\n\n\nWednesday , December 4 2024\n\n  * 【0†Advertise】\n  * 【1†Contact】\n  * 【2†Join】\n\n【3† ONLY 420 | Cannabis Culture Everything 420 】 \n\n  * 【3†Home】\n  * News\n    * 【4†Marijuana News】\n    * 【5†News by State】\n  * 【6†Dispensaries】\n  * 【7†Doctors】\n  * 【8†Card】\n  * 【9†Laws】\n  * 【10†Products】\n  * 【11†Images】\n  * 【12†Videos】\n\n【13†Home】 / Marijuana Classifieds\n\n# Marijuana Classifieds\n\n# Free Marijuana Classifieds\n\nFind dispensary specials, marijuana, jobs, pipes, bongs, vaporizers, grow equipment, pro-marijuana groups, business services, discounts and more in the Only420.com marijuana classifieds.  \n[AWPCPCLASSIFIEDSUI] \n\n2014-06-11\n\nShare\n\n  * 【14† Facebook†www.facebook.com】\n  * 【15† Twitter†twitter.com】\n  * 【16† LinkedIn†www.linkedin.com】\n  * 【17† Pinterest†pinterest.com】\n\n【18† †hempamerican.com】 \n\n#### Social\n\n#### Subscribe\n\n## Get the Latest Cannabis News \n\nSubscribe via email...\n\nCLICK HERE\n\n## You Have Successfully Subscribed!\n\n【19† †hempamerican.com】 \n\n© Copyright 2010 - 2024, Only420  \n【1†Contact 】 | 【20†About】 | 【21†Authors】 | 【22†Herrrb†herrrb.com】 | 【23†Terms 】 | 【24†Privacy】 | 【25†Sitemap】 | 【0†Advertise】 \n\n[Image 0: Get local cannabis deals (for free!)] \n\nGet local cannabis deals (for free!)\n\nEnter your email below...\n\nSUBSCRIBE!\n\n## You have Successfully Subscribed!\nVisible: 0% - 100%",
+          "url": "https://only420.com/marijuana-classifieds/",
+          "domain": "only420.com",
+          "title": "Marijuana Classifieds",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Marijuana Classifieds",
+                "url": "https://only420.com/marijuana-classifieds/",
+                "text": "\nURL: https://only420.com/marijuana-classifieds/\n\n\nWednesday , December 4 2024\n\n  * 【0†Advertise】\n  * 【1†Contact】\n  * 【2†Join】\n\n【3† ONLY 420 | Cannabis Culture Everything 420 】 \n\n  * 【3†Home】\n  * News\n    * 【4†Marijuana News】\n    * 【5†News by State】\n  * 【6†Dispensaries】\n  * 【7†Doctors】\n  * 【8†Card】\n  * 【9†Laws】\n  * 【10†Products】\n  * 【11†Images】\n  * 【12†Videos】\n\n【13†Home】 / Marijuana Classifieds\n\n# Marijuana Classifieds\n\n# Free Marijuana Classifieds\n\nFind dispensary specials, marijuana, jobs, pipes, bongs, vaporizers, grow equipment, pro-marijuana groups, business services, discounts and more in the Only420.com marijuana classifieds.  \n[AWPCPCLASSIFIEDSUI] \n\n2014-06-11\n\nShare\n\n  * 【14† Facebook†www.facebook.com】\n  * 【15† Twitter†twitter.com】\n  * 【16† LinkedIn†www.linkedin.com】\n  * 【17† Pinterest†pinterest.com】\n\n【18† †hempamerican.com】 \n\n#### Social\n\n#### Subscribe\n\n## Get the Latest Cannabis News \n\nSubscribe via email...\n\nCLICK HERE\n\n## You Have Successfully Subscribed!\n\n【19† †hempamerican.com】 \n\n© Copyright 2010 - 2024, Only420  \n【1†Contact 】 | 【20†About】 | 【21†Authors】 | 【22†Herrrb†herrrb.com】 | 【23†Terms 】 | 【24†Privacy】 | 【25†Sitemap】 | 【0†Advertise】 \n\n[Image 0: Get local cannabis deals (for free!)] \n\nGet local cannabis deals (for free!)\n\nEnter your email below...\n\nSUBSCRIBE!\n\n## You have Successfully Subscribed!\nVisible: 0% - 100%",
+                "pub_date": null,
+                "extra": null,
+                "og_tags": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[\"1\", \"2\", \"3\", \"8\", \"9\"]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "266bf608-3df0-4a6a-94e9-c96d25f919ba",
+          "request_id": "8ecfa7a8ceda53dd-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "266bf608-3df0-4a6a-94e9-c96d25f919ba",
+      "children": [
+        "287f4fe3-2622-4ac6-8972-7b07496e48bb"
+      ]
+    },
+    "287f4fe3-2622-4ac6-8972-7b07496e48bb": {
+      "id": "287f4fe3-2622-4ac6-8972-7b07496e48bb",
+      "message": {
+        "id": "287f4fe3-2622-4ac6-8972-7b07496e48bb",
+        "author": {
+          "role": "tool",
+          "name": "browser",
+          "metadata": {}
+        },
+        "create_time": 1733355781.547535,
+        "update_time": null,
+        "content": {
+          "content_type": "tether_quote",
+          "text": "  * 【35†NM】\n  * 【36†NY】\n  * 【37†NJ】\n  * 【38†CT】\n  * 【39†Mexico】\n\n#### Medical Markets:\n\n  * 【40†FL】\n  * 【41†RI】\n  * 【42†AR】\n  * 【43†AL】\n  * 【44†MD】\n  * 【45†NH】\n  * 【46†DE】\n  * 【47†SD】\n  * 【48†ND】\n  * 【49†OH】\n  * 【50†OK】\n  * 【51†PA】\n  * 【52†View All】\n\n## 【53† Podcasts】\n\n【54†Listen】 \n\n## 【55† Q & A Interviews】\n\n【56†Read】 \n\n## 【57†    Business Index】\n\n【58†Sign Up】 \n\n###  Popular Categories\n\n  * 【59†Accounting & Bookkeeping】\n  * 【60†Branding Agencies】\n  * 【61†Payment Processing】\n  * 【62†Startup Consulting】\n  * 【63†Business Insurance】\n  * 【64†Cannabis Investors】\n  * 【65†Lawyers & Legal Firms】\n  * 【66†Security Solutions】\n  * 【67†Business Software】\n  * 【68†Staffing & Recruiting】\n  * 【69†Cannabis Testing Labs】\n  * 【57†View All】\n\n## 【70† Announcements】\n\n【71†Submit】 \n\n## Resources\n\n  * ### 【72†Spotlight】\n\n  * ### 【73†Events】\n\n  * ### 【74†Vocabulary】\n\n  * ### 【75†Product Reviews】\n\n  * ### 【76†Books】\n\n  * ### 【77†Stocks】\n\n【78† 】 \n\n  * 【79†About Us】\n  * 【1†Subscribe】\n  * 【80†Advertise】\n\n  * 【81† †facebook.com】\n  * 【82† †twitter.com】\n  * 【83† †www.instagram.com】\n  * 【84† †www.linkedin.com】\n  * 【85† †www.youtube.com】\n\n【78†  】 \n\n【86†Create Business Profile】 \n\n# Cannabis Classifieds\n\n  * Visit 【87†Website†www.CannabisClassifieds.com】//\n  *   * Vancouver WA\n\n  * 【88† †www.facebook.com】 \n\nCannabis Classifieds has been online since 2000 and publishes ads relating to marijuana for sale and various cannabis products. In December of 2014 a brand new website platform was launched to assist visitors with more interactive marijuana marketing options.\n\na word from our sponsors:\n\n【89†become a sponsor】\n\nadvertisement\n\n【89†advertise here】\n\n【57† Back to the Directory】\n\n## Related Businesses:\n\n【90† The Cannabis Marketing Company Learn More 】 【91† Proven Media Learn More 】 【92† Safe-Reach Learn More 】 【93† August Allen Learn More 】 \n\n【57† View all Categories】 Admin tools: 【94†Update Listing】Infuse the news\n\na word from our sponsors:\n\n【89†become a sponsor】\n\nadvertisement\n\n【89†advertise here】\n\n## Get the daily briefing\n\nEsssential cannabis industry news & insights, delivered daily.\n\n  * 【52†Cannabis News】 \n    * 【2†Business News】\n    * 【95†Politics / Legalization News】\n    * 【4†Medical News】\n    * 【6†Industrial Hemp News】\n    * 【5†Recreational Marijuana】\n    * 【96†CBD News】\n\n  * ## News by Market\n\n    * 【19†Canada】\n    * 【20†CA】\n    * 【21†CO】\n    * 【22†WA】\n    * 【23†OR】\n    * 【24†NV】\n    * 【25†DC】\n    * 【26†IL】\n    * 【27†MI】\n    * 【28†MA】\n    * 【29†ME】\n    * 【30†AK】\n    * 【31†VT】\n    * 【32†AZ】\n    * 【33†VA】\n    * 【34†MT】\n    * 【35†NM】\n    * 【36†NY】\n    * 【37†NJ】\n    * 【38†CT】\n    * 【39†Mexico】\n    * 【32†AZ】\n    * 【42†AR】\n    * 【40†FL】\n    * 【26†IL】\n    * 【44†MD】\n    * 【27†MI】\n    * 【45†NH】\n    * 【37†NJ】\n    * 【36†NY】\n    * 【49†OH】\n    * 【50†OK】\n    * 【51†PA】\n    * 【97†TX】\n    * 【98†UT】\n\n  *  \n\n## 【57†Business Index】\n\n    * 【58†Add Your Business】\n\n## 【53† Podcasts】\n\n## 【55† Q & A Interviews】\n\n## 【99† Press Releases】\n\n  *  \n\n## 【100†Events】\n\n    * 【73†All Events】\n    * 【101†Submit Event】\n\n  *  \n\n## 【102†Jobs / Careers】\n\n    * 【103†Find a Job】\n    * 【104†Hire】\n\n  * ## 【105†Cannabias】\n\n  * ## 【75†Product Reviews】\n\n  * ## 【72†Spotlight】\n\n  * ## 【76†Books】\n\n  * ## 【74†Vocabulary】\n\n  * ## 【106†Digital Assets】\n\n  * 【81† ",
+          "url": "https://www.ganjapreneur.com/business/cannabis-classifieds/",
+          "domain": "www.ganjapreneur.com",
+          "title": "Cannabis Classifieds - Ganjapreneur",
+          "tether_id": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "_cite_metadata": {
+            "citation_format": {
+              "name": "tether_og"
+            },
+            "metadata_list": [
+              {
+                "type": "webpage",
+                "title": "Cannabis Classifieds - Ganjapreneur",
+                "url": "https://www.ganjapreneur.com/business/cannabis-classifieds/",
+                "text": "  * 【35†NM】\n  * 【36†NY】\n  * 【37†NJ】\n  * 【38†CT】\n  * 【39†Mexico】\n\n#### Medical Markets:\n\n  * 【40†FL】\n  * 【41†RI】\n  * 【42†AR】\n  * 【43†AL】\n  * 【44†MD】\n  * 【45†NH】\n  * 【46†DE】\n  * 【47†SD】\n  * 【48†ND】\n  * 【49†OH】\n  * 【50†OK】\n  * 【51†PA】\n  * 【52†View All】\n\n## 【53† Podcasts】\n\n【54†Listen】 \n\n## 【55† Q & A Interviews】\n\n【56†Read】 \n\n## 【57†    Business Index】\n\n【58†Sign Up】 \n\n###  Popular Categories\n\n  * 【59†Accounting & Bookkeeping】\n  * 【60†Branding Agencies】\n  * 【61†Payment Processing】\n  * 【62†Startup Consulting】\n  * 【63†Business Insurance】\n  * 【64†Cannabis Investors】\n  * 【65†Lawyers & Legal Firms】\n  * 【66†Security Solutions】\n  * 【67†Business Software】\n  * 【68†Staffing & Recruiting】\n  * 【69†Cannabis Testing Labs】\n  * 【57†View All】\n\n## 【70† Announcements】\n\n【71†Submit】 \n\n## Resources\n\n  * ### 【72†Spotlight】\n\n  * ### 【73†Events】\n\n  * ### 【74†Vocabulary】\n\n  * ### 【75†Product Reviews】\n\n  * ### 【76†Books】\n\n  * ### 【77†Stocks】\n\n【78† 】 \n\n  * 【79†About Us】\n  * 【1†Subscribe】\n  * 【80†Advertise】\n\n  * 【81† †facebook.com】\n  * 【82† †twitter.com】\n  * 【83† †www.instagram.com】\n  * 【84† †www.linkedin.com】\n  * 【85† †www.youtube.com】\n\n【78†  】 \n\n【86†Create Business Profile】 \n\n# Cannabis Classifieds\n\n  * Visit 【87†Website†www.CannabisClassifieds.com】//\n  *   * Vancouver WA\n\n  * 【88† †www.facebook.com】 \n\nCannabis Classifieds has been online since 2000 and publishes ads relating to marijuana for sale and various cannabis products. In December of 2014 a brand new website platform was launched to assist visitors with more interactive marijuana marketing options.\n\na word from our sponsors:\n\n【89†become a sponsor】\n\nadvertisement\n\n【89†advertise here】\n\n【57† Back to the Directory】\n\n## Related Businesses:\n\n【90† The Cannabis Marketing Company Learn More 】 【91† Proven Media Learn More 】 【92† Safe-Reach Learn More 】 【93† August Allen Learn More 】 \n\n【57† View all Categories】 Admin tools: 【94†Update Listing】Infuse the news\n\na word from our sponsors:\n\n【89†become a sponsor】\n\nadvertisement\n\n【89†advertise here】\n\n## Get the daily briefing\n\nEsssential cannabis industry news & insights, delivered daily.\n\n  * 【52†Cannabis News】 \n    * 【2†Business News】\n    * 【95†Politics / Legalization News】\n    * 【4†Medical News】\n    * 【6†Industrial Hemp News】\n    * 【5†Recreational Marijuana】\n    * 【96†CBD News】\n\n  * ## News by Market\n\n    * 【19†Canada】\n    * 【20†CA】\n    * 【21†CO】\n    * 【22†WA】\n    * 【23†OR】\n    * 【24†NV】\n    * 【25†DC】\n    * 【26†IL】\n    * 【27†MI】\n    * 【28†MA】\n    * 【29†ME】\n    * 【30†AK】\n    * 【31†VT】\n    * 【32†AZ】\n    * 【33†VA】\n    * 【34†MT】\n    * 【35†NM】\n    * 【36†NY】\n    * 【37†NJ】\n    * 【38†CT】\n    * 【39†Mexico】\n    * 【32†AZ】\n    * 【42†AR】\n    * 【40†FL】\n    * 【26†IL】\n    * 【44†MD】\n    * 【27†MI】\n    * 【45†NH】\n    * 【37†NJ】\n    * 【36†NY】\n    * 【49†OH】\n    * 【50†OK】\n    * 【51†PA】\n    * 【97†TX】\n    * 【98†UT】\n\n  *  \n\n## 【57†Business Index】\n\n    * 【58†Add Your Business】\n\n## 【53† Podcasts】\n\n## 【55† Q & A Interviews】\n\n## 【99† Press Releases】\n\n  *  \n\n## 【100†Events】\n\n    * 【73†All Events】\n    * 【101†Submit Event】\n\n  *  \n\n## 【102†Jobs / Careers】\n\n    * 【103†Find a Job】\n    * 【104†Hire】\n\n  * ## 【105†Cannabias】\n\n  * ## 【75†Product Reviews】\n\n  * ## 【72†Spotlight】\n\n  * ## 【76†Books】\n\n  * ## 【74†Vocabulary】\n\n  * ## 【106†Digital Assets】\n\n  * 【81† ",
+                "pub_date": null,
+                "extra": null,
+                "og_tags": null
+              }
+            ],
+            "original_query": null
+          },
+          "command": "mclick",
+          "args": [
+            "[\"1\", \"2\", \"3\", \"8\", \"9\"]"
+          ],
+          "status": "finished",
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "f5a85231-10a2-40ed-b40b-04084ea5b7c4",
+          "request_id": "8ecfa7a8ceda53dd-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f5a85231-10a2-40ed-b40b-04084ea5b7c4",
+      "children": [
+        "fe621a5e-a9ac-4982-b927-012ccaed03d9"
+      ]
+    },
+    "fe621a5e-a9ac-4982-b927-012ccaed03d9": {
+      "id": "fe621a5e-a9ac-4982-b927-012ccaed03d9",
+      "message": {
+        "id": "fe621a5e-a9ac-4982-b927-012ccaed03d9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733355781.547601,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here are a few websites offering free cannabis classifieds where you can list or find cannabis-related products, services, and opportunities:\n\n1. **Cannabis Associates Network**: This platform provides a monitored marketplace for legitimate cannabis-related classifieds. It supports SEO-friendly listings and offers a professional environment for businesses and individuals to advertise their cannabis products and services. Membership is free, but you must ensure compliance with local laws【6】.\n\n2. **Only420**: A comprehensive resource for cannabis classifieds, including listings for dispensaries, products, grow equipment, and more. It also features marijuana-related jobs, services, and business opportunities【7】.\n\n3. **Ganjapreneur**: A long-established platform offering cannabis classifieds for products, services, and business opportunities. It focuses on interactive and accessible options for marketing marijuana-related ventures【8】.\n\nMake sure to review the terms of use and legal compliance requirements of these platforms before posting or responding to ads."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "287f4fe3-2622-4ac6-8972-7b07496e48bb",
+          "request_id": "8ecfa7a8ceda53dd-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "287f4fe3-2622-4ac6-8972-7b07496e48bb",
+      "children": [
+        "bbb2199d-ccc1-415e-aa2e-b807d6151ed2"
+      ]
+    },
+    "bbb2199d-ccc1-415e-aa2e-b807d6151ed2": {
+      "id": "bbb2199d-ccc1-415e-aa2e-b807d6151ed2",
+      "message": {
+        "id": "bbb2199d-ccc1-415e-aa2e-b807d6151ed2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733358934.427623,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Android web scraper"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8ecff43be9b7aadf-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fe621a5e-a9ac-4982-b927-012ccaed03d9",
+      "children": [
+        "691d3226-d91c-40e7-b0c1-6199b64456fe"
+      ]
+    },
+    "691d3226-d91c-40e7-b0c1-6199b64456fe": {
+      "id": "691d3226-d91c-40e7-b0c1-6199b64456fe",
+      "message": {
+        "id": "691d3226-d91c-40e7-b0c1-6199b64456fe",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733358968.949518,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Creating an Android web scraper requires understanding web scraping principles and using libraries or frameworks compatible with Android development. Below is a guide to help you get started:\n\n### Tools and Libraries\n1. **Jsoup**: A Java library for extracting and manipulating data from websites using a DOM-like structure. It's lightweight and works well for Android.\n2. **OkHttp**: For making HTTP requests to fetch web pages.\n3. **Retrofit**: A powerful HTTP client for seamless API interaction, useful for structured web scraping.\n4. **Selenium with Appium**: If you need to interact with dynamic web pages or JavaScript-heavy sites.\n\n### Steps to Build an Android Web Scraper\n1. **Set Up Your Android Studio Project**:\n   - Add dependencies for `Jsoup` or other libraries in your `build.gradle` file:\n     ```gradle\n     implementation 'org.jsoup:jsoup:1.16.1'\n     implementation 'com.squareup.okhttp3:okhttp:4.11.0'\n     ```\n\n2. **Request Web Page Content**:\n   - Use `Jsoup` to fetch and parse HTML from the target URL.\n   ```java\n   new Thread(() -> {\n       try {\n           Document doc = Jsoup.connect(\"https://example.com\").get();\n           String title = doc.title(); // Get page title\n           Elements links = doc.select(\"a[href]\"); // Extract links\n           // Process data here\n       } catch (IOException e) {\n           e.printStackTrace();\n       }\n   }).start();\n   ```\n\n3. **Handle Dynamic Content**:\n   - For JavaScript-heavy pages, use tools like Selenium with Appium to emulate a browser.\n   - Example:\n     - Set up Appium for Android automation.\n     - Use Selenium to fetch and interact with the webpage.\n\n4. **Process and Display Data**:\n   - Parse and clean extracted data based on your requirements.\n   - Display results in a RecyclerView, ListView, or any suitable UI component.\n\n5. **Handle Permissions and Network Policy**:\n   - Add `INTERNET` permission in `AndroidManifest.xml`:\n     ```xml\n     <uses-permission android:name=\"android.permission.INTERNET\"/>\n     ```\n   - Use `StrictMode` policy to enable network access on the main thread or use background threads.\n\n6. **Test and Optimize**:\n   - Test scraping on different websites.\n   - Ensure compliance with website terms of service.\n   - Optimize for performance and minimize data usage.\n\n### Tips\n- **Respect Robots.txt**: Always check the website's `robots.txt` file to ensure scraping is allowed.\n- **API Alternatives**: If the website has an API, use it instead of scraping for better reliability and compliance.\n- **Rate Limiting**: Avoid overloading the server by introducing delays between requests.\n\nWould you like an example project or a specific scraping task?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2199d-ccc1-415e-aa2e-b807d6151ed2",
+          "request_id": "8ecff43be9b7aadf-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2199d-ccc1-415e-aa2e-b807d6151ed2",
+      "children": [
+        "bbb217eb-57af-4289-8f87-1d9c45a91c3f"
+      ]
+    },
+    "bbb217eb-57af-4289-8f87-1d9c45a91c3f": {
+      "id": "bbb217eb-57af-4289-8f87-1d9c45a91c3f",
+      "message": {
+        "id": "bbb217eb-57af-4289-8f87-1d9c45a91c3f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733359044.584868,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can I get visuals of the web craping"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8ecff6ef3a15aadf-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "691d3226-d91c-40e7-b0c1-6199b64456fe",
+      "children": [
+        "bf43f642-d17c-4d1b-8402-ceb8c16cef7d"
+      ]
+    },
+    "bf43f642-d17c-4d1b-8402-ceb8c16cef7d": {
+      "id": "bf43f642-d17c-4d1b-8402-ceb8c16cef7d",
+      "message": {
+        "id": "bf43f642-d17c-4d1b-8402-ceb8c16cef7d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733359063.788496,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\r\n  \"prompt\": \"A visual representation of web scraping using an Android app. The illustration shows a mobile screen with a user interface for entering a URL, extracting data, and displaying it in a structured format like tables or cards. In the background, there are abstract connections to represent fetching HTML data and processing it with code snippets in Java and Android Studio elements. Modern, clean, and technical design.\",\r\n  \"size\": \"1024x1024\"\r\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb217eb-57af-4289-8f87-1d9c45a91c3f",
+          "request_id": "8ecff6ef3a15aadf-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "bbb217eb-57af-4289-8f87-1d9c45a91c3f",
+      "children": [
+        "c108fc60-074d-49df-9535-5fd7df619612"
+      ]
+    },
+    "c108fc60-074d-49df-9535-5fd7df619612": {
+      "id": "c108fc60-074d-49df-9535-5fd7df619612",
+      "message": {
+        "id": "c108fc60-074d-49df-9535-5fd7df619612",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1733359063.788653,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-KY2UWbe9pysjB7jVBE3Xfp",
+              "size_bytes": 380990,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "7w51DmVARai2Dlak",
+                  "prompt": "A visual representation of web scraping using an Android app. The illustration shows a mobile screen with a user interface for entering a URL, extracting data, and displaying it in a structured format like tables or cards. In the background, there are abstract connections to represent fetching HTML data and processing it with code snippets in Java and Android Studio elements. Modern, clean, and technical design.",
+                  "seed": 2741688427,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "lpe_delta_encoding_channel": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null,
+                "is_no_auth_placeholder": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bf43f642-d17c-4d1b-8402-ceb8c16cef7d",
+          "request_id": "8ecff6ef3a15aadf-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bf43f642-d17c-4d1b-8402-ceb8c16cef7d",
+      "children": [
+        "60accc3e-46d7-42d3-8b75-fbd48a361a20"
+      ]
+    },
+    "60accc3e-46d7-42d3-8b75-fbd48a361a20": {
+      "id": "60accc3e-46d7-42d3-8b75-fbd48a361a20",
+      "message": {
+        "id": "60accc3e-46d7-42d3-8b75-fbd48a361a20",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1733359063.788748,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL·E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "c108fc60-074d-49df-9535-5fd7df619612",
+          "request_id": "8ecff6ef3a15aadf-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "c108fc60-074d-49df-9535-5fd7df619612",
+      "children": [
+        "3f4114cb-3f93-401a-9831-dd33b1544624"
+      ]
+    },
+    "3f4114cb-3f93-401a-9831-dd33b1544624": {
+      "id": "3f4114cb-3f93-401a-9831-dd33b1544624",
+      "message": {
+        "id": "3f4114cb-3f93-401a-9831-dd33b1544624",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733359063.788832,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is a visual illustration representing web scraping using an Android application. The design shows an Android app interface where data is entered and processed, visually connected with elements of code and network activity. Let me know if you'd like to refine or enhance the visuals further!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "60accc3e-46d7-42d3-8b75-fbd48a361a20",
+          "request_id": "8ecff6ef3a15aadf-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "60accc3e-46d7-42d3-8b75-fbd48a361a20",
+      "children": [
+        "bbb21e20-02cd-455f-ac3c-74adf11f283f"
+      ]
+    },
+    "bbb21e20-02cd-455f-ac3c-74adf11f283f": {
+      "id": "bbb21e20-02cd-455f-ac3c-74adf11f283f",
+      "message": {
+        "id": "bbb21e20-02cd-455f-ac3c-74adf11f283f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733359388.994058,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you test the web scraper"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8ecfff5758a0ab4b-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3f4114cb-3f93-401a-9831-dd33b1544624",
+      "children": [
+        "15374f18-6914-4708-b573-b49c21ae2798"
+      ]
+    },
+    "15374f18-6914-4708-b573-b49c21ae2798": {
+      "id": "15374f18-6914-4708-b573-b49c21ae2798",
+      "message": {
+        "id": "15374f18-6914-4708-b573-b49c21ae2798",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733359407.14825,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Testing a web scraper involves executing the scraper on a target website and verifying the extracted data. However, as I cannot run live web scraping in this environment, I can guide you to test your web scraper locally. Here's how you can do it:\n\n---\n\n### **Testing Locally**\n1. **Set Up the Project**:\n   - Ensure your Android Studio project is correctly configured with necessary libraries (e.g., Jsoup).\n   - Add the target URL to be scraped.\n\n2. **Write a Test Script**:\n   Use a sample URL, such as a public website, and ensure compliance with its terms of service. Example:\n\n   ```java\n   new Thread(() -> {\n       try {\n           Document doc = Jsoup.connect(\"https://example.com\").get();\n           String title = doc.title();\n           Elements links = doc.select(\"a[href]\");\n           \n           // Print results for testing\n           System.out.println(\"Title: \" + title);\n           for (Element link : links) {\n               System.out.println(\"Link: \" + link.attr(\"href\"));\n           }\n       } catch (IOException e) {\n           e.printStackTrace();\n       }\n   }).start();\n   ```\n\n3. **Run and Debug**:\n   - Execute the scraper within your Android app.\n   - Use logging (`Log.d`) to capture data or display results in a simple TextView for testing.\n\n4. **Verify Results**:\n   Compare the output with the actual content of the target webpage to ensure accuracy.\n\n---\n\n### **Alternative: Run with Simulated Data**\nIf you'd like me to simulate or write an advanced test for specific scenarios, provide details of the website's structure or the type of data you're targeting.\n\nWould you like me to write Python code to simulate testing with a library like BeautifulSoup, which can be run in your local environment?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21e20-02cd-455f-ac3c-74adf11f283f",
+          "request_id": "8ecfff5758a0ab4b-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21e20-02cd-455f-ac3c-74adf11f283f",
+      "children": [
+        "bbb213c3-30ef-4527-afaa-29671d41cf5f"
+      ]
+    },
+    "bbb213c3-30ef-4527-afaa-29671d41cf5f": {
+      "id": "bbb213c3-30ef-4527-afaa-29671d41cf5f",
+      "message": {
+        "id": "bbb213c3-30ef-4527-afaa-29671d41cf5f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733359473.669498,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8ed001693d55ab4b-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "15374f18-6914-4708-b573-b49c21ae2798",
+      "children": [
+        "ee45542f-d9bd-4f23-8964-68d94d03e41b"
+      ]
+    },
+    "ee45542f-d9bd-4f23-8964-68d94d03e41b": {
+      "id": "ee45542f-d9bd-4f23-8964-68d94d03e41b",
+      "message": {
+        "id": "ee45542f-d9bd-4f23-8964-68d94d03e41b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1733359495.174369,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s an example of Python code using **BeautifulSoup** to scrape and test a website locally. This script fetches a webpage, extracts its title, and lists all hyperlinks (`<a>` tags).\n\n### **Python Web Scraper with BeautifulSoup**\n```python\nimport requests\nfrom bs4 import BeautifulSoup\n\n# URL to scrape\nurl = \"https://example.com\"\n\ntry:\n    # Fetch the webpage content\n    response = requests.get(url)\n    response.raise_for_status()  # Check for HTTP request errors\n\n    # Parse the HTML content\n    soup = BeautifulSoup(response.text, 'html.parser')\n\n    # Extract and print the title of the page\n    title = soup.title.string if soup.title else \"No title found\"\n    print(f\"Page Title: {title}\")\n\n    # Extract and print all hyperlinks\n    links = soup.find_all('a', href=True)\n    print(\"\\nLinks Found:\")\n    for link in links:\n        print(link['href'])\n\nexcept requests.exceptions.RequestException as e:\n    print(f\"Error fetching the webpage: {e}\")\n```\n\n---\n\n### **How to Test**\n1. **Install Dependencies**:\n   Install the required libraries using pip:\n   ```bash\n   pip install requests beautifulsoup4\n   ```\n\n2. **Run the Script**:\n   Save the script in a file, e.g., `web_scraper.py`, and execute it:\n   ```bash\n   python web_scraper.py\n   ```\n\n3. **Verify Output**:\n   - Check the printed page title.\n   - Verify the list of links against the website's actual structure.\n\n---\n\n### **Modify for a Specific Site**\nIf the site has specific elements you want to scrape (e.g., product details, blog titles), update the `soup.find_all()` method with appropriate CSS selectors. Example:\n```python\n# Extract specific content (e.g., all blog titles with a certain class)\nblog_titles = soup.find_all('h2', class_='blog-title')\nfor title in blog_titles:\n    print(title.get_text())\n```\n\nWould you like assistance testing this script or adapting it to scrape specific data?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb213c3-30ef-4527-afaa-29671d41cf5f",
+          "request_id": "8ed001693d55ab4b-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb213c3-30ef-4527-afaa-29671d41cf5f",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "ee45542f-d9bd-4f23-8964-68d94d03e41b",
+  "conversation_id": "6750e8f7-3dd4-8011-8fc3-78edeff032f4",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.ganjapreneur.com/business/cannabis-classifieds/",
+    "https://x-cannabis.com/classifieds",
+    "https://example.com",
+    "https://only420.com/marijuana-classifieds/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

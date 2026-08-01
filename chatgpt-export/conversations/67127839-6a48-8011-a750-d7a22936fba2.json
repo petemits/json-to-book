@@ -1,0 +1,1754 @@
+{
+  "title": "Bird Sunset Image Request",
+  "create_time": 1729263673.648393,
+  "update_time": 1729264280.478792,
+  "mapping": {
+    "bbb2351a-0528-4373-b028-5eaa468abd96": {
+      "id": "bbb2351a-0528-4373-b028-5eaa468abd96",
+      "message": null,
+      "parent": null,
+      "children": [
+        "1bd0b6a6-6dda-4d2b-93ca-604b3b522af0"
+      ]
+    },
+    "1bd0b6a6-6dda-4d2b-93ca-604b3b522af0": {
+      "id": "1bd0b6a6-6dda-4d2b-93ca-604b3b522af0",
+      "message": {
+        "id": "1bd0b6a6-6dda-4d2b-93ca-604b3b522af0",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2351a-0528-4373-b028-5eaa468abd96",
+      "children": [
+        "bbb21990-7c9b-40fc-b9d0-3591225b0774"
+      ]
+    },
+    "bbb21990-7c9b-40fc-b9d0-3591225b0774": {
+      "id": "bbb21990-7c9b-40fc-b9d0-3591225b0774",
+      "message": {
+        "id": "bbb21990-7c9b-40fc-b9d0-3591225b0774",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729263673.654947,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nImage of bird with the sunset"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8d4967069c3936d1-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1bd0b6a6-6dda-4d2b-93ca-604b3b522af0",
+      "children": [
+        "f8abbc0e-63e0-40fe-b359-a2b207e1bc4e"
+      ]
+    },
+    "f8abbc0e-63e0-40fe-b359-a2b207e1bc4e": {
+      "id": "f8abbc0e-63e0-40fe-b359-a2b207e1bc4e",
+      "message": {
+        "id": "f8abbc0e-63e0-40fe-b359-a2b207e1bc4e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729263686.466738,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21990-7c9b-40fc-b9d0-3591225b0774",
+          "request_id": "8d4967069c3936d1-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21990-7c9b-40fc-b9d0-3591225b0774",
+      "children": [
+        "44e156c1-a3c4-4e4e-80b7-c2708e4a5dcf"
+      ]
+    },
+    "44e156c1-a3c4-4e4e-80b7-c2708e4a5dcf": {
+      "id": "44e156c1-a3c4-4e4e-80b7-c2708e4a5dcf",
+      "message": {
+        "id": "44e156c1-a3c4-4e4e-80b7-c2708e4a5dcf",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729263686.4669,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n   \"size\": \"1024x1024\",\n   \"prompt\": \"A beautiful scene of a bird flying gracefully across the sky during sunset. The sky is filled with vibrant colors, ranging from deep orange and pink near the horizon to soft purples and blues higher up. The bird, silhouetted against the sunset, has wings outstretched in flight. Below, the landscape is softly lit, with trees or a body of water reflecting the golden light of the setting sun.\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "f8abbc0e-63e0-40fe-b359-a2b207e1bc4e",
+          "request_id": "8d4967069c3936d1-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "f8abbc0e-63e0-40fe-b359-a2b207e1bc4e",
+      "children": [
+        "5d1773a2-76b0-4f1e-bce2-95de15a4312d"
+      ]
+    },
+    "5d1773a2-76b0-4f1e-bce2-95de15a4312d": {
+      "id": "5d1773a2-76b0-4f1e-bce2-95de15a4312d",
+      "message": {
+        "id": "5d1773a2-76b0-4f1e-bce2-95de15a4312d",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1729263686.466995,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-1ThNPxhptUwFKxe0p2c5tgk8",
+              "size_bytes": 254612,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "cykpI5GhC6QNpdi5",
+                  "prompt": "A beautiful scene of a bird flying gracefully across the sky during sunset. The sky is filled with vibrant colors, ranging from deep orange and pink near the horizon to soft purples and blues higher up. The bird, silhouetted against the sunset, has wings outstretched in flight. Below, the landscape is softly lit, with trees or a body of water reflecting the golden light of the setting sun.",
+                  "seed": 1571016143,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "lpe_delta_encoding_channel": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null,
+                "is_no_auth_placeholder": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "44e156c1-a3c4-4e4e-80b7-c2708e4a5dcf",
+          "request_id": "8d4967069c3936d1-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "44e156c1-a3c4-4e4e-80b7-c2708e4a5dcf",
+      "children": [
+        "ca99167d-23a3-4169-b510-f86cf033b5c2"
+      ]
+    },
+    "ca99167d-23a3-4169-b510-f86cf033b5c2": {
+      "id": "ca99167d-23a3-4169-b510-f86cf033b5c2",
+      "message": {
+        "id": "ca99167d-23a3-4169-b510-f86cf033b5c2",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1729263686.467077,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL·E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "5d1773a2-76b0-4f1e-bce2-95de15a4312d",
+          "request_id": "8d4967069c3936d1-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5d1773a2-76b0-4f1e-bce2-95de15a4312d",
+      "children": [
+        "0472d4a4-5a66-4b45-8b25-45abf41e3104"
+      ]
+    },
+    "0472d4a4-5a66-4b45-8b25-45abf41e3104": {
+      "id": "0472d4a4-5a66-4b45-8b25-45abf41e3104",
+      "message": {
+        "id": "0472d4a4-5a66-4b45-8b25-45abf41e3104",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729263686.467161,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the image of a bird flying against the backdrop of a stunning sunset. Let me know if you'd like any adjustments!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "ca99167d-23a3-4169-b510-f86cf033b5c2",
+          "request_id": "8d4967069c3936d1-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ca99167d-23a3-4169-b510-f86cf033b5c2",
+      "children": [
+        "bbb214d8-f28a-400d-a844-72d55b51e3a5"
+      ]
+    },
+    "bbb214d8-f28a-400d-a844-72d55b51e3a5": {
+      "id": "bbb214d8-f28a-400d-a844-72d55b51e3a5",
+      "message": {
+        "id": "bbb214d8-f28a-400d-a844-72d55b51e3a5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729263726.428947,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Man flying"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8d49684c9ecd36d1-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0472d4a4-5a66-4b45-8b25-45abf41e3104",
+      "children": [
+        "1ce3df7e-b7ef-42c5-868e-8a9d2bcd4117"
+      ]
+    },
+    "1ce3df7e-b7ef-42c5-868e-8a9d2bcd4117": {
+      "id": "1ce3df7e-b7ef-42c5-868e-8a9d2bcd4117",
+      "message": {
+        "id": "1ce3df7e-b7ef-42c5-868e-8a9d2bcd4117",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729263738.533658,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n   \"size\": \"1024x1024\",\n   \"prompt\": \"A man soaring through the sky in a dynamic flying pose, his body stretched forward with arms out like wings. He is high above the clouds, with a stunning view of the sunset behind him, casting a warm orange and pink glow across the sky. His expression is focused and determined, as he flies above a vast landscape below, which includes mountains and rivers bathed in the golden light of the sunset.\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb214d8-f28a-400d-a844-72d55b51e3a5",
+          "request_id": "8d49684c9ecd36d1-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": false
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "bbb214d8-f28a-400d-a844-72d55b51e3a5",
+      "children": [
+        "5f5b57f2-3a7e-4e03-bc6c-1f9967b2a9ef"
+      ]
+    },
+    "5f5b57f2-3a7e-4e03-bc6c-1f9967b2a9ef": {
+      "id": "5f5b57f2-3a7e-4e03-bc6c-1f9967b2a9ef",
+      "message": {
+        "id": "5f5b57f2-3a7e-4e03-bc6c-1f9967b2a9ef",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1729263738.533793,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-qoU4s8Z8mBewxR1ujHiDOYFy",
+              "size_bytes": 227160,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "4Wc4lEODVNjdvDWZ",
+                  "prompt": "A man soaring through the sky in a dynamic flying pose, his body stretched forward with arms out like wings. He is high above the clouds, with a stunning view of the sunset behind him, casting a warm orange and pink glow across the sky. His expression is focused and determined, as he flies above a vast landscape below, which includes mountains and rivers bathed in the golden light of the sunset.",
+                  "seed": 4138696423,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "lpe_delta_encoding_channel": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null,
+                "is_no_auth_placeholder": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "1ce3df7e-b7ef-42c5-868e-8a9d2bcd4117",
+          "request_id": "8d49684c9ecd36d1-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1ce3df7e-b7ef-42c5-868e-8a9d2bcd4117",
+      "children": [
+        "cf37ea3c-e342-4e20-9f06-bb272eabd959"
+      ]
+    },
+    "cf37ea3c-e342-4e20-9f06-bb272eabd959": {
+      "id": "cf37ea3c-e342-4e20-9f06-bb272eabd959",
+      "message": {
+        "id": "cf37ea3c-e342-4e20-9f06-bb272eabd959",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1729263738.533883,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL·E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "5f5b57f2-3a7e-4e03-bc6c-1f9967b2a9ef",
+          "request_id": "8d49684c9ecd36d1-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5f5b57f2-3a7e-4e03-bc6c-1f9967b2a9ef",
+      "children": [
+        "a50942cc-68fc-45fa-84ba-c741f72716db"
+      ]
+    },
+    "a50942cc-68fc-45fa-84ba-c741f72716db": {
+      "id": "a50942cc-68fc-45fa-84ba-c741f72716db",
+      "message": {
+        "id": "a50942cc-68fc-45fa-84ba-c741f72716db",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729263738.53397,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the image of a man soaring through the sky in a dynamic flying pose during sunset. Let me know if you'd like any changes!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "cf37ea3c-e342-4e20-9f06-bb272eabd959",
+          "request_id": "8d49684c9ecd36d1-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "cf37ea3c-e342-4e20-9f06-bb272eabd959",
+      "children": [
+        "bbb2134a-7724-4887-83a2-d6a79819155f"
+      ]
+    },
+    "bbb2134a-7724-4887-83a2-d6a79819155f": {
+      "id": "bbb2134a-7724-4887-83a2-d6a79819155f",
+      "message": {
+        "id": "bbb2134a-7724-4887-83a2-d6a79819155f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729263969.05762,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Walking man gif so it looks like a movie"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8d496e3cbce25419-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a50942cc-68fc-45fa-84ba-c741f72716db",
+      "children": [
+        "e4b66d97-b152-496b-9c7a-bfe605f47801"
+      ]
+    },
+    "e4b66d97-b152-496b-9c7a-bfe605f47801": {
+      "id": "e4b66d97-b152-496b-9c7a-bfe605f47801",
+      "message": {
+        "id": "e4b66d97-b152-496b-9c7a-bfe605f47801",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729263979.657241,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I can't create GIFs directly, but I can suggest ways to make one. You can use image editing or animation software to create a walking man GIF that looks like a movie. Here's how you can approach it:\n\n1. **Create Frames:** You will need multiple images showing different stages of the man walking. Each frame will show slight variations, just like a stop-motion animation.\n\n2. **Use Tools:** After you have your frames, you can use tools like:\n   - **EZGIF (Online GIF maker)**: A free online tool where you can upload your frames and turn them into a GIF.\n   - **Photoshop**: You can use the timeline feature to create frame-by-frame animations and export them as a GIF.\n   - **Giphy**: Another tool for creating and sharing GIFs.\n\nIf you'd like, I can help you create static images for different walking stages that you can later turn into a GIF!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb2134a-7724-4887-83a2-d6a79819155f",
+          "request_id": "8d496e3cbce25419-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2134a-7724-4887-83a2-d6a79819155f",
+      "children": [
+        "bbb214cd-0fc6-48c1-9ac7-52b29f91c482"
+      ]
+    },
+    "bbb214cd-0fc6-48c1-9ac7-52b29f91c482": {
+      "id": "bbb214cd-0fc6-48c1-9ac7-52b29f91c482",
+      "message": {
+        "id": "bbb214cd-0fc6-48c1-9ac7-52b29f91c482",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729264029.935639,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you create multiple images I compile it myself"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8d496fb968e65419-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e4b66d97-b152-496b-9c7a-bfe605f47801",
+      "children": [
+        "b6f023eb-9f17-40f4-b790-732d8ff88df8"
+      ]
+    },
+    "b6f023eb-9f17-40f4-b790-732d8ff88df8": {
+      "id": "b6f023eb-9f17-40f4-b790-732d8ff88df8",
+      "message": {
+        "id": "b6f023eb-9f17-40f4-b790-732d8ff88df8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729264046.599649,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure! I'll generate several images showing a man in different stages of walking. Let me start with the first one."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb214cd-0fc6-48c1-9ac7-52b29f91c482",
+          "request_id": "8d496fb968e65419-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb214cd-0fc6-48c1-9ac7-52b29f91c482",
+      "children": [
+        "a152eab8-4c30-4ab1-8e8f-088f8ddfc974"
+      ]
+    },
+    "a152eab8-4c30-4ab1-8e8f-088f8ddfc974": {
+      "id": "a152eab8-4c30-4ab1-8e8f-088f8ddfc974",
+      "message": {
+        "id": "a152eab8-4c30-4ab1-8e8f-088f8ddfc974",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729264046.599768,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n   \"size\": \"1024x1024\",\n   \"prompt\": \"A man walking, shown in mid-step. His right leg is forward, left leg slightly behind, and his arms are swinging naturally. The background is neutral or minimal to focus on the walking motion. The man appears to be walking on a flat surface, and his expression is neutral.\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "b6f023eb-9f17-40f4-b790-732d8ff88df8",
+          "request_id": "8d496fb968e65419-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": false
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "b6f023eb-9f17-40f4-b790-732d8ff88df8",
+      "children": [
+        "db55a5db-9aa5-42e3-96f2-b6fbeaa69d82"
+      ]
+    },
+    "db55a5db-9aa5-42e3-96f2-b6fbeaa69d82": {
+      "id": "db55a5db-9aa5-42e3-96f2-b6fbeaa69d82",
+      "message": {
+        "id": "db55a5db-9aa5-42e3-96f2-b6fbeaa69d82",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1729264046.599893,
+        "update_time": null,
+        "content": {
+          "content_type": "multimodal_text",
+          "parts": [
+            {
+              "content_type": "image_asset_pointer",
+              "asset_pointer": "file-service://file-xIyb5swPAMv6Wh45YyJKSO7o",
+              "size_bytes": 143936,
+              "width": 1024,
+              "height": 1024,
+              "fovea": 512,
+              "metadata": {
+                "dalle": {
+                  "gen_id": "ydlh6M85xLuzSBeQ",
+                  "prompt": "A man walking, shown in mid-step. His right leg is forward, left leg slightly behind, and his arms are swinging naturally. The background is neutral or minimal to focus on the walking motion. The man appears to be walking on a flat surface, and his expression is neutral.",
+                  "seed": 447248881,
+                  "parent_gen_id": null,
+                  "edit_op": null,
+                  "serialization_title": "DALL-E generation metadata"
+                },
+                "gizmo": null,
+                "generation": null,
+                "container_pixel_height": null,
+                "container_pixel_width": null,
+                "emu_omit_glimpse_image": null,
+                "emu_patches_override": null,
+                "lpe_keep_patch_ijhw": null,
+                "lpe_delta_encoding_channel": null,
+                "sanitized": false,
+                "asset_pointer_link": null,
+                "watermarked_asset_pointer": null,
+                "is_no_auth_placeholder": null
+              }
+            }
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "a152eab8-4c30-4ab1-8e8f-088f8ddfc974",
+          "request_id": "8d496fb968e65419-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a152eab8-4c30-4ab1-8e8f-088f8ddfc974",
+      "children": [
+        "1cb04cfd-8699-43e5-a882-84a2263ce53f"
+      ]
+    },
+    "1cb04cfd-8699-43e5-a882-84a2263ce53f": {
+      "id": "1cb04cfd-8699-43e5-a882-84a2263ce53f",
+      "message": {
+        "id": "1cb04cfd-8699-43e5-a882-84a2263ce53f",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1729264046.599985,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "\nDALL·E displayed 1 images. The images are already plainly visible, so don't repeat the descriptions in detail. Do not list download links as they are available in the ChatGPT UI already. The user may download the images by clicking on them, but do not mention anything about downloading to the user."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "db55a5db-9aa5-42e3-96f2-b6fbeaa69d82",
+          "request_id": "8d496fb968e65419-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "db55a5db-9aa5-42e3-96f2-b6fbeaa69d82",
+      "children": [
+        "a4916f3b-bdb8-4fad-9656-5d9e5354888c"
+      ]
+    },
+    "a4916f3b-bdb8-4fad-9656-5d9e5354888c": {
+      "id": "a4916f3b-bdb8-4fad-9656-5d9e5354888c",
+      "message": {
+        "id": "a4916f3b-bdb8-4fad-9656-5d9e5354888c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729264046.600064,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here is the first image of the man walking in mid-step. I'll create a few more to show different stages of the motion."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "1cb04cfd-8699-43e5-a882-84a2263ce53f",
+          "request_id": "8d496fb968e65419-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1cb04cfd-8699-43e5-a882-84a2263ce53f",
+      "children": [
+        "9dcb2784-235d-4903-af78-c945e2081a93"
+      ]
+    },
+    "9dcb2784-235d-4903-af78-c945e2081a93": {
+      "id": "9dcb2784-235d-4903-af78-c945e2081a93",
+      "message": {
+        "id": "9dcb2784-235d-4903-af78-c945e2081a93",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729264046.600137,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "{\n   \"size\": \"1024x1024\",\n   \"prompt\": \"A man walking, shown in a different stage of motion. His left leg is now forward, right leg slightly behind, and his arms are swinging naturally in the opposite direction. The background is neutral or minimal to emphasize the walking movement. The man continues walking on a flat surface, with a neutral expression.\"\n}"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "a4916f3b-bdb8-4fad-9656-5d9e5354888c",
+          "request_id": "8d496fb968e65419-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": false
+        },
+        "recipient": "dalle.text2im",
+        "channel": null
+      },
+      "parent": "a4916f3b-bdb8-4fad-9656-5d9e5354888c",
+      "children": [
+        "fd8fcc50-5970-4408-af46-7b9e1a96f831"
+      ]
+    },
+    "fd8fcc50-5970-4408-af46-7b9e1a96f831": {
+      "id": "fd8fcc50-5970-4408-af46-7b9e1a96f831",
+      "message": {
+        "id": "fd8fcc50-5970-4408-af46-7b9e1a96f831",
+        "author": {
+          "role": "tool",
+          "name": "dalle.text2im",
+          "metadata": {}
+        },
+        "create_time": 1729264046.600214,
+        "update_time": 1729264045.3898394,
+        "content": {
+          "content_type": "system_error",
+          "text": "Before doing anything else, explicitly explain to the user that you were unable to invoke the dalle tool right now. Make sure to begin your response with \"It seems like I can’t generate any more images right now. Please try again later.\". DO NOT UNDER ANY CIRCUMSTANCES retry using this tool until a new request is given. Do NOT try to answer the user's original question. ",
+          "name": "ChatGPTAgentToolException"
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "9dcb2784-235d-4903-af78-c945e2081a93",
+          "request_id": "8d496fb968e65419-YYZ",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9dcb2784-235d-4903-af78-c945e2081a93",
+      "children": [
+        "f79423ed-847b-4252-830d-6498c4715891"
+      ]
+    },
+    "f79423ed-847b-4252-830d-6498c4715891": {
+      "id": "f79423ed-847b-4252-830d-6498c4715891",
+      "message": {
+        "id": "f79423ed-847b-4252-830d-6498c4715891",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729264046.600281,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It seems like I can’t generate any more images right now. Please try again later. If you need help with anything else, feel free to ask!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "fd8fcc50-5970-4408-af46-7b9e1a96f831",
+          "request_id": "8d496fb968e65419-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fd8fcc50-5970-4408-af46-7b9e1a96f831",
+      "children": [
+        "bbb210b0-9410-48c6-8156-9c15073a966d"
+      ]
+    },
+    "bbb210b0-9410-48c6-8156-9c15073a966d": {
+      "id": "bbb210b0-9410-48c6-8156-9c15073a966d",
+      "message": {
+        "id": "bbb210b0-9410-48c6-8156-9c15073a966d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729264275.107838,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can you gerate voices "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "request_id": "8d4975b56a09ab2e-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f79423ed-847b-4252-830d-6498c4715891",
+      "children": [
+        "aaee47b5-914c-4ce4-8f5e-e181ba4e7ff1"
+      ]
+    },
+    "aaee47b5-914c-4ce4-8f5e-e181ba4e7ff1": {
+      "id": "aaee47b5-914c-4ce4-8f5e-e181ba4e7ff1",
+      "message": {
+        "id": "aaee47b5-914c-4ce4-8f5e-e181ba4e7ff1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1729264279.700521,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I currently can't generate or process voices directly. However, I can suggest tools or methods to create custom voices using text-to-speech software or audio editing programs, if that helps. Let me know if you'd like recommendations!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "gizmo_id": null,
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb210b0-9410-48c6-8156-9c15073a966d",
+          "request_id": "8d4975b56a09ab2e-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [
+            {
+              "slug": "gpt-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-3-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "gpt-5-5-mini",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "regenerate",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            },
+            {
+              "slug": "auto",
+              "context": "conversation",
+              "reason": "unsupported_image",
+              "is_available": false,
+              "description": "This model doesn't support images."
+            }
+          ],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb210b0-9410-48c6-8156-9c15073a966d",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "aaee47b5-914c-4ce4-8f5e-e181ba4e7ff1",
+  "conversation_id": "67127839-6a48-8011-a750-d7a22936fba2",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

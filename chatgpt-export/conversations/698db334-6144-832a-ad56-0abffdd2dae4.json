@@ -1,0 +1,1621 @@
+{
+  "title": "Landlord Legal Aid Application",
+  "create_time": 1770894168.803353,
+  "update_time": 1770894177.783856,
+  "mapping": {
+    "9433d71e-2f15-4f93-b636-98d5732d71a1": {
+      "id": "9433d71e-2f15-4f93-b636-98d5732d71a1",
+      "message": null,
+      "parent": null,
+      "children": [
+        "368853aa-7219-4115-b2c9-281bae08833c"
+      ]
+    },
+    "368853aa-7219-4115-b2c9-281bae08833c": {
+      "id": "368853aa-7219-4115-b2c9-281bae08833c",
+      "message": {
+        "id": "368853aa-7219-4115-b2c9-281bae08833c",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9433d71e-2f15-4f93-b636-98d5732d71a1",
+      "children": [
+        "bbb21d60-8b9f-4625-8639-054125ca3ce3"
+      ]
+    },
+    "bbb21d60-8b9f-4625-8639-054125ca3ce3": {
+      "id": "bbb21d60-8b9f-4625-8639-054125ca3ce3",
+      "message": {
+        "id": "bbb21d60-8b9f-4625-8639-054125ca3ce3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770894168.667286,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How can I landlord apply for legal aid for property and abuse "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "a3a526ae-e0d5-417b-bdcd-b466bf5badc3",
+          "message_source": null,
+          "turn_exchange_id": "54d7e94d-19e3-46e6-b35e-ec06b708d401",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "368853aa-7219-4115-b2c9-281bae08833c",
+      "children": [
+        "4a38a829-7fb7-4311-b048-0927b06938a6"
+      ]
+    },
+    "4a38a829-7fb7-4311-b048-0927b06938a6": {
+      "id": "4a38a829-7fb7-4311-b048-0927b06938a6",
+      "message": {
+        "id": "4a38a829-7fb7-4311-b048-0927b06938a6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770894168.7616289,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "a3a526ae-e0d5-417b-bdcd-b466bf5badc3",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21d60-8b9f-4625-8639-054125ca3ce3",
+          "turn_exchange_id": "54d7e94d-19e3-46e6-b35e-ec06b708d401",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21d60-8b9f-4625-8639-054125ca3ce3",
+      "children": [
+        "aab140fa-889a-4f8f-8c0e-583153ba20c7"
+      ]
+    },
+    "aab140fa-889a-4f8f-8c0e-583153ba20c7": {
+      "id": "aab140fa-889a-4f8f-8c0e-583153ba20c7",
+      "message": {
+        "id": "aab140fa-889a-4f8f-8c0e-583153ba20c7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1770894168.7483144,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"How can I landlord apply for legal aid for property and abuse \")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-2",
+          "request_id": "a3a526ae-e0d5-417b-bdcd-b466bf5badc3",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "4a38a829-7fb7-4311-b048-0927b06938a6",
+          "turn_exchange_id": "54d7e94d-19e3-46e6-b35e-ec06b708d401",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "4a38a829-7fb7-4311-b048-0927b06938a6",
+      "children": [
+        "8e88e21b-c5d1-426d-b26a-58c6ccd32e45"
+      ]
+    },
+    "8e88e21b-c5d1-426d-b26a-58c6ccd32e45": {
+      "id": "8e88e21b-c5d1-426d-b26a-58c6ccd32e45",
+      "message": {
+        "id": "8e88e21b-c5d1-426d-b26a-58c6ccd32e45",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1770894169.5986278,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "how can a landlord apply for legal aid for property and abuse legal aid landlord Ontario Canada",
+              "legal aid application for landlords legal assistance for property dispute and abuse Canada or general"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "a3a526ae-e0d5-417b-bdcd-b466bf5badc3",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "aab140fa-889a-4f8f-8c0e-583153ba20c7",
+          "turn_exchange_id": "54d7e94d-19e3-46e6-b35e-ec06b708d401",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "aab140fa-889a-4f8f-8c0e-583153ba20c7",
+      "children": [
+        "bc996b96-d18a-4ae9-abc4-a1ed43b61ed6"
+      ]
+    },
+    "bc996b96-d18a-4ae9-abc4-a1ed43b61ed6": {
+      "id": "bc996b96-d18a-4ae9-abc4-a1ed43b61ed6",
+      "message": {
+        "id": "bc996b96-d18a-4ae9-abc4-a1ed43b61ed6",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1770894169.596808,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "www.legalaid.on.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalaid.on.ca/faq/how-do-i-apply-for-legal-aid/",
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "www.legalaid.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/",
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "www.legalaid.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalaid.on.ca/faq/",
+                  "title": "FAQ – Legal Aid Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "www.legalaid.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalaid.on.ca/",
+                  "title": "Legal Aid Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": null,
+                  "attribution": "www.legalaid.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalaid.on.ca/landlord-and-tenant-legal-issues/",
+                  "title": "Tenant legal issues – Legal Aid Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "www.legalaid.on.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "legalaid.bc.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://legalaid.bc.ca/apply-online",
+                  "title": "Online applications | Legal Aid BC",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "legalaid.bc.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "stepstojustice.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/",
+                  "title": "Landlord and Tenant Board - Steps to Justice",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "stepstojustice.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://stepstojustice.ca/questions/housing-law/where-can-i-get-help-my-landlord-if-i-cant-afford-lawyer/",
+                  "title": "Where can I get help with my landlord if I can't afford a lawyer? - Steps to Justice",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1698105600,
+                  "attribution": "stepstojustice.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.cleo.on.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help",
+                  "title": "Where can I get legal help? - CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "www.cleo.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.cleo.on.ca/en/publications/fightev/where-get-help-and-information",
+                  "title": "Where to get help and information - CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": 1672531200,
+                  "attribution": "www.cleo.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.cleo.on.ca/en/publications/carehome/more-information",
+                  "title": "For more information - CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "www.cleo.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.cleo.on.ca/en/publications/mainreps/all",
+                  "title": "Maintenance and repairs - CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "www.cleo.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.cleo.on.ca/wp-content/uploads/carehome.pdf",
+                  "title": "Housing Law",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 26
+                  },
+                  "pub_date": 1762156644,
+                  "attribution": "www.cleo.on.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.acto.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.acto.ca/for-tenants/tenant-duty-counsel/",
+                  "title": "Tenant Duty Counsel Program - Advocacy Centre for Tenants Ontario - ACTO",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "www.acto.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.acto.ca/for-tenants/ltbandhumanrights/",
+                  "title": "What can I do at the Landlord and Tenant Board to protect my human rights? - Advocacy Centre for Tenants Ontario - ACTO",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": 1551744000,
+                  "attribution": "www.acto.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.acto.ca/~actoca/assets/files/docs/My%20Landlord%20wants%20to%20evict%20me%20because%20I%20owe%20rent.pdf",
+                  "title": "|  | TIP SHEET FOR TENANTSMy landlord wants to evict me",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1762124836,
+                  "attribution": "www.acto.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "tribunalsontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://tribunalsontario.ca/ltb/contact/",
+                  "title": "Contact - Tribunals Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1764720000,
+                  "attribution": "tribunalsontario.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://tribunalsontario.ca/documents/ltb/Brochures/ACTO-LSHC_Insert_EN.pdf",
+                  "title": "The following legal services for tenants and landlords are not supplied by Tribunals",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1762003180,
+                  "attribution": "tribunalsontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "info.legalaid.bc.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://info.legalaid.bc.ca/guide/guide-your-protection/chapter-5-who-can-help",
+                  "title": "Chapter 5: Who Can Help | Legal Aid BC Support",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 1764028800,
+                  "attribution": "info.legalaid.bc.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.legalshield.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalshield.com/en-ca/landlords/",
+                  "title": "Legal Support for Landlords and Rentals | LegalShield",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "www.legalshield.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "landlordselfhelp.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://landlordselfhelp.com/",
+                  "title": "Help for Small Landlords - Landlord's Self Help Centre",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "landlordselfhelp.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.alberta.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.alberta.ca/residential-tenancies-resources",
+                  "title": "Resources for tenants and landlords | Alberta.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "www.alberta.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.toronto.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.toronto.ca/community-people/housing-shelter/rental-housing-tenant-information/find-legal-help/",
+                  "title": "Housing Help & Support Services – City of Toronto",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "www.toronto.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/OntarioTenants/comments/1kqebpj",
+                  "title": "📌 Essential Resources for Ontario Tenants 📌",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 35
+                  },
+                  "pub_date": 1747667909.186,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ontario/comments/eq79ao",
+                  "title": "Landlord and Tenant Questions",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 37
+                  },
+                  "pub_date": 1579298511.056,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ontario/comments/ejzi90",
+                  "title": "PSA: Resources for tenants in Ontario",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 38
+                  },
+                  "pub_date": 1578159043.337,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/ek01fw",
+                  "title": "Resources for Ontario tenants",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 39
+                  },
+                  "pub_date": 1578161268.966,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/KingstonOntario/comments/1k31zxu",
+                  "title": "Paralegal recommendation for LTB filing",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 40
+                  },
+                  "pub_date": 1745084902.327,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/TenantHelp/comments/1oyo5rx/read_this_before_posting_what_rtenanthelp_is_for/",
+                  "title": "Read this before posting: What r/TenantHelp is for (and what it is not)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 41
+                  },
+                  "pub_date": 1763305960.909,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/Hamilton/comments/1lrvffk",
+                  "title": "Need legal help that is not costly (landlord and tenant claim)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 42
+                  },
+                  "pub_date": 1751669000.617,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/OntarioLandlord/comments/blzmzt",
+                  "title": "Landlord Resources Feedback",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 43
+                  },
+                  "pub_date": 1557281667.565956,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/OntarioLandlord/comments/190b5g0",
+                  "title": "Why has LTB became anti small landlords?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 44
+                  },
+                  "pub_date": 1704577664.279,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/OntarioLandlord/comments/1jbk74a",
+                  "title": "We've asked our landlord multiple times for a lease agreement but they won't give one",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 45
+                  },
+                  "pub_date": 1742002788.584,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/OntarioLandlord/comments/1bo9hh8",
+                  "title": "Filed a T5 against a N12 bad eviction and won a settlement remedy of $2950 with no hearing",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 46
+                  },
+                  "pub_date": 1711463873.757,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/legaladvicecanada/comments/1cz3l0l",
+                  "title": "I finally have a hearing with the LTB",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 47
+                  },
+                  "pub_date": 1716498053.562,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_698db3599da883219bde15b6a94d2a88",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "a3a526ae-e0d5-417b-bdcd-b466bf5badc3",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "8e88e21b-c5d1-426d-b26a-58c6ccd32e45",
+          "turn_exchange_id": "54d7e94d-19e3-46e6-b35e-ec06b708d401",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "8e88e21b-c5d1-426d-b26a-58c6ccd32e45",
+      "children": [
+        "9e7b5c17-86e5-4943-96ca-b20717add385"
+      ]
+    },
+    "9e7b5c17-86e5-4943-96ca-b20717add385": {
+      "id": "9e7b5c17-86e5-4943-96ca-b20717add385",
+      "message": {
+        "id": "9e7b5c17-86e5-4943-96ca-b20717add385",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1770894169.949208,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If you’re a **landlord in Ontario (e.g., Mississauga, Ontario, Canada)** and you’re dealing with legal issues related to **property disputes or abuse** (for example harassment by a tenant or problems at the Landlord and Tenant Board), you **can seek legal help, but applying for Legal Aid has specific rules**. Here’s a clear breakdown of how it works and what your options are:\n\n---\n\n## 🧑‍⚖️ 1. **Understanding Legal Aid Eligibility in Ontario**\n\n**Legal Aid Ontario (LAO)** provides legal help (including lawyers and advice) for people who:\n\n- **Meet financial eligibility requirements**; and  \n- **Have a legal issue that LAO covers** (e.g., family law, criminal law, some civil law matters). citeturn0search1turn0search16\n\nHowever:\n\n- **Traditional legal aid applications online are limited** — *the online portal is only for people who do **not own property*** and meet certain income or assistance criteria (e.g., Ontario Works, ODSP, no income). citeturn0search1  \n- If you **own property (like a landlord does)**, you *might still be eligible* for a **certificate with a contribution agreement**, but you usually must apply by **phone or in person** and may have to **contribute toward legal fees**. citeturn0search1\n\n### 📌 How to Apply for Legal Aid\n\n1. **By Phone**  \n   - Call Legal Aid Ontario at:  \n     📞 **1-800-668-8258** (toll-free)  \n     📞 **416-979-1446** (Greater Toronto Area)  \n   - Hours: Monday–Friday, 8 a.m.–5 p.m. citeturn0search1\n\n2. **In Person**  \n   - Visit a local Legal Aid office or courthouse, where staff can help you start your application. citeturn0search1\n\n3. **Online (limited cases)**  \n   - Available only if you meet **very specific criteria** (generally not owning property). citeturn0search1\n\nYou’ll need to provide information about your income, assets (including property), and details of your legal situation when applying.\n\n---\n\n## 🏠 2. **Legal Aid and Landlord-Tenant Issues**\n\nLegal Aid Ontario *does not automatically provide full representation for all landlord issues*, especially if you’re the **landlord** — such services tend to focus on more urgent or protected groups. However:\n\n### 🧑‍💼 **Landlord Support Resources**\n\n- **Landlord’s Self-Help Centre** – A nonprofit funded by Legal Aid Ontario that helps *small landlords* with legal information, document preparation, and referrals. citeturn0search12  \n  - Good if you rent **no more than a few units**, live in the property, and meet **financial eligibility**.\n\n- **Community Legal Clinics** – Some clinics may offer **advice or summary help** on housing and tenancy matters, even for landlords with low income. citeturn0search4\n\n- **Law Society Referral Service** – Even if legal aid doesn’t apply, this service can connect you with a lawyer or paralegal who will give **30 minutes of free advice**. citeturn0search3\n\n- **Pro Bono Ontario** – Free legal advice line (usually limited to 30 min). citeturn0search11\n\n---\n\n## 🛑 3. **Domestic Abuse or Harassment Legal Help**\n\nIf **abuse or harassment** is part of your situation (e.g., threats, intimidation):\n\n- Legal Aid Ontario **covers family/domestic violence issues** in many cases and can help you obtain protection orders or representation. citeturn0search16  \n- You should **explicitly explain the abuse/harassment circumstances** when applying, as LAO may treat it differently than a typical landlord dispute.\n\n---\n\n## 🗂 4. **Other Ways to Get Help Without Full Legal Aid**\n\nEven if you **don’t qualify** for full legal aid:\n\n✅ **Summary Legal Advice** – Call LAO and ask for general legal advice over the phone (you don’t have to qualify financially for this). citeturn0search10  \n✅ **Limited or Unbundled Services** – Some lawyers will help with specific parts of your case (like preparing forms) for a lower fee.  \n✅ **JusticeNet** (Ontario) – Helps people who earn too much for legal aid but can’t otherwise afford a lawyer.\n\n---\n\n## 🧠 Summary: What You Can Do\n\n1. **Call Legal Aid Ontario** at 1-800-668-8258 — explain you’re a landlord with a legal issue involving property and possible abuse.  \n2. **Ask about eligibility** for either a **legal aid certificate** or **advice services**.  \n3. **Use landlord-specific support** like **Landlord’s Self-Help Centre** if full aid isn’t available.  \n4. **Consider other low-cost help** like free advice lines or partial legal services.\n\n---\n\nIf you want, I can help you **draft a script or checklist** for your Legal Aid Ontario phone call to increase your chances of getting the support you need — just let me know!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "citeturn0search1turn0search16",
+              "start_idx": 696,
+              "end_idx": 729,
+              "safe_urls": [
+                "https://www.legalaid.on.ca/",
+                "https://www.legalaid.on.ca/?utm_source=chatgpt.com",
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/",
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Legal Aid Ontario](https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "url": "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Legal Aid Ontario",
+                      "url": "https://www.legalaid.on.ca/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Legal Aid Ontario"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 16
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Legal Aid Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 957,
+              "end_idx": 976,
+              "safe_urls": [
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/",
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Legal Aid Ontario](https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "url": "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Legal Aid Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 1215,
+              "end_idx": 1234,
+              "safe_urls": [
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/",
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Legal Aid Ontario](https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "url": "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Legal Aid Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 1452,
+              "end_idx": 1471,
+              "safe_urls": [
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/",
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Legal Aid Ontario](https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "url": "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Legal Aid Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 1592,
+              "end_idx": 1611,
+              "safe_urls": [
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/",
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Legal Aid Ontario](https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "url": "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Legal Aid Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 1737,
+              "end_idx": 1756,
+              "safe_urls": [
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/",
+                "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Legal Aid Ontario](https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "url": "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Legal Aid Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search12",
+              "start_idx": 2364,
+              "end_idx": 2384,
+              "safe_urls": [
+                "https://landlordselfhelp.com/",
+                "https://landlordselfhelp.com/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Landlord's Self Help Centre](https://landlordselfhelp.com/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Help for Small Landlords - Landlord's Self Help Centre",
+                  "url": "https://landlordselfhelp.com/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 12
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Landlord's Self Help Centre"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search4",
+              "start_idx": 2647,
+              "end_idx": 2666,
+              "safe_urls": [
+                "https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help",
+                "https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([CLEO](https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Where can I get legal help? - CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario)",
+                  "url": "https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 4
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "CLEO"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search3",
+              "start_idx": 2839,
+              "end_idx": 2858,
+              "safe_urls": [
+                "https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/",
+                "https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Steps to Justice](https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Landlord and Tenant Board - Steps to Justice",
+                  "url": "https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Steps to Justice"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search11",
+              "start_idx": 2937,
+              "end_idx": 2957,
+              "safe_urls": [
+                "https://www.cleo.on.ca/en/publications/carehome/more-information",
+                "https://www.cleo.on.ca/en/publications/carehome/more-information?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([CLEO](https://www.cleo.on.ca/en/publications/carehome/more-information?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "For more information - CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario)",
+                  "url": "https://www.cleo.on.ca/en/publications/carehome/more-information?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 11
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "CLEO"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search16",
+              "start_idx": 3240,
+              "end_idx": 3260,
+              "safe_urls": [
+                "https://www.legalaid.on.ca/",
+                "https://www.legalaid.on.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Legal Aid Ontario](https://www.legalaid.on.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Legal Aid Ontario",
+                  "url": "https://www.legalaid.on.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 16
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Legal Aid Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search10",
+              "start_idx": 3666,
+              "end_idx": 3686,
+              "safe_urls": [
+                "https://www.legalaid.on.ca/faq/",
+                "https://www.legalaid.on.ca/faq/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Legal Aid Ontario](https://www.legalaid.on.ca/faq/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "FAQ – Legal Aid Ontario",
+                  "url": "https://www.legalaid.on.ca/faq/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Legal Aid Ontario"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 4574,
+              "end_idx": 4574,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "url": "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com",
+                  "attribution": "Legal Aid Ontario"
+                },
+                {
+                  "title": "Help for Small Landlords - Landlord's Self Help Centre",
+                  "url": "https://landlordselfhelp.com/?utm_source=chatgpt.com",
+                  "attribution": "Landlord's Self Help Centre"
+                },
+                {
+                  "title": "Where can I get legal help? - CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario)",
+                  "url": "https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help?utm_source=chatgpt.com",
+                  "attribution": "CLEO"
+                },
+                {
+                  "title": "Landlord and Tenant Board - Steps to Justice",
+                  "url": "https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/?utm_source=chatgpt.com",
+                  "attribution": "Steps to Justice"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://landlordselfhelp.com/",
+            "https://landlordselfhelp.com/?utm_source=chatgpt.com",
+            "https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/",
+            "https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/?utm_source=chatgpt.com",
+            "https://www.cleo.on.ca/en/publications/carehome/more-information",
+            "https://www.cleo.on.ca/en/publications/carehome/more-information?utm_source=chatgpt.com",
+            "https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help",
+            "https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help?utm_source=chatgpt.com",
+            "https://www.legalaid.on.ca/",
+            "https://www.legalaid.on.ca/?utm_source=chatgpt.com",
+            "https://www.legalaid.on.ca/faq/",
+            "https://www.legalaid.on.ca/faq/?utm_source=chatgpt.com",
+            "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/",
+            "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "legalaid.on.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalaid.on.ca/faq/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com",
+                  "title": "How do I apply for legal aid? – Legal Aid Ontario",
+                  "snippet": "HOW DO I APPLY FOR LEGAL AID?  You can:  * apply online—currently only available for people who do not own any property and either: * receive Ontario Works or Ontario Disability Support Program payme...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "legalaid.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalaid.on.ca/landlord-and-tenant-legal-issues/?utm_source=chatgpt.com",
+                  "title": "Tenant legal issues – Legal Aid Ontario",
+                  "snippet": "TENANT LEGAL ISSUES  If you have a problem with your landlord, you may qualify for free legal help.  Some reasons you may need legal help:  * the home or the building where you live has pests * your...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": null,
+                  "attribution": "legalaid.on.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "legalaid.bc.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://legalaid.bc.ca/apply-online?utm_source=chatgpt.com",
+                  "title": "Online applications | Legal Aid BC",
+                  "snippet": "ONLINE APPLICATIONS  START AN ONLINE LEGAL AID APPLICATION  PLEASE READ CAREFULLY  Note: the more complete your forms are, the faster we can process your application. If you have issues with submitti...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "legalaid.bc.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://info.legalaid.bc.ca/guide/guide-your-protection/chapter-5-who-can-help?utm_source=chatgpt.com",
+                  "title": "Chapter 5: Who Can Help | Legal Aid BC Support",
+                  "snippet": "[BUTTON: TRANSITION HOUSE PROGRAMS ]  Transition houses, safe homes, and second stage housing programs provide a range of services. These include temporary shelter and support services to women (with...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 1764028800,
+                  "attribution": "legalaid.bc.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "acto.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.acto.ca/for-tenants/tenant-duty-counsel/?utm_source=chatgpt.com",
+                  "title": "Tenant Duty Counsel Program - Advocacy Centre for Tenants Ontario - ACTO",
+                  "snippet": "The Tenant Duty Counsel Program (TDCP) is a program of ACTO, funded by Legal Aid Ontario. We fund 30 legal clinics across the province to provide TDCP services.  HOUSING HELP  If you have a problem w...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "acto.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.acto.ca/for-tenants/ltbandhumanrights/?utm_source=chatgpt.com",
+                  "title": "What can I do at the Landlord and Tenant Board to protect my human rights? - Advocacy Centre for Tenants Ontario - ACTO",
+                  "snippet": "This tip sheet explains how the Ontario Human Rights Code protects your right to equal treatment and equal access to rental housing.  We try to make sure that the information presented in the followi...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": 1551744000,
+                  "attribution": "acto.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "cleo.on.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.cleo.on.ca/en/publications/fightev/where-get-help-and-information?utm_source=chatgpt.com",
+                  "title": "Where to get help and information - CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario)",
+                  "snippet": "There are community legal clinics across Ontario that give free legal help to tenants who have low incomes.  You can find the community legal clinic for your area on Legal Aid Ontario’s website at le...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": 1672531200,
+                  "attribution": "cleo.on.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.cleo.on.ca/en/publications/mainreps/all?utm_source=chatgpt.com",
+                  "title": "Maintenance and repairs - CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario)",
+                  "snippet": "MAINTENANCE AND REPAIRS  [Select]  * HTML * PDF * Order  It is your landlord’s job to repair and maintain your rented home. They must fix or replace anything that is in bad condition or does not work...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": null,
+                  "attribution": "cleo.on.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "tribunalsontario.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://tribunalsontario.ca/ltb/contact/?utm_source=chatgpt.com",
+                  "title": "Contact - Tribunals Ontario",
+                  "snippet": "BEFORE YOU CONTACT THE LTB (LANDLORD AND TENANT BOARD)  Please wait at least two months after filing to check on the status of your application. Before you call, have a look at the links below. You ma...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1764720000,
+                  "attribution": "tribunalsontario.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "legalshield.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalshield.com/en-ca/landlords/?utm_source=chatgpt.com",
+                  "title": "Legal Support for Landlords and Rentals | LegalShield",
+                  "snippet": "GET LEGAL ADVICE & UNDERSTAND YOUR LANDLORD RIGHTS  Whether you’re in a dispute with a tenant, about to lease your property to a new tenant or looking to move a renter out of your home or apartment, a...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "legalshield.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "stepstojustice.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://stepstojustice.ca/questions/housing-law/where-can-i-get-help-my-landlord-if-i-cant-afford-lawyer/?utm_source=chatgpt.com",
+                  "title": "Where can I get help with my landlord if I can't afford a lawyer? - Steps to Justice",
+                  "snippet": "WHERE CAN I GET HELP WITH MY LANDLORD IF I CAN’T AFFORD A LAWYER?  Next steps  Get free legal information Contact the Landlord and Tenant Board Contact a community legal clinic Contact JusticeNet  If...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1698105600,
+                  "attribution": "stepstojustice.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "alberta.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.alberta.ca/residential-tenancies-resources?utm_source=chatgpt.com",
+                  "title": "Resources for tenants and landlords | Alberta.ca",
+                  "snippet": "Part of Residential tenancies  RESOURCES FOR TENANTS AND LANDLORDS  Find legal help and support resources for tenants and landlords.  LEGAL RESOURCES  * Student Legal Services (Edmonton) Phone: 780-4...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": null,
+                  "attribution": "alberta.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "toronto.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.toronto.ca/community-people/housing-shelter/rental-housing-tenant-information/find-legal-help/?utm_source=chatgpt.com",
+                  "title": "Housing Help & Support Services – City of Toronto",
+                  "snippet": "HOUSING HELP & SUPPORT SERVICES  Share This Page  [Button: Print] [Button: Translate]  This map connects you with Housing Help Centres, legal support, and services that can help you find and keep hou...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "toronto.ca"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "resolved_model_slug": "gpt-5-2",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "a3a526ae-e0d5-417b-bdcd-b466bf5badc3",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "bc996b96-d18a-4ae9-abc4-a1ed43b61ed6",
+          "turn_exchange_id": "54d7e94d-19e3-46e6-b35e-ec06b708d401",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bc996b96-d18a-4ae9-abc4-a1ed43b61ed6",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "9e7b5c17-86e5-4943-96ca-b20717add385",
+  "conversation_id": "698db334-6144-832a-ad56-0abffdd2dae4",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/",
+    "https://www.cleo.on.ca/en/publications/carehome/more-information",
+    "https://www.legalaid.on.ca/faq/?utm_source=chatgpt.com",
+    "https://landlordselfhelp.com/?utm_source=chatgpt.com",
+    "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/?utm_source=chatgpt.com",
+    "https://www.legalaid.on.ca/",
+    "https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help",
+    "https://www.cleo.on.ca/en/publications/carehome/more-information?utm_source=chatgpt.com",
+    "https://www.legalaid.on.ca/?utm_source=chatgpt.com",
+    "https://www.openai.com",
+    "https://stepstojustice.ca/legal-topic/landlord-and-tenant-board/services/?utm_source=chatgpt.com",
+    "https://www.cleo.on.ca/en/publications/subassign/where-can-i-get-legal-help?utm_source=chatgpt.com",
+    "https://www.legalaid.on.ca/services/how-do-i-apply-for-legal-aid/",
+    "https://landlordselfhelp.com/",
+    "https://www.legalaid.on.ca/faq/"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

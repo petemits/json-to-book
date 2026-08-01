@@ -1,0 +1,278 @@
+{
+  "title": "Motion in Condo AGM",
+  "create_time": 1774602938.887385,
+  "update_time": 1774602947.771035,
+  "mapping": {
+    "04f63cfb-2851-46c4-a7d8-d1874980114f": {
+      "id": "04f63cfb-2851-46c4-a7d8-d1874980114f",
+      "message": null,
+      "parent": null,
+      "children": [
+        "b2ae6d88-0075-4e63-8667-20dabafd50c7"
+      ]
+    },
+    "b2ae6d88-0075-4e63-8667-20dabafd50c7": {
+      "id": "b2ae6d88-0075-4e63-8667-20dabafd50c7",
+      "message": {
+        "id": "b2ae6d88-0075-4e63-8667-20dabafd50c7",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "parent_id": "04f63cfb-2851-46c4-a7d8-d1874980114f",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "04f63cfb-2851-46c4-a7d8-d1874980114f",
+      "children": [
+        "0b2e1b89-587b-4167-b40d-cb5956d9abae"
+      ]
+    },
+    "0b2e1b89-587b-4167-b40d-cb5956d9abae": {
+      "id": "0b2e1b89-587b-4167-b40d-cb5956d9abae",
+      "message": {
+        "id": "0b2e1b89-587b-4167-b40d-cb5956d9abae",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "parent_id": "b2ae6d88-0075-4e63-8667-20dabafd50c7",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b2ae6d88-0075-4e63-8667-20dabafd50c7",
+      "children": [
+        "a213a2aa-18bc-41ae-94b0-346b0a493adf"
+      ]
+    },
+    "a213a2aa-18bc-41ae-94b0-346b0a493adf": {
+      "id": "a213a2aa-18bc-41ae-94b0-346b0a493adf",
+      "message": {
+        "id": "a213a2aa-18bc-41ae-94b0-346b0a493adf",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774602938.652659,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 0,
+        "metadata": {
+          "request_id": "ea2a330d-5916-428d-af1e-aafe6d4edee0",
+          "message_source": null,
+          "turn_exchange_id": "fce85947-2e87-481d-97d3-2c99e1aa451c",
+          "parent_id": "0b2e1b89-587b-4167-b40d-cb5956d9abae",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "0b2e1b89-587b-4167-b40d-cb5956d9abae",
+      "children": [
+        "bbb2179f-3d3e-4c8a-94da-aa62bdb4e3b5"
+      ]
+    },
+    "bbb2179f-3d3e-4c8a-94da-aa62bdb4e3b5": {
+      "id": "bbb2179f-3d3e-4c8a-94da-aa62bdb4e3b5",
+      "message": {
+        "id": "bbb2179f-3d3e-4c8a-94da-aa62bdb4e3b5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774602938.652903,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "When condo board meeting AGM what does motion means"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "ea2a330d-5916-428d-af1e-aafe6d4edee0",
+          "message_source": null,
+          "turn_exchange_id": "fce85947-2e87-481d-97d3-2c99e1aa451c",
+          "parent_id": "a213a2aa-18bc-41ae-94b0-346b0a493adf",
+          "resolved_model_slug": "gpt-5-3",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a213a2aa-18bc-41ae-94b0-346b0a493adf",
+      "children": [
+        "c5e7be70-ca49-457e-bbb6-f882dfe5f0a6"
+      ]
+    },
+    "c5e7be70-ca49-457e-bbb6-f882dfe5f0a6": {
+      "id": "c5e7be70-ca49-457e-bbb6-f882dfe5f0a6",
+      "message": {
+        "id": "c5e7be70-ca49-457e-bbb6-f882dfe5f0a6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774602938.7243402,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "ea2a330d-5916-428d-af1e-aafe6d4edee0",
+          "message_type": "next",
+          "turn_exchange_id": "fce85947-2e87-481d-97d3-2c99e1aa451c",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": false,
+          "parent_id": "bbb2179f-3d3e-4c8a-94da-aa62bdb4e3b5",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb2179f-3d3e-4c8a-94da-aa62bdb4e3b5",
+      "children": [
+        "e05e9868-c49a-4874-9dc1-e986cebcca9b"
+      ]
+    },
+    "e05e9868-c49a-4874-9dc1-e986cebcca9b": {
+      "id": "e05e9868-c49a-4874-9dc1-e986cebcca9b",
+      "message": {
+        "id": "e05e9868-c49a-4874-9dc1-e986cebcca9b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1774602938.788468,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In a condo board **AGM (Annual General Meeting)**, a **motion** is simply a **formal proposal** that members are asked to consider and vote on.\n\n### Think of it like this:\nA motion = *“I suggest we do this — do we all agree?”*\n\n---\n\n### 🔹 Example of a motion\n- “I move that the condo fees increase by 5%.”\n- “I move that we approve the new security contract.”\n\n---\n\n### 🔹 How a motion works step-by-step\n1. **Someone proposes it** (called “moving” the motion)  \n2. **Another person seconds it** (shows at least two people think it’s worth discussing)  \n3. **Discussion happens** (owners can speak for or against it)  \n4. **Vote is taken**  \n5. **Result** → Passed or defeated  \n\n---\n\n### 🔹 Why motions matter\nMotions are how **decisions become official** at the AGM. Without a motion, nothing can be formally approved.\n\n---\n\n### 🔹 Types of motions you might see\n- Approving budget or financial statements  \n- Electing board members  \n- Changing bylaws or rules  \n- Hiring management or security companies  \n\n---\n\nIf you want, I can also show you **how to write a strong motion** for your own issue (like complaints or policy changes in your condo)."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-3",
+          "search_result_groups": [],
+          "request_id": "ea2a330d-5916-428d-af1e-aafe6d4edee0",
+          "message_type": "next",
+          "turn_exchange_id": "fce85947-2e87-481d-97d3-2c99e1aa451c",
+          "model_slug": "gpt-5-3",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "c5e7be70-ca49-457e-bbb6-f882dfe5f0a6",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "c5e7be70-ca49-457e-bbb6-f882dfe5f0a6",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "e05e9868-c49a-4874-9dc1-e986cebcca9b",
+  "conversation_id": "69c64a95-e488-832b-a283-048aa7148626",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

@@ -1,0 +1,199 @@
+{
+  "title": "List download files Termux",
+  "create_time": 1738522165.354777,
+  "update_time": 1738522169.555696,
+  "mapping": {
+    "bbb23367-79f5-49c9-a660-0832a4f5621e": {
+      "id": "bbb23367-79f5-49c9-a660-0832a4f5621e",
+      "message": null,
+      "parent": null,
+      "children": [
+        "e3eb046c-34ac-4e3f-9bb0-9795ed392e5c"
+      ]
+    },
+    "e3eb046c-34ac-4e3f-9bb0-9795ed392e5c": {
+      "id": "e3eb046c-34ac-4e3f-9bb0-9795ed392e5c",
+      "message": {
+        "id": "e3eb046c-34ac-4e3f-9bb0-9795ed392e5c",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb23367-79f5-49c9-a660-0832a4f5621e",
+      "children": [
+        "bbb21020-c8bd-450c-9ed0-6bbfb535cbb4"
+      ]
+    },
+    "bbb21020-c8bd-450c-9ed0-6bbfb535cbb4": {
+      "id": "bbb21020-c8bd-450c-9ed0-6bbfb535cbb4",
+      "message": {
+        "id": "bbb21020-c8bd-450c-9ed0-6bbfb535cbb4",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1738522165.358202,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Show all of my download files termux"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "content_references": [],
+          "search_result_groups": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "request_id": "90bc5c6a3810ac25-YYZ",
+          "message_source": null,
+          "timestamp_": "absolute",
+          "message_type": null,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e3eb046c-34ac-4e3f-9bb0-9795ed392e5c",
+      "children": [
+        "b80815fe-2a8d-4ffb-a8fd-f46b69bed67b"
+      ]
+    },
+    "b80815fe-2a8d-4ffb-a8fd-f46b69bed67b": {
+      "id": "b80815fe-2a8d-4ffb-a8fd-f46b69bed67b",
+      "message": {
+        "id": "b80815fe-2a8d-4ffb-a8fd-f46b69bed67b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1738522168.079592,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21020-c8bd-450c-9ed0-6bbfb535cbb4",
+          "request_id": "90bc5c6a3810ac25-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21020-c8bd-450c-9ed0-6bbfb535cbb4",
+      "children": [
+        "61715da1-9f6b-44b8-9123-a9482cb883dd"
+      ]
+    },
+    "61715da1-9f6b-44b8-9123-a9482cb883dd": {
+      "id": "61715da1-9f6b-44b8-9123-a9482cb883dd",
+      "message": {
+        "id": "61715da1-9f6b-44b8-9123-a9482cb883dd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1738522168.079717,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Termux, you can list all your downloaded files using the following command:  \n\n```sh\nls ~/storage/downloads\n```\n\nIf you haven't set up storage access for Termux, first run:  \n\n```sh\ntermux-setup-storage\n```\n\nThen, try listing the files again. Let me know if you need more help!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002,
+              200007
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "message_type": null,
+          "model_slug": "gpt-4o",
+          "default_model_slug": "auto",
+          "parent_id": "b80815fe-2a8d-4ffb-a8fd-f46b69bed67b",
+          "request_id": "90bc5c6a3810ac25-YYZ",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b80815fe-2a8d-4ffb-a8fd-f46b69bed67b",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "61715da1-9f6b-44b8-9123-a9482cb883dd",
+  "conversation_id": "679fbe34-e3fc-8011-b287-d5aa77208b8d",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": null,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

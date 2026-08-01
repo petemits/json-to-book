@@ -1,0 +1,485 @@
+{
+  "title": "Payment confirmation request",
+  "create_time": 1761158699.056476,
+  "update_time": 1761158913.584648,
+  "mapping": {
+    "59fd7377-fc91-4501-b490-8beb33c45717": {
+      "id": "59fd7377-fc91-4501-b490-8beb33c45717",
+      "message": null,
+      "parent": null,
+      "children": [
+        "a6d2afc2-64c3-49ad-bbb3-5e645e1ef18d"
+      ]
+    },
+    "a6d2afc2-64c3-49ad-bbb3-5e645e1ef18d": {
+      "id": "a6d2afc2-64c3-49ad-bbb3-5e645e1ef18d",
+      "message": {
+        "id": "a6d2afc2-64c3-49ad-bbb3-5e645e1ef18d",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "59fd7377-fc91-4501-b490-8beb33c45717",
+      "children": [
+        "bbb21057-b59b-4c55-b1b3-142372175656"
+      ]
+    },
+    "bbb21057-b59b-4c55-b1b3-142372175656": {
+      "id": "bbb21057-b59b-4c55-b1b3-142372175656",
+      "message": {
+        "id": "bbb21057-b59b-4c55-b1b3-142372175656",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761158698.851513,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Hi Mary, I will deposit money with T14 please give me me exnataion why the video there invoice is required in written documents so I have a record of I please respond before the due date. Make it like a payment is paid and you need a written confirmation of the remaining amount"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "9ac3d9d6-eb21-4b0b-9d05-ea99a50a5a4b",
+          "message_source": null,
+          "turn_exchange_id": "ec76b7a1-b2ee-47fb-ab7d-91050af7974b",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "a6d2afc2-64c3-49ad-bbb3-5e645e1ef18d",
+      "children": [
+        "952c4e9f-8b70-42f5-aeb7-16beb404bdee"
+      ]
+    },
+    "952c4e9f-8b70-42f5-aeb7-16beb404bdee": {
+      "id": "952c4e9f-8b70-42f5-aeb7-16beb404bdee",
+      "message": {
+        "id": "952c4e9f-8b70-42f5-aeb7-16beb404bdee",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761158698.9379961,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "9ac3d9d6-eb21-4b0b-9d05-ea99a50a5a4b",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21057-b59b-4c55-b1b3-142372175656",
+          "turn_exchange_id": "ec76b7a1-b2ee-47fb-ab7d-91050af7974b",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21057-b59b-4c55-b1b3-142372175656",
+      "children": [
+        "03175c70-e947-4550-849e-697c5323480a"
+      ]
+    },
+    "03175c70-e947-4550-849e-697c5323480a": {
+      "id": "03175c70-e947-4550-849e-697c5323480a",
+      "message": {
+        "id": "03175c70-e947-4550-849e-697c5323480a",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761158698.95508,
+        "update_time": 1761158703.103963,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a polished version of your message you can send to Mary:  \n\n---\n\n**Subject:** Request for Written Confirmation of Invoice and Remaining Balance  \n\nHi Mary,  \n\nI will be depositing the payment as per Form T14. Please provide a written explanation regarding the invoice and why the video evidence is required, so I can keep a proper record for my files.  \n\nKindly confirm in writing the remaining balance after this payment is applied. I would appreciate your response before the due date.  \n\nThank you,  \n**[Your Name]**\n\n---\n\nWould you like me to make it sound slightly firmer or more formal (for a lawyer or property manager tone)?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "9ac3d9d6-eb21-4b0b-9d05-ea99a50a5a4b",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "952c4e9f-8b70-42f5-aeb7-16beb404bdee",
+          "turn_exchange_id": "ec76b7a1-b2ee-47fb-ab7d-91050af7974b",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "952c4e9f-8b70-42f5-aeb7-16beb404bdee",
+      "children": [
+        "bbb21406-e66b-42ae-a72f-b9e6c6759d37"
+      ]
+    },
+    "bbb21406-e66b-42ae-a72f-b9e6c6759d37": {
+      "id": "bbb21406-e66b-42ae-a72f-b9e6c6759d37",
+      "message": {
+        "id": "bbb21406-e66b-42ae-a72f-b9e6c6759d37",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761158737.080995,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "No video evidence"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "f62f6840-62f0-413f-b2e7-4dd1d713a644",
+          "message_source": null,
+          "turn_exchange_id": "56881acb-7e78-428e-af2e-543b42d8c8ac",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "03175c70-e947-4550-849e-697c5323480a",
+      "children": [
+        "9a72120f-bc82-45fb-81dc-17ce67dd8d05"
+      ]
+    },
+    "9a72120f-bc82-45fb-81dc-17ce67dd8d05": {
+      "id": "9a72120f-bc82-45fb-81dc-17ce67dd8d05",
+      "message": {
+        "id": "9a72120f-bc82-45fb-81dc-17ce67dd8d05",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761158737.215087,
+        "update_time": 1761158739.582084,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it — here’s the corrected version without mentioning any video evidence:  \n\n---\n\n**Subject:** Request for Written Confirmation of Invoice and Remaining Balance  \n\nHi Mary,  \n\nI will be depositing the payment as per Form T14. Please provide a written explanation regarding the invoice so I can keep a proper record for my files.  \n\nKindly confirm in writing the remaining balance after this payment is applied. I would appreciate your response before the due date.  \n\nThank you,  \n**[Your Name]**\n\n---\n\nWould you like it to sound more **formal and legal**, or keep it **polite and straightforward** like this?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "f62f6840-62f0-413f-b2e7-4dd1d713a644",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21406-e66b-42ae-a72f-b9e6c6759d37",
+          "turn_exchange_id": "56881acb-7e78-428e-af2e-543b42d8c8ac",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21406-e66b-42ae-a72f-b9e6c6759d37",
+      "children": [
+        "bbb21a19-adf4-480c-aa2f-957c51c2d7cd"
+      ]
+    },
+    "bbb21a19-adf4-480c-aa2f-957c51c2d7cd": {
+      "id": "bbb21a19-adf4-480c-aa2f-957c51c2d7cd",
+      "message": {
+        "id": "bbb21a19-adf4-480c-aa2f-957c51c2d7cd",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761158847.09665,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Regarding a new invoice after confirming the amount "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "fb0b0e86-89b8-43fb-9f47-093628f95b3c",
+          "message_source": null,
+          "turn_exchange_id": "e8b51814-d978-447c-8f7c-2e8d794608bb",
+          "timestamp_": "absolute",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "9a72120f-bc82-45fb-81dc-17ce67dd8d05",
+      "children": [
+        "fcd4868c-973a-44cd-936b-60413cae3b82",
+        "796497ff-438d-4a7f-aa17-5ab79c9606d9",
+        "234cc4be-b201-4481-91c3-1dd3842bfdb2"
+      ]
+    },
+    "fcd4868c-973a-44cd-936b-60413cae3b82": {
+      "id": "fcd4868c-973a-44cd-936b-60413cae3b82",
+      "message": {
+        "id": "fcd4868c-973a-44cd-936b-60413cae3b82",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761158907.741876,
+        "update_time": 1761158910.811246,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s an updated version of your message that includes the part about the *new invoice after confirming the amount*:  \n\n---\n\n**Subject:** Request for Written Confirmation of New Invoice and Remaining Balance  \n\nHi Mary,  \n\nI will be depositing the payment as per Form T14. However, I noticed a new invoice was issued after the amount was already confirmed. Please provide a written explanation regarding this new invoice so I can keep a proper record for my files.  \n\nKindly confirm in writing the remaining balance after this payment is applied. I would appreciate your response before the due date.  \n\nThank you,  \n**[Your Name]**\n\n---\n\nWould you like me to make this sound a bit firmer—like something you’d send to a lawyer or management office?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "b6098713-ed80-4593-9513-512c0d6f3d3a",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21a19-adf4-480c-aa2f-957c51c2d7cd",
+          "turn_exchange_id": "2a917309-b217-4a62-b1c1-ec5e197fb20f",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21a19-adf4-480c-aa2f-957c51c2d7cd",
+      "children": []
+    },
+    "796497ff-438d-4a7f-aa17-5ab79c9606d9": {
+      "id": "796497ff-438d-4a7f-aa17-5ab79c9606d9",
+      "message": {
+        "id": "796497ff-438d-4a7f-aa17-5ab79c9606d9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761158907.747202,
+        "update_time": 1761158911.041484,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s an updated version of your message that includes the part about the new invoice after the amount was already confirmed:  \n\n---\n\n**Subject:** Request for Written Confirmation of New Invoice and Remaining Balance  \n\nHi Mary,  \n\nI will be depositing the payment as per Form T14. However, after we had already confirmed the payment amount, I received a new invoice. Please provide a written explanation regarding this new invoice so I can keep a clear record for my files.  \n\nKindly confirm in writing the remaining balance after this payment is applied. I would appreciate your response before the due date.  \n\nThank you,  \n**[Your Name]**\n\n---\n\nWould you like me to make this a bit **firmer**, to show concern about being billed again after confirming payment?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "a2f719b1-54b7-41f6-a4a7-cb7e755efabe",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21a19-adf4-480c-aa2f-957c51c2d7cd",
+          "turn_exchange_id": "ebc68411-c076-4d79-821d-006a8548dfdc",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21a19-adf4-480c-aa2f-957c51c2d7cd",
+      "children": []
+    },
+    "234cc4be-b201-4481-91c3-1dd3842bfdb2": {
+      "id": "234cc4be-b201-4481-91c3-1dd3842bfdb2",
+      "message": {
+        "id": "234cc4be-b201-4481-91c3-1dd3842bfdb2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1761158909.778429,
+        "update_time": 1761158912.77779,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a revised version including that the new invoice was issued after the amount was already confirmed:  \n\n---\n\n**Subject:** Request for Written Confirmation of New Invoice and Remaining Balance  \n\nHi Mary,  \n\nI will be depositing the payment as per Form T14. However, I noticed a new invoice was issued after we had already confirmed the payment amount. Please provide a written explanation regarding this new invoice so I can keep a proper record for my files.  \n\nKindly confirm in writing the remaining balance after this payment is applied. I would appreciate your response before the due date.  \n\nThank you,  \n**[Your Name]**\n\n---\n\nWould you like me to make it sound slightly **firmer**, in case you’re sending it to a legal or property management office?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [],
+          "citations": [],
+          "request_id": "fb0b0e86-89b8-43fb-9f47-093628f95b3c",
+          "message_type": "next",
+          "model_slug": "gpt-5",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21a19-adf4-480c-aa2f-957c51c2d7cd",
+          "turn_exchange_id": "e8b51814-d978-447c-8f7c-2e8d794608bb",
+          "timestamp_": "absolute",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21a19-adf4-480c-aa2f-957c51c2d7cd",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "234cc4be-b201-4481-91c3-1dd3842bfdb2",
+  "conversation_id": "68f925f9-1290-8327-aee6-3c93633964de",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

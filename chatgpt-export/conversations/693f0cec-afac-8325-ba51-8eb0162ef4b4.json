@@ -1,0 +1,1914 @@
+{
+  "title": "Create presentation outline",
+  "create_time": 1765739772.845461,
+  "update_time": 1765739781.502897,
+  "mapping": {
+    "client-created-root": {
+      "id": "client-created-root",
+      "message": null,
+      "parent": null,
+      "children": [
+        "3643df06-4a8a-4408-89d6-ab61ff4b222e"
+      ]
+    },
+    "3643df06-4a8a-4408-89d6-ab61ff4b222e": {
+      "id": "3643df06-4a8a-4408-89d6-ab61ff4b222e",
+      "message": {
+        "id": "3643df06-4a8a-4408-89d6-ab61ff4b222e",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "client-created-root",
+      "children": [
+        "908debff-db79-4706-a1f6-c701462b8482"
+      ]
+    },
+    "908debff-db79-4706-a1f6-c701462b8482": {
+      "id": "908debff-db79-4706-a1f6-c701462b8482",
+      "message": {
+        "id": "908debff-db79-4706-a1f6-c701462b8482",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1765739772.498,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "https://purilegalservices.ca/ create prsentstion on thiswebsite"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "selected_github_repos": [],
+          "serialization_metadata": {
+            "custom_symbol_offsets": []
+          },
+          "request_id": "9b4a865c-c264-42e5-a7c5-b68a7ef70685",
+          "message_source": null,
+          "turn_exchange_id": "9a4c5f5c-bda7-4c85-8c4a-54e6390b3f34",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "3643df06-4a8a-4408-89d6-ab61ff4b222e",
+      "children": [
+        "1e08f0ee-8b83-4bfd-873f-ba7fb93d6f93"
+      ]
+    },
+    "1e08f0ee-8b83-4bfd-873f-ba7fb93d6f93": {
+      "id": "1e08f0ee-8b83-4bfd-873f-ba7fb93d6f93",
+      "message": {
+        "id": "1e08f0ee-8b83-4bfd-873f-ba7fb93d6f93",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1765739772.7281249,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "request_id": "9b4a865c-c264-42e5-a7c5-b68a7ef70685",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "908debff-db79-4706-a1f6-c701462b8482",
+          "turn_exchange_id": "9a4c5f5c-bda7-4c85-8c4a-54e6390b3f34",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "908debff-db79-4706-a1f6-c701462b8482",
+      "children": [
+        "874d11b3-56b4-4bef-bce2-e78c1b782d21"
+      ]
+    },
+    "874d11b3-56b4-4bef-bce2-e78c1b782d21": {
+      "id": "874d11b3-56b4-4bef-bce2-e78c1b782d21",
+      "message": {
+        "id": "874d11b3-56b4-4bef-bce2-e78c1b782d21",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1765739772.7709048,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"https://purilegalservices.ca/ create prsentstion on thiswebsite\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "request_id": "9b4a865c-c264-42e5-a7c5-b68a7ef70685",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "1e08f0ee-8b83-4bfd-873f-ba7fb93d6f93",
+          "turn_exchange_id": "9a4c5f5c-bda7-4c85-8c4a-54e6390b3f34",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "1e08f0ee-8b83-4bfd-873f-ba7fb93d6f93",
+      "children": [
+        "4278d4cf-696d-4857-8988-bc932132c4b0"
+      ]
+    },
+    "4278d4cf-696d-4857-8988-bc932132c4b0": {
+      "id": "4278d4cf-696d-4857-8988-bc932132c4b0",
+      "message": {
+        "id": "4278d4cf-696d-4857-8988-bc932132c4b0",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonic_thinky_v1",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1765739773.2831259,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "purilegalservices.ca legal services India or what is Puri Legal Services",
+              "site purilegalservices.ca what services does Puri Legal Services offer"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "9b4a865c-c264-42e5-a7c5-b68a7ef70685",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "874d11b3-56b4-4bef-bce2-e78c1b782d21",
+          "turn_exchange_id": "9a4c5f5c-bda7-4c85-8c4a-54e6390b3f34",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "874d11b3-56b4-4bef-bce2-e78c1b782d21",
+      "children": [
+        "98b7ddb8-6c18-4dbd-9227-74cb21347c51"
+      ]
+    },
+    "98b7ddb8-6c18-4dbd-9227-74cb21347c51": {
+      "id": "98b7ddb8-6c18-4dbd-9227-74cb21347c51",
+      "message": {
+        "id": "98b7ddb8-6c18-4dbd-9227-74cb21347c51",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonic_thinky_v1",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1765739773.2814097,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "purilegalservices.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://purilegalservices.ca/",
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "purilegalservices.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://purilegalservices.ca/small-claims-court/",
+                  "title": "Small Claims Court Paralegal in Mississauga - Puri Legal",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": null,
+                  "attribution": "purilegalservices.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://purilegalservices.ca/immigration/",
+                  "title": "Immigration Consultant in Mississauga - Puri Legal Services",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": null,
+                  "attribution": "purilegalservices.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://purilegalservices.ca/faqs/",
+                  "title": "Frequently Asked Questions | Puri Legal Services",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "purilegalservices.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://purilegalservices.ca/",
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "snippet": "Total lines: 185\n",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "view",
+                    "ref_index": 0
+                  },
+                  "pub_date": null,
+                  "attribution": "purilegalservices.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.prlog.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html",
+                  "title": "Puri Legal Services Offers Trusted, Affordable Legal Support Across Ontario -- Puri Legal Services | PRLog",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "www.prlog.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.prlog.org/13072708-puri-legal-services-delivering-trusted-results-driven-legal-support-across-ontario.html",
+                  "title": "Puri Legal Services: Delivering Trusted, Results-Driven Legal Support Across Ontario -- Puri Legal Services | PRLog",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "www.prlog.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.prlog.org/13082284-puri-legal-services-launches-expert-traffic-ticket-defense-in-ontario.html",
+                  "title": "Puri Legal Services Launches Expert Traffic Ticket Defense in Ontario -- Puri Legal Services | PRLog",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": null,
+                  "attribution": "www.prlog.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "indianlegalservices.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://indianlegalservices.ca/",
+                  "title": "India legal services",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "indianlegalservices.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ca.trustpilot.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ca.trustpilot.com/review/allindialegalservice.com",
+                  "title": "All India Legal Service Reviews | Read Customer Service Reviews of allindialegalservice.com",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "ca.trustpilot.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "bizidex.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://bizidex.com/en/puri-legal-services-legal-services-686133",
+                  "title": "Puri Legal Services - Legal Services - Bizidex",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "bizidex.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "pressroom.prlog.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://pressroom.prlog.org/PuriLegalServices/",
+                  "title": "Puri Legal Services - Latest News - PuriLegalServices | PRLog",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "pressroom.prlog.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "purilaw.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://purilaw.ca/",
+                  "title": "Puri Law Professional Corporation",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "purilaw.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://purilaw.ca/contact-us",
+                  "title": "Puri Law Professional Corporation",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "purilaw.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.legalkart.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalkart.com/lawyers/find-lawyers-in-puri",
+                  "title": "Consult Best Lawyers / Advocate in Puri | Find Best Attorney in Puri Directly",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "www.legalkart.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "anyflip.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://anyflip.com/homepage/ppule",
+                  "title": "Puri Legal Services Official Homepage",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "anyflip.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "en.wikipedia.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://en.wikipedia.org/wiki/Tele-law_programme",
+                  "title": "Tele-law programme",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 24
+                  },
+                  "pub_date": null,
+                  "attribution": "en.wikipedia.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/paralegal/comments/1jc7ehx",
+                  "title": "Outsourced to India??",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 35
+                  },
+                  "pub_date": 1742079279.762,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/u_nriservices/comments/11q26h4",
+                  "title": "Legal Advisor for NRI | NRI Services Canada",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 37
+                  },
+                  "pub_date": 1678689069.778,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/princegeorge/comments/17kw2te",
+                  "title": "Free Legal Aid Clinic",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 38
+                  },
+                  "pub_date": 1698788147.295,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/u_ProLegalHR/comments/17l5m0m",
+                  "title": "Processing of Payroll Out Sourcing Services in India",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 39
+                  },
+                  "pub_date": 1698818580.816,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/indianstartups/comments/1g9edxu",
+                  "title": "Practising CS and Lawyer this side. Looking to help startups with compliances and regulatory issues.",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 40
+                  },
+                  "pub_date": 1729590830.704,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com//r/LawCanada/comments/2z1689",
+                  "title": "Please Note! This is not a place to seek legal advice. You should always contact a lawyer for legal advice. Here are some resources that you may find useful if you have legal questions.",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 41
+                  },
+                  "pub_date": 1426351474.136,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/u_ProLegalHR/comments/17c4d6g",
+                  "title": "Payroll Outsourcing Companies Service India",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 42
+                  },
+                  "pub_date": 1697782340.064,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/u_ProLegalHR/comments/1ar8mwq",
+                  "title": "Superb Payroll Outsourcing Companies in India",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 43
+                  },
+                  "pub_date": 1707976713.455,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/u_ProLegalHR/comments/1b166un",
+                  "title": "Protected Third Party Payroll Companies in India",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 44
+                  },
+                  "pub_date": 1709019366.356,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/u_ProLegalHR/comments/1b156yl",
+                  "title": "Fulfilment Payroll Outsourcing Companies in India",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 45
+                  },
+                  "pub_date": 1709015621.793,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/u_BarinderPS/comments/16tjdlp",
+                  "title": "NRI Legal Service",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 46
+                  },
+                  "pub_date": 1695818083.423,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/u_ProLegalHR/comments/1709xy4",
+                  "title": "Processing of Payroll Outsourcing Services in India",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 47
+                  },
+                  "pub_date": 1696484416.505,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_693f0cfd4c44832abc04925687fd8afe",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "9b4a865c-c264-42e5-a7c5-b68a7ef70685",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "4278d4cf-696d-4857-8988-bc932132c4b0",
+          "turn_exchange_id": "9a4c5f5c-bda7-4c85-8c4a-54e6390b3f34",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "4278d4cf-696d-4857-8988-bc932132c4b0",
+      "children": [
+        "83c77caf-1629-4fdc-ad03-df3dcc316fff"
+      ]
+    },
+    "83c77caf-1629-4fdc-ad03-df3dcc316fff": {
+      "id": "83c77caf-1629-4fdc-ad03-df3dcc316fff",
+      "message": {
+        "id": "83c77caf-1629-4fdc-ad03-df3dcc316fff",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "alpha.sonic_thinky_v1",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1765739773.587992,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a **professional presentation outline** based on the *Puri Legal Services* website (https://purilegalservices.ca/) that you can use for a slideshow (e.g., PowerPoint, Google Slides) or pitch deck.\n\n---\n\n# **📍 Puri Legal Services – Company Presentation**\n\n---\n\n## **1. Title Slide**\n**Puri Legal Services**  \n*Trusted Paralegal Representation Across Ontario*  \n📍 Mississauga, Ontario, Canada\n\n---\n\n## **2. About the Company**\n**Puri Legal Services** is a paralegal firm based in Mississauga that delivers effective legal support to clients throughout Ontario. They focus on helping individuals and businesses handle legal matters confidently and with less stress. citeturn0search0\n\n**Key Facts**\n- **15+ years** in the paralegal industry citeturn0search0  \n- **10,000+ hours** of courtroom experience citeturn0search0  \n- Served **50+ cities** across Ontario citeturn0search0  \n- Transparent pricing and free consultations offered citeturn0search0\n\n---\n\n## **3. Mission & Values**\n**Mission:**  \nMake legal representation accessible, personalized, and results-oriented for clients across Ontario.\n\n**Core Values:**\n- Integrity and professionalism  \n- Clear communication  \n- Strategic legal solutions  \n- Client-first service citeturn0search2\n\n---\n\n## **4. Services Overview**\nPuri Legal Services offers **paralegal services** (not lawyers, but licensed paralegals regulated under Ontario standards) in the following areas: citeturn0search0\n\n### **A. Traffic Ticket Defense**\n- Helps clients challenge or reduce traffic violations  \n- Aims to protect driving records and minimize fines citeturn0search8\n\n### **B. Small Claims Court Support**\n- Legal guidance for disputes involving up to $35,000  \n- Assistance with forms, document preparation, and hearings citeturn0search1\n\n### **C. Landlord & Tenant Disputes**\n- Representation in residential tenancy matters  \n- Guidance through dispute resolution efficiently citeturn0search0\n\n### **D. Immigration Consultation**\n- Initial case reviews and application support  \n- Helps with sponsorships, visas, work permit document preparation citeturn0search3\n\n---\n\n## **5. Why Choose Puri Legal Services?**\n✅ **Experienced Team:** Over a decade of legal service expertise. citeturn0search0  \n✅ **Accessible for Ontario Residents:** Serving clients province-wide. citeturn0search2  \n✅ **Client-Focused:** Personalized support with clear guidance. citeturn0search2  \n✅ **Affordable:** Flat rates and upfront fee structures with no hidden costs. citeturn0search2  \n✅ **Free Initial Consultations:** Start with a risk-free discussion. citeturn0search0\n\n---\n\n## **6. Client Testimonials**\n> “They minimized the negative impact on my driving record — *10/10 recommend!*” citeturn0view0  \n> “Handled our tenancy case professionally and successfully.” citeturn0view0  \n> “Made the legal process stress-free and affordable.” citeturn0view0\n\n*(Use 2–3 quotes per slide for readability.)*\n\n---\n\n## **7. Contact Information**\n📍 **Address:**  \n808 Britannia Rd W, Unit 207, Mississauga, ON, L5V 0A7 citeturn0search0\n\n📞 **Phone:** (905) 497-0090 / (647) 528-7874 citeturn0search0  \n📧 **Email:** pls@bell.net citeturn0search0  \n📅 **Hours:**  \nMon–Fri 9:00am–7:30pm, Weekends 9:00am–5:00pm citeturn0search0\n\n---\n\n## **8. Summary**\nPuri Legal Services is a well-established legal support resource in Ontario, offering practical and affordable solutions to everyday legal challenges—especially in traffic defense, small claims, landlord-tenant issues, and immigration guidance. citeturn0search0turn0search1\n\n---\n\n### **Tips for Presentation**\n- Use visuals like icons for each service category.  \n- Add a map of Mississauga for location context.  \n- Keep text concise and use bullet points.  \n\n---\n\nIf you want, I can **convert this into a ready-to-use PowerPoint or Google Slides file** with design suggestions!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "content_references": [
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 670,
+              "end_idx": 689,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 747,
+              "end_idx": 766,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 813,
+              "end_idx": 832,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 874,
+              "end_idx": 893,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 949,
+              "end_idx": 968,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search2",
+              "start_idx": 1247,
+              "end_idx": 1266,
+              "safe_urls": [
+                "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html",
+                "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([PRLog](https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Puri Legal Services Offers Trusted, Affordable Legal Support Across Ontario -- Puri Legal Services | PRLog",
+                  "url": "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "PRLog"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 1448,
+              "end_idx": 1467,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search8",
+              "start_idx": 1613,
+              "end_idx": 1632,
+              "safe_urls": [
+                "https://www.prlog.org/13082284-puri-legal-services-launches-expert-traffic-ticket-defense-in-ontario.html",
+                "https://www.prlog.org/13082284-puri-legal-services-launches-expert-traffic-ticket-defense-in-ontario.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([PRLog](https://www.prlog.org/13082284-puri-legal-services-launches-expert-traffic-ticket-defense-in-ontario.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Puri Legal Services Launches Expert Traffic Ticket Defense in Ontario -- Puri Legal Services | PRLog",
+                  "url": "https://www.prlog.org/13082284-puri-legal-services-launches-expert-traffic-ticket-defense-in-ontario.html?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 8
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "PRLog"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 1788,
+              "end_idx": 1807,
+              "safe_urls": [
+                "https://purilegalservices.ca/small-claims-court/",
+                "https://purilegalservices.ca/small-claims-court/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/small-claims-court/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Small Claims Court Paralegal in Mississauga - Puri Legal",
+                  "url": "https://purilegalservices.ca/small-claims-court/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 1947,
+              "end_idx": 1966,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search3",
+              "start_idx": 2120,
+              "end_idx": 2139,
+              "safe_urls": [
+                "https://purilegalservices.ca/immigration/",
+                "https://purilegalservices.ca/immigration/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/immigration/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Immigration Consultant in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/immigration/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 3
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 2254,
+              "end_idx": 2273,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search2",
+              "start_idx": 2347,
+              "end_idx": 2366,
+              "safe_urls": [
+                "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html",
+                "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([PRLog](https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Puri Legal Services Offers Trusted, Affordable Legal Support Across Ontario -- Puri Legal Services | PRLog",
+                  "url": "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "PRLog"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search2",
+              "start_idx": 2433,
+              "end_idx": 2452,
+              "safe_urls": [
+                "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html",
+                "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([PRLog](https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Puri Legal Services Offers Trusted, Affordable Legal Support Across Ontario -- Puri Legal Services | PRLog",
+                  "url": "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "PRLog"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search2",
+              "start_idx": 2533,
+              "end_idx": 2552,
+              "safe_urls": [
+                "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html",
+                "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([PRLog](https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Puri Legal Services Offers Trusted, Affordable Legal Support Across Ontario -- Puri Legal Services | PRLog",
+                  "url": "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "PRLog"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 2624,
+              "end_idx": 2643,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0view0",
+              "start_idx": 2761,
+              "end_idx": 2778,
+              "safe_urls": [
+                "https://purilegalservices.ca/"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/",
+                  "pub_date": null,
+                  "snippet": null,
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "view",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0view0",
+              "start_idx": 2843,
+              "end_idx": 2860,
+              "safe_urls": [
+                "https://purilegalservices.ca/"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/",
+                  "pub_date": null,
+                  "snippet": null,
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "view",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0view0",
+              "start_idx": 2918,
+              "end_idx": 2935,
+              "safe_urls": [
+                "https://purilegalservices.ca/"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/",
+                  "pub_date": null,
+                  "snippet": null,
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "view",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 3091,
+              "end_idx": 3110,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 3157,
+              "end_idx": 3176,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 3205,
+              "end_idx": 3224,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 3288,
+              "end_idx": 3307,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0turn0search1",
+              "start_idx": 3577,
+              "end_idx": 3609,
+              "safe_urls": [
+                "https://purilegalservices.ca/",
+                "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                "https://purilegalservices.ca/small-claims-court/",
+                "https://purilegalservices.ca/small-claims-court/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Puri Legal Services](https://purilegalservices.ca/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Small Claims Court Paralegal in Mississauga - Puri Legal",
+                      "url": "https://purilegalservices.ca/small-claims-court/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "Puri Legal Services"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Puri Legal Services"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 3915,
+              "end_idx": 3915,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "Paralegal Services in Mississauga - Puri Legal Services",
+                  "url": "https://purilegalservices.ca/?utm_source=chatgpt.com",
+                  "attribution": "Puri Legal Services"
+                },
+                {
+                  "title": "Puri Legal Services Offers Trusted, Affordable Legal Support Across Ontario -- Puri Legal Services | PRLog",
+                  "url": "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com",
+                  "attribution": "PRLog"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://purilegalservices.ca/",
+            "https://purilegalservices.ca/?utm_source=chatgpt.com",
+            "https://purilegalservices.ca/immigration/",
+            "https://purilegalservices.ca/immigration/?utm_source=chatgpt.com",
+            "https://purilegalservices.ca/small-claims-court/",
+            "https://purilegalservices.ca/small-claims-court/?utm_source=chatgpt.com",
+            "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html",
+            "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com",
+            "https://www.prlog.org/13082284-puri-legal-services-launches-expert-traffic-ticket-defense-in-ontario.html",
+            "https://www.prlog.org/13082284-puri-legal-services-launches-expert-traffic-ticket-defense-in-ontario.html?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "indianlegalservices.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://indianlegalservices.ca/?utm_source=chatgpt.com",
+                  "title": "India legal services",
+                  "snippet": "INDIAN LEGAL SERVICES ®  NRI SERVICES  KULBIR SINGH BRAR ADVOCATE  SUKHDEV SINGH BRAR ADVOCATE  SUKHDEV SINGH BRAR ADVOCATE  SUKHDEV SINGH BRAR ADVOCATE  SUKHDEV SINGH BRAR ADVOCATE  SUKHDEV SINGH BRA...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": null,
+                  "attribution": "indianlegalservices.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "prlog.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.prlog.org/13072708-puri-legal-services-delivering-trusted-results-driven-legal-support-across-ontario.html?utm_source=chatgpt.com",
+                  "title": "Puri Legal Services: Delivering Trusted, Results-Driven Legal Support Across Ontario -- Puri Legal Services | PRLog",
+                  "snippet": "Press Release Distribution  |  * PR Home * Latest News * News Feeds * Subscribe * Submit Free Press Release * For Bloggers * PR Newswire Distribution  News By Tag* Paralegal * More Tags...Industry New...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "prlog.org"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://pressroom.prlog.org/PuriLegalServices/?utm_source=chatgpt.com",
+                  "title": "Puri Legal Services - Latest News - PuriLegalServices | PRLog",
+                  "snippet": "* PRLog Home * All Businesses * All Newsrooms * Press Releases Home  PURI LEGAL SERVICES  * About * Newsroom * Contact  Filter By Industry  Select OneLegal  Filter By Tag  Select OneParalegalParalegal...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "prlog.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "trustpilot.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://ca.trustpilot.com/review/allindialegalservice.com?utm_source=chatgpt.com",
+                  "title": "All India Legal Service Reviews | Read Customer Service Reviews of allindialegalservice.com",
+                  "snippet": "SummaryAboutReviews  Visit websiteWrite a review  Visit website  Claimed profile  ALL INDIA LEGAL SERVICE REVIEWS 63  •  Image: TrustScore 2.5 out of 5  2.3  Write a reviewVisit website  Write a revie...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": null,
+                  "attribution": "trustpilot.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "bizidex.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://bizidex.com/en/puri-legal-services-legal-services-686133?utm_source=chatgpt.com",
+                  "title": "Puri Legal Services - Legal Services - Bizidex",
+                  "snippet": "PURI LEGAL SERVICES  Claimed  Legal Services  ABOUT THE BUSINESS  Paralegal services throughout all of Ontario, focusing on the GTA. Business services include traffic tickets, landlord and tenant disp...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": null,
+                  "attribution": "bizidex.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "purilaw.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://purilaw.ca/?utm_source=chatgpt.com",
+                  "title": "Puri Law Professional Corporation",
+                  "snippet": "Get on the path to results today.  Puri Law Professional Corporation  Puri Law Professional Corporation  LEGAL EXPERTISE YOU CAN RELY ON  Free Consultation  LEGAL EXPERTISE YOU CAN RELY ON  Free Consu...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": null,
+                  "attribution": "purilaw.ca"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://purilaw.ca/contact-us?utm_source=chatgpt.com",
+                  "title": "Puri Law Professional Corporation",
+                  "snippet": "Get on the path to results today.  Puri Law Professional Corporation  Puri Law Professional Corporation  CONTACT US  PURI LAW PROFESSIONAL CORPORATION  22 Leader Lane, Unit 537 Toronto, ON, M5E0B2 Ema...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": null,
+                  "attribution": "purilaw.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "legalkart.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.legalkart.com/lawyers/find-lawyers-in-puri?utm_source=chatgpt.com",
+                  "title": "Consult Best Lawyers / Advocate in Puri | Find Best Attorney in Puri Directly",
+                  "snippet": "FIND LAWYERS IN PURI  Online Legal Consultation, starting at just Rs.31/min  Image: LegalKart find lawyers cities  HOW DOES IT WORK?  Select a Problem  Buy LegalKart Cash  Choose the best expert to co...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": null,
+                  "attribution": "legalkart.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "purilegalservices.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://purilegalservices.ca/faqs/?utm_source=chatgpt.com",
+                  "title": "Frequently Asked Questions | Puri Legal Services",
+                  "snippet": "FREQUENTLY ASKED QUESTIONS  What are the benefits of hiring a paralegal for my Ontario traffic ticket?  Hiring a paralegal for your Ontario traffic ticket offers significant advantages, particularly w...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "purilegalservices.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "anyflip.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://anyflip.com/homepage/ppule?utm_source=chatgpt.com",
+                  "title": "Puri Legal Services Official Homepage",
+                  "snippet": "Follow Following Unfollow  0  Embed  Puri Legal Services  Puri Legal Services offers expert paralegal services and paralegal lawyer services in Brampton, specializing in traffic paralegal services and...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": null,
+                  "attribution": "anyflip.com"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "9b4a865c-c264-42e5-a7c5-b68a7ef70685",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "98b7ddb8-6c18-4dbd-9227-74cb21347c51",
+          "turn_exchange_id": "9a4c5f5c-bda7-4c85-8c4a-54e6390b3f34",
+          "model_switcher_deny": [],
+          "can_save": true
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "98b7ddb8-6c18-4dbd-9227-74cb21347c51",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "83c77caf-1629-4fdc-ad03-df3dcc316fff",
+  "conversation_id": "693f0cec-afac-8325-ba51-8eb0162ef4b4",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.prlog.org/13082284-puri-legal-services-launches-expert-traffic-ticket-defense-in-ontario.html?utm_source=chatgpt.com",
+    "https://purilegalservices.ca/immigration/",
+    "https://purilegalservices.ca/small-claims-court/?utm_source=chatgpt.com",
+    "https://purilegalservices.ca/immigration/?utm_source=chatgpt.com",
+    "https://www.prlog.org/13082284-puri-legal-services-launches-expert-traffic-ticket-defense-in-ontario.html",
+    "https://www.hitechav.ca/",
+    "https://purilegalservices.ca/",
+    "https://www.codefylabs.com/",
+    "https://www.openai.com",
+    "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html?utm_source=chatgpt.com",
+    "https://purilegalservices.ca/small-claims-court/",
+    "https://www.prlog.org/13076893-puri-legal-services-offers-trusted-affordable-legal-support-across-ontario.html",
+    "https://purilegalservices.ca/?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}

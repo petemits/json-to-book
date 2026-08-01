@@ -1,0 +1,2757 @@
+{
+  "title": "Canada Immigration Process",
+  "create_time": 1772564506.633598,
+  "update_time": 1772569248.716741,
+  "mapping": {
+    "5eccd381-c1b6-455d-be16-e8f653425f89": {
+      "id": "5eccd381-c1b6-455d-be16-e8f653425f89",
+      "message": null,
+      "parent": null,
+      "children": [
+        "24537852-8353-47e6-b45c-21956d449cd7"
+      ]
+    },
+    "24537852-8353-47e6-b45c-21956d449cd7": {
+      "id": "24537852-8353-47e6-b45c-21956d449cd7",
+      "message": {
+        "id": "24537852-8353-47e6-b45c-21956d449cd7",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "5eccd381-c1b6-455d-be16-e8f653425f89",
+      "children": [
+        "1b2e3776-a60a-42f2-8a50-d2235116dcbc"
+      ]
+    },
+    "1b2e3776-a60a-42f2-8a50-d2235116dcbc": {
+      "id": "1b2e3776-a60a-42f2-8a50-d2235116dcbc",
+      "message": {
+        "id": "1b2e3776-a60a-42f2-8a50-d2235116dcbc",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "24537852-8353-47e6-b45c-21956d449cd7",
+      "children": [
+        "bbb21e58-5db7-4914-9099-4975d667d2da"
+      ]
+    },
+    "bbb21e58-5db7-4914-9099-4975d667d2da": {
+      "id": "bbb21e58-5db7-4914-9099-4975d667d2da",
+      "message": {
+        "id": "bbb21e58-5db7-4914-9099-4975d667d2da",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772564506.325766,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So whit the immigration process to Canada from other countries or to get a work visa student visa"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "3f63edd1-3280-432e-9c24-ce91f8cf32e6",
+          "message_source": null,
+          "turn_exchange_id": "b9de6b04-9e09-4acd-bfd8-d2e8329981d4",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "1b2e3776-a60a-42f2-8a50-d2235116dcbc",
+      "children": [
+        "2909f0bd-9f0d-4449-b3b6-be0bbf7ac9aa"
+      ]
+    },
+    "2909f0bd-9f0d-4449-b3b6-be0bbf7ac9aa": {
+      "id": "2909f0bd-9f0d-4449-b3b6-be0bbf7ac9aa",
+      "message": {
+        "id": "2909f0bd-9f0d-4449-b3b6-be0bbf7ac9aa",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772564506.4363024,
+        "update_time": null,
+        "content": {
+          "content_type": "model_editable_context",
+          "model_set_context": "",
+          "repository": null,
+          "repo_summary": null,
+          "structured_context": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [],
+          "request_id": "3f63edd1-3280-432e-9c24-ce91f8cf32e6",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "can_save": false,
+          "parent_id": "bbb21e58-5db7-4914-9099-4975d667d2da",
+          "turn_exchange_id": "b9de6b04-9e09-4acd-bfd8-d2e8329981d4",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21e58-5db7-4914-9099-4975d667d2da",
+      "children": [
+        "06993e48-b29f-487e-82f7-d0809a3b0034"
+      ]
+    },
+    "06993e48-b29f-487e-82f7-d0809a3b0034": {
+      "id": "06993e48-b29f-487e-82f7-d0809a3b0034",
+      "message": {
+        "id": "06993e48-b29f-487e-82f7-d0809a3b0034",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772564506.512713,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a clear overview of the **immigration and visa process for Canada** 🇨🇦 — whether someone wants a **work visa, student visa, or permanent residency**.\n\n---\n\n## 1️⃣ Student Visa (Study Permit)\n\nTo study in Canada, you need a **Study Permit**.\n\n### Basic Requirements:\n- Acceptance letter from a **Designated Learning Institution (DLI)**\n- Proof of funds (tuition + living expenses)\n- Clean criminal record (police certificate)\n- Medical exam (if required)\n- Proof you will leave Canada after studies (unless applying for PR later)\n\n### Process:\n1. Get accepted by a DLI  \n2. Apply online through **entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"] (IRCC)**  \n3. Submit biometrics  \n4. Wait for approval  \n5. Receive Port of Entry Letter  \n\n### After Graduation:\nYou may qualify for:\n- **Post-Graduation Work Permit (PGWP)**\n- Pathway to Permanent Residency (Express Entry)\n\n---\n\n## 2️⃣ Work Visa (Work Permit)\n\nThere are two main types:\n\n### A) Employer-Specific Work Permit\n- Requires job offer\n- Employer may need LMIA (Labour Market Impact Assessment)\n\n### B) Open Work Permit\n- No specific employer needed\n- Available to:\n  - Spouses of students/workers\n  - PGWP holders\n  - Some humanitarian cases\n\n### Process:\n1. Get job offer (if required)\n2. Employer applies for LMIA (if required)\n3. Apply online through IRCC\n4. Biometrics + medical (if required)\n\n---\n\n## 3️⃣ Permanent Residency (PR)\n\n### Most Common Pathway: Express Entry\nManaged by IRCC.\n\nPrograms under Express Entry:\n- Federal Skilled Worker Program\n- Canadian Experience Class\n- Federal Skilled Trades Program\n\n### How It Works:\n1. Create Express Entry profile\n2. Get CRS (Comprehensive Ranking System) score\n3. Receive Invitation to Apply (ITA)\n4. Submit documents\n5. Get PR decision\n\nProcessing: Usually 6–12 months (varies).\n\n---\n\n## 4️⃣ Provincial Nominee Program (PNP)\n\nEach province has its own program, for example:\n- entity[\"organization\",\"Ontario Immigrant Nominee Program\",\"provincial immigration program ontario\"]\n- entity[\"organization\",\"British Columbia Provincial Nominee Program\",\"provincial immigration program bc\"]\n\nIf nominated → extra points for Express Entry.\n\n---\n\n## 5️⃣ Business / Investor Immigration\n\nFor entrepreneurs who want to:\n- Start a business\n- Invest in Canada\n- Create jobs\n\nIncludes the Start-Up Visa program.\n\n---\n\n# Typical Costs (Approximate)\n\n- Study Permit: ~$150 CAD\n- Work Permit: ~$155 CAD\n- Express Entry PR: ~$1,365 CAD (principal applicant)\n- Biometrics: ~$85 CAD\n\n---\n\n# Important Things to Know\n\n- English or French language test required (IELTS / CELPIP / TEF)\n- Proof of funds required for most programs\n- Background + security checks required\n- Medical exams required for many applicants\n\n---\n\nIf you want, tell me:\n\n- 🌍 Which country the person is applying from\n- 🎓 Study or work?\n- 💼 What profession?\n- 📅 Timeline?\n\nI can give a **step-by-step tailored path**.\n\nSince you're in Canada already (Ontario area), I can also explain options if someone is inside Canada and wants to change status."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"]",
+              "start_idx": 603,
+              "end_idx": 705,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Immigration, Refugees and Citizenship Canada",
+              "prompt_text": "Immigration, Refugees and Citizenship Canada",
+              "type": "entity",
+              "name": "Immigration, Refugees and Citizenship Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "canadian federal department"
+              },
+              "status": "done",
+              "notes": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Ontario Immigrant Nominee Program\",\"provincial immigration program ontario\"]",
+              "start_idx": 1951,
+              "end_idx": 2053,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Ontario Immigrant Nominee Program",
+              "prompt_text": "Ontario Immigrant Nominee Program",
+              "type": "entity",
+              "name": "Ontario Immigrant Nominee Program",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "provincial immigration program ontario"
+              },
+              "status": "done",
+              "notes": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"British Columbia Provincial Nominee Program\",\"provincial immigration program bc\"]",
+              "start_idx": 2056,
+              "end_idx": 2163,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "British Columbia Provincial Nominee Program",
+              "prompt_text": "British Columbia Provincial Nominee Program",
+              "type": "entity",
+              "name": "British Columbia Provincial Nominee Program",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "provincial immigration program bc"
+              },
+              "status": "done",
+              "notes": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "3f63edd1-3280-432e-9c24-ce91f8cf32e6",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "2909f0bd-9f0d-4449-b3b6-be0bbf7ac9aa",
+          "turn_exchange_id": "b9de6b04-9e09-4acd-bfd8-d2e8329981d4",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "2909f0bd-9f0d-4449-b3b6-be0bbf7ac9aa",
+      "children": [
+        "bbb212fb-fcd5-4fcf-9435-b0be11eb7375"
+      ]
+    },
+    "bbb212fb-fcd5-4fcf-9435-b0be11eb7375": {
+      "id": "bbb212fb-fcd5-4fcf-9435-b0be11eb7375",
+      "message": {
+        "id": "bbb212fb-fcd5-4fcf-9435-b0be11eb7375",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772564660.380377,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Breakdown of points "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "a53d72ff-b1fd-4c7f-af2d-a48a11e79acb",
+          "message_source": null,
+          "turn_exchange_id": "789df084-82e4-4eb4-9f4f-b43f0966cc28",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "06993e48-b29f-487e-82f7-d0809a3b0034",
+      "children": [
+        "e0f01220-27b4-4ed7-841f-be4139863278"
+      ]
+    },
+    "e0f01220-27b4-4ed7-841f-be4139863278": {
+      "id": "e0f01220-27b4-4ed7-841f-be4139863278",
+      "message": {
+        "id": "e0f01220-27b4-4ed7-841f-be4139863278",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772564660.5716,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s a **clear breakdown of the points system for Canada Permanent Residency (Express Entry)** 🇨🇦\n\nThe points system is called the **CRS (Comprehensive Ranking System)** and is managed by  \n**entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"]**\n\nMaximum score: **1200 points**\n\n---\n\n# 🔢 1️⃣ Core Human Capital Factors (Max 500 points)\n\nThese are your main personal factors.\n\n### 🧑 Age (Max 110 points)\nBest age: **20–29 years old**\n\nExample:\n- 20–29 = 110 points  \n- 30 = 105  \n- 35 = 77  \n- 40 = 50  \n- 45+ = 0  \n\n---\n\n### 🎓 Education (Max 150 points)\n\nExamples:\n- High school = ~30\n- 1-year diploma = ~90\n- Bachelor’s degree = ~120\n- Master’s degree = ~135\n- PhD = 150  \n\nForeign degrees require **ECA (Educational Credential Assessment)**.\n\n---\n\n### 🗣 Language Skills (Max 160 points)\n\nEnglish test:\n- IELTS General\n- CELPIP\n\nFrench test:\n- TEF\n\nHigher CLB (Canadian Language Benchmark) = more points.\n\nExample:\n- CLB 9 or higher = big jump in points\n- CLB 7 = moderate points\n\nLanguage is one of the **most powerful score boosters**.\n\n---\n\n### 💼 Canadian Work Experience (Max 80 points)\n\n- 1 year = 40 points  \n- 2 years = 53  \n- 3 years = 64  \n- 5+ years = 80  \n\n---\n\n# 🔁 2️⃣ Spouse/Common-Law Partner Factors (Max 40 points)\n\nIf married:\n- Spouse education\n- Spouse language test\n- Spouse Canadian work experience\n\n---\n\n# ⚡ 3️⃣ Skill Transferability (Max 100 points)\n\nCombination bonus points for:\n\n- Education + strong language\n- Education + Canadian work experience\n- Foreign work experience + strong language\n- Foreign work experience + Canadian experience\n\nThis section helps skilled professionals significantly.\n\n---\n\n# 🚀 4️⃣ Additional Points (Max 600 points)\n\nThese are huge boosters:\n\n### 🏆 Provincial Nomination = **600 points**\nExample:\n- From programs like  \n  **entity[\"organization\",\"Ontario Immigrant Nominee Program\",\"provincial immigration program ontario\"]**  \n  This almost guarantees invitation.\n\n---\n\n### 💼 Valid Job Offer = 50–200 points\n- Senior management (NOC 00) = 200\n- Other skilled jobs = 50\n\n---\n\n### 🎓 Canadian Education = 15–30 points\n\n---\n\n### 🗣 Strong French = up to 50 points\n\n---\n\n### 👨‍👩‍👧 Sibling in Canada (PR/Citizen) = 15 points\n\n---\n\n# 📊 Typical Express Entry Cut-Off Scores\n\nUsually range between:\n- **470–520 CRS points**  \n(Varies depending on draw)\n\n---\n\n# Example Profiles\n\n🧑 28-year-old  \n🎓 Bachelor’s degree  \n🗣 CLB 9 English  \n💼 3 years foreign work experience  \n\n→ Rough CRS: 460–490  \n\nAdd:\n- Provincial nomination → 1000+  \n- Canadian experience → 500+  \n\n---\n\n# 🧠 Strategy Tips\n\nIf someone’s score is low, best ways to increase it:\n\n1. Improve IELTS score (CLB 9 is key)\n2. Get Provincial Nomination\n3. Gain Canadian work experience\n4. Add French\n5. Complete higher education\n\n---\n\nIf you want, tell me:\n- Age\n- Education\n- Work experience (Canadian + foreign)\n- IELTS score (if known)\n- Married or single?\n\nI can calculate a rough CRS estimate for you."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"]",
+              "start_idx": 194,
+              "end_idx": 296,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Immigration, Refugees and Citizenship Canada",
+              "prompt_text": "Immigration, Refugees and Citizenship Canada",
+              "type": "entity",
+              "name": "Immigration, Refugees and Citizenship Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "canadian federal department"
+              },
+              "status": "done",
+              "notes": null
+            },
+            {
+              "matched_text": "entity[\"organization\",\"Ontario Immigrant Nominee Program\",\"provincial immigration program ontario\"]",
+              "start_idx": 1834,
+              "end_idx": 1936,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Ontario Immigrant Nominee Program",
+              "prompt_text": "Ontario Immigrant Nominee Program",
+              "type": "entity",
+              "name": "Ontario Immigrant Nominee Program",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "provincial immigration program ontario"
+              },
+              "status": "done",
+              "notes": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "a53d72ff-b1fd-4c7f-af2d-a48a11e79acb",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "bbb212fb-fcd5-4fcf-9435-b0be11eb7375",
+          "turn_exchange_id": "789df084-82e4-4eb4-9f4f-b43f0966cc28",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb212fb-fcd5-4fcf-9435-b0be11eb7375",
+      "children": [
+        "bbb217bd-8291-4f8b-8b8a-d61627d449b5"
+      ]
+    },
+    "bbb217bd-8291-4f8b-8b8a-d61627d449b5": {
+      "id": "bbb217bd-8291-4f8b-8b8a-d61627d449b5",
+      "message": {
+        "id": "bbb217bd-8291-4f8b-8b8a-d61627d449b5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772564958.339765,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "So let's I have high school graduate that wants to study here. How can he qualify "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "4d1dff81-42a0-4109-b73c-62af855a7a73",
+          "message_source": null,
+          "turn_exchange_id": "c19dccc6-0aaa-4d0f-be31-0cf4aebf6d71",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "e0f01220-27b4-4ed7-841f-be4139863278",
+      "children": [
+        "6a028aaa-a76b-46bf-bc56-4c66bf0728dc"
+      ]
+    },
+    "6a028aaa-a76b-46bf-bc56-4c66bf0728dc": {
+      "id": "6a028aaa-a76b-46bf-bc56-4c66bf0728dc",
+      "message": {
+        "id": "6a028aaa-a76b-46bf-bc56-4c66bf0728dc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772564958.579898,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If someone is a **high school graduate** and wants to study in Canada 🇨🇦, here’s exactly how they can qualify step-by-step.\n\nEverything is handled through  \n**entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"] (IRCC)**\n\n---\n\n# 🎓 Step 1: Choose the Right Program\n\nWith only high school completed, they can apply for:\n\n### ✔️ Diploma Programs (2–3 years)\n- College programs (business, IT, healthcare, trades, etc.)\n\n### ✔️ Bachelor’s Degree (4 years)\n- University programs\n\n### ✔️ Certificate Programs (1 year)\n- Some colleges offer post-secondary certificates\n\nThey must apply to a **Designated Learning Institution (DLI)**.\n\n---\n\n# 📋 Step 2: Meet Admission Requirements\n\nMost colleges/universities require:\n\n- High school transcript\n- English language test:\n  - IELTS Academic (usually 6.0–6.5 overall)\n  - Or equivalent (TOEFL, etc.)\n- Passport\n- Application fee\n\nSome programs (engineering, science) may require:\n- Math\n- Physics\n- Chemistry\n\n---\n\n# 💰 Step 3: Show Proof of Funds\n\nVery important.\n\nThey must prove they can afford:\n\n- Tuition (varies $15,000–$30,000+ per year)\n- Living expenses (~$20,635 per year minimum outside Quebec)\n- Return travel\n\nProof can include:\n- Bank statements\n- GIC (Guaranteed Investment Certificate)\n- Sponsor letter + sponsor’s bank proof\n\n---\n\n# 🛂 Step 4: Apply for Study Permit\n\nAfter receiving an acceptance letter:\n\n1. Apply online through IRCC\n2. Pay:\n   - Study permit fee (~$150 CAD)\n   - Biometrics (~$85 CAD)\n3. Give biometrics\n4. Medical exam (if required)\n5. Wait for decision\n\nProcessing time depends on country.\n\n---\n\n# 🧠 Step 5: Prove Intent (Very Important)\n\nThe student must show:\n\n- They are coming primarily to study\n- They have ties to home country (family, property, job prospects)\n- They will leave Canada if required\n\nWeak explanation = visa refusal.\n\n---\n\n# 👷 While Studying\n\nThey can:\n\n- Work 20–24 hours per week during school (depending on current IRCC rules)\n- Work full-time during scheduled breaks\n\n---\n\n# 🎓 After Graduation\n\nThey may qualify for:\n\n### Post-Graduation Work Permit (PGWP)\nAllows:\n- 1–3 years work permit\n- Gain Canadian work experience\n- Apply for Permanent Residency later\n\n---\n\n# 🚨 Common Reasons for Refusal\n\n- Not enough financial proof\n- Weak Statement of Purpose\n- Poor IELTS score\n- Immigration officer thinks student won’t return home\n\n---\n\n# 💡 Smart Strategy (For High School Graduate)\n\nBest path usually:\n\n1. Choose a 2–3 year college diploma in high-demand field\n2. Graduate\n3. Get PGWP\n4. Work 1 year in skilled job\n5. Apply for PR via Express Entry or Provincial Nominee Program\n\nExample programs in demand:\n- Healthcare support\n- IT\n- Skilled trades\n- Business analytics\n- Supply chain\n\n---\n\nIf you want, tell me:\n- What country is the student from?\n- Budget range?\n- What field of study?\n- Age?\n\nI can suggest the safest and strongest pathway."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"]",
+              "start_idx": 159,
+              "end_idx": 261,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Immigration, Refugees and Citizenship Canada",
+              "prompt_text": "Immigration, Refugees and Citizenship Canada",
+              "type": "entity",
+              "name": "Immigration, Refugees and Citizenship Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "canadian federal department"
+              },
+              "status": "done",
+              "notes": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "4d1dff81-42a0-4109-b73c-62af855a7a73",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "bbb217bd-8291-4f8b-8b8a-d61627d449b5",
+          "turn_exchange_id": "c19dccc6-0aaa-4d0f-be31-0cf4aebf6d71",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb217bd-8291-4f8b-8b8a-d61627d449b5",
+      "children": [
+        "bbb21918-c4b4-4f70-9436-f52f5892e9aa"
+      ]
+    },
+    "bbb21918-c4b4-4f70-9436-f52f5892e9aa": {
+      "id": "bbb21918-c4b4-4f70-9436-f52f5892e9aa",
+      "message": {
+        "id": "bbb21918-c4b4-4f70-9436-f52f5892e9aa",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565442.574744,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What be the approximate cost for 2 years program with international fees and living. How the person has to show"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "0f50ca98-dde0-437d-a5d0-16a51d21f6f1",
+          "message_source": null,
+          "turn_exchange_id": "51dfc332-ec86-424a-ad05-5d2c262fce4f",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "6a028aaa-a76b-46bf-bc56-4c66bf0728dc",
+      "children": [
+        "ef6e4a08-9420-4ef7-8407-4eb65b29a5f2"
+      ]
+    },
+    "ef6e4a08-9420-4ef7-8407-4eb65b29a5f2": {
+      "id": "ef6e4a08-9420-4ef7-8407-4eb65b29a5f2",
+      "message": {
+        "id": "ef6e4a08-9420-4ef7-8407-4eb65b29a5f2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565442.707873,
+        "update_time": null,
+        "content": {
+          "content_type": "code",
+          "text": "search(\"What be the approximate cost for 2 years program with international fees and living. How the person has to show\")",
+          "language": "unknown",
+          "response_format_name": null
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-2",
+          "request_id": "0f50ca98-dde0-437d-a5d0-16a51d21f6f1",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21918-c4b4-4f70-9436-f52f5892e9aa",
+          "turn_exchange_id": "51dfc332-ec86-424a-ad05-5d2c262fce4f",
+          "model_switcher_deny": [],
+          "can_save": false
+        },
+        "recipient": "web",
+        "channel": null
+      },
+      "parent": "bbb21918-c4b4-4f70-9436-f52f5892e9aa",
+      "children": [
+        "fe6f78a9-243e-4ea1-96ce-3091201d2f52"
+      ]
+    },
+    "fe6f78a9-243e-4ea1-96ce-3091201d2f52": {
+      "id": "fe6f78a9-243e-4ea1-96ce-3091201d2f52",
+      "message": {
+        "id": "fe6f78a9-243e-4ea1-96ce-3091201d2f52",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1772565443.296509,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_model_queries": {
+            "type": "search_model_queries",
+            "queries": [
+              "Canada international student tuition costs 2 year program and living expenses costs Canada international students",
+              "How to prove funds for Canada study permit required amount proof of funds Canada study permit"
+            ]
+          },
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "0f50ca98-dde0-437d-a5d0-16a51d21f6f1",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "ef6e4a08-9420-4ef7-8407-4eb65b29a5f2",
+          "turn_exchange_id": "51dfc332-ec86-424a-ad05-5d2c262fce4f",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ef6e4a08-9420-4ef7-8407-4eb65b29a5f2",
+      "children": [
+        "b77603c0-143b-40ff-8499-37a02ebfb9dd"
+      ]
+    },
+    "b77603c0-143b-40ff-8499-37a02ebfb9dd": {
+      "id": "b77603c0-143b-40ff-8499-37a02ebfb9dd",
+      "message": {
+        "id": "b77603c0-143b-40ff-8499-37a02ebfb9dd",
+        "author": {
+          "role": "tool",
+          "name": "web.run",
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1772565443.2939944,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": false,
+        "weight": 1,
+        "metadata": {
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "www.canada.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+                  "title": "Study permit: Get the right documents - Proof of financial support - Canada.ca",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 0
+                  },
+                  "pub_date": 1769385600,
+                  "attribution": "www.canada.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.cicnews.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html",
+                  "title": "Increased fund requirements for study permits take effect | CIC News",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 1
+                  },
+                  "pub_date": 1756684800,
+                  "attribution": "www.cicnews.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.home-tution.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.home-tution.com/study-abroad-countries-canada",
+                  "title": "Study in Canada– Courses, Universities, Fees, Visa & Scholarships",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 2
+                  },
+                  "pub_date": null,
+                  "attribution": "www.home-tution.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.thevisatales.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.thevisatales.com/blog/canada-study-permit-proof-of-funds-increase-2025/",
+                  "title": "Canada Study Permit Funds Rise to $22,895 From September 1, 2025",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": 1756684800,
+                  "attribution": "www.thevisatales.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.scholarshipregion.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.scholarshipregion.com/canada-proof-of-funds-requirement/",
+                  "title": "Canada Proof of Funds Requirement for International Students 2025 | Scholarship Region",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": 1752624000,
+                  "attribution": "www.scholarshipregion.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "students.ubc.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/",
+                  "title": "Gather required documents for your initial study permit application | UBC Student Services",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "students.ubc.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "assist.applyboard.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://assist.applyboard.com/hc/en-us/articles/40602028625933-Proof-of-Financial-Support-for-Your-Canadian-Student-Visa-A-Complete-Guide-for-International-Students",
+                  "title": "Proof of Financial Support for Your Canadian Student Visa: A Complete Guide for International Students – Assist",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": 1763942400,
+                  "attribution": "assist.applyboard.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Guide-for-International-Students",
+                  "title": "Cost of Studying in Canada: Guide for International Students – Assist",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": 1762819200,
+                  "attribution": "assist.applyboard.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Your-Complete-2026-Guide-for-International-Students",
+                  "title": "Cost of Studying in Canada: Your Complete 2026 Guide for International Students – Assist",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": 1770940800,
+                  "attribution": "assist.applyboard.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "fly.finance",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://fly.finance/blog/student-budget/how-much-does-it-cost-to-study-in-canada/",
+                  "title": "How Much Does It Cost to Study in Canada?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1732492800,
+                  "attribution": "fly.finance"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.spscanada.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.spscanada.com/updated-proof-of-funds-for-canada-student-visa/",
+                  "title": "Updated Proof of Funds for Canada Student Visa - SPS Canada",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 1758499200,
+                  "attribution": "www.spscanada.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.collabinternational.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.collabinternational.com/study-in-canada",
+                  "title": "Study in Canada - Collab International",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "www.collabinternational.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "moving2canada.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/",
+                  "title": "How Much Does It Cost to Study in Canada in 2025/2026",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 10
+                  },
+                  "pub_date": 1769040000,
+                  "attribution": "moving2canada.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "fortuneeducation.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://fortuneeducation.org/education-cost-in-canada/",
+                  "title": "Education Cost in Canada - Study in Canada",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": 1728443476,
+                  "attribution": "fortuneeducation.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "intakeuniverse.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://intakeuniverse.com/cost-of-study-living-in-canada/",
+                  "title": "Cost of Study & Living in Canada - Your Complete Study Abroad Partner | Intake Universe",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "intakeuniverse.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "studying-in-canada.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://studying-in-canada.org/cost-of-studying-in-canada-for-international-students/",
+                  "title": "Cost of Studying in Canada for International Students - Study in Canada",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1409337619,
+                  "attribution": "studying-in-canada.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.aeccglobal.lk",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.aeccglobal.lk/blog/cost-to-study-in-canada",
+                  "title": "How much will it cost to study in Canada for Students? | AECC",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": 1753315200,
+                  "attribution": "www.aeccglobal.lk"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.studyabroadprogramguides.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.studyabroadprogramguides.com/archives/3382",
+                  "title": "Proof of Funds for Canada Study Permit: 2025 Requirements - studyabroadprogramguides.com",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": 1760486400,
+                  "attribution": "www.studyabroadprogramguides.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reuters.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reuters.com/world/americas/canada-reduces-international-student-permits-second-year-2025-01-24/",
+                  "title": "Canada reduces international student permits for second year",
+                  "snippet": "In 2025, Canada will continue to limit international student permits by issuing 437,000 study permits, a 10% decline from 2024. This move extends a policy introduced in 2024 amid concerns that rapid population growth, driven largely by immigration, was intensifying strains on housing, healthcare, and other public services. The federal government's decision follows record-setting numbers in 2023, when more than 650,000 study permits were issued, bringing the international student population to over one million—three times what it was a decade ago. Despite their significant financial contribution through higher tuition fees, international students are now subject to stricter rules. Most applicants must now submit a Provincial or Territorial Attestation Letter to verify inclusion under the national cap, with this requirement extending in 2025 to master’s and post-doctoral students. Prime Minister Justin Trudeau, who plans to step down in March, had recently promised to curb immigration levels as public support for newcomers declined.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 24
+                  },
+                  "pub_date": 1737750234,
+                  "attribution": "www.reuters.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "apnews.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://apnews.com/article/7e718df6979915b112a1ff243f224ac7",
+                  "title": "Canada is capping foreign student visas to ease housing pressures as the cost of living soars",
+                  "snippet": "Canada has announced a two-year cap on international student visas to ease pressures on housing, healthcare, and other services amid a surge in immigration and rising living costs. Immigration Minister Marc Miller stated that new study visas in 2024 will be reduced by 35%, capping the number at 364,000 compared to nearly 560,000 issued in 2023. The move aims to clamp down on \"sham\" institutions that exploit the visa system and contribute to structural issues in the housing market. Canada currently hosts around 1 million foreign students—three times the number from a decade ago. With the country's population growing by 1 million last year and only 300,000 homes being added annually, housing affordability has become a major concern. Critics, including opposition leader Pierre Poilievre, blame the government for lax oversight of fake schools. Despite the cap, total immigration targets are expected to remain high due to Canada’s aging population and reliance on newcomers for economic growth.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 25
+                  },
+                  "pub_date": 1705953727,
+                  "attribution": "apnews.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "m.economictimes.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://m.economictimes.com/nri/study/canada-quebec-to-raise-financial-requirements-for-study-permit-applicants-from-january-2026/articleshow/125698387.cms",
+                  "title": "Canada: Quebec to raise financial requirements for study permit applicants from January 2026",
+                  "snippet": "Starting January 1, 2026, Quebec will increase the financial requirements for international students applying for or renewing study permits. This change impacts both new and returning students, as applicants must demonstrate higher minimum funds at both provincial and federal levels. The updated policy significantly raises the cost-of-living amount that international students are required to show as proof of financial capacity. This move aims to ensure that students have sufficient financial resources to support themselves while studying in Quebec. The article highlights these stricter financial thresholds but does not specify the exact new amounts or the types of acceptable proof of funds.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 26
+                  },
+                  "pub_date": 1764605948,
+                  "attribution": "m.economictimes.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://m.economictimes.com/nri/study/average-cost-of-a-four-year-degree-in-canada-crosses-177000-for-international-students/articleshow/124891190.cms",
+                  "title": "Average cost of a four-year degree in Canada crosses $177,000 for international students",
+                  "snippet": "As of the 2025/26 academic year, the average cost of a four-year undergraduate degree in Canada for international students has surpassed $177,000. According to ApplyBoard's ApplyInsights data, undergraduate tuition has increased by 4% from the previous year, reaching nearly $42,000 annually—though this rise is the smallest since 2021/22. Graduate programs have also seen a tuition increase of around 3%, with average costs approximately 42% lower than undergraduate programs. Differences in tuition rates also exist across provinces, and rent costs in major Canadian cities further add to the financial burden on international students. Institutions are reportedly responding to concerns about affordability.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 27
+                  },
+                  "pub_date": 1761719085,
+                  "attribution": "m.economictimes.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "timesofindia.indiatimes.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://timesofindia.indiatimes.com/education/study-abroad/canada-tightens-financial-requirements-for-international-students-changes-take-effect-from-september-2025-heres-what-you-need-to-know/articleshow/122381623.cms",
+                  "title": "Canada tightens financial requirements for international students, changes take effect from September 2025, here's what you need to know",
+                  "snippet": "Starting September 1, 2025, the Canadian government will implement stricter financial requirements for international students applying for study permits. These new measures aim to ensure that students are adequately prepared to cover the increasing cost of living in Canada, which has been affected by ongoing inflation and housing affordability issues. Noteworthy changes include a higher cost-of-living threshold that students must meet to prove financial readiness. Applicants will also be required to provide acceptable and verifiable forms of financial proof, and those heading to Québec will have specific provisions tailored to the province’s context. Importantly, applications will be evaluated based on the date they are submitted, not processed. Additional supporting documents and requirements will also be introduced as part of the revamped policy.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 30
+                  },
+                  "pub_date": 1752217723,
+                  "attribution": "timesofindia.indiatimes.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "economictimes.indiatimes.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://economictimes.indiatimes.com/nri/study/canadas-increased-fund-requirement-for-student-visa-applicants-now-in-effect/articleshow/123648088.cms",
+                  "title": "Canada's increased fund requirement for student visa applicants now in effect",
+                  "snippet": "As of September 1, 2025, Canada has implemented an increase in the financial requirements for international students applying for study permits. According to Immigration, Refugees and Citizenship Canada (IRCC), single applicants must now demonstrate a minimum of CA $22,895 in available funds, representing an increase of CA $2,260 from the previous requirement. This change aims to ensure international students have sufficient financial resources to support themselves during their studies in Canada.",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "news",
+                    "ref_index": 32
+                  },
+                  "pub_date": 1756789066,
+                  "attribution": "economictimes.indiatimes.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.youtube.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=ABSLhFQT1Cc",
+                  "title": "How to show Proof of funds | Canada Study Permit - YouTube",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "youtube",
+                    "ref_index": 36
+                  },
+                  "pub_date": 1680998400,
+                  "attribution": "www.youtube.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.youtube.com/watch?v=DrnsyC_7P14",
+                  "title": "HOW TO: SHOW PROOF OF FUNDS TO GUARANTEE STUDY PERMIT APPROVAL IN CANADA 🇨🇦 | POF | Study in Canada - YouTube",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "youtube",
+                    "ref_index": 43
+                  },
+                  "pub_date": 1682380800,
+                  "attribution": "www.youtube.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "www.reddit.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/InternationalStudents/comments/1hmbx3f",
+                  "title": "International students in Canada, let’s compare our hardships. Former international student (2016-2017) here",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 41
+                  },
+                  "pub_date": 1735170295.615,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/xcl32g",
+                  "title": "How to show proof funds for your study permit when you arrive in Canada to the Visa Officer?",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 45
+                  },
+                  "pub_date": 1663009121.642,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/NorQuestCollege/comments/1qtzbse/question_for_international_students/",
+                  "title": "Question for international students",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 46
+                  },
+                  "pub_date": 1770048814.499,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/19d6qt1",
+                  "title": "Proof of Funds for Study Permit Extension of only 6 months",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 47
+                  },
+                  "pub_date": 1705958503.175,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/u_Acceptable-Reserve71/comments/1elvr72",
+                  "title": "international student loan in Canada",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 48
+                  },
+                  "pub_date": 1722984630.138,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/1c35tk6",
+                  "title": "Regarding Funds. (Study Permit)",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 49
+                  },
+                  "pub_date": 1713025536.474,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/t69ule",
+                  "title": "Proof of funds for a Canadian Study Permit",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 50
+                  },
+                  "pub_date": 1646365819.548,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/",
+                  "title": "Proof of Funds for Study Permit in Canada",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 51
+                  },
+                  "pub_date": 1772540369.676,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/i1uyk8",
+                  "title": "Study Permit Extension Proof of Funds",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 52
+                  },
+                  "pub_date": 1596299252.652,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/qt1pyz",
+                  "title": "Amount of funds for a study permit renewal",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 53
+                  },
+                  "pub_date": 1636811670.072,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/sq478m",
+                  "title": "I have two questions please:",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 54
+                  },
+                  "pub_date": 1644599117.676,
+                  "attribution": "www.reddit.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.reddit.com/r/UCalgary/comments/okfso6",
+                  "title": "Proof of funds",
+                  "snippet": "",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "reddit",
+                    "ref_index": 55
+                  },
+                  "pub_date": 1626303219.929,
+                  "attribution": "www.reddit.com"
+                }
+              ]
+            }
+          ],
+          "debug_sonic_thread_id": "thread_69a733c35134832281207b6d50d1d739",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "0f50ca98-dde0-437d-a5d0-16a51d21f6f1",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "parent_id": "fe6f78a9-243e-4ea1-96ce-3091201d2f52",
+          "turn_exchange_id": "51dfc332-ec86-424a-ad05-5d2c262fce4f",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "fe6f78a9-243e-4ea1-96ce-3091201d2f52",
+      "children": [
+        "59956fae-d8cd-4bc1-b457-75ab71e707c3"
+      ]
+    },
+    "59956fae-d8cd-4bc1-b457-75ab71e707c3": {
+      "id": "59956fae-d8cd-4bc1-b457-75ab71e707c3",
+      "message": {
+        "id": "59956fae-d8cd-4bc1-b457-75ab71e707c3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {
+            "sonicberry_model_id": "current_sonicberry_unpaid_oai",
+            "real_author": "tool:web",
+            "source": "sonic_tool"
+          }
+        },
+        "create_time": 1772565443.754219,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Here’s an **approximate cost breakdown for a 2-year diploma program in Canada** for an international student — including tuition, living expenses, and how to **show proof of funds** for a **study permit** 🇨🇦:\n\n---\n\n## 🧾 1. Tuition Fees (2-year Program)\n\nTuition varies widely by school and program, but typical international student fees for colleges are roughly:\n\n- **CAD $15,000 – $30,000 per year**  \n  (sometimes more for specialized programs)citeturn0search10\n\n➡️ **Estimated for 2 years:**  \n**CAD $30,000 – $60,000** total\n\n*(This is a rough range — specific schools may cost less or more.)*\n\n---\n\n## 🏠 2. Living Expenses (Per Year)\n\nYou must budget for rent, food, transport, books, health insurance, etc.\n\nTypical annual costs (estimated):\n\n- **Accommodation & utilities:** ~CAD $6,000 – $15,000  \n- **Food & groceries:** ~CAD $2,400 – $4,800  \n- **Transport & phone/internet:** ~CAD $1,500 – $3,000  \n- **Miscellaneous (clothes, entertainment):** ~CAD $1,000 – $2,000  \n\n➡️ **Estimated annual living costs:**  \n**CAD $10,000 – $18,000**citeturn0search2turn0search17\n\n➡️ **Estimated for 2 years:**  \n**CAD $20,000 – $36,000**\n\n---\n\n## ✈️ 3. Other Costs (One-Time / Upfront)\n\n- **Study permit application:** ~CAD $150  \n- **Biometrics:** ~CAD $85  \n- **Plane ticket:** ~CAD $700 – $2,000  \n- **Books & supplies:** ~CAD $500 – $1,000 per year  \n\n---\n\n## 📊 Total Estimated Cost (2 Years)\n\n| Cost Component | Estimate (CAD) |\n|----------------|----------------|\n| Tuition (2 yrs) | $30,000 – $60,000 |\n| Living (2 yrs) | $20,000 – $36,000 |\n| Other fees | ~$2,000 – $5,000 |\n| **Total Range** | **~CAD $52,000 – $101,000+** |\n\n*(These range estimates vary by institution, city, and lifestyle.)*\n\n---\n\n## 💰 4. **How to Show Proof of Funds**\n\nTo get a **study permit**, you must clearly show immigration authorities that you can pay for:\n\n✅ First year **tuition**  \n✅ First year **living expenses**  \n✅ Your **return travel**  \nand proof you *can pay for future years* (even if just through plans, not fully upfront)citeturn0search0\n\n### 🇨🇦 Minimum Fund Requirement (Living Only)\n\nAs of **September 1, 2025**, IRCC requires students to show:\n\n- **CAD $22,895** for living expenses for **1 person per year**  \n*This amount doesn’t include tuition or travel costs.*citeturn0search1\n\nThis is a **minimum “proof of funds” requirement** — you still must show tuition + travel on top of this.\n\n---\n\n## 📄 Acceptable Proof of Funds\n\nYou can show any combination of:\n\n### 📌 Financial Documents\n- Bank statements (your or your sponsor’s)  \n- Proof of tuition payment (receipt)  \n- Guaranteed Investment Certificate (GIC)  \n- Official student loan approval  \n- Sponsor letter + sponsor’s bank statements  \n- Scholarship award letter  \n- Employment proof of parents/sponsorciteturn0search0turn0search5\n\n**Important:** You must show funds are *accessible and available* — not just assets like property that can’t be easily used immediately.citeturn0reddit51\n\n---\n\n## 📆 How It’s Assessed\n\n✔ You must prove you have enough money for the **first year**  \n✔ For programs longer than a year, you explain how you’ll pay the **second year**  \n👉 IRCC doesn’t usually ask for all money upfront, but must be confident you *will have it* (e.g., parental support, savings, scholarship, loans)citeturn0search0turn0search5\n\n---\n\n## 📌 Example Scenario\n\nLet’s say:\n\n- Tuition: **CAD $20,000 per year**\n- Living: **CAD $15,000 per year**\n\nFor the study permit application, you should show:\n\n- First year tuition: **$20,000**\n- Minimum living funds: **$22,895**\n- Return ticket funds (e.g., **$800**)\n\n➡ **Total needed shown ≈ $43,695 minimum**\n\nThen, show plans or evidence how the second year costs will be covered (e.g., sponsor salary, savings, loan, scholarship).\n\n---\n\nIf you tell me:\n\n- Which **city** and **program** he wants\n- Estimated **tuition range**\n- Whether he has a **sponsor or savings**\n\n…I can make a **personalized financial plan** with exact numbers."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "content_references": [
+            {
+              "matched_text": "citeturn0search10",
+              "start_idx": 447,
+              "end_idx": 467,
+              "safe_urls": [
+                "https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/",
+                "https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Moving2Canada](https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "How Much Does It Cost to Study in Canada in 2025/2026",
+                  "url": "https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/?utm_source=chatgpt.com",
+                  "pub_date": 1769040000,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 10
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Moving2Canada"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search2turn0search17",
+              "start_idx": 1049,
+              "end_idx": 1082,
+              "safe_urls": [
+                "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Your-Complete-2026-Guide-for-International-Students",
+                "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Your-Complete-2026-Guide-for-International-Students?utm_source=chatgpt.com",
+                "https://www.home-tution.com/study-abroad-countries-canada",
+                "https://www.home-tution.com/study-abroad-countries-canada?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Home-Tution](https://www.home-tution.com/study-abroad-countries-canada?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Study in Canada– Courses, Universities, Fees, Visa & Scholarships",
+                  "url": "https://www.home-tution.com/study-abroad-countries-canada?utm_source=chatgpt.com",
+                  "pub_date": null,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Cost of Studying in Canada: Your Complete 2026 Guide for International Students – Assist",
+                      "url": "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Your-Complete-2026-Guide-for-International-Students?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "assist.applyboard.com"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 2
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 17
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Home-Tution"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0",
+              "start_idx": 2026,
+              "end_idx": 2045,
+              "safe_urls": [
+                "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+                "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Canada](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Study permit: Get the right documents - Proof of financial support - Canada.ca",
+                  "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com",
+                  "pub_date": 1769385600,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Canada"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search1",
+              "start_idx": 2276,
+              "end_idx": 2295,
+              "safe_urls": [
+                "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html",
+                "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([CIC News](https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Increased fund requirements for study permits take effect | CIC News",
+                  "url": "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html?utm_source=chatgpt.com",
+                  "pub_date": 1756684800,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 1
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "CIC News"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0turn0search5",
+              "start_idx": 2777,
+              "end_idx": 2809,
+              "safe_urls": [
+                "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/",
+                "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/?utm_source=chatgpt.com",
+                "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+                "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Canada](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Study permit: Get the right documents - Proof of financial support - Canada.ca",
+                  "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com",
+                  "pub_date": 1769385600,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Gather required documents for your initial study permit application | UBC Student Services",
+                      "url": "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "UBC Students"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 5
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Canada"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0reddit51",
+              "start_idx": 2947,
+              "end_idx": 2967,
+              "safe_urls": [
+                "https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/",
+                "https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Reddit](https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Proof of Funds for Study Permit in Canada",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/?utm_source=chatgpt.com",
+                  "pub_date": 1772540369.676,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "reddit",
+                      "ref_index": 51
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Reddit"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": "citeturn0search0turn0search5",
+              "start_idx": 3290,
+              "end_idx": 3322,
+              "safe_urls": [
+                "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/",
+                "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/?utm_source=chatgpt.com",
+                "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+                "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com"
+              ],
+              "refs": [],
+              "alt": "([Canada](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com))",
+              "prompt_text": null,
+              "type": "grouped_webpages",
+              "items": [
+                {
+                  "title": "Study permit: Get the right documents - Proof of financial support - Canada.ca",
+                  "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com",
+                  "pub_date": 1769385600,
+                  "snippet": "",
+                  "attribution_segments": null,
+                  "supporting_websites": [
+                    {
+                      "title": "Gather required documents for your initial study permit application | UBC Student Services",
+                      "url": "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/?utm_source=chatgpt.com",
+                      "pub_date": null,
+                      "snippet": "",
+                      "attribution": "UBC Students"
+                    }
+                  ],
+                  "refs": [
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 0
+                    },
+                    {
+                      "turn_index": 0,
+                      "ref_type": "search",
+                      "ref_index": 5
+                    }
+                  ],
+                  "hue": null,
+                  "attributions": null,
+                  "attribution": "Canada"
+                }
+              ],
+              "fallback_items": null,
+              "status": "done",
+              "error": null,
+              "style": null
+            },
+            {
+              "matched_text": " ",
+              "start_idx": 3968,
+              "end_idx": 3968,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "",
+              "prompt_text": null,
+              "type": "sources_footnote",
+              "sources": [
+                {
+                  "title": "How Much Does It Cost to Study in Canada in 2025/2026",
+                  "url": "https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/?utm_source=chatgpt.com",
+                  "attribution": "Moving2Canada"
+                },
+                {
+                  "title": "Study in Canada– Courses, Universities, Fees, Visa & Scholarships",
+                  "url": "https://www.home-tution.com/study-abroad-countries-canada?utm_source=chatgpt.com",
+                  "attribution": "Home-Tution"
+                },
+                {
+                  "title": "Study permit: Get the right documents - Proof of financial support - Canada.ca",
+                  "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com",
+                  "attribution": "Canada"
+                },
+                {
+                  "title": "Increased fund requirements for study permits take effect | CIC News",
+                  "url": "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html?utm_source=chatgpt.com",
+                  "attribution": "CIC News"
+                },
+                {
+                  "title": "Proof of Funds for Study Permit in Canada",
+                  "url": "https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/?utm_source=chatgpt.com",
+                  "attribution": "Reddit"
+                }
+              ],
+              "has_images": false
+            }
+          ],
+          "safe_urls": [
+            "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Your-Complete-2026-Guide-for-International-Students",
+            "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Your-Complete-2026-Guide-for-International-Students?utm_source=chatgpt.com",
+            "https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/",
+            "https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/?utm_source=chatgpt.com",
+            "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/",
+            "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/?utm_source=chatgpt.com",
+            "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+            "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com",
+            "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html",
+            "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html?utm_source=chatgpt.com",
+            "https://www.home-tution.com/study-abroad-countries-canada",
+            "https://www.home-tution.com/study-abroad-countries-canada?utm_source=chatgpt.com",
+            "https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/",
+            "https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/?utm_source=chatgpt.com"
+          ],
+          "search_result_groups": [
+            {
+              "type": "search_result_group",
+              "domain": "thevisatales.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.thevisatales.com/blog/canada-study-permit-proof-of-funds-increase-2025/?utm_source=chatgpt.com",
+                  "title": "Canada Study Permit Funds Rise to $22,895 From September 1, 2025",
+                  "snippet": "CANADA STUDY PERMIT FUNDS RISE TO $22,895: YOUR GUIDE FOR 2025  The cost to study in Canada just went up. Effective September 1, 2025, you'll need to show more money to get your study permit. We'll te...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 3
+                  },
+                  "pub_date": 1756684800,
+                  "attribution": "thevisatales.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "scholarshipregion.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.scholarshipregion.com/canada-proof-of-funds-requirement/?utm_source=chatgpt.com",
+                  "title": "Canada Proof of Funds Requirement for International Students 2025 | Scholarship Region",
+                  "snippet": "CANADA PROOF OF FUNDS REQUIREMENT FOR INTERNATIONAL STUDENTS 2025  BlogEducation  By SR Staff  July 16, 2025  As an international student planning to study in Canada, one of the most important things...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 4
+                  },
+                  "pub_date": 1752624000,
+                  "attribution": "scholarshipregion.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "ubc.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/?utm_source=chatgpt.com",
+                  "title": "Gather required documents for your initial study permit application | UBC Student Services",
+                  "snippet": "Proof of financial support  It is very important to show strong proof of financial support from yourself and/or your sponsors, such as family members or organizations supporting you.  Most Canadian im...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 5
+                  },
+                  "pub_date": null,
+                  "attribution": "ubc.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "applyboard.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://assist.applyboard.com/hc/en-us/articles/40602028625933-Proof-of-Financial-Support-for-Your-Canadian-Student-Visa-A-Complete-Guide-for-International-Students?utm_source=chatgpt.com",
+                  "title": "Proof of Financial Support for Your Canadian Student Visa: A Complete Guide for International Students – Assist",
+                  "snippet": "PROOF OF FINANCIAL SUPPORT FOR YOUR CANADIAN STUDENT VISA: A COMPLETE GUIDE FOR INTERNATIONAL STUDENTS  Image: Avatar ApplyBoard | Image: Calendar icon November 24, 2025 21:20 | Image: Clock icon  mi...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 6
+                  },
+                  "pub_date": 1763942400,
+                  "attribution": "applyboard.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Guide-for-International-Students?utm_source=chatgpt.com",
+                  "title": "Cost of Studying in Canada: Guide for International Students – Assist",
+                  "snippet": "COST OF STUDYING IN CANADA: GUIDE FOR INTERNATIONAL STUDENTS  Image: Avatar ApplyBoard | Image: Calendar icon November 11, 2025 15:19 | Image: Clock icon  min read  [Button: Yes] 0 [Button: No]  Imag...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 16
+                  },
+                  "pub_date": 1762819200,
+                  "attribution": "applyboard.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Your-Complete-2026-Guide-for-International-Students?utm_source=chatgpt.com",
+                  "title": "Cost of Studying in Canada: Your Complete 2026 Guide for International Students – Assist",
+                  "snippet": "COST OF STUDYING IN CANADA: YOUR COMPLETE 2026 GUIDE FOR INTERNATIONAL STUDENTS  Image: Avatar ApplyBoard | Image: Calendar icon February 13, 2026 19:11 | Image: Clock icon  min read  [Button: Yes] 0...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 17
+                  },
+                  "pub_date": 1770940800,
+                  "attribution": "applyboard.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "fly.finance",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://fly.finance/blog/student-budget/how-much-does-it-cost-to-study-in-canada/?utm_source=chatgpt.com",
+                  "title": "How Much Does It Cost to Study in Canada?",
+                  "snippet": "* Accommodation Costs * Food and Grocery Expenses * Transportation Costs * Additional Living Expenses * City-Wise Cost Comparisons * Additional Costs of Studying in Canada * Additional Costs * Hidden...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 7
+                  },
+                  "pub_date": 1732492800,
+                  "attribution": "fly.finance"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "spscanada.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.spscanada.com/updated-proof-of-funds-for-canada-student-visa/?utm_source=chatgpt.com",
+                  "title": "Updated Proof of Funds for Canada Student Visa - SPS Canada",
+                  "snippet": "UPDATED PROOF OF FUNDS FOR CANADA STUDENT VISA  Sep 22, 2025 / 2 min read Ishita Soni  INTRODUCTION  If you want to study in Canada, you must prove that you have enough money to support yourself and...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 8
+                  },
+                  "pub_date": 1758499200,
+                  "attribution": "spscanada.com"
+                },
+                {
+                  "type": "search_result",
+                  "url": "https://www.spscanada.com/financial-proof-requirements-for-canada-study-permit-application/?utm_source=chatgpt.com",
+                  "title": "Financial Proof Requirements for Canada Study permit Application - SPS Canada",
+                  "snippet": "FINANCIAL PROOF REQUIREMENTS FOR CANADIAN STUDY PERMIT APPLICATION  Jul 24, 2025 / 2 min read Ishita Soni  Table of Contents  * Introduction * Proof of Financial Support * What Counts as Proof? * How...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 21
+                  },
+                  "pub_date": 1753315200,
+                  "attribution": "spscanada.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "collabinternational.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.collabinternational.com/study-in-canada?utm_source=chatgpt.com",
+                  "title": "Study in Canada - Collab International",
+                  "snippet": "LIVING COSTS IN CANADA FOR INTERNATIONAL STUDENTS  Tuition fees for international students in Canada vary by program and institution. On average, international undergraduate students pay approximately...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 9
+                  },
+                  "pub_date": null,
+                  "attribution": "collabinternational.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "fortuneeducation.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://fortuneeducation.org/education-cost-in-canada/?utm_source=chatgpt.com",
+                  "title": "Education Cost in Canada - Study in Canada",
+                  "snippet": "TUITION FEES FOR POSTGRADUATE PROGRAMS  The cost of postgraduate programs is typically higher due to the advanced nature of the curriculum and research components. The average annual tuition fees for...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 11
+                  },
+                  "pub_date": 1728443476,
+                  "attribution": "fortuneeducation.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "intakeuniverse.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://intakeuniverse.com/cost-of-study-living-in-canada/?utm_source=chatgpt.com",
+                  "title": "Cost of Study & Living in Canada - Your Complete Study Abroad Partner | Intake Universe",
+                  "snippet": "COST OF STUDY & LIVING IN CANADA  Studying in Canada is an investment in your future, but it’s essential to understand the cost of study and living in Canada before making the move. Tuition fees, acc...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 12
+                  },
+                  "pub_date": null,
+                  "attribution": "intakeuniverse.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "studying-in-canada.org",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://studying-in-canada.org/cost-of-studying-in-canada-for-international-students/?utm_source=chatgpt.com",
+                  "title": "Cost of Studying in Canada for International Students - Study in Canada",
+                  "snippet": "COST OF STUDYING IN CANADA FOR INTERNATIONAL STUDENTS  International students choose to study in Canada for various reasons, including the generally less expensive tuition rates. The education system...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 13
+                  },
+                  "pub_date": 1409337619,
+                  "attribution": "studying-in-canada.org"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "aeccglobal.lk",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.aeccglobal.lk/blog/cost-to-study-in-canada?utm_source=chatgpt.com",
+                  "title": "How much will it cost to study in Canada for Students? | AECC",
+                  "snippet": "COST OF STUDYING IN CANADA: LIVING EXPENSES 2025  Living in Canada as an international student requires budgeting for major expenses such as accommodation, food, transportation, and utilities. Costs c...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 14
+                  },
+                  "pub_date": 1753315200,
+                  "attribution": "aeccglobal.lk"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "studyabroadprogramguides.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.studyabroadprogramguides.com/archives/3382?utm_source=chatgpt.com",
+                  "title": "Proof of Funds for Canada Study Permit: 2025 Requirements - studyabroadprogramguides.com",
+                  "snippet": "PROOF OF FUNDS FOR CANADA STUDY PERMIT: 2025 REQUIREMENTS  by Daisy 15/10/2025  written by Daisy 15/10/2025  Embarking on a journey to study in Canada is an exciting prospect for many international st...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 15
+                  },
+                  "pub_date": 1760486400,
+                  "attribution": "studyabroadprogramguides.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "go2canadaeducation.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.go2canadaeducation.ca/faq/the-financial-impact-of-studying-in-canada-on-international-students?utm_source=chatgpt.com",
+                  "title": "The Financial Impact of Studying in Canada on International Students — Go 2 Canada Education Services",
+                  "snippet": "THE FINANCIAL IMPACT OF STUDYING IN CANADA ON INTERNATIONAL STUDENTS  Scholarships Costs & Financial Aid in Canada  Nov 9  Written By Helen Khan  Studying in Canada has a significant financial impact...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 18
+                  },
+                  "pub_date": null,
+                  "attribution": "go2canadaeducation.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "immiperts.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.immiperts.com/canada-study-permit-2025-proof-of-funds-requirements/?utm_source=chatgpt.com",
+                  "title": "Canada’s New Proof Of Funds Rule: What Students Must Know In 2025 - Immiperts",
+                  "snippet": "Applying for a Canadian study permit feels like jumping through hoops, especially when it comes to proving you have enough money to live in Canada. The proof of funds requirement often trips up inter...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 19
+                  },
+                  "pub_date": 1757483400,
+                  "attribution": "immiperts.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "moneycontrol.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://www.moneycontrol.com/education/study-in-canada-2025-the-real-cost-of-tuition-rent-and-living-for-international-students-article-13612215.html?utm_source=chatgpt.com",
+                  "title": "Study in Canada 2025: The Real Cost of Tuition, Rent, and Living for International Students",
+                  "snippet": "The New Cost Landscape: Tuition Fees  Tuition remains the single largest expense for most international students. For the 2025/26 academic year, average costs for a Canadian post-secondary education...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 20
+                  },
+                  "pub_date": 1760313600,
+                  "attribution": "moneycontrol.com"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "navaimmigration.ca",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://navaimmigration.ca/ircc-accepted-ways-for-students-to-prove-financial-sufficiency/?utm_source=chatgpt.com",
+                  "title": "IRCC-Accepted Ways for Students to Prove Financial Sufficiency",
+                  "snippet": "Image: Ways for Students to Prove Financial Sufficiency  IRCC-ACCEPTED WAYS FOR STUDENTS TO PROVE FINANCIAL SUFFICIENCY  by admin March 15, 2024  As part of the study permit process, international st...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 22
+                  },
+                  "pub_date": 1710460800,
+                  "attribution": "navaimmigration.ca"
+                }
+              ]
+            },
+            {
+              "type": "search_result_group",
+              "domain": "imperiumvisas.com",
+              "entries": [
+                {
+                  "type": "search_result",
+                  "url": "https://imperiumvisas.com/eight-ways-to-show-proof-of-financial-sufficiency-as-an-international-student-in-canada/?utm_source=chatgpt.com",
+                  "title": "Eight ways to show proof of financial sufficiency as an international student in Canada - Imperium Visas",
+                  "snippet": "Canada  EIGHT WAYS TO SHOW PROOF OF FINANCIAL SUFFICIENCY AS AN INTERNATIONAL STUDENT IN CANADA  March 15, 2024  As an international student pursuing post-secondary education in Canada, there are mul...",
+                  "ref_id": {
+                    "turn_index": 0,
+                    "ref_type": "search",
+                    "ref_index": 23
+                  },
+                  "pub_date": 1710460800,
+                  "attribution": "imperiumvisas.com"
+                }
+              ]
+            }
+          ],
+          "citations": [],
+          "resolved_model_slug": "gpt-5-2",
+          "search_turns_count": 1,
+          "search_source": "composer_auto",
+          "client_reported_search_source": "composer_auto",
+          "request_id": "0f50ca98-dde0-437d-a5d0-16a51d21f6f1",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "b77603c0-143b-40ff-8499-37a02ebfb9dd",
+          "turn_exchange_id": "51dfc332-ec86-424a-ad05-5d2c262fce4f",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "b77603c0-143b-40ff-8499-37a02ebfb9dd",
+      "children": [
+        "bbb21ad2-3550-4766-95c1-80adccc22d4d"
+      ]
+    },
+    "bbb21ad2-3550-4766-95c1-80adccc22d4d": {
+      "id": "bbb21ad2-3550-4766-95c1-80adccc22d4d",
+      "message": {
+        "id": "bbb21ad2-3550-4766-95c1-80adccc22d4d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565505.162114,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Do they get work permit"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "3b491d08-ee4b-4cdf-bb04-7a2b6eb2bb40",
+          "message_source": null,
+          "turn_exchange_id": "aa8f7b6b-0ec1-438d-a239-31be03cf989e",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "59956fae-d8cd-4bc1-b457-75ab71e707c3",
+      "children": [
+        "ef3a9c7e-a230-46d3-8f6c-4935198f056c"
+      ]
+    },
+    "ef3a9c7e-a230-46d3-8f6c-4935198f056c": {
+      "id": "ef3a9c7e-a230-46d3-8f6c-4935198f056c",
+      "message": {
+        "id": "ef3a9c7e-a230-46d3-8f6c-4935198f056c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565505.325861,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes ✅ — international students in Canada **can get work permission**, but it depends on the stage.\n\nEverything is regulated by  \n**entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"] (IRCC)**\n\n---\n\n# 🎓 1️⃣ While Studying (Study Permit)\n\nIf the student is enrolled full-time at a **Designated Learning Institution (DLI)**:\n\n### ✔ They can work:\n- **Up to 20 hours per week** during regular academic sessions  \n- **Full-time during scheduled breaks** (summer, winter holidays)\n\n👉 No separate work permit is needed.  \nThe work authorization is written directly on the study permit.\n\n⚠ Must:\n- Be full-time student\n- Be in an eligible program (minimum 6 months)\n- Maintain good academic standing\n\n---\n\n# 🎓 2️⃣ After Graduation (Post-Graduation Work Permit – PGWP)\n\nAfter completing a qualifying 2-year program, the student can apply for:\n\n## 📄 Post-Graduation Work Permit (PGWP)\n\nThis is:\n- An **open work permit**\n- Valid for up to **3 years** (if program was 2 years or longer)\n\nNo job offer required.\n\nThis allows them to:\n- Work full-time\n- Work for any employer\n- Gain Canadian work experience\n- Apply for Permanent Residency later\n\n---\n\n# 👨‍👩‍👧 3️⃣ Spouse Work Permit\n\nIf the student is married:\n\nThe spouse may qualify for an **open work permit** while the student studies (if program qualifies).\n\n---\n\n# 🚫 When They CANNOT Work\n\nThey cannot work if:\n- Studying part-time (without valid reason)\n- In language-only programs (ESL only)\n- Program is less than 6 months\n\n---\n\n# 💡 Smart Pathway Strategy\n\nHigh school graduate →  \n2-year diploma →  \nPGWP (3 years) →  \n1 year skilled job →  \nApply for PR\n\nThis is one of the most common immigration pathways.\n\n---\n\nIf you want, tell me:\n- Which country the student is from\n- What program (college diploma or university)\n- Married or single?\n\nI’ll tell you the safest pathway and timeline."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"]",
+              "start_idx": 131,
+              "end_idx": 233,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Immigration, Refugees and Citizenship Canada",
+              "prompt_text": "Immigration, Refugees and Citizenship Canada",
+              "type": "entity",
+              "name": "Immigration, Refugees and Citizenship Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "canadian federal department"
+              },
+              "status": "done",
+              "notes": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "3b491d08-ee4b-4cdf-bb04-7a2b6eb2bb40",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "bbb21ad2-3550-4766-95c1-80adccc22d4d",
+          "turn_exchange_id": "aa8f7b6b-0ec1-438d-a239-31be03cf989e",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21ad2-3550-4766-95c1-80adccc22d4d",
+      "children": [
+        "bbb213e1-4bcf-4591-8223-5aab8a89c34c"
+      ]
+    },
+    "bbb213e1-4bcf-4591-8223-5aab8a89c34c": {
+      "id": "bbb213e1-4bcf-4591-8223-5aab8a89c34c",
+      "message": {
+        "id": "bbb213e1-4bcf-4591-8223-5aab8a89c34c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565635.820242,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Pgwp"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "0ee8898a-2da7-4b7c-967d-e8996c90a5db",
+          "message_source": null,
+          "turn_exchange_id": "ee878f77-9fd9-40d7-a84a-31822ee13221",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "ef3a9c7e-a230-46d3-8f6c-4935198f056c",
+      "children": [
+        "67cb2e2b-41a4-47be-9b52-e05ee9c79a1d"
+      ]
+    },
+    "67cb2e2b-41a4-47be-9b52-e05ee9c79a1d": {
+      "id": "67cb2e2b-41a4-47be-9b52-e05ee9c79a1d",
+      "message": {
+        "id": "67cb2e2b-41a4-47be-9b52-e05ee9c79a1d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565635.998457,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "## 🎓 Post-Graduation Work Permit (PGWP) – Canada 🇨🇦\n\nThe **PGWP** lets international students work in Canada after finishing an eligible program. It’s issued by  \n**entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"] (IRCC)**.\n\n---\n\n# ✅ What Is It?\n\n- An **open work permit**\n- Work **full-time**\n- Work for **any employer**\n- No job offer required\n- Helps you gain Canadian experience for PR\n\n---\n\n# ⏳ How Long Is It Valid?\n\nDepends on program length:\n\n| Program Length | PGWP Validity |\n|---------------|---------------|\n| 8 months – <2 years | Same length as program |\n| 2 years or more | Up to **3 years** |\n\n👉 A **2-year diploma** usually = **3-year PGWP**\n\n---\n\n# 📚 Who Is Eligible?\n\nYou must:\n\n1. Graduate from a **Designated Learning Institution (DLI)**\n2. Complete a program that is **at least 8 months**\n3. Study **full-time**\n4. Apply within **180 days** of getting final marks\n5. Have a valid study permit at some point during application\n\n⚠ Not all DLIs qualify — school must offer PGWP-eligible programs.\n\n---\n\n# 🚫 Who Is NOT Eligible?\n\n- ESL-only programs\n- Programs under 8 months\n- Some private colleges (very important to verify)\n\n---\n\n# 💰 Cost\n\n- Work permit fee: **$155 CAD**\n- Open work permit holder fee: **$100 CAD**\n- Total: **$255 CAD**\n\n---\n\n# 🛂 Can You Work While Waiting?\n\nYes ✅  \nIf you apply before your study permit expires, you can usually work full-time while waiting for PGWP decision.\n\n---\n\n# 🚀 Why PGWP Is Important\n\nIt allows you to:\n\n- Get **1 year skilled work experience**\n- Apply for **Express Entry**\n- Apply for **Provincial Nominee Program (PNP)**\n- Move toward Permanent Residency\n\nThis is the most common pathway:\n\nHigh school →  \n2-year diploma →  \n3-year PGWP →  \n1 year skilled job →  \nPR\n\n---\n\n# 📌 Example Timeline\n\nYear 1–2: Study  \nYear 3–5: PGWP (work)  \nAfter 1 year skilled job → Apply PR  \n\n---\n\nIf you want, tell me:\n- What program?\n- Which province?\n- Married or single?\n\nI can calculate how strong the PR pathway would be."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"]",
+              "start_idx": 165,
+              "end_idx": 267,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Immigration, Refugees and Citizenship Canada",
+              "prompt_text": "Immigration, Refugees and Citizenship Canada",
+              "type": "entity",
+              "name": "Immigration, Refugees and Citizenship Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "canadian federal department"
+              },
+              "status": "done",
+              "notes": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "0ee8898a-2da7-4b7c-967d-e8996c90a5db",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "bbb213e1-4bcf-4591-8223-5aab8a89c34c",
+          "turn_exchange_id": "ee878f77-9fd9-40d7-a84a-31822ee13221",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb213e1-4bcf-4591-8223-5aab8a89c34c",
+      "children": [
+        "bbb21723-8873-4545-ab9f-deb2b55c3a9e"
+      ]
+    },
+    "bbb21723-8873-4545-ab9f-deb2b55c3a9e": {
+      "id": "bbb21723-8873-4545-ab9f-deb2b55c3a9e",
+      "message": {
+        "id": "bbb21723-8873-4545-ab9f-deb2b55c3a9e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565676.296548,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Can full time international student also get pswg"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "a3cb5684-8012-481c-876a-9d20c37c1aa7",
+          "message_source": null,
+          "turn_exchange_id": "842dfe3d-f5c4-42be-8c91-f693ad2887b7",
+          "resolved_model_slug": "gpt-5-2",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "67cb2e2b-41a4-47be-9b52-e05ee9c79a1d",
+      "children": [
+        "d20b03f7-a268-479a-89ac-7b079df6216f"
+      ]
+    },
+    "d20b03f7-a268-479a-89ac-7b079df6216f": {
+      "id": "d20b03f7-a268-479a-89ac-7b079df6216f",
+      "message": {
+        "id": "d20b03f7-a268-479a-89ac-7b079df6216f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565676.531807,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Yes ✅ — a **full-time international student can get a PGWP**, but **only after graduating**, not during studies.\n\nThe permit is issued by  \n**entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"] (IRCC)**.\n\n---\n\n# 🔹 During Studies\n\nIf you are a **full-time student** at a **PGWP-eligible Designated Learning Institution (DLI)**:\n\n- You can work **part-time (up to 20 hours/week)** during school\n- Full-time during scheduled breaks\n- ❌ You cannot get PGWP yet\n\n---\n\n# 🔹 After Graduation\n\nYou can apply for a **Post-Graduation Work Permit (PGWP)** if:\n\n1. You completed a program **at least 8 months long**\n2. You studied **full-time**\n3. The school/program is **PGWP-eligible**\n4. You apply within **180 days** of receiving final marks\n\n---\n\n# 🔹 How Long Is PGWP Valid?\n\n- 8 months–2 years program → PGWP same length\n- 2+ year program → Up to **3 years**\n\nSo if someone does a **2-year diploma**, they usually get a **3-year open work permit**.\n\n---\n\n# 🔹 Important Conditions\n\nYou may lose eligibility if:\n- You studied part-time (without approved reason)\n- You took long unauthorized breaks\n- You studied at a non-eligible private college\n- You previously already received a PGWP (you can only get it once)\n\n---\n\n# 🔹 Can You Work While Waiting for PGWP?\n\nYes ✅  \nIf you apply before your study permit expires, you can usually work full-time while waiting for approval.\n\n---\n\n# 💡 Simple Summary\n\nFull-time student → Graduate → Apply PGWP → Work full-time → Gain experience → Apply PR\n\n---\n\nIf you want, tell me:\n- 1-year or 2-year program?\n- College or university?\n- Province?\n\nI’ll tell you exactly what PGWP duration they would likely get."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [
+            {
+              "matched_text": "entity[\"organization\",\"Immigration, Refugees and Citizenship Canada\",\"canadian federal department\"]",
+              "start_idx": 142,
+              "end_idx": 244,
+              "safe_urls": [],
+              "refs": [],
+              "alt": "Immigration, Refugees and Citizenship Canada",
+              "prompt_text": "Immigration, Refugees and Citizenship Canada",
+              "type": "entity",
+              "name": "Immigration, Refugees and Citizenship Canada",
+              "category": "organization",
+              "priority": 1,
+              "metadata": null,
+              "entity_data": null,
+              "extra_params": {
+                "disambiguation": "canadian federal department"
+              },
+              "status": "done",
+              "notes": null
+            }
+          ],
+          "resolved_model_slug": "gpt-5-2",
+          "search_result_groups": [],
+          "request_id": "a3cb5684-8012-481c-876a-9d20c37c1aa7",
+          "message_type": "next",
+          "model_slug": "gpt-5-2",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "bbb21723-8873-4545-ab9f-deb2b55c3a9e",
+          "turn_exchange_id": "842dfe3d-f5c4-42be-8c91-f693ad2887b7",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": "final"
+      },
+      "parent": "bbb21723-8873-4545-ab9f-deb2b55c3a9e",
+      "children": [
+        "bbb21881-eca6-4726-b939-87e6d68f2bb1"
+      ]
+    },
+    "bbb21881-eca6-4726-b939-87e6d68f2bb1": {
+      "id": "bbb21881-eca6-4726-b939-87e6d68f2bb1",
+      "message": {
+        "id": "bbb21881-eca6-4726-b939-87e6d68f2bb1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565736.486299,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Let's su[[oaed a student comes here and gets part time job. How much money they can recover from initial investment "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "b66c4b42-1174-4489-820a-cc51efb5719f",
+          "message_source": null,
+          "turn_exchange_id": "8ec605b7-8d7d-4956-bcdb-4823f63c9799",
+          "resolved_model_slug": "gpt-5-mini",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d20b03f7-a268-479a-89ac-7b079df6216f",
+      "children": [
+        "17578856-e8e0-4c9d-8073-eaf4ee26a46b"
+      ]
+    },
+    "17578856-e8e0-4c9d-8073-eaf4ee26a46b": {
+      "id": "17578856-e8e0-4c9d-8073-eaf4ee26a46b",
+      "message": {
+        "id": "17578856-e8e0-4c9d-8073-eaf4ee26a46b",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565736.5891786,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_system_message": true,
+          "request_id": "b66c4b42-1174-4489-820a-cc51efb5719f",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "bbb21881-eca6-4726-b939-87e6d68f2bb1",
+          "turn_exchange_id": "8ec605b7-8d7d-4956-bcdb-4823f63c9799",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb21881-eca6-4726-b939-87e6d68f2bb1",
+      "children": [
+        "d901ebeb-fba0-4633-b164-3a6b32440aeb"
+      ]
+    },
+    "d901ebeb-fba0-4633-b164-3a6b32440aeb": {
+      "id": "d901ebeb-fba0-4633-b164-3a6b32440aeb",
+      "message": {
+        "id": "d901ebeb-fba0-4633-b164-3a6b32440aeb",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565736.6351066,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_developer_message": true,
+          "request_id": "b66c4b42-1174-4489-820a-cc51efb5719f",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "parent_id": "17578856-e8e0-4c9d-8073-eaf4ee26a46b",
+          "turn_exchange_id": "8ec605b7-8d7d-4956-bcdb-4823f63c9799",
+          "is_visually_hidden_from_conversation": true,
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "17578856-e8e0-4c9d-8073-eaf4ee26a46b",
+      "children": [
+        "f9dca8c7-c5c2-44ea-bb59-29033aa70ede"
+      ]
+    },
+    "f9dca8c7-c5c2-44ea-bb59-29033aa70ede": {
+      "id": "f9dca8c7-c5c2-44ea-bb59-29033aa70ede",
+      "message": {
+        "id": "f9dca8c7-c5c2-44ea-bb59-29033aa70ede",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772565736.676098,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Got it — you want to know **how much an international student in Canada could earn and potentially “recover” from the initial tuition + living investment** by working part-time during studies. Let’s break it down carefully.  \n\n---\n\n# 1️⃣ Part-Time Work While Studying\n\nFull-time international students can work:\n\n- **Up to 20 hours per week** during academic sessions  \n- **Full-time during scheduled breaks** (summer, winter)\n\n---\n\n### 💰 Typical Wages\n\nAverage wages for students vary by city and job:\n\n| Job Type | Hourly Wage (CAD) |\n|----------|-----------------|\n| Retail / Grocery / Customer Service | 15–17 |\n| Food Service / Barista / Fast Food | 15–16 |\n| Campus Jobs (Library, TA, Admin) | 15–20 |\n| Skilled jobs (IT, Accounting, Internships) | 20–30+ |\n\n**Assume most students get ~$15/hour for regular part-time jobs.**\n\n---\n\n### ⏱ Weekly Earnings\n\n- 20 hours/week × $15/hour = **$300/week**\n- Academic year ≈ 8 months (32 weeks) → **$300 × 32 = $9,600/year**\n- During summer break (full-time ~40 hours/week × 12 weeks) → $15 × 40 × 12 = **$7,200**\n\n✅ Total possible earnings **per year** = $9,600 + $7,200 = **$16,800/year**\n\n---\n\n# 2️⃣ Compare With Investment\n\nFrom previous breakdown:\n\n- **Tuition:** $15,000–$30,000/year  \n- **Living:** $10,000–$18,000/year  \n\n**Total per year:** $25,000–$48,000/year\n\n### 💸 Earnings vs Costs\n\n| Category | Cost | Potential Part-Time Earnings |\n|----------|------|-----------------------------|\n| Year 1 | $25,000–$48,000 | $16,800 |\n| Year 2 | $25,000–$48,000 | $16,800 |\n| **Total 2 Years** | $50,000–$96,000 | $33,600 |\n\n---\n\n### ⚠ Observations\n\n1. **You won’t fully recover tuition + living** while studying part-time.  \n2. Part-time work can cover **living expenses**, but tuition still comes from savings, family, or loans.  \n3. After graduation, the **PGWP** allows full-time work, which is when students can realistically start “recovering” the investment faster.\n\n---\n\n# 3️⃣ Example: Recovery During PGWP\n\n- PGWP allows **full-time work (~40 hours/week)**  \n- Minimum wage: $15/hour, typical: $18–20/hour  \n- Weekly: 40 × 18 = $720  \n- Annual: $720 × 52 = $37,440  \n\n✅ Now, one year of full-time PGWP work can **cover almost one year of total investment**.\n\n- 3-year PGWP after 2-year diploma → Potential earnings **$100,000+** over 3 years  \n- Enough to recover tuition + living and save for PR processing fees, moving costs, etc.\n\n---\n\n# 4️⃣ Key Takeaways\n\n- **Part-time work during study**: Can help with living expenses (~30–40% of costs)  \n- **Tuition**: Must be paid from savings or support; part-time job alone usually insufficient  \n- **PGWP**: Real opportunity to recover most/all of initial investment  \n- Students should **budget carefully** for first 1–2 years, then leverage PGWP  \n\n---\n\nIf you want, I can make a **full 2-year cost vs earnings projection** including **part-time study work + PGWP full-time work**, to show **how quickly the student can break even**.  \n\nDo you want me to do that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              200002
+            ]
+          },
+          "is_complete": true,
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-mini",
+          "search_result_groups": [],
+          "request_id": "b66c4b42-1174-4489-820a-cc51efb5719f",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "d901ebeb-fba0-4633-b164-3a6b32440aeb",
+          "turn_exchange_id": "8ec605b7-8d7d-4956-bcdb-4823f63c9799",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "d901ebeb-fba0-4633-b164-3a6b32440aeb",
+      "children": [
+        "bbb216d6-a5ed-43e5-8d99-2e364fae75f7"
+      ]
+    },
+    "bbb216d6-a5ed-43e5-8d99-2e364fae75f7": {
+      "id": "bbb216d6-a5ed-43e5-8d99-2e364fae75f7",
+      "message": {
+        "id": "bbb216d6-a5ed-43e5-8d99-2e364fae75f7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772569236.838724,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "What is considered high achool"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "is_visually_hidden_from_conversation": false,
+          "content_references": [],
+          "search_result_groups": [],
+          "search_queries": [],
+          "image_results": [],
+          "real_time_audio_has_video": false,
+          "dictation": false,
+          "image_gen_async": false,
+          "trigger_async_ux": false,
+          "writing_blocks": {},
+          "request_id": "440b925b-16f4-43ba-a7b0-569a56221be3",
+          "message_source": null,
+          "turn_exchange_id": "3b1f6889-6f4d-41b0-86b6-027399e4cdce",
+          "resolved_model_slug": "gpt-5-mini",
+          "can_save": false
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "f9dca8c7-c5c2-44ea-bb59-29033aa70ede",
+      "children": [
+        "f8c57c59-091b-4519-b918-71758fbd0229"
+      ]
+    },
+    "f8c57c59-091b-4519-b918-71758fbd0229": {
+      "id": "f8c57c59-091b-4519-b918-71758fbd0229",
+      "message": {
+        "id": "f8c57c59-091b-4519-b918-71758fbd0229",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1772569237.023684,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In the context of **Canadian immigration and study permits**, a **high school graduate** is generally someone who has completed the equivalent of **secondary school education**, usually called **Grade 12** in most countries. Here’s a clear breakdown:\n\n---\n\n# 🏫 What Counts as High School\n\n### 1️⃣ Canada & US\n- Completion of **Grade 12**\n- Usually includes courses in:\n  - Math\n  - Science\n  - English / Language Arts\n  - Social Studies / History\n- Awarded a **high school diploma**  \n\n---\n\n### 2️⃣ Other Countries\n- Completion of the country’s **secondary school system** equivalent to Grade 12\n- Examples:\n  - UK: **GCSEs + A-levels** (or equivalent)  \n  - India: **10+2 / Senior Secondary Certificate**  \n  - China: **High School Diploma / Senior Secondary**  \n  - Philippines: **K–12 Senior High School**  \n\nImmigration authorities often require **official transcripts + proof of graduation**, and sometimes an **Educational Credential Assessment (ECA)** if you want to later apply for PR.\n\n---\n\n# 🎯 Why It Matters\n\nFor study permit applications:\n\n- A **high school graduate** is eligible for:\n  - **College diploma programs (2–3 years)**\n  - Some **certificate programs (1 year)**  \n  - Generally **not directly eligible for graduate programs** (Master’s / PhD)\n\n- They must **meet English/French language requirements** (IELTS/TOEFL/TEF)\n\n- High school completion is usually enough for a **full-time post-secondary program** in Canada.\n\n---\n\n# 📌 Summary\n\n**High school = completed secondary education (Grade 12 or equivalent).**  \nIt’s the minimum requirement for most **college diploma programs** in Canada.\n\n---\n\nIf you want, I can make a **pathway chart** showing **high school → 2-year diploma → PGWP → PR**, including **costs, work eligibility, and timeline** for a clear step-by-step roadmap.  \n\nDo you want me to make that?"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "citations": [],
+          "content_references": [],
+          "resolved_model_slug": "gpt-5-mini",
+          "search_result_groups": [],
+          "request_id": "440b925b-16f4-43ba-a7b0-569a56221be3",
+          "message_type": "next",
+          "model_slug": "gpt-5-mini",
+          "default_model_slug": "auto",
+          "can_save": true,
+          "parent_id": "bbb216d6-a5ed-43e5-8d99-2e364fae75f7",
+          "turn_exchange_id": "3b1f6889-6f4d-41b0-86b6-027399e4cdce",
+          "model_switcher_deny": []
+        },
+        "recipient": "all",
+        "channel": null
+      },
+      "parent": "bbb216d6-a5ed-43e5-8d99-2e364fae75f7",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "f8c57c59-091b-4519-b918-71758fbd0229",
+  "conversation_id": "69a72fed-ca50-8327-a9e7-40041a6cf537",
+  "is_archived": false,
+  "plugin_ids": null,
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "gizmo_type": null,
+  "is_starred": null,
+  "safe_urls": [
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html?utm_source=chatgpt.com",
+    "https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/",
+    "https://www.openai.com",
+    "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/?utm_source=chatgpt.com",
+    "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Your-Complete-2026-Guide-for-International-Students",
+    "https://assist.applyboard.com/hc/en-us/articles/6478354272141-Cost-of-Studying-in-Canada-Your-Complete-2026-Guide-for-International-Students?utm_source=chatgpt.com",
+    "https://students.ubc.ca/international-student-guide/study-permits/apply-initial-study-permit/tutorial-apply-initial-study-permit-required-documents/",
+    "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html",
+    "https://www.home-tution.com/study-abroad-countries-canada",
+    "https://www.home-tution.com/study-abroad-countries-canada?utm_source=chatgpt.com",
+    "https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/",
+    "https://moving2canada.com/news-and-features/features/study/study-in-canada/cost-to-study-in-canada-2025-2026/?utm_source=chatgpt.com",
+    "https://www.reddit.com/r/ImmigrationCanada/comments/1rjnuol/proof_of_funds_for_study_permit_in_canada/?utm_source=chatgpt.com",
+    "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html?utm_source=chatgpt.com"
+  ],
+  "blocked_urls": [],
+  "default_model_slug": "auto",
+  "atlas_mode_enabled": null,
+  "conversation_origin": null,
+  "is_read_only": null,
+  "voice": null,
+  "async_status": null,
+  "disabled_tool_ids": [],
+  "is_temporary_chat": false,
+  "is_do_not_remember": false,
+  "memory_scope": "global_enabled",
+  "context_scopes": null,
+  "sugar_item_id": null,
+  "sugar_item_visible": false,
+  "pinned_time": null,
+  "is_study_mode": false,
+  "owner": null
+}
