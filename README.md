@@ -7,7 +7,7 @@
 **Entry Point**: `index.js`  
 **Codebase**: 6 source files, 1082 lines of production‑ready code  
 **Architecture**: Object‑oriented  
-**Key Components**: 4 class(es): MarkovChain, SpellChecker, CognitiveEngine, AdvancedSearch, 17 function(s): getTitle, formatContent, search, qCount, extractConversation
+**Key Components**: 4 class(es): SpellChecker, MarkovChain, CognitiveEngine, AdvancedSearch, 17 function(s): extractConversation, qCount, copyCode, traverse, analyzeConversation
 
 This project contains 4 class(es) and 17 function(s).
 
@@ -24,9 +24,9 @@ This project contains 4 class(es) and 17 function(s).
 - **Competitive Advantage**: Provides real‑time intelligence that outpaces competitors.
 - **Future‑Proof**: Designed to integrate with emerging AI and cloud technologies.
 
-## 🧠 My Approach: The UX Guardian
+## 🧠 My Approach: The Integration Orchestrator
 
-I believe beautiful, intuitive interfaces are a competitive advantage. I build frontends that users love, with accessibility and performance baked in.
+I connect siloed systems. Whether it's CRMs, ERPs, or legacy mainframes, I build bridges that enable seamless data flow.
 
 ### 📌 My Focus & Track Record
 - **Role**: AI Systems Integrator
@@ -38,7 +38,7 @@ I believe beautiful, intuitive interfaces are a competitive advantage. I build f
 ### 🎯 Why This Project Exists
 **json-to-book** is a direct reflection of this approach – a practical, battle‑tested component designed to solve a specific, high‑value business problem.
 
-**For Product Teams**: I translate user needs into responsive, pixel‑perfect experiences that drive engagement and retention.
+**For Enterprise IT**: I reduce complexity by harmonising disparate systems.
 
 I am open to conversations about how I can apply this mindset to your organisation.
 ## 🎯 Revenue‑Generating Use Cases
@@ -49,21 +49,21 @@ I am open to conversations about how I can apply this mindset to your organisati
 ## 💡 Benefits & Ecosystem Integration
 
 ### ✨ Key Benefits
-- Actionable Business Insights: Transforms raw metrics into strategic intelligence.
-- Effortless Maintenance: Designed for easy updates, patching, and long‑term supportability.
+- Automated Compliance & Governance: Embeds regulatory requirements directly into the deployment pipeline.
+- Cross‑Functional Collaboration: Bridges gaps between business, design, and engineering teams.
+- Rapid Prototyping Capabilities: Enables quick validation of ideas, reducing cost of failure.
 - Global Reach: Enables multi‑region, multi‑language deployments for international audiences.
-- Increased Conversion Rates: Optimises user journeys and funnels to drive revenue.
-- Sustainable Architecture: Reduces energy consumption, aligning technology with environmental goals.
-- Reduced Technical Debt: Maintains clean, modular, and well‑tested codebases that are easy to extend.
+- Enhanced Security Posture: Builds robust threat defence and data privacy into the application architecture.
+- User Retention: Enhances customer experience through personalisation and faster response times.
 
 ### 🔗 Integrations
 - Local System (no external dependencies)
 
 ## 📈 Scale to SaaS & Beyond
 
-- CI/CD Pipeline: Integrate GitHub Actions to automate testing and deployment with every commit.
-- API Monetisation: Wrap the core logic in a REST/GraphQL API and sell access via a subscription model.
+- Analytics Dashboard: Add real‑time monitoring and business intelligence dashboards.
 - Event‑Driven Architecture: Integrate with message queues (Kafka, RabbitMQ) for asynchronous workflows.
+- CI/CD Pipeline: Integrate GitHub Actions to automate testing and deployment with every commit.
 
 ## 🤖 AI Tools & Integrations (A–Z)
 
@@ -124,6 +124,24 @@ This project is designed to integrate seamlessly with a wide range of AI tools a
 | **ZenML** | MLOps framework for reproducible pipelines. |
 
 *This is a living list – new tools are constantly emerging. The modular design of this project makes it easy to plug in any AI service.*
+## 💻 AI Code Generation Tools (Free & Paid)
+
+To accelerate development, you can integrate these AI tools for code generation, autocompletion, and documentation. Pricing models are noted below.
+
+| Tool | Description | Pricing |
+| :--- | :--- | :--- |
+| **GitHub Copilot** | AI pair programmer. Free for open-source and verified students; paid plans from $10/month. | Freemium |
+| **Tabnine** | AI code completion for multiple languages. Free tier available; paid Pro from $12/month. | Freemium |
+| **Codeium** | AI-powered autocomplete and chat. Completely free for individual developers. | Free |
+| **Cursor** | AI-first code editor with built-in Copilot-like features. Free tier available; paid plans start at $20/month. | Freemium |
+| **Amazon CodeWhisperer** | AWS service for real‑time code suggestions. Free tier included; paid with AWS subscription. | Freemium |
+| **Replit Ghostwriter** | AI assistant in Replit's online IDE. Free tier included; paid plans from $7/month. | Freemium |
+| **Bito AI** | Code generation and explanation. Free for individuals; paid team plans. | Freemium |
+| **Sourcegraph Cody** | AI assistant for code understanding and generation. Free for individuals and open-source; paid for enterprise. | Freemium |
+| **Mintlify** | AI-powered documentation generator. Free tier; paid plans for teams. | Freemium |
+| **MightyMeld** | AI for React component generation. Free trial; paid plans from $15/month. | Freemium |
+
+*Most tools offer free tiers – perfect for personal projects and learning. Paid plans unlock higher limits and team features.*
 
 ## 📁 Project Structure
 ## 🚀 Full Program Guide (How to Run)
